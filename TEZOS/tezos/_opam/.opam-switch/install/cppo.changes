@@ -1,0 +1,9 @@
+added: [
+  "bin/cppo" {"F:S2387144T1537259747.37"}
+  "doc/cppo" {"D"}
+  "doc/cppo/LICENSE.md" {"F:S1397T1537259747.41"}
+  "doc/cppo/README.md" {"F:S12836T1537259747.4"}
+  "lib/cppo" {"D"}
+  "lib/cppo/META" {"F:S1T1537259747.38"}
+  "lib/cppo/opam" {"F:S467T1537259747.39"}
+]

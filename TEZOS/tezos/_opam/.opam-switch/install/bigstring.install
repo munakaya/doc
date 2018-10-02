@@ -1,0 +1,19 @@
+lib: [
+  "_build/install/default/lib/bigstring/META" {"META"}
+  "_build/install/default/lib/bigstring/opam" {"opam"}
+  "_build/install/default/lib/bigstring/bigstring.cmi" {"bigstring.cmi"}
+  "_build/install/default/lib/bigstring/bigstring.cmx" {"bigstring.cmx"}
+  "_build/install/default/lib/bigstring/bigstring.cmt" {"bigstring.cmt"}
+  "_build/install/default/lib/bigstring/bigstring.cmti" {"bigstring.cmti"}
+  "_build/install/default/lib/bigstring/bigstring.mli" {"bigstring.mli"}
+  "_build/install/default/lib/bigstring/bigstring.ml" {"bigstring.ml"}
+  "_build/install/default/lib/bigstring/bigstring.cma" {"bigstring.cma"}
+  "_build/install/default/lib/bigstring/bigstring.cmxa" {"bigstring.cmxa"}
+  "_build/install/default/lib/bigstring/bigstring.a" {"bigstring.a"}
+  "_build/install/default/lib/bigstring/bigstring.cmxs" {"bigstring.cmxs"}
+  "_build/install/default/lib/bigstring/bigstring.dune" {"bigstring.dune"}
+]
+doc: [
+  "_build/install/default/doc/bigstring/README.adoc"
+  "_build/install/default/doc/bigstring/LICENSE"
+]

@@ -1,0 +1,28 @@
+lib: [
+  "_build/lib/tls.a" {"tls.a"}
+  "_build/lib/tls.cma" {"tls.cma"}
+  "_build/lib/tls.cmi" {"tls.cmi"}
+  "?_build/lib/tls.cmt" {"tls.cmt"}
+  "_build/lib/tls.cmx" {"tls.cmx"}
+  "_build/lib/tls.cmxa" {"tls.cmxa"}
+  "_build/lib/tls.cmxs" {"tls.cmxs"}
+  "_build/lwt/tls-lwt.a" {"tls-lwt.a"}
+  "_build/lwt/tls-lwt.cma" {"tls-lwt.cma"}
+  "_build/lwt/tls-lwt.cmxa" {"tls-lwt.cmxa"}
+  "_build/lwt/tls-lwt.cmxs" {"tls-lwt.cmxs"}
+  "_build/lwt/tls_lwt.cmi" {"tls_lwt.cmi"}
+  "?_build/lwt/tls_lwt.cmti" {"tls_lwt.cmti"}
+  "_build/lwt/tls_lwt.cmx" {"tls_lwt.cmx"}
+  "_build/lwt/tls_lwt.mli" {"tls_lwt.mli"}
+  "_build/lwt/x509_lwt.cmi" {"x509_lwt.cmi"}
+  "?_build/lwt/x509_lwt.cmti" {"x509_lwt.cmti"}
+  "_build/lwt/x509_lwt.cmx" {"x509_lwt.cmx"}
+  "_build/lwt/x509_lwt.mli" {"x509_lwt.mli"}
+  "_build/opam" {"opam"}
+  "_build/pkg/META" {"META"}
+]
+doc: [
+  "_build/CHANGES.md" {"CHANGES.md"}
+  "_build/LICENSE.md" {"LICENSE.md"}
+  "_build/README.md" {"README.md"}
+]

@@ -1,0 +1,16 @@
+added: [
+  "doc/afl-persistent" {"D"}
+  "doc/afl-persistent/CHANGES.md" {"F:S308T1537259745.05"}
+  "doc/afl-persistent/LICENSE.md" {"F:S1058T1537259745.06"}
+  "doc/afl-persistent/README.md" {"F:S535T1537259745.07"}
+  "lib/afl-persistent" {"D"}
+  "lib/afl-persistent/META" {"F:S128T1537259744.97"}
+  "lib/afl-persistent/afl-persistent.a" {"F:S6526T1537259744.98"}
+  "lib/afl-persistent/afl-persistent.cma" {"F:S3954T1537259744.99"}
+  "lib/afl-persistent/afl-persistent.cmxa" {"F:S350T1537259745."}
+  "lib/afl-persistent/aflPersistent.cmi" {"F:S317T1537259745.01"}
+  "lib/afl-persistent/aflPersistent.cmti" {"F:S2252T1537259745.02"}
+  "lib/afl-persistent/aflPersistent.cmx" {"F:S379T1537259745.03"}
+  "lib/afl-persistent/aflPersistent.mli" {"F:S33T1537259745.04"}
+  "lib/afl-persistent/opam" {"F:S981T1537259744.95"}
+]

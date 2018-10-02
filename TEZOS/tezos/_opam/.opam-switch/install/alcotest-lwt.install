@@ -1,0 +1,30 @@
+lib: [
+  "_build/install/default/lib/alcotest-lwt/META" {"META"}
+  "_build/install/default/lib/alcotest-lwt/opam" {"opam"}
+  "_build/install/default/lib/alcotest-lwt/alcotest_lwt.cmi"
+    {"alcotest_lwt.cmi"}
+  "_build/install/default/lib/alcotest-lwt/alcotest_lwt.cmx"
+    {"alcotest_lwt.cmx"}
+  "_build/install/default/lib/alcotest-lwt/alcotest_lwt.cmt"
+    {"alcotest_lwt.cmt"}
+  "_build/install/default/lib/alcotest-lwt/alcotest_lwt.cmti"
+    {"alcotest_lwt.cmti"}
+  "_build/install/default/lib/alcotest-lwt/alcotest_lwt.mli"
+    {"alcotest_lwt.mli"}
+  "_build/install/default/lib/alcotest-lwt/alcotest_lwt.ml"
+    {"alcotest_lwt.ml"}
+  "_build/install/default/lib/alcotest-lwt/alcotest_lwt.cma"
+    {"alcotest_lwt.cma"}
+  "_build/install/default/lib/alcotest-lwt/alcotest_lwt.cmxa"
+    {"alcotest_lwt.cmxa"}
+  "_build/install/default/lib/alcotest-lwt/alcotest_lwt.a" {"alcotest_lwt.a"}
+  "_build/install/default/lib/alcotest-lwt/alcotest_lwt.cmxs"
+    {"alcotest_lwt.cmxs"}
+  "_build/install/default/lib/alcotest-lwt/alcotest-lwt.dune"
+    {"alcotest-lwt.dune"}
+]
+doc: [
+  "_build/install/default/doc/alcotest-lwt/README.md"
+  "_build/install/default/doc/alcotest-lwt/LICENSE.md"
+  "_build/install/default/doc/alcotest-lwt/CHANGES.md"
+]

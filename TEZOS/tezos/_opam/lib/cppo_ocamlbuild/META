@@ -1,0 +1,7 @@
+version = "1.6.0"
+description = "Cppo ocamlbuild plugin"
+requires = "ocamlbuild"
+archive(byte) = "cppo_ocamlbuild.cma"
+archive(native) = "cppo_ocamlbuild.cmxa"
+plugin(byte) = "cppo_ocamlbuild.cma"
+plugin(native) = "cppo_ocamlbuild.cmxs"

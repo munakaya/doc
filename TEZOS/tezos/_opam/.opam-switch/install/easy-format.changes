@@ -1,0 +1,19 @@
+added: [
+  "doc/easy-format" {"D"}
+  "doc/easy-format/LICENSE" {"F:S1392T1537259730.42"}
+  "doc/easy-format/README.md" {"F:S823T1537259730.41"}
+  "lib/easy-format" {"D"}
+  "lib/easy-format/META" {"F:S197T1537259730.32"}
+  "lib/easy-format/easy-format.dune" {"F:S12T1537259730.41"}
+  "lib/easy-format/easy_format.a" {"F:S61804T1537259730.39"}
+  "lib/easy-format/easy_format.cma" {"F:S80172T1537259730.38"}
+  "lib/easy-format/easy_format.cmi" {"F:S5969T1537259730.33"}
+  "lib/easy-format/easy_format.cmt" {"F:S186576T1537259730.35"}
+  "lib/easy-format/easy_format.cmti" {"F:S38303T1537259730.35"}
+  "lib/easy-format/easy_format.cmx" {"F:S5769T1537259730.34"}
+  "lib/easy-format/easy_format.cmxa" {"F:S549T1537259730.39"}
+  "lib/easy-format/easy_format.cmxs" {"F:S73944T1537259730.4"}
+  "lib/easy-format/easy_format.ml" {"F:S17605T1537259730.37"}
+  "lib/easy-format/easy_format.mli" {"F:S7853T1537259730.36"}
+  "lib/easy-format/opam" {"F:S419T1537259730.32"}
+]

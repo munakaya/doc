@@ -1,0 +1,13 @@
+version = "1.1.0"
+description = ""
+requires = "conduit-lwt
+            ipaddr.unix
+            logs
+            lwt.unix
+            sexplib
+            tls.lwt
+            uri.services"
+archive(byte) = "conduit_lwt_unix.cma"
+archive(native) = "conduit_lwt_unix.cmxa"
+plugin(byte) = "conduit_lwt_unix.cma"
+plugin(native) = "conduit_lwt_unix.cmxs"

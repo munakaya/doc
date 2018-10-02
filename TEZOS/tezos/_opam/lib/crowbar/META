@@ -1,0 +1,6 @@
+description = ""
+requires = "afl-persistent cmdliner ocplib-endian str"
+archive(byte) = "crowbar.cma"
+archive(native) = "crowbar.cmxa"
+plugin(byte) = "crowbar.cma"
+plugin(native) = "crowbar.cmxs"

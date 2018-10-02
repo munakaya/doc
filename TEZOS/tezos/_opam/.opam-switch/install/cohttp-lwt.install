@@ -1,0 +1,80 @@
+lib: [
+  "_build/install/default/lib/cohttp-lwt/META" {"META"}
+  "_build/install/default/lib/cohttp-lwt/opam" {"opam"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__Body.cmi"
+    {"cohttp_lwt__Body.cmi"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__Body.cmx"
+    {"cohttp_lwt__Body.cmx"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__Body.cmt"
+    {"cohttp_lwt__Body.cmt"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__Body.cmti"
+    {"cohttp_lwt__Body.cmti"}
+  "_build/install/default/lib/cohttp-lwt/body.mli" {"body.mli"}
+  "_build/install/default/lib/cohttp-lwt/body.ml" {"body.ml"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__Client.cmi"
+    {"cohttp_lwt__Client.cmi"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__Client.cmx"
+    {"cohttp_lwt__Client.cmx"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__Client.cmt"
+    {"cohttp_lwt__Client.cmt"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__Client.cmti"
+    {"cohttp_lwt__Client.cmti"}
+  "_build/install/default/lib/cohttp-lwt/client.mli" {"client.mli"}
+  "_build/install/default/lib/cohttp-lwt/client.ml" {"client.ml"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt.cmi" {"cohttp_lwt.cmi"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt.cmx" {"cohttp_lwt.cmx"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt.cmt" {"cohttp_lwt.cmt"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt.ml" {"cohttp_lwt.ml"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__.cmi"
+    {"cohttp_lwt__.cmi"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__.cmx"
+    {"cohttp_lwt__.cmx"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__.cmt"
+    {"cohttp_lwt__.cmt"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__.ml-gen"
+    {"cohttp_lwt__.ml-gen"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__Make.cmi"
+    {"cohttp_lwt__Make.cmi"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__Make.cmx"
+    {"cohttp_lwt__Make.cmx"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__Make.cmt"
+    {"cohttp_lwt__Make.cmt"}
+  "_build/install/default/lib/cohttp-lwt/make.ml" {"make.ml"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__S.cmi"
+    {"cohttp_lwt__S.cmi"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__S.cmx"
+    {"cohttp_lwt__S.cmx"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__S.cmt"
+    {"cohttp_lwt__S.cmt"}
+  "_build/install/default/lib/cohttp-lwt/s.ml" {"s.ml"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__Server.cmi"
+    {"cohttp_lwt__Server.cmi"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__Server.cmx"
+    {"cohttp_lwt__Server.cmx"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__Server.cmt"
+    {"cohttp_lwt__Server.cmt"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__Server.cmti"
+    {"cohttp_lwt__Server.cmti"}
+  "_build/install/default/lib/cohttp-lwt/server.mli" {"server.mli"}
+  "_build/install/default/lib/cohttp-lwt/server.ml" {"server.ml"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__String_io.cmi"
+    {"cohttp_lwt__String_io.cmi"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__String_io.cmx"
+    {"cohttp_lwt__String_io.cmx"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__String_io.cmt"
+    {"cohttp_lwt__String_io.cmt"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt__String_io.cmti"
+    {"cohttp_lwt__String_io.cmti"}
+  "_build/install/default/lib/cohttp-lwt/string_io.mli" {"string_io.mli"}
+  "_build/install/default/lib/cohttp-lwt/string_io.ml" {"string_io.ml"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt.cma" {"cohttp_lwt.cma"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt.cmxa" {"cohttp_lwt.cmxa"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt.a" {"cohttp_lwt.a"}
+  "_build/install/default/lib/cohttp-lwt/cohttp_lwt.cmxs" {"cohttp_lwt.cmxs"}
+  "_build/install/default/lib/cohttp-lwt/cohttp-lwt.dune" {"cohttp-lwt.dune"}
+]
+doc: [
+  "_build/install/default/doc/cohttp-lwt/README.md"
+  "_build/install/default/doc/cohttp-lwt/LICENSE.md"
+  "_build/install/default/doc/cohttp-lwt/CHANGES.md"
+]

@@ -1,0 +1,17 @@
+version = "1.0.11"
+description = ""
+requires = "compiler-libs.common result"
+archive(byte) = "migrate_parsetree.cma"
+archive(native) = "migrate_parsetree.cmxa"
+plugin(byte) = "migrate_parsetree.cma"
+plugin(native) = "migrate_parsetree.cmxs"
+package "driver-main" (
+  directory = "driver-main"
+  version = "1.0.11"
+  description = ""
+  requires = "ocaml-migrate-parsetree"
+  archive(byte) = "migrate_parsetree_driver_main.cma"
+  archive(native) = "migrate_parsetree_driver_main.cmxa"
+  plugin(byte) = "migrate_parsetree_driver_main.cma"
+  plugin(native) = "migrate_parsetree_driver_main.cmxs"
+)

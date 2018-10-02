@@ -1,0 +1,28 @@
+opam-version: "2.0"
+synopsis: "Support Library for type-driven code generators"
+description: "Part of the Jane Street's PPX rewriters collection."
+maintainer: "opensource@janestreet.com"
+authors: "Jane Street Group, LLC <opensource@janestreet.com>"
+license: "Apache-2.0"
+homepage: "https://github.com/janestreet/ppx_type_conv"
+bug-reports: "https://github.com/janestreet/ppx_type_conv/issues"
+depends: [
+  "ocaml" {>= "4.04.1"}
+  "ppx_core" {>= "v0.10" & < "v0.11"}
+  "ppx_driver" {>= "v0.10" & < "v0.11"}
+  "ppx_metaquot" {>= "v0.10" & < "v0.11"}
+  "jbuilder" {build & >= "1.0+beta12"}
+  "ocaml-migrate-parsetree" {>= "0.4"}
+  "ppx_derivers"
+]
+build: ["jbuilder" "build" "-p" name "-j" jobs]
+dev-repo: "git+https://github.com/janestreet/ppx_type_conv.git"
+url {
+  src:
+    "https://ocaml.janestreet.com/ocaml-core/v0.10/files/ppx_type_conv-v0.10.0.tar.gz"
+  checksum: [
+    "md5=ae87662d39eebc6a2df6851c0f4da88c"
+    "sha256=0976d79d20d50a40926f5a7a83de0420b6a5d33456c73667f9840deb56f37f3c"
+    "sha512=af7a7458986c7fbf00d40d46f2481316cf652193d9e44ee98b16f434cdeaa00c81dbcf8782558dea78832ed2be5d389943de386fbf436ac87f5583ab53ef4de5"
+  ]
+}

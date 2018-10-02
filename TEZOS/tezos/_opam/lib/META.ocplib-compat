@@ -1,0 +1,8 @@
+archive(native) = "ocplib-compat.cmxa"
+archive(byte) = "ocplib-compat.cma"
+description = "ocplib-compat"
+directory = "ocaml/ocplib-compat"
+exists_if = "ocplib-compat.cma"
+plugin(native) = "ocplib-compat.cmxs"
+plugin(byte) = "ocplib-compat.cma"
+version = "1.99.20-beta"

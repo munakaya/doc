@@ -1,0 +1,53 @@
+lib: [
+  "_build/install/default/lib/ppx_sexp_conv/META" {"META"}
+  "_build/install/default/lib/ppx_sexp_conv/opam" {"opam"}
+  "_build/install/default/lib/ppx_sexp_conv/ppx_sexp_conv.cmi"
+    {"ppx_sexp_conv.cmi"}
+  "_build/install/default/lib/ppx_sexp_conv/ppx_sexp_conv.cmx"
+    {"ppx_sexp_conv.cmx"}
+  "_build/install/default/lib/ppx_sexp_conv/ppx_sexp_conv.cmt"
+    {"ppx_sexp_conv.cmt"}
+  "_build/install/default/lib/ppx_sexp_conv/ppx_sexp_conv.cmti"
+    {"ppx_sexp_conv.cmti"}
+  "_build/install/default/lib/ppx_sexp_conv/ppx_sexp_conv.mli"
+    {"ppx_sexp_conv.mli"}
+  "_build/install/default/lib/ppx_sexp_conv/ppx_sexp_conv.ml"
+    {"ppx_sexp_conv.ml"}
+  "_build/install/default/lib/ppx_sexp_conv/ppx_sexp_conv.cma"
+    {"ppx_sexp_conv.cma"}
+  "_build/install/default/lib/ppx_sexp_conv/ppx_sexp_conv.cmxa"
+    {"ppx_sexp_conv.cmxa"}
+  "_build/install/default/lib/ppx_sexp_conv/ppx_sexp_conv.a"
+    {"ppx_sexp_conv.a"}
+  "_build/install/default/lib/ppx_sexp_conv/ppx_sexp_conv.cmxs"
+    {"ppx_sexp_conv.cmxs"}
+  "_build/install/default/lib/ppx_sexp_conv/ppx_sexp_conv.dune"
+    {"ppx_sexp_conv.dune"}
+  "_build/install/default/lib/ppx_sexp_conv/expander/ppx_sexp_conv_expander.cmi"
+    {"expander/ppx_sexp_conv_expander.cmi"}
+  "_build/install/default/lib/ppx_sexp_conv/expander/ppx_sexp_conv_expander.cmx"
+    {"expander/ppx_sexp_conv_expander.cmx"}
+  "_build/install/default/lib/ppx_sexp_conv/expander/ppx_sexp_conv_expander.cmt"
+    {"expander/ppx_sexp_conv_expander.cmt"}
+  "_build/install/default/lib/ppx_sexp_conv/expander/ppx_sexp_conv_expander.cmti"
+    {"expander/ppx_sexp_conv_expander.cmti"}
+  "_build/install/default/lib/ppx_sexp_conv/expander/ppx_sexp_conv_expander.mli"
+    {"expander/ppx_sexp_conv_expander.mli"}
+  "_build/install/default/lib/ppx_sexp_conv/expander/ppx_sexp_conv_expander.ml"
+    {"expander/ppx_sexp_conv_expander.ml"}
+  "_build/install/default/lib/ppx_sexp_conv/expander/ppx_sexp_conv_expander.cma"
+    {"expander/ppx_sexp_conv_expander.cma"}
+  "_build/install/default/lib/ppx_sexp_conv/expander/ppx_sexp_conv_expander.cmxa"
+    {"expander/ppx_sexp_conv_expander.cmxa"}
+  "_build/install/default/lib/ppx_sexp_conv/expander/ppx_sexp_conv_expander.a"
+    {"expander/ppx_sexp_conv_expander.a"}
+  "_build/install/default/lib/ppx_sexp_conv/expander/ppx_sexp_conv_expander.cmxs"
+    {"expander/ppx_sexp_conv_expander.cmxs"}
+  "_build/install/default/lib/ppx_sexp_conv/expander/ppx_sexp_conv.expander.dune"
+    {"expander/ppx_sexp_conv.expander.dune"}
+]
+doc: [
+  "_build/install/default/doc/ppx_sexp_conv/README.org"
+  "_build/install/default/doc/ppx_sexp_conv/LICENSE.txt"
+  "_build/install/default/doc/ppx_sexp_conv/CHANGES.md"
+]

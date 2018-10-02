@@ -1,0 +1,148 @@
+added: [
+  "doc/ppx_core" {"D"}
+  "doc/ppx_core/CHANGES.md" {"F:S3424T1537259852.99"}
+  "doc/ppx_core/LICENSE.txt" {"F:S11358T1537259852.98"}
+  "doc/ppx_core/README.md" {"F:S1114T1537259852.97"}
+  "lib/ppx_core" {"D"}
+  "lib/ppx_core/META" {"F:S366T1537259851.62"}
+  "lib/ppx_core/ast_builder.ml" {"F:S11171T1537259851.7"}
+  "lib/ppx_core/ast_builder.mli" {"F:S3182T1537259851.69"}
+  "lib/ppx_core/ast_builder_generated.ml" {"F:S37122T1537259851.74"}
+  "lib/ppx_core/ast_builder_intf.ml" {"F:S5461T1537259851.78"}
+  "lib/ppx_core/ast_pattern.ml" {"F:S6645T1537259851.83"}
+  "lib/ppx_core/ast_pattern.mli" {"F:S8342T1537259851.83"}
+  "lib/ppx_core/ast_pattern0.ml" {"F:S622T1537259851.87"}
+  "lib/ppx_core/ast_pattern_generated.ml" {"F:S92997T1537259851.92"}
+  "lib/ppx_core/ast_traverse.ml" {"F:S2042T1537259851.98"}
+  "lib/ppx_core/ast_traverse.mli" {"F:S1638T1537259851.97"}
+  "lib/ppx_core/attribute.ml" {"F:S22238T1537259852.03"}
+  "lib/ppx_core/attribute.mli" {"F:S8121T1537259852.03"}
+  "lib/ppx_core/caller_id.ml" {"F:S684T1537259852.07"}
+  "lib/ppx_core/code_matcher.ml" {"F:S5084T1537259852.13"}
+  "lib/ppx_core/code_matcher.mli" {"F:S666T1537259852.12"}
+  "lib/ppx_core/common.ml" {"F:S4405T1537259852.19"}
+  "lib/ppx_core/common.mli" {"F:S1900T1537259852.18"}
+  "lib/ppx_core/compiler_specifics.ml" {"F:S168T1537259852.23"}
+  "lib/ppx_core/context_free.ml" {"F:S23473T1537259852.29"}
+  "lib/ppx_core/context_free.mli" {"F:S4654T1537259852.28"}
+  "lib/ppx_core/extension.ml" {"F:S11065T1537259852.36"}
+  "lib/ppx_core/extension.mli" {"F:S4736T1537259852.35"}
+  "lib/ppx_core/file_path.ml" {"F:S592T1537259852.41"}
+  "lib/ppx_core/file_path.mli" {"F:S206T1537259852.41"}
+  "lib/ppx_core/glue.ml" {"F:S0T1537259852.45"}
+  "lib/ppx_core/import.ml" {"F:S183T1537259852.49"}
+  "lib/ppx_core/loc.ml" {"F:S184T1537259852.56"}
+  "lib/ppx_core/loc.mli" {"F:S226T1537259852.55"}
+  "lib/ppx_core/location.ml" {"F:S1768T1537259852.61"}
+  "lib/ppx_core/location.mli" {"F:S1694T1537259852.61"}
+  "lib/ppx_core/longident.ml" {"F:S889T1537259852.67"}
+  "lib/ppx_core/longident.mli" {"F:S296T1537259852.66"}
+  "lib/ppx_core/merlin_helpers.ml" {"F:S666T1537259852.73"}
+  "lib/ppx_core/merlin_helpers.mli" {"F:S899T1537259852.72"}
+  "lib/ppx_core/name.ml" {"F:S8361T1537259852.78"}
+  "lib/ppx_core/name.mli" {"F:S2424T1537259852.77"}
+  "lib/ppx_core/opam" {"F:S850T1537259851.64"}
+  "lib/ppx_core/ppx_core.a" {"F:S1172200T1537259852.93"}
+  "lib/ppx_core/ppx_core.cma" {"F:S3136296T1537259852.91"}
+  "lib/ppx_core/ppx_core.cmi" {"F:S610019T1537259852.79"}
+  "lib/ppx_core/ppx_core.cmt" {"F:S1617723T1537259852.81"}
+  "lib/ppx_core/ppx_core.cmx" {"F:S103257T1537259852.8"}
+  "lib/ppx_core/ppx_core.cmxa" {"F:S129957T1537259852.91"}
+  "lib/ppx_core/ppx_core.cmxs" {"F:S1161368T1537259852.95"}
+  "lib/ppx_core/ppx_core.dune" {"F:S12T1537259852.96"}
+  "lib/ppx_core/ppx_core.ml" {"F:S2477T1537259852.82"}
+  "lib/ppx_core/ppx_core__.cmi" {"F:S2495T1537259852.83"}
+  "lib/ppx_core/ppx_core__.cmt" {"F:S12001T1537259852.85"}
+  "lib/ppx_core/ppx_core__.cmx" {"F:S833T1537259852.84"}
+  "lib/ppx_core/ppx_core__.ml-gen" {"F:S1951T1537259852.86"}
+  "lib/ppx_core/ppx_core__Ast_builder.cmi" {"F:S43484T1537259851.65"}
+  "lib/ppx_core/ppx_core__Ast_builder.cmt" {"F:S294711T1537259851.67"}
+  "lib/ppx_core/ppx_core__Ast_builder.cmti" {"F:S127944T1537259851.68"}
+  "lib/ppx_core/ppx_core__Ast_builder.cmx" {"F:S38656T1537259851.66"}
+  "lib/ppx_core/ppx_core__Ast_builder_generated.cmi"
+    {"F:S58609T1537259851.71"}
+  "lib/ppx_core/ppx_core__Ast_builder_generated.cmt"
+    {"F:S435555T1537259851.73"}
+  "lib/ppx_core/ppx_core__Ast_builder_generated.cmx"
+    {"F:S30340T1537259851.72"}
+  "lib/ppx_core/ppx_core__Ast_builder_intf.cmi" {"F:S42914T1537259851.75"}
+  "lib/ppx_core/ppx_core__Ast_builder_intf.cmt" {"F:S151534T1537259851.77"}
+  "lib/ppx_core/ppx_core__Ast_builder_intf.cmx" {"F:S5614T1537259851.76"}
+  "lib/ppx_core/ppx_core__Ast_pattern.cmi" {"F:S81319T1537259851.79"}
+  "lib/ppx_core/ppx_core__Ast_pattern.cmt" {"F:S278410T1537259851.81"}
+  "lib/ppx_core/ppx_core__Ast_pattern.cmti" {"F:S260065T1537259851.82"}
+  "lib/ppx_core/ppx_core__Ast_pattern.cmx" {"F:S43104T1537259851.8"}
+  "lib/ppx_core/ppx_core__Ast_pattern0.cmi" {"F:S6121T1537259851.85"}
+  "lib/ppx_core/ppx_core__Ast_pattern0.cmt" {"F:S16963T1537259851.86"}
+  "lib/ppx_core/ppx_core__Ast_pattern0.cmx" {"F:S5624T1537259851.85"}
+  "lib/ppx_core/ppx_core__Ast_pattern_generated.cmi"
+    {"F:S68885T1537259851.88"}
+  "lib/ppx_core/ppx_core__Ast_pattern_generated.cmt"
+    {"F:S1266982T1537259851.91"}
+  "lib/ppx_core/ppx_core__Ast_pattern_generated.cmx"
+    {"F:S34867T1537259851.89"}
+  "lib/ppx_core/ppx_core__Ast_traverse.cmi" {"F:S221702T1537259851.93"}
+  "lib/ppx_core/ppx_core__Ast_traverse.cmt" {"F:S477017T1537259851.95"}
+  "lib/ppx_core/ppx_core__Ast_traverse.cmti" {"F:S662026T1537259851.96"}
+  "lib/ppx_core/ppx_core__Ast_traverse.cmx" {"F:S5874T1537259851.94"}
+  "lib/ppx_core/ppx_core__Attribute.cmi" {"F:S15964T1537259851.99"}
+  "lib/ppx_core/ppx_core__Attribute.cmt" {"F:S303195T1537259852.01"}
+  "lib/ppx_core/ppx_core__Attribute.cmti" {"F:S59491T1537259852.02"}
+  "lib/ppx_core/ppx_core__Attribute.cmx" {"F:S10004T1537259852."}
+  "lib/ppx_core/ppx_core__Caller_id.cmi" {"F:S5839T1537259852.05"}
+  "lib/ppx_core/ppx_core__Caller_id.cmt" {"F:S20472T1537259852.06"}
+  "lib/ppx_core/ppx_core__Caller_id.cmx" {"F:S5603T1537259852.05"}
+  "lib/ppx_core/ppx_core__Code_matcher.cmi" {"F:S6258T1537259852.08"}
+  "lib/ppx_core/ppx_core__Code_matcher.cmt" {"F:S92208T1537259852.1"}
+  "lib/ppx_core/ppx_core__Code_matcher.cmti" {"F:S16844T1537259852.11"}
+  "lib/ppx_core/ppx_core__Code_matcher.cmx" {"F:S7322T1537259852.09"}
+  "lib/ppx_core/ppx_core__Common.cmi" {"F:S33015T1537259852.14"}
+  "lib/ppx_core/ppx_core__Common.cmt" {"F:S132637T1537259852.16"}
+  "lib/ppx_core/ppx_core__Common.cmti" {"F:S100738T1537259852.17"}
+  "lib/ppx_core/ppx_core__Common.cmx" {"F:S7534T1537259852.15"}
+  "lib/ppx_core/ppx_core__Compiler_specifics.cmi" {"F:S713T1537259852.2"}
+  "lib/ppx_core/ppx_core__Compiler_specifics.cmt" {"F:S5484T1537259852.22"}
+  "lib/ppx_core/ppx_core__Compiler_specifics.cmx" {"F:S567T1537259852.21"}
+  "lib/ppx_core/ppx_core__Context_free.cmi" {"F:S42960T1537259852.24"}
+  "lib/ppx_core/ppx_core__Context_free.cmt" {"F:S320415T1537259852.26"}
+  "lib/ppx_core/ppx_core__Context_free.cmti" {"F:S134593T1537259852.27"}
+  "lib/ppx_core/ppx_core__Context_free.cmx" {"F:S9630T1537259852.25"}
+  "lib/ppx_core/ppx_core__Extension.cmi" {"F:S13749T1537259852.3"}
+  "lib/ppx_core/ppx_core__Extension.cmt" {"F:S170558T1537259852.33"}
+  "lib/ppx_core/ppx_core__Extension.cmti" {"F:S48823T1537259852.34"}
+  "lib/ppx_core/ppx_core__Extension.cmx" {"F:S7562T1537259852.31"}
+  "lib/ppx_core/ppx_core__File_path.cmi" {"F:S5895T1537259852.37"}
+  "lib/ppx_core/ppx_core__File_path.cmt" {"F:S14916T1537259852.39"}
+  "lib/ppx_core/ppx_core__File_path.cmti" {"F:S14936T1537259852.39"}
+  "lib/ppx_core/ppx_core__File_path.cmx" {"F:S5899T1537259852.38"}
+  "lib/ppx_core/ppx_core__Glue.cmi" {"F:S266T1537259852.42"}
+  "lib/ppx_core/ppx_core__Glue.cmt" {"F:S2902T1537259852.44"}
+  "lib/ppx_core/ppx_core__Glue.cmx" {"F:S245T1537259852.43"}
+  "lib/ppx_core/ppx_core__Import.cmi" {"F:S288807T1537259852.46"}
+  "lib/ppx_core/ppx_core__Import.cmt" {"F:S789644T1537259852.48"}
+  "lib/ppx_core/ppx_core__Import.cmx" {"F:S100223T1537259852.47"}
+  "lib/ppx_core/ppx_core__Loc.cmi" {"F:S6126T1537259852.51"}
+  "lib/ppx_core/ppx_core__Loc.cmt" {"F:S11841T1537259852.53"}
+  "lib/ppx_core/ppx_core__Loc.cmti" {"F:S16372T1537259852.54"}
+  "lib/ppx_core/ppx_core__Loc.cmx" {"F:S5734T1537259852.52"}
+  "lib/ppx_core/ppx_core__Location.cmi" {"F:S7824T1537259852.57"}
+  "lib/ppx_core/ppx_core__Location.cmt" {"F:S34487T1537259852.59"}
+  "lib/ppx_core/ppx_core__Location.cmti" {"F:S25777T1537259852.59"}
+  "lib/ppx_core/ppx_core__Location.cmx" {"F:S6833T1537259852.57"}
+  "lib/ppx_core/ppx_core__Longident.cmi" {"F:S8720T1537259852.62"}
+  "lib/ppx_core/ppx_core__Longident.cmt" {"F:S31447T1537259852.64"}
+  "lib/ppx_core/ppx_core__Longident.cmti" {"F:S23903T1537259852.65"}
+  "lib/ppx_core/ppx_core__Longident.cmx" {"F:S8060T1537259852.63"}
+  "lib/ppx_core/ppx_core__Merlin_helpers.cmi" {"F:S6150T1537259852.68"}
+  "lib/ppx_core/ppx_core__Merlin_helpers.cmt" {"F:S15440T1537259852.7"}
+  "lib/ppx_core/ppx_core__Merlin_helpers.cmti" {"F:S17264T1537259852.71"}
+  "lib/ppx_core/ppx_core__Merlin_helpers.cmx" {"F:S5998T1537259852.69"}
+  "lib/ppx_core/ppx_core__Name.cmi" {"F:S8598T1537259852.73"}
+  "lib/ppx_core/ppx_core__Name.cmt" {"F:S155470T1537259852.75"}
+  "lib/ppx_core/ppx_core__Name.cmti" {"F:S28018T1537259852.76"}
+  "lib/ppx_core/ppx_core__Name.cmx" {"F:S8416T1537259852.75"}
+  "lib/ppx_core/ppx_core__Spellcheck.cmi" {"F:S5737T1537259852.87"}
+  "lib/ppx_core/ppx_core__Spellcheck.cmt" {"F:S25081T1537259852.89"}
+  "lib/ppx_core/ppx_core__Spellcheck.cmx" {"F:S5695T1537259852.87"}
+  "lib/ppx_core/spellcheck.ml" {"F:S960T1537259852.89"}
+]

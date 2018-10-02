@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="OCamlResFormats.html">
+<link rel="next" href="OCamlResRegistry.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="OCamlResSubFormats" rel="Chapter" href="OCamlResSubFormats.html">
+<link title="OCamlResFormats" rel="Chapter" href="OCamlResFormats.html">
+<link title="OCamlResScanners" rel="Chapter" href="OCamlResScanners.html">
+<link title="OCamlResRegistry" rel="Chapter" href="OCamlResRegistry.html"><title>OCamlResScanners</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="OCamlResFormats.html" title="OCamlResFormats">Previous</a>
+&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="OCamlResRegistry.html" title="OCamlResRegistry">Next</a>
+</div>
+<h1>Module <a href="type_OCamlResScanners.html">OCamlResScanners</a></h1>
+
+<pre><span id="MODULEOCamlResScanners"><span class="keyword">module</span> OCamlResScanners</span>: <code class="code">sig</code> <a href="OCamlResScanners.html">..</a> <code class="code">end</code></pre><div class="info module top">
+<div class="info-desc">
+<p>Input scanners definition and default implementations.</p>
+</div>
+</div>
+<hr width="100%">
+
+<pre><span id="MODULEPathFilter"><span class="keyword">module</span> <a href="OCamlResScanners.PathFilter.html">PathFilter</a></span>: <code class="code">sig</code> <a href="OCamlResScanners.PathFilter.html">..</a> <code class="code">end</code></pre><div class="info">
+<p>Predicates for filtering paths.</p>
+
+</div>
+
+<pre><span id="MODULEResFilter"><span class="keyword">module</span> <a href="OCamlResScanners.ResFilter.html">ResFilter</a></span>: <code class="code">sig</code> <a href="OCamlResScanners.ResFilter.html">..</a> <code class="code">end</code></pre><div class="info">
+<p>Predicates for Filtering a resource store.</p>
+
+</div>
+
+<pre><span id="VALscan_unix_dir"><span class="keyword">val</span> scan_unix_dir</span> : <code class="type">?prefilter:<a href="OCamlResScanners.PathFilter.html#TYPEt">PathFilter.t</a> -><br>       ?postfilter:'a <a href="OCamlResScanners.ResFilter.html#TYPEt">ResFilter.t</a> -><br>       ?prefixed_file:bool -><br>       (module OCamlResSubFormats.SubFormat with type t = 'a) -><br>       string -> 'a OCamlRes.Res.root</code></pre><div class="info ">
+<div class="info-desc">
+<p>Import the files from a base directory as a resource store root.</p>
+</div>
+</div>
+</body></html>

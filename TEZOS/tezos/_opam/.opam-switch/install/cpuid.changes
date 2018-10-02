@@ -1,0 +1,19 @@
+added: [
+  "doc/cpuid" {"D"}
+  "doc/cpuid/CHANGES.md" {"F:S216T1537259897.37"}
+  "doc/cpuid/LICENSE.md" {"F:S742T1537259897.39"}
+  "doc/cpuid/README.md" {"F:S670T1537259897.39"}
+  "lib/cpuid" {"D"}
+  "lib/cpuid/META" {"F:S184T1537259897.26"}
+  "lib/cpuid/cpuid.a" {"F:S38714T1537259897.27"}
+  "lib/cpuid/cpuid.cma" {"F:S62643T1537259897.28"}
+  "lib/cpuid/cpuid.cmi" {"F:S3197T1537259897.29"}
+  "lib/cpuid/cpuid.cmti" {"F:S34071T1537259897.3"}
+  "lib/cpuid/cpuid.cmx" {"F:S2558T1537259897.31"}
+  "lib/cpuid/cpuid.cmxa" {"F:S529T1537259897.32"}
+  "lib/cpuid/cpuid.cmxs" {"F:S44936T1537259897.33"}
+  "lib/cpuid/cpuid.mli" {"F:S9608T1537259897.34"}
+  "lib/cpuid/libcpuid_stubs.a" {"F:S8886T1537259897.35"}
+  "lib/cpuid/opam" {"F:S638T1537259897.25"}
+  "lib/stublibs/dllcpuid_stubs.so" {"F:S12104T1537259897.36"}
+]

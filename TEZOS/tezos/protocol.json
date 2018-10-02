@@ -1,0 +1,48 @@
+{ "bootstrap_accounts": [
+    [ "edpkumqh7oLeToSzY7c2JpVCddzYBtE4gzd8uKrETT78umB213PTQq", "4000000000000" ],
+    [ "edpkuVinYYfShoQPhZnomZDGgw89iENBwzQ9fyLCocykS1TYYq2f7h", "4000000000000" ],
+    [ "edpku33D2LyoWBJAdigwi55FG1eSdFCxiUGTJU6dG8jQJJx4RcZnXQ", "4000000000000" ],
+    [ "edpkuoRVWUehPZPZNehSsXvLptMsR2DSqGpVinbQVtye1Je195iGUf", "4000000000000" ],
+    [ "tz1PooUKBaoxjBiCR2dxEtbtTUjLX3iaZQoJ", "100" ],
+    [ "edpkuSLWfVU1Vq7Jg9FucPyKmma6otcMHac9zG4oU1KMHSTBpJuGQ2", "1" ]
+   ],
+  "bootstrap_contracts": [
+      { "delegate": "tz1TGu6TN5GSez2ndXXeDX6LgUDvLzPLqgYV",
+        "amount": "1000000",
+        "script":
+        { "code":
+          [ { "prim": "parameter",
+              "args": [ { "prim": "key_hash" } ] },
+            { "prim": "storage",
+              "args": [ { "prim": "timestamp" } ] },
+            { "prim": "code",
+              "args":
+              [ [ [ [ { "prim": "DUP" }, { "prim": "CAR" },
+                      { "prim": "DIP", "args": [ [ { "prim": "CDR" } ] ] } ] ],
+                  { "prim": "SWAP" },
+                  { "prim": "PUSH", "args": [ { "prim": "int" }, { "int": "300" } ] },
+                  { "prim": "ADD", "annots": [ "@FIVE_MINUTES_LATER" ] },
+                  { "prim": "NOW" },
+                  [ [ { "prim": "COMPARE" }, { "prim": "GE" } ],
+                    { "prim": "IF",
+                      "args":
+                      [ [],
+                        [ [ { "prim": "UNIT" },
+                            { "prim": "FAILWITH" } ] ] ] } ],
+                  { "prim": "IMPLICIT_ACCOUNT" },
+                  { "prim": "PUSH", "args": [ { "prim": "mutez" }, { "int": "1000000" } ] },
+                  { "prim": "UNIT" },
+                  { "prim": "TRANSFER_TOKENS" },
+                  { "prim": "NIL", "args": [ { "prim": "operation" } ] },
+                  { "prim": "SWAP" },
+                  { "prim": "CONS" },
+                  { "prim": "DIP", "args": [ [ { "prim": "NOW" } ] ] },
+                  { "prim": "PAIR" } ] ] } ],
+          "storage": { "int": "0" } } } ],
+  "time_between_blocks" : [ "1" ],
+  "blocks_per_roll_snapshot" : 4,
+  "blocks_per_commitment": 4,
+  "blocks_per_cycle" : 16,
+  "preserved_cycles" : 5,
+  "proof_of_work_threshold": "-1"
+}

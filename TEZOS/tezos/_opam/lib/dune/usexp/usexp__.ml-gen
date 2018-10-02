@@ -1,0 +1,35 @@
+(** @canonical Usexp.Atom *)
+module Atom = Usexp__Atom
+
+(** @canonical Usexp.Dune_lexer *)
+module Dune_lexer = Usexp__Dune_lexer
+
+(** @canonical Usexp.Escape *)
+module Escape = Usexp__Escape
+
+(** @canonical Usexp.Import *)
+module Import = Usexp__Import
+
+(** @canonical Usexp.Jbuild_lexer *)
+module Jbuild_lexer = Usexp__Jbuild_lexer
+
+(** @canonical Usexp.Lexer *)
+module Lexer = Usexp__Lexer
+
+(** @canonical Usexp.Lexer_shared *)
+module Lexer_shared = Usexp__Lexer_shared
+
+(** @canonical Usexp.Loc *)
+module Loc = Usexp__Loc
+
+(** @canonical Usexp.Sexp *)
+module Sexp = Usexp__Sexp
+
+(** @canonical Usexp.Template *)
+module Template = Usexp__Template
+
+(** @canonical Usexp.Types *)
+module Types = Usexp__Types
+
+(** @canonical Usexp.Usexp *)
+module Usexp = Usexp

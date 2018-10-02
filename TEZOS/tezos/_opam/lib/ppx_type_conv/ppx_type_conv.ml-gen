@@ -1,0 +1,8 @@
+(** @canonical Ppx_type_conv.Ignore_unused_warning *)
+module Ignore_unused_warning = Ppx_type_conv__Ignore_unused_warning
+
+(** @canonical Ppx_type_conv.Std *)
+module Std = Ppx_type_conv__Std
+
+(** @canonical Ppx_type_conv.Type_conv *)
+module Type_conv = Ppx_type_conv__Type_conv

@@ -1,0 +1,22 @@
+(**************************************************************************)
+(*                                                                        *)
+(*   Typerex Tools                                                        *)
+(*                                                                        *)
+(*   Copyright 2011-2017 OCamlPro SAS                                     *)
+(*                                                                        *)
+(*   All rights reserved.  This file is distributed under the terms of    *)
+(*   the GNU General Public License version 3 described in the file       *)
+(*   LICENSE.                                                             *)
+(*                                                                        *)
+(**************************************************************************)
+
+function SysMaker(){
+  Sys = {
+      file_exists = Sys_file_exists;
+      readdir = Sys_readdir;
+      };
+  return Sys;
+}
+
+provides("ocp-build:Sys", "1.0", SysMaker);
+

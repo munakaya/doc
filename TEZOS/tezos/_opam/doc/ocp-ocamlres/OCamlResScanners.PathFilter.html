@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="next" href="OCamlResScanners.ResFilter.html">
+<link rel="Up" href="OCamlResScanners.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="OCamlResSubFormats" rel="Chapter" href="OCamlResSubFormats.html">
+<link title="OCamlResFormats" rel="Chapter" href="OCamlResFormats.html">
+<link title="OCamlResScanners" rel="Chapter" href="OCamlResScanners.html">
+<link title="OCamlResRegistry" rel="Chapter" href="OCamlResRegistry.html"><title>OCamlResScanners.PathFilter</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a class="up" href="OCamlResScanners.html" title="OCamlResScanners">Up</a>
+&nbsp;<a class="post" href="OCamlResScanners.ResFilter.html" title="OCamlResScanners.ResFilter">Next</a>
+</div>
+<h1>Module <a href="type_OCamlResScanners.PathFilter.html">OCamlResScanners.PathFilter</a></h1>
+
+<pre><span id="MODULEPathFilter"><span class="keyword">module</span> PathFilter</span>: <code class="code">sig</code> <a href="OCamlResScanners.PathFilter.html">..</a> <code class="code">end</code></pre><div class="info module top">
+<div class="info-desc">
+<p>Predicates for filtering paths.
+    Used to select the files and dirs to be scanned.</p>
+</div>
+</div>
+<hr width="100%">
+
+<pre><span id="TYPEt"><span class="keyword">type</span> <code class="type"></code>t</span> = <code class="type">OCamlRes.Path.t -> bool</code> </pre>
+
+
+<pre><span id="VALany"><span class="keyword">val</span> any</span> : <code class="type"><a href="OCamlResScanners.PathFilter.html#TYPEt">t</a></code></pre>
+<pre><span id="VALnone"><span class="keyword">val</span> none</span> : <code class="type"><a href="OCamlResScanners.PathFilter.html#TYPEt">t</a></code></pre>
+<pre><span id="VALexclude"><span class="keyword">val</span> exclude</span> : <code class="type"><a href="OCamlResScanners.PathFilter.html#TYPEt">t</a> -> <a href="OCamlResScanners.PathFilter.html#TYPEt">t</a></code></pre>
+<pre><span id="VALall_of"><span class="keyword">val</span> all_of</span> : <code class="type"><a href="OCamlResScanners.PathFilter.html#TYPEt">t</a> list -> <a href="OCamlResScanners.PathFilter.html#TYPEt">t</a></code></pre>
+<pre><span id="VALany_of"><span class="keyword">val</span> any_of</span> : <code class="type"><a href="OCamlResScanners.PathFilter.html#TYPEt">t</a> list -> <a href="OCamlResScanners.PathFilter.html#TYPEt">t</a></code></pre>
+<pre><span id="VALlimit"><span class="keyword">val</span> limit</span> : <code class="type">int -> <a href="OCamlResScanners.PathFilter.html#TYPEt">t</a></code></pre>
+<pre><span id="VALhas_extension"><span class="keyword">val</span> has_extension</span> : <code class="type">string list -> <a href="OCamlResScanners.PathFilter.html#TYPEt">t</a></code></pre></body></html>

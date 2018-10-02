@@ -1,0 +1,8 @@
+OCP 1
+TYP program
+VER 1.99.20-beta
+REG /home/user/tezos_latest/tezos/_opam/lib/META.ocp-pp
+REG /home/user/tezos_latest/tezos/_opam/bin/ocp-pp
+REG /home/user/tezos_latest/tezos/_opam/bin/ocp-pp.byte
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocp-pp/ocp-pp.uninstall
+DIR /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocp-pp

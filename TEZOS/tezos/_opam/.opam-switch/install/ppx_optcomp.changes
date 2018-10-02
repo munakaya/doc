@@ -1,0 +1,21 @@
+added: [
+  "bin/ppx-optcomp" {"F:S20663528T1537259854.67"}
+  "doc/ppx_optcomp" {"D"}
+  "doc/ppx_optcomp/CHANGES.md" {"F:S751T1537259854.87"}
+  "doc/ppx_optcomp/LICENSE.txt" {"F:S11358T1537259854.86"}
+  "doc/ppx_optcomp/README.md" {"F:S4344T1537259854.85"}
+  "lib/ppx_optcomp" {"D"}
+  "lib/ppx_optcomp/META" {"F:S220T1537259854.68"}
+  "lib/ppx_optcomp/opam" {"F:S625T1537259854.69"}
+  "lib/ppx_optcomp/ppx_optcomp.a" {"F:S134190T1537259854.8"}
+  "lib/ppx_optcomp/ppx_optcomp.cma" {"F:S133811T1537259854.78"}
+  "lib/ppx_optcomp/ppx_optcomp.cmi" {"F:S8110T1537259854.71"}
+  "lib/ppx_optcomp/ppx_optcomp.cmt" {"F:S354361T1537259854.73"}
+  "lib/ppx_optcomp/ppx_optcomp.cmti" {"F:S23875T1537259854.74"}
+  "lib/ppx_optcomp/ppx_optcomp.cmx" {"F:S9442T1537259854.71"}
+  "lib/ppx_optcomp/ppx_optcomp.cmxa" {"F:S7092T1537259854.79"}
+  "lib/ppx_optcomp/ppx_optcomp.cmxs" {"F:S139624T1537259854.81"}
+  "lib/ppx_optcomp/ppx_optcomp.dune" {"F:S12T1537259854.83"}
+  "lib/ppx_optcomp/ppx_optcomp.ml" {"F:S27862T1537259854.77"}
+  "lib/ppx_optcomp/ppx_optcomp.mli" {"F:S1056T1537259854.75"}
+]

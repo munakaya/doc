@@ -1,0 +1,19 @@
+added: [
+  "doc/ppx_cstruct" {"D"}
+  "doc/ppx_cstruct/CHANGES.md" {"F:S12659T1537259841.63"}
+  "doc/ppx_cstruct/LICENSE.md" {"F:S1457T1537259841.62"}
+  "doc/ppx_cstruct/README.md" {"F:S6675T1537259841.61"}
+  "lib/ppx_cstruct" {"D"}
+  "lib/ppx_cstruct/META" {"F:S718T1537259841.47"}
+  "lib/ppx_cstruct/opam" {"F:S951T1537259841.49"}
+  "lib/ppx_cstruct/ppx.exe" {"F:S14421944T1537259841.59"}
+  "lib/ppx_cstruct/ppx_cstruct.a" {"F:S185856T1537259841.56"}
+  "lib/ppx_cstruct/ppx_cstruct.cma" {"F:S114482T1537259841.54"}
+  "lib/ppx_cstruct/ppx_cstruct.cmi" {"F:S8468T1537259841.5"}
+  "lib/ppx_cstruct/ppx_cstruct.cmt" {"F:S561202T1537259841.52"}
+  "lib/ppx_cstruct/ppx_cstruct.cmx" {"F:S5360T1537259841.51"}
+  "lib/ppx_cstruct/ppx_cstruct.cmxa" {"F:S1560T1537259841.55"}
+  "lib/ppx_cstruct/ppx_cstruct.cmxs" {"F:S182904T1537259841.57"}
+  "lib/ppx_cstruct/ppx_cstruct.dune" {"F:S12T1537259841.58"}
+  "lib/ppx_cstruct/ppx_cstruct.ml" {"F:S17927T1537259841.53"}
+]

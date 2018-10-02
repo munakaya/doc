@@ -1,0 +1,232 @@
+lib: [
+  "_build/install/default/lib/ppx_core/META" {"META"}
+  "_build/install/default/lib/ppx_core/opam" {"opam"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_builder.cmi"
+    {"ppx_core__Ast_builder.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_builder.cmx"
+    {"ppx_core__Ast_builder.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_builder.cmt"
+    {"ppx_core__Ast_builder.cmt"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_builder.cmti"
+    {"ppx_core__Ast_builder.cmti"}
+  "_build/install/default/lib/ppx_core/ast_builder.mli" {"ast_builder.mli"}
+  "_build/install/default/lib/ppx_core/ast_builder.ml" {"ast_builder.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_builder_generated.cmi"
+    {"ppx_core__Ast_builder_generated.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_builder_generated.cmx"
+    {"ppx_core__Ast_builder_generated.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_builder_generated.cmt"
+    {"ppx_core__Ast_builder_generated.cmt"}
+  "_build/install/default/lib/ppx_core/ast_builder_generated.ml"
+    {"ast_builder_generated.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_builder_intf.cmi"
+    {"ppx_core__Ast_builder_intf.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_builder_intf.cmx"
+    {"ppx_core__Ast_builder_intf.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_builder_intf.cmt"
+    {"ppx_core__Ast_builder_intf.cmt"}
+  "_build/install/default/lib/ppx_core/ast_builder_intf.ml"
+    {"ast_builder_intf.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_pattern.cmi"
+    {"ppx_core__Ast_pattern.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_pattern.cmx"
+    {"ppx_core__Ast_pattern.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_pattern.cmt"
+    {"ppx_core__Ast_pattern.cmt"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_pattern.cmti"
+    {"ppx_core__Ast_pattern.cmti"}
+  "_build/install/default/lib/ppx_core/ast_pattern.mli" {"ast_pattern.mli"}
+  "_build/install/default/lib/ppx_core/ast_pattern.ml" {"ast_pattern.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_pattern0.cmi"
+    {"ppx_core__Ast_pattern0.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_pattern0.cmx"
+    {"ppx_core__Ast_pattern0.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_pattern0.cmt"
+    {"ppx_core__Ast_pattern0.cmt"}
+  "_build/install/default/lib/ppx_core/ast_pattern0.ml" {"ast_pattern0.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_pattern_generated.cmi"
+    {"ppx_core__Ast_pattern_generated.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_pattern_generated.cmx"
+    {"ppx_core__Ast_pattern_generated.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_pattern_generated.cmt"
+    {"ppx_core__Ast_pattern_generated.cmt"}
+  "_build/install/default/lib/ppx_core/ast_pattern_generated.ml"
+    {"ast_pattern_generated.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_traverse.cmi"
+    {"ppx_core__Ast_traverse.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_traverse.cmx"
+    {"ppx_core__Ast_traverse.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_traverse.cmt"
+    {"ppx_core__Ast_traverse.cmt"}
+  "_build/install/default/lib/ppx_core/ppx_core__Ast_traverse.cmti"
+    {"ppx_core__Ast_traverse.cmti"}
+  "_build/install/default/lib/ppx_core/ast_traverse.mli" {"ast_traverse.mli"}
+  "_build/install/default/lib/ppx_core/ast_traverse.ml" {"ast_traverse.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Attribute.cmi"
+    {"ppx_core__Attribute.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Attribute.cmx"
+    {"ppx_core__Attribute.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Attribute.cmt"
+    {"ppx_core__Attribute.cmt"}
+  "_build/install/default/lib/ppx_core/ppx_core__Attribute.cmti"
+    {"ppx_core__Attribute.cmti"}
+  "_build/install/default/lib/ppx_core/attribute.mli" {"attribute.mli"}
+  "_build/install/default/lib/ppx_core/attribute.ml" {"attribute.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Caller_id.cmi"
+    {"ppx_core__Caller_id.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Caller_id.cmx"
+    {"ppx_core__Caller_id.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Caller_id.cmt"
+    {"ppx_core__Caller_id.cmt"}
+  "_build/install/default/lib/ppx_core/caller_id.ml" {"caller_id.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Code_matcher.cmi"
+    {"ppx_core__Code_matcher.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Code_matcher.cmx"
+    {"ppx_core__Code_matcher.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Code_matcher.cmt"
+    {"ppx_core__Code_matcher.cmt"}
+  "_build/install/default/lib/ppx_core/ppx_core__Code_matcher.cmti"
+    {"ppx_core__Code_matcher.cmti"}
+  "_build/install/default/lib/ppx_core/code_matcher.mli" {"code_matcher.mli"}
+  "_build/install/default/lib/ppx_core/code_matcher.ml" {"code_matcher.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Common.cmi"
+    {"ppx_core__Common.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Common.cmx"
+    {"ppx_core__Common.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Common.cmt"
+    {"ppx_core__Common.cmt"}
+  "_build/install/default/lib/ppx_core/ppx_core__Common.cmti"
+    {"ppx_core__Common.cmti"}
+  "_build/install/default/lib/ppx_core/common.mli" {"common.mli"}
+  "_build/install/default/lib/ppx_core/common.ml" {"common.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Compiler_specifics.cmi"
+    {"ppx_core__Compiler_specifics.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Compiler_specifics.cmx"
+    {"ppx_core__Compiler_specifics.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Compiler_specifics.cmt"
+    {"ppx_core__Compiler_specifics.cmt"}
+  "_build/install/default/lib/ppx_core/compiler_specifics.ml"
+    {"compiler_specifics.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Context_free.cmi"
+    {"ppx_core__Context_free.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Context_free.cmx"
+    {"ppx_core__Context_free.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Context_free.cmt"
+    {"ppx_core__Context_free.cmt"}
+  "_build/install/default/lib/ppx_core/ppx_core__Context_free.cmti"
+    {"ppx_core__Context_free.cmti"}
+  "_build/install/default/lib/ppx_core/context_free.mli" {"context_free.mli"}
+  "_build/install/default/lib/ppx_core/context_free.ml" {"context_free.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Extension.cmi"
+    {"ppx_core__Extension.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Extension.cmx"
+    {"ppx_core__Extension.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Extension.cmt"
+    {"ppx_core__Extension.cmt"}
+  "_build/install/default/lib/ppx_core/ppx_core__Extension.cmti"
+    {"ppx_core__Extension.cmti"}
+  "_build/install/default/lib/ppx_core/extension.mli" {"extension.mli"}
+  "_build/install/default/lib/ppx_core/extension.ml" {"extension.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__File_path.cmi"
+    {"ppx_core__File_path.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__File_path.cmx"
+    {"ppx_core__File_path.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__File_path.cmt"
+    {"ppx_core__File_path.cmt"}
+  "_build/install/default/lib/ppx_core/ppx_core__File_path.cmti"
+    {"ppx_core__File_path.cmti"}
+  "_build/install/default/lib/ppx_core/file_path.mli" {"file_path.mli"}
+  "_build/install/default/lib/ppx_core/file_path.ml" {"file_path.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Glue.cmi"
+    {"ppx_core__Glue.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Glue.cmx"
+    {"ppx_core__Glue.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Glue.cmt"
+    {"ppx_core__Glue.cmt"}
+  "_build/install/default/lib/ppx_core/glue.ml" {"glue.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Import.cmi"
+    {"ppx_core__Import.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Import.cmx"
+    {"ppx_core__Import.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Import.cmt"
+    {"ppx_core__Import.cmt"}
+  "_build/install/default/lib/ppx_core/import.ml" {"import.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Loc.cmi"
+    {"ppx_core__Loc.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Loc.cmx"
+    {"ppx_core__Loc.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Loc.cmt"
+    {"ppx_core__Loc.cmt"}
+  "_build/install/default/lib/ppx_core/ppx_core__Loc.cmti"
+    {"ppx_core__Loc.cmti"}
+  "_build/install/default/lib/ppx_core/loc.mli" {"loc.mli"}
+  "_build/install/default/lib/ppx_core/loc.ml" {"loc.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Location.cmi"
+    {"ppx_core__Location.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Location.cmx"
+    {"ppx_core__Location.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Location.cmt"
+    {"ppx_core__Location.cmt"}
+  "_build/install/default/lib/ppx_core/ppx_core__Location.cmti"
+    {"ppx_core__Location.cmti"}
+  "_build/install/default/lib/ppx_core/location.mli" {"location.mli"}
+  "_build/install/default/lib/ppx_core/location.ml" {"location.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Longident.cmi"
+    {"ppx_core__Longident.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Longident.cmx"
+    {"ppx_core__Longident.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Longident.cmt"
+    {"ppx_core__Longident.cmt"}
+  "_build/install/default/lib/ppx_core/ppx_core__Longident.cmti"
+    {"ppx_core__Longident.cmti"}
+  "_build/install/default/lib/ppx_core/longident.mli" {"longident.mli"}
+  "_build/install/default/lib/ppx_core/longident.ml" {"longident.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Merlin_helpers.cmi"
+    {"ppx_core__Merlin_helpers.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Merlin_helpers.cmx"
+    {"ppx_core__Merlin_helpers.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Merlin_helpers.cmt"
+    {"ppx_core__Merlin_helpers.cmt"}
+  "_build/install/default/lib/ppx_core/ppx_core__Merlin_helpers.cmti"
+    {"ppx_core__Merlin_helpers.cmti"}
+  "_build/install/default/lib/ppx_core/merlin_helpers.mli"
+    {"merlin_helpers.mli"}
+  "_build/install/default/lib/ppx_core/merlin_helpers.ml"
+    {"merlin_helpers.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__Name.cmi"
+    {"ppx_core__Name.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Name.cmx"
+    {"ppx_core__Name.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Name.cmt"
+    {"ppx_core__Name.cmt"}
+  "_build/install/default/lib/ppx_core/ppx_core__Name.cmti"
+    {"ppx_core__Name.cmti"}
+  "_build/install/default/lib/ppx_core/name.mli" {"name.mli"}
+  "_build/install/default/lib/ppx_core/name.ml" {"name.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core.cmi" {"ppx_core.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core.cmx" {"ppx_core.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core.cmt" {"ppx_core.cmt"}
+  "_build/install/default/lib/ppx_core/ppx_core.ml" {"ppx_core.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core__.cmi" {"ppx_core__.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__.cmx" {"ppx_core__.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__.cmt" {"ppx_core__.cmt"}
+  "_build/install/default/lib/ppx_core/ppx_core__.ml-gen"
+    {"ppx_core__.ml-gen"}
+  "_build/install/default/lib/ppx_core/ppx_core__Spellcheck.cmi"
+    {"ppx_core__Spellcheck.cmi"}
+  "_build/install/default/lib/ppx_core/ppx_core__Spellcheck.cmx"
+    {"ppx_core__Spellcheck.cmx"}
+  "_build/install/default/lib/ppx_core/ppx_core__Spellcheck.cmt"
+    {"ppx_core__Spellcheck.cmt"}
+  "_build/install/default/lib/ppx_core/spellcheck.ml" {"spellcheck.ml"}
+  "_build/install/default/lib/ppx_core/ppx_core.cma" {"ppx_core.cma"}
+  "_build/install/default/lib/ppx_core/ppx_core.cmxa" {"ppx_core.cmxa"}
+  "_build/install/default/lib/ppx_core/ppx_core.a" {"ppx_core.a"}
+  "_build/install/default/lib/ppx_core/ppx_core.cmxs" {"ppx_core.cmxs"}
+  "_build/install/default/lib/ppx_core/ppx_core.dune" {"ppx_core.dune"}
+]
+doc: [
+  "_build/install/default/doc/ppx_core/README.md"
+  "_build/install/default/doc/ppx_core/LICENSE.txt"
+  "_build/install/default/doc/ppx_core/CHANGES.md"
+]

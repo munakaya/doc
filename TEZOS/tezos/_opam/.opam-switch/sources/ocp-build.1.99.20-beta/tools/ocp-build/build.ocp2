@@ -1,0 +1,152 @@
+(**************************************************************************)
+(*                                                                        *)
+(*   Typerex Tools                                                        *)
+(*                                                                        *)
+(*   Copyright 2011-2017 OCamlPro SAS                                     *)
+(*                                                                        *)
+(*   All rights reserved.  This file is distributed under the terms of    *)
+(*   the GNU General Public License version 3 described in the file       *)
+(*   LICENSE.                                                             *)
+(*                                                                        *)
+(**************************************************************************)
+
+(* List = module("List", "1.0");  *)
+
+(* Inherit user configuration, typically set by a file build.ocp2 in
+the top directory containing:
+
+config["ocp-build"].enabled = false;
+*)
+ocaml += getconf("ocp-build"); 
+
+ocaml.exists = true;
+ocaml.bytelink = [];
+ocaml.asmlink = [];
+
+set_default = function(env, name, default){
+    try {
+      env[name];
+    }
+    catch("unknown-field", arg){
+        env[name] = default;
+    }
+    return env;
+  };
+
+ocaml_link = function(ocaml,flags){
+  ocaml = set_default(ocaml, "link", []);
+  ocaml = set_default(ocaml, "bytelink", []);
+  ocaml = set_default(ocaml, "asmlink", []);
+  ocaml.link += flags;
+  ocaml.bytelink += flags;
+  ocaml.asmlink += flags;
+  return ocaml;
+};
+
+OCaml.link = ocaml_link;
+
+ocaml = OCaml.link(ocaml, [ "-g" ]);
+
+ocaml.copyright = "OCamlPro/INRIA 2011-2013";
+ocaml.authors = "Fabrice LE FESSANT <fabrice.le_fessant@ocamlpro.com>";
+ocaml.license = "GPLv3";
+try {
+  ocaml.version = autoconf.package_version;
+} catch("unknown-variable",arg) {
+  print("package_version not defined\n");
+  ocaml.version = "1.0";
+}
+
+OCaml.library("ocp-build-value", 
+  ocaml + {
+  files = [
+    "buildValue.ml";
+  ];
+  requires =  [ "ocplib-lang"; "ocplib-unix"; "ocplib-system";
+              "ocp-build-misc";
+           ];
+});
+
+begin
+  ocaml.install = true;
+
+  ocaml.files = [
+    "buildOCPTypes.ml";
+    "buildOCPPrinter.ml";
+    "buildOCP.ml";
+  ];
+
+  ocaml.requires = [
+    "ocplib-unix"; "ocp-build-misc";
+    "ocp-build-lang-ocp";
+    "ocp-build-lang-ocp2";
+  ];
+
+   OCaml.library("ocp-build-project", ocaml);
+end
+
+begin
+
+  ocaml.files = [
+    "buildVersion.ml", {ocp2ml=true; env_strings = [ "datadir" ] };
+    "buildTypes.ml";            (* All interesting types *)
+    "buildOptions.ml";
+    "buildGlobals.ml";          (* All global variables and tables *)
+    "buildConfig.ml";           (* Values stored in the configuration file. *)
+    "buildUninstall.ml";
+  ];
+
+  ocaml.requires = [ "ocplib-unix"; "ocp-build-engine"; "ocp-build-project";
+    "ocp-build-misc"; "ocplib-config"; "ezcmd" ];
+
+  OCaml.library( "ocp-build-lib", ocaml);
+end
+
+begin
+    (*  asmlink += [ "-cclib" "-v" ] *)
+  ocaml.lib_files = [
+    "../../boot/ocaml.ocp";
+    "../../boot/camlp4.ocp";
+  ];
+  ocaml.install = true;
+  ocaml.files = [
+    "buildMain.ml" (* Driver of program *)
+  ];
+
+  ocaml.requires = [ "ocp-build-lib";
+                     "ocp-build-ocaml-plugin";
+                     "ocp-build-oasis";
+                     "ocp-build-actions";
+  ];
+  OCaml.program( "ocp-build", ocaml);
+end
+
+
+begin
+  ocaml.files = [ "projectMain.ml"  ];
+  ocaml.requires = [ "ocp-build-project" ];
+  OCaml.program( "ocp-project", ocaml);
+end
+
+begin
+  ocaml.files = [];
+  ocaml.requires = [ "ocp-build" ];
+
+  ocaml.test_dir = [ "%{tests}%/%{test}%" ];
+  ocaml.test_args = [ "-init"; "-scan" ];
+  ocaml.test_benchmark = true;
+  ocaml.tests = [ "cycle", { test_exit = 2 } (* should raise error 2 *) ];
+  OCaml.new_package("ocp-build.test", "test", ocaml);
+end
+
+
+
+
+
+begin
+
+  ocaml.files = [ (* "buildOCamlEnv.ml" *) ];
+  ocaml.requires = [ "ocp-build-ocaml"; "ocp-build-misc" ];
+
+  OCaml.program("ocp-build-infer-env", ocaml);
+end

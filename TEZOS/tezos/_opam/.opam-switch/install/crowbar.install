@@ -1,0 +1,20 @@
+lib: [
+  "_build/install/default/lib/crowbar/META" {"META"}
+  "_build/install/default/lib/crowbar/opam" {"opam"}
+  "_build/install/default/lib/crowbar/crowbar.cmi" {"crowbar.cmi"}
+  "_build/install/default/lib/crowbar/crowbar.cmx" {"crowbar.cmx"}
+  "_build/install/default/lib/crowbar/crowbar.cmt" {"crowbar.cmt"}
+  "_build/install/default/lib/crowbar/crowbar.cmti" {"crowbar.cmti"}
+  "_build/install/default/lib/crowbar/crowbar.mli" {"crowbar.mli"}
+  "_build/install/default/lib/crowbar/crowbar.ml" {"crowbar.ml"}
+  "_build/install/default/lib/crowbar/crowbar.cma" {"crowbar.cma"}
+  "_build/install/default/lib/crowbar/crowbar.cmxa" {"crowbar.cmxa"}
+  "_build/install/default/lib/crowbar/crowbar.a" {"crowbar.a"}
+  "_build/install/default/lib/crowbar/crowbar.cmxs" {"crowbar.cmxs"}
+  "_build/install/default/lib/crowbar/crowbar.dune" {"crowbar.dune"}
+]
+doc: [
+  "_build/install/default/doc/crowbar/README.md"
+  "_build/install/default/doc/crowbar/LICENSE.md"
+  "_build/install/default/doc/crowbar/CHANGES.md"
+]

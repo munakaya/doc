@@ -1,0 +1,16 @@
+OCP 1
+TYP library
+VER 1.99.20-beta
+REG /home/user/tezos_latest/tezos/_opam/lib/META.ocplib-compat
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-compat/stringCompat.cmi
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-compat/ocpCompat.cmi
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-compat/stringCompat.cmx
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-compat/ocpCompat.cmx
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-compat/stringCompat.cmi
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-compat/ocpCompat.cmi
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-compat/ocplib-compat.cmxs
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-compat/ocplib-compat.a
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-compat/ocplib-compat.cmxa
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-compat/ocplib-compat.cma
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-compat/ocplib-compat.uninstall
+DIR /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-compat

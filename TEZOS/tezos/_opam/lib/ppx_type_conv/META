@@ -1,0 +1,12 @@
+version = "v0.10.0"
+description = ""
+requires = "compiler-libs.common
+            ocaml-migrate-parsetree
+            ppx_core
+            ppx_derivers
+            ppx_driver"
+archive(byte) = "ppx_type_conv.cma"
+archive(native) = "ppx_type_conv.cmxa"
+plugin(byte) = "ppx_type_conv.cma"
+plugin(native) = "ppx_type_conv.cmxs"
+requires(-ppx_driver,-custom_ppx) += "ppx_deriving"

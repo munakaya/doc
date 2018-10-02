@@ -1,0 +1,180 @@
+lib: [
+  "_build/install/default/lib/cohttp/META" {"META"}
+  "_build/install/default/lib/cohttp/opam" {"opam"}
+  "_build/install/default/lib/cohttp/cohttp__Accept.cmi"
+    {"cohttp__Accept.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__Accept.cmx"
+    {"cohttp__Accept.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__Accept.cmt"
+    {"cohttp__Accept.cmt"}
+  "_build/install/default/lib/cohttp/cohttp__Accept.cmti"
+    {"cohttp__Accept.cmti"}
+  "_build/install/default/lib/cohttp/accept.mli" {"accept.mli"}
+  "_build/install/default/lib/cohttp/accept.ml" {"accept.ml"}
+  "_build/install/default/lib/cohttp/cohttp__Accept_lexer.cmi"
+    {"cohttp__Accept_lexer.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__Accept_lexer.cmx"
+    {"cohttp__Accept_lexer.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__Accept_lexer.cmt"
+    {"cohttp__Accept_lexer.cmt"}
+  "_build/install/default/lib/cohttp/accept_lexer.ml" {"accept_lexer.ml"}
+  "_build/install/default/lib/cohttp/cohttp__Accept_parser.cmi"
+    {"cohttp__Accept_parser.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__Accept_parser.cmx"
+    {"cohttp__Accept_parser.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__Accept_parser.cmt"
+    {"cohttp__Accept_parser.cmt"}
+  "_build/install/default/lib/cohttp/cohttp__Accept_parser.cmti"
+    {"cohttp__Accept_parser.cmti"}
+  "_build/install/default/lib/cohttp/accept_parser.mli" {"accept_parser.mli"}
+  "_build/install/default/lib/cohttp/accept_parser.ml" {"accept_parser.ml"}
+  "_build/install/default/lib/cohttp/cohttp__Accept_types.cmi"
+    {"cohttp__Accept_types.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__Accept_types.cmx"
+    {"cohttp__Accept_types.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__Accept_types.cmt"
+    {"cohttp__Accept_types.cmt"}
+  "_build/install/default/lib/cohttp/accept_types.ml" {"accept_types.ml"}
+  "_build/install/default/lib/cohttp/cohttp__Auth.cmi" {"cohttp__Auth.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__Auth.cmx" {"cohttp__Auth.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__Auth.cmt" {"cohttp__Auth.cmt"}
+  "_build/install/default/lib/cohttp/cohttp__Auth.cmti" {"cohttp__Auth.cmti"}
+  "_build/install/default/lib/cohttp/auth.mli" {"auth.mli"}
+  "_build/install/default/lib/cohttp/auth.ml" {"auth.ml"}
+  "_build/install/default/lib/cohttp/cohttp__Body.cmi" {"cohttp__Body.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__Body.cmx" {"cohttp__Body.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__Body.cmt" {"cohttp__Body.cmt"}
+  "_build/install/default/lib/cohttp/cohttp__Body.cmti" {"cohttp__Body.cmti"}
+  "_build/install/default/lib/cohttp/body.mli" {"body.mli"}
+  "_build/install/default/lib/cohttp/body.ml" {"body.ml"}
+  "_build/install/default/lib/cohttp/cohttp__Code.cmi" {"cohttp__Code.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__Code.cmx" {"cohttp__Code.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__Code.cmt" {"cohttp__Code.cmt"}
+  "_build/install/default/lib/cohttp/cohttp__Code.cmti" {"cohttp__Code.cmti"}
+  "_build/install/default/lib/cohttp/code.mli" {"code.mli"}
+  "_build/install/default/lib/cohttp/code.ml" {"code.ml"}
+  "_build/install/default/lib/cohttp/cohttp.cmi" {"cohttp.cmi"}
+  "_build/install/default/lib/cohttp/cohttp.cmx" {"cohttp.cmx"}
+  "_build/install/default/lib/cohttp/cohttp.cmt" {"cohttp.cmt"}
+  "_build/install/default/lib/cohttp/cohttp.ml" {"cohttp.ml"}
+  "_build/install/default/lib/cohttp/cohttp__.cmi" {"cohttp__.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__.cmx" {"cohttp__.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__.cmt" {"cohttp__.cmt"}
+  "_build/install/default/lib/cohttp/cohttp__.ml-gen" {"cohttp__.ml-gen"}
+  "_build/install/default/lib/cohttp/cohttp__Conf.cmi" {"cohttp__Conf.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__Conf.cmx" {"cohttp__Conf.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__Conf.cmt" {"cohttp__Conf.cmt"}
+  "_build/install/default/lib/cohttp/cohttp__Conf.cmti" {"cohttp__Conf.cmti"}
+  "_build/install/default/lib/cohttp/conf.mli" {"conf.mli"}
+  "_build/install/default/lib/cohttp/conf.ml" {"conf.ml"}
+  "_build/install/default/lib/cohttp/cohttp__Connection.cmi"
+    {"cohttp__Connection.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__Connection.cmx"
+    {"cohttp__Connection.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__Connection.cmt"
+    {"cohttp__Connection.cmt"}
+  "_build/install/default/lib/cohttp/cohttp__Connection.cmti"
+    {"cohttp__Connection.cmti"}
+  "_build/install/default/lib/cohttp/connection.mli" {"connection.mli"}
+  "_build/install/default/lib/cohttp/connection.ml" {"connection.ml"}
+  "_build/install/default/lib/cohttp/cohttp__Cookie.cmi"
+    {"cohttp__Cookie.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__Cookie.cmx"
+    {"cohttp__Cookie.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__Cookie.cmt"
+    {"cohttp__Cookie.cmt"}
+  "_build/install/default/lib/cohttp/cohttp__Cookie.cmti"
+    {"cohttp__Cookie.cmti"}
+  "_build/install/default/lib/cohttp/cookie.mli" {"cookie.mli"}
+  "_build/install/default/lib/cohttp/cookie.ml" {"cookie.ml"}
+  "_build/install/default/lib/cohttp/cohttp__Header.cmi"
+    {"cohttp__Header.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__Header.cmx"
+    {"cohttp__Header.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__Header.cmt"
+    {"cohttp__Header.cmt"}
+  "_build/install/default/lib/cohttp/cohttp__Header.cmti"
+    {"cohttp__Header.cmti"}
+  "_build/install/default/lib/cohttp/header.mli" {"header.mli"}
+  "_build/install/default/lib/cohttp/header.ml" {"header.ml"}
+  "_build/install/default/lib/cohttp/cohttp__Header_io.cmi"
+    {"cohttp__Header_io.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__Header_io.cmx"
+    {"cohttp__Header_io.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__Header_io.cmt"
+    {"cohttp__Header_io.cmt"}
+  "_build/install/default/lib/cohttp/cohttp__Header_io.cmti"
+    {"cohttp__Header_io.cmti"}
+  "_build/install/default/lib/cohttp/header_io.mli" {"header_io.mli"}
+  "_build/install/default/lib/cohttp/header_io.ml" {"header_io.ml"}
+  "_build/install/default/lib/cohttp/cohttp__Link.cmi" {"cohttp__Link.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__Link.cmx" {"cohttp__Link.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__Link.cmt" {"cohttp__Link.cmt"}
+  "_build/install/default/lib/cohttp/cohttp__Link.cmti" {"cohttp__Link.cmti"}
+  "_build/install/default/lib/cohttp/link.mli" {"link.mli"}
+  "_build/install/default/lib/cohttp/link.ml" {"link.ml"}
+  "_build/install/default/lib/cohttp/cohttp__Request.cmi"
+    {"cohttp__Request.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__Request.cmx"
+    {"cohttp__Request.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__Request.cmt"
+    {"cohttp__Request.cmt"}
+  "_build/install/default/lib/cohttp/cohttp__Request.cmti"
+    {"cohttp__Request.cmti"}
+  "_build/install/default/lib/cohttp/request.mli" {"request.mli"}
+  "_build/install/default/lib/cohttp/request.ml" {"request.ml"}
+  "_build/install/default/lib/cohttp/cohttp__Response.cmi"
+    {"cohttp__Response.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__Response.cmx"
+    {"cohttp__Response.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__Response.cmt"
+    {"cohttp__Response.cmt"}
+  "_build/install/default/lib/cohttp/cohttp__Response.cmti"
+    {"cohttp__Response.cmti"}
+  "_build/install/default/lib/cohttp/response.mli" {"response.mli"}
+  "_build/install/default/lib/cohttp/response.ml" {"response.ml"}
+  "_build/install/default/lib/cohttp/cohttp__S.cmi" {"cohttp__S.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__S.cmx" {"cohttp__S.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__S.cmt" {"cohttp__S.cmt"}
+  "_build/install/default/lib/cohttp/s.ml" {"s.ml"}
+  "_build/install/default/lib/cohttp/cohttp__String_io.cmi"
+    {"cohttp__String_io.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__String_io.cmx"
+    {"cohttp__String_io.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__String_io.cmt"
+    {"cohttp__String_io.cmt"}
+  "_build/install/default/lib/cohttp/cohttp__String_io.cmti"
+    {"cohttp__String_io.cmti"}
+  "_build/install/default/lib/cohttp/string_io.mli" {"string_io.mli"}
+  "_build/install/default/lib/cohttp/string_io.ml" {"string_io.ml"}
+  "_build/install/default/lib/cohttp/cohttp__Transfer.cmi"
+    {"cohttp__Transfer.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__Transfer.cmx"
+    {"cohttp__Transfer.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__Transfer.cmt"
+    {"cohttp__Transfer.cmt"}
+  "_build/install/default/lib/cohttp/cohttp__Transfer.cmti"
+    {"cohttp__Transfer.cmti"}
+  "_build/install/default/lib/cohttp/transfer.mli" {"transfer.mli"}
+  "_build/install/default/lib/cohttp/transfer.ml" {"transfer.ml"}
+  "_build/install/default/lib/cohttp/cohttp__Transfer_io.cmi"
+    {"cohttp__Transfer_io.cmi"}
+  "_build/install/default/lib/cohttp/cohttp__Transfer_io.cmx"
+    {"cohttp__Transfer_io.cmx"}
+  "_build/install/default/lib/cohttp/cohttp__Transfer_io.cmt"
+    {"cohttp__Transfer_io.cmt"}
+  "_build/install/default/lib/cohttp/cohttp__Transfer_io.cmti"
+    {"cohttp__Transfer_io.cmti"}
+  "_build/install/default/lib/cohttp/transfer_io.mli" {"transfer_io.mli"}
+  "_build/install/default/lib/cohttp/transfer_io.ml" {"transfer_io.ml"}
+  "_build/install/default/lib/cohttp/cohttp.cma" {"cohttp.cma"}
+  "_build/install/default/lib/cohttp/cohttp.cmxa" {"cohttp.cmxa"}
+  "_build/install/default/lib/cohttp/cohttp.a" {"cohttp.a"}
+  "_build/install/default/lib/cohttp/cohttp.cmxs" {"cohttp.cmxs"}
+  "_build/install/default/lib/cohttp/cohttp.dune" {"cohttp.dune"}
+]
+doc: [
+  "_build/install/default/doc/cohttp/README.md"
+  "_build/install/default/doc/cohttp/LICENSE.md"
+  "_build/install/default/doc/cohttp/CHANGES.md"
+]

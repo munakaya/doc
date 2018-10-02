@@ -1,0 +1,68 @@
+(** @canonical Irmin.Branch *)
+module Branch = Irmin__Branch
+
+(** @canonical Irmin.Commit *)
+module Commit = Irmin__Commit
+
+(** @canonical Irmin.Conf *)
+module Conf = Irmin__Conf
+
+(** @canonical Irmin.Contents *)
+module Contents = Irmin__Contents
+
+(** @canonical Irmin.Diff *)
+module Diff = Irmin__Diff
+
+(** @canonical Irmin.Dot *)
+module Dot = Irmin__Dot
+
+(** @canonical Irmin.Hash *)
+module Hash = Irmin__Hash
+
+(** @canonical Irmin.Info *)
+module Info = Irmin__Info
+
+(** @canonical Irmin.Irmin *)
+module Irmin = Irmin
+
+(** @canonical Irmin.Lock *)
+module Lock = Irmin__Lock
+
+(** @canonical Irmin.Merge *)
+module Merge = Irmin__Merge
+
+(** @canonical Irmin.Node *)
+module Node = Irmin__Node
+
+(** @canonical Irmin.Object_graph *)
+module Object_graph = Irmin__Object_graph
+
+(** @canonical Irmin.Path *)
+module Path = Irmin__Path
+
+(** @canonical Irmin.S *)
+module S = Irmin__S
+
+(** @canonical Irmin.Slice *)
+module Slice = Irmin__Slice
+
+(** @canonical Irmin.Store *)
+module Store = Irmin__Store
+
+(** @canonical Irmin.Sync *)
+module Sync = Irmin__Sync
+
+(** @canonical Irmin.Sync_ext *)
+module Sync_ext = Irmin__Sync_ext
+
+(** @canonical Irmin.Tree *)
+module Tree = Irmin__Tree
+
+(** @canonical Irmin.Type *)
+module Type = Irmin__Type
+
+(** @canonical Irmin.Version *)
+module Version = Irmin__Version
+
+(** @canonical Irmin.Watch *)
+module Watch = Irmin__Watch

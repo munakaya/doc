@@ -1,0 +1,68 @@
+lib: [
+  "_build/install/default/lib/ipaddr/META" {"META"}
+  "_build/install/default/lib/ipaddr/opam" {"opam"}
+  "_build/install/default/lib/ipaddr/ipaddr.cmi" {"ipaddr.cmi"}
+  "_build/install/default/lib/ipaddr/ipaddr.cmx" {"ipaddr.cmx"}
+  "_build/install/default/lib/ipaddr/ipaddr.cmt" {"ipaddr.cmt"}
+  "_build/install/default/lib/ipaddr/ipaddr.cmti" {"ipaddr.cmti"}
+  "_build/install/default/lib/ipaddr/ipaddr.mli" {"ipaddr.mli"}
+  "_build/install/default/lib/ipaddr/ipaddr.ml" {"ipaddr.ml"}
+  "_build/install/default/lib/ipaddr/macaddr.cmi" {"macaddr.cmi"}
+  "_build/install/default/lib/ipaddr/macaddr.cmx" {"macaddr.cmx"}
+  "_build/install/default/lib/ipaddr/macaddr.cmt" {"macaddr.cmt"}
+  "_build/install/default/lib/ipaddr/macaddr.cmti" {"macaddr.cmti"}
+  "_build/install/default/lib/ipaddr/macaddr.mli" {"macaddr.mli"}
+  "_build/install/default/lib/ipaddr/macaddr.ml" {"macaddr.ml"}
+  "_build/install/default/lib/ipaddr/ipaddr.cma" {"ipaddr.cma"}
+  "_build/install/default/lib/ipaddr/ipaddr.cmxa" {"ipaddr.cmxa"}
+  "_build/install/default/lib/ipaddr/ipaddr.a" {"ipaddr.a"}
+  "_build/install/default/lib/ipaddr/ipaddr.cmxs" {"ipaddr.cmxs"}
+  "_build/install/default/lib/ipaddr/ipaddr.dune" {"ipaddr.dune"}
+  "_build/install/default/lib/ipaddr/unix/ipaddr_unix.cmi"
+    {"unix/ipaddr_unix.cmi"}
+  "_build/install/default/lib/ipaddr/unix/ipaddr_unix.cmx"
+    {"unix/ipaddr_unix.cmx"}
+  "_build/install/default/lib/ipaddr/unix/ipaddr_unix.cmt"
+    {"unix/ipaddr_unix.cmt"}
+  "_build/install/default/lib/ipaddr/unix/ipaddr_unix.cmti"
+    {"unix/ipaddr_unix.cmti"}
+  "_build/install/default/lib/ipaddr/unix/ipaddr_unix.mli"
+    {"unix/ipaddr_unix.mli"}
+  "_build/install/default/lib/ipaddr/unix/ipaddr_unix.ml"
+    {"unix/ipaddr_unix.ml"}
+  "_build/install/default/lib/ipaddr/unix/ipaddr_unix.cma"
+    {"unix/ipaddr_unix.cma"}
+  "_build/install/default/lib/ipaddr/unix/ipaddr_unix.cmxa"
+    {"unix/ipaddr_unix.cmxa"}
+  "_build/install/default/lib/ipaddr/unix/ipaddr_unix.a"
+    {"unix/ipaddr_unix.a"}
+  "_build/install/default/lib/ipaddr/unix/ipaddr_unix.cmxs"
+    {"unix/ipaddr_unix.cmxs"}
+  "_build/install/default/lib/ipaddr/unix/ipaddr.unix.dune"
+    {"unix/ipaddr.unix.dune"}
+  "_build/install/default/lib/ipaddr/top/ipaddr_top.cmi"
+    {"top/ipaddr_top.cmi"}
+  "_build/install/default/lib/ipaddr/top/ipaddr_top.cmx"
+    {"top/ipaddr_top.cmx"}
+  "_build/install/default/lib/ipaddr/top/ipaddr_top.cmt"
+    {"top/ipaddr_top.cmt"}
+  "_build/install/default/lib/ipaddr/top/ipaddr_top.cmti"
+    {"top/ipaddr_top.cmti"}
+  "_build/install/default/lib/ipaddr/top/ipaddr_top.mli"
+    {"top/ipaddr_top.mli"}
+  "_build/install/default/lib/ipaddr/top/ipaddr_top.ml" {"top/ipaddr_top.ml"}
+  "_build/install/default/lib/ipaddr/top/ipaddr_top.cma"
+    {"top/ipaddr_top.cma"}
+  "_build/install/default/lib/ipaddr/top/ipaddr_top.cmxa"
+    {"top/ipaddr_top.cmxa"}
+  "_build/install/default/lib/ipaddr/top/ipaddr_top.a" {"top/ipaddr_top.a"}
+  "_build/install/default/lib/ipaddr/top/ipaddr_top.cmxs"
+    {"top/ipaddr_top.cmxs"}
+  "_build/install/default/lib/ipaddr/top/ipaddr.top.dune"
+    {"top/ipaddr.top.dune"}
+]
+doc: [
+  "_build/install/default/doc/ipaddr/README.md"
+  "_build/install/default/doc/ipaddr/LICENSE.md"
+  "_build/install/default/doc/ipaddr/CHANGES.md"
+]

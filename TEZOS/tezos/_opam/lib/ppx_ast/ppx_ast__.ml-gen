@@ -1,0 +1,35 @@
+(** @canonical Ppx_ast.Ast *)
+module Ast = Ppx_ast__Ast
+
+(** @canonical Ppx_ast.Ast_helper *)
+module Ast_helper = Ppx_ast__Ast_helper
+
+(** @canonical Ppx_ast.Docstrings *)
+module Docstrings = Ppx_ast__Docstrings
+
+(** @canonical Ppx_ast.Import *)
+module Import = Ppx_ast__Import
+
+(** @canonical Ppx_ast.Lexer *)
+module Lexer = Ppx_ast__Lexer
+
+(** @canonical Ppx_ast.Location_helper *)
+module Location_helper = Ppx_ast__Location_helper
+
+(** @canonical Ppx_ast.Parse *)
+module Parse = Ppx_ast__Parse
+
+(** @canonical Ppx_ast.Parser *)
+module Parser = Ppx_ast__Parser
+
+(** @canonical Ppx_ast.Pprintast *)
+module Pprintast = Ppx_ast__Pprintast
+
+(** @canonical Ppx_ast.Ppx_ast *)
+module Ppx_ast = Ppx_ast
+
+(** @canonical Ppx_ast.Syntaxerr *)
+module Syntaxerr = Ppx_ast__Syntaxerr
+
+(** @canonical Ppx_ast.Warn *)
+module Warn = Ppx_ast__Warn

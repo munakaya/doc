@@ -1,0 +1,7 @@
+version = "1.1.0"
+description = ""
+requires = "conduit lwt sexplib"
+archive(byte) = "conduit_lwt.cma"
+archive(native) = "conduit_lwt.cmxa"
+plugin(byte) = "conduit_lwt.cma"
+plugin(native) = "conduit_lwt.cmxs"

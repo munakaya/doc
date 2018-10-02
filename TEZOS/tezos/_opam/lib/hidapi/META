@@ -1,0 +1,7 @@
+version = "1.0"
+description = ""
+requires = "bigstring"
+archive(byte) = "hidapi.cma"
+archive(native) = "hidapi.cmxa"
+plugin(byte) = "hidapi.cma"
+plugin(native) = "hidapi.cmxs"

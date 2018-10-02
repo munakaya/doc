@@ -1,0 +1,90 @@
+lib: [
+  "_build/install/default/lib/cohttp-lwt-unix/META" {"META"}
+  "_build/install/default/lib/cohttp-lwt-unix/opam" {"opam"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Client.cmi"
+    {"cohttp_lwt_unix__Client.cmi"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Client.cmx"
+    {"cohttp_lwt_unix__Client.cmx"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Client.cmt"
+    {"cohttp_lwt_unix__Client.cmt"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Client.cmti"
+    {"cohttp_lwt_unix__Client.cmti"}
+  "_build/install/default/lib/cohttp-lwt-unix/client.mli" {"client.mli"}
+  "_build/install/default/lib/cohttp-lwt-unix/client.ml" {"client.ml"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix.cmi"
+    {"cohttp_lwt_unix.cmi"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix.cmx"
+    {"cohttp_lwt_unix.cmx"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix.cmt"
+    {"cohttp_lwt_unix.cmt"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix.ml"
+    {"cohttp_lwt_unix.ml"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__.cmi"
+    {"cohttp_lwt_unix__.cmi"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__.cmx"
+    {"cohttp_lwt_unix__.cmx"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__.cmt"
+    {"cohttp_lwt_unix__.cmt"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__.ml-gen"
+    {"cohttp_lwt_unix__.ml-gen"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Debug.cmi"
+    {"cohttp_lwt_unix__Debug.cmi"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Debug.cmx"
+    {"cohttp_lwt_unix__Debug.cmx"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Debug.cmt"
+    {"cohttp_lwt_unix__Debug.cmt"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Debug.cmti"
+    {"cohttp_lwt_unix__Debug.cmti"}
+  "_build/install/default/lib/cohttp-lwt-unix/debug.mli" {"debug.mli"}
+  "_build/install/default/lib/cohttp-lwt-unix/debug.ml" {"debug.ml"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Io.cmi"
+    {"cohttp_lwt_unix__Io.cmi"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Io.cmx"
+    {"cohttp_lwt_unix__Io.cmx"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Io.cmt"
+    {"cohttp_lwt_unix__Io.cmt"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Io.cmti"
+    {"cohttp_lwt_unix__Io.cmti"}
+  "_build/install/default/lib/cohttp-lwt-unix/io.mli" {"io.mli"}
+  "_build/install/default/lib/cohttp-lwt-unix/io.ml" {"io.ml"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Net.cmi"
+    {"cohttp_lwt_unix__Net.cmi"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Net.cmx"
+    {"cohttp_lwt_unix__Net.cmx"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Net.cmt"
+    {"cohttp_lwt_unix__Net.cmt"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Net.cmti"
+    {"cohttp_lwt_unix__Net.cmti"}
+  "_build/install/default/lib/cohttp-lwt-unix/net.mli" {"net.mli"}
+  "_build/install/default/lib/cohttp-lwt-unix/net.ml" {"net.ml"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Server.cmi"
+    {"cohttp_lwt_unix__Server.cmi"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Server.cmx"
+    {"cohttp_lwt_unix__Server.cmx"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Server.cmt"
+    {"cohttp_lwt_unix__Server.cmt"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix__Server.cmti"
+    {"cohttp_lwt_unix__Server.cmti"}
+  "_build/install/default/lib/cohttp-lwt-unix/server.mli" {"server.mli"}
+  "_build/install/default/lib/cohttp-lwt-unix/server.ml" {"server.ml"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix.cma"
+    {"cohttp_lwt_unix.cma"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix.cmxa"
+    {"cohttp_lwt_unix.cmxa"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix.a"
+    {"cohttp_lwt_unix.a"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp_lwt_unix.cmxs"
+    {"cohttp_lwt_unix.cmxs"}
+  "_build/install/default/lib/cohttp-lwt-unix/cohttp-lwt-unix.dune"
+    {"cohttp-lwt-unix.dune"}
+]
+bin: [
+  "_build/install/default/bin/cohttp-curl-lwt" {"cohttp-curl-lwt"}
+  "_build/install/default/bin/cohttp-proxy-lwt" {"cohttp-proxy-lwt"}
+  "_build/install/default/bin/cohttp-server-lwt" {"cohttp-server-lwt"}
+]
+doc: [
+  "_build/install/default/doc/cohttp-lwt-unix/README.md"
+  "_build/install/default/doc/cohttp-lwt-unix/LICENSE.md"
+  "_build/install/default/doc/cohttp-lwt-unix/CHANGES.md"
+]

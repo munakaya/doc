@@ -1,0 +1,180 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="OCamlResSubFormats.html">
+<link rel="next" href="OCamlResScanners.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="OCamlResSubFormats" rel="Chapter" href="OCamlResSubFormats.html">
+<link title="OCamlResFormats" rel="Chapter" href="OCamlResFormats.html">
+<link title="OCamlResScanners" rel="Chapter" href="OCamlResScanners.html">
+<link title="OCamlResRegistry" rel="Chapter" href="OCamlResRegistry.html"><title>OCamlResFormats</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="OCamlResSubFormats.html" title="OCamlResSubFormats">Previous</a>
+&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="OCamlResScanners.html" title="OCamlResScanners">Next</a>
+</div>
+<h1>Module <a href="type_OCamlResFormats.html">OCamlResFormats</a></h1>
+
+<pre><span id="MODULEOCamlResFormats"><span class="keyword">module</span> OCamlResFormats</span>: <code class="code">sig</code> <a href="OCamlResFormats.html">..</a> <code class="code">end</code></pre><div class="info module top">
+<div class="info-desc">
+<p>Formatters for the main resource tree structure</p>
+</div>
+</div>
+<hr width="100%">
+
+<pre><span id="MODULETYPEFormat"><span class="keyword">module type</span> <a href="OCamlResFormats.Format.html">Format</a></span> = <code class="code">sig</code> <a href="OCamlResFormats.Format.html">..</a> <code class="code">end</code></pre><div class="info">
+<p>Format modules essentially wrap an output function which takes a
+    resource tree as input and produces an output.</p>
+
+</div>
+
+<pre><code><span id="TYPEocaml_format_params"><span class="keyword">type</span> <code class="type"></code>ocaml_format_params</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTocaml_format_params.width">width</span>&nbsp;: <code class="type">int</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Maximum line width</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTocaml_format_params.out_channel">out_channel</span>&nbsp;: <code class="type">Pervasives.out_channel</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Specify the output</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+}
+
+<div class="info ">
+<div class="info-desc">
+<p>See <a href="OCamlResFormats.OCaml.html"><code class="code">OCamlResFormats.OCaml</code></a></p>
+</div>
+</div>
+
+
+<pre><span id="MODULEOCaml"><span class="keyword">module</span> <a href="OCamlResFormats.OCaml.html">OCaml</a></span>: <div class="sig_block"><code class="code">functor (</code><code class="code">SF</code><code class="code"> : </code><code class="type"><a href="OCamlResSubFormats.SubFormat.html">OCamlResSubFormats.SubFormat</a></code><code class="code">) -&gt; </code><code class="type"><a href="OCamlResFormats.Format.html">Format</a></code><code class="type"> 
+  with type data = SF.t
+   and type params = ocaml_format_params</code></div></pre><div class="info">
+<p>This format produces OCaml source code with OCaml submodules for
+    directories and OCaml value definitions for files.</p>
+
+</div>
+
+<pre><code><span id="TYPEres_format_params"><span class="keyword">type</span> <code class="type"></code>res_format_params</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTres_format_params.width">width</span>&nbsp;: <code class="type">int</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Maximum line width</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTres_format_params.out_channel">out_channel</span>&nbsp;: <code class="type">Pervasives.out_channel</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Specify the output</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTres_format_params.use_variants_for_leaves">use_variants_for_leaves</span>&nbsp;: <code class="type">bool</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>If <code class="code">true</code>, box resources in variants,
+      if <code class="code">false</code>, use an ad-hoc sum type</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTres_format_params.use_variants_for_nodes">use_variants_for_nodes</span>&nbsp;: <code class="type">bool</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Use variants instead of constructors from <code class="code">'a OCamlRes.Res.node</code>,
+      to make linking to the <code class="code">OCamlRes</code> module optional.</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+}
+
+<div class="info ">
+<div class="info-desc">
+<p>See <a href="OCamlResFormats.Res.html"><code class="code">OCamlResFormats.Res</code></a></p>
+</div>
+</div>
+
+
+<pre><span id="MODULERes"><span class="keyword">module</span> <a href="OCamlResFormats.Res.html">Res</a></span>: <div class="sig_block"><code class="code">functor (</code><code class="code">SF</code><code class="code"> : </code><code class="type"><a href="OCamlResSubFormats.SubFormat.html">OCamlResSubFormats.SubFormat</a></code><code class="code">) -&gt; </code><code class="type"><a href="OCamlResFormats.Format.html">Format</a></code><code class="type"> 
+  with type data = SF.t
+   and type params = res_format_params</code></div></pre><div class="info">
+<p>Produces OCaml source contaiming a single <code class="code">root</code> value which
+    contains an OCamlRes tree to be used at runtime through the
+    OCamlRes module.</p>
+
+</div>
+
+<pre><code><span id="TYPEfiles_format_params"><span class="keyword">type</span> <code class="type"></code>files_format_params</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTfiles_format_params.base_output_dir">base_output_dir</span>&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>The root in the filesystem for the extraction</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+}
+
+<div class="info ">
+<div class="info-desc">
+<p>See <a href="OCamlResFormats.Files.html"><code class="code">OCamlResFormats.Files</code></a></p>
+</div>
+</div>
+
+
+<pre><span id="MODULEFiles"><span class="keyword">module</span> <a href="OCamlResFormats.Files.html">Files</a></span>: <div class="sig_block"><code class="code">functor (</code><code class="code">SF</code><code class="code"> : </code><code class="type"><a href="OCamlResSubFormats.SubFormat.html">OCamlResSubFormats.SubFormat</a></code><code class="code">) -&gt; </code><code class="type"><a href="OCamlResFormats.Format.html">Format</a></code><code class="type"> 
+  with type data = SF.t
+   and type params = files_format_params</code></div></pre><div class="info">
+<p>Reproduces the original scanned files (or creates new ones in case
+    of a forged resource store).</p>
+
+</div>
+</body></html>

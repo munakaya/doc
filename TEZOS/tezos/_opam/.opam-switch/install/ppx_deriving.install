@@ -1,0 +1,66 @@
+lib: [
+  "_build/pkg/META" {"META"}
+  "_build/src/ppx_deriving.a" {"ppx_deriving.a"}
+  "_build/src/ppx_deriving.cma" {"ppx_deriving.cma"}
+  "_build/src/ppx_deriving.cmi" {"ppx_deriving.cmi"}
+  "?_build/src/ppx_deriving.cmti" {"ppx_deriving.cmti"}
+  "_build/src/ppx_deriving.cmx" {"ppx_deriving.cmx"}
+  "_build/src/ppx_deriving.cmxa" {"ppx_deriving.cmxa"}
+  "_build/src/ppx_deriving.cmxs" {"ppx_deriving.cmxs"}
+  "_build/src/ppx_deriving.mli" {"ppx_deriving.mli"}
+  "_build/src/ppx_deriving_main.a" {"ppx_deriving_main.a"}
+  "_build/src/ppx_deriving_main.cma" {"ppx_deriving_main.cma"}
+  "_build/src/ppx_deriving_main.cmxa" {"ppx_deriving_main.cmxa"}
+  "_build/src/ppx_deriving_main.cmxs" {"ppx_deriving_main.cmxs"}
+  "_build/src/ppx_deriving_runtime.a" {"ppx_deriving_runtime.a"}
+  "_build/src/ppx_deriving_runtime.cma" {"ppx_deriving_runtime.cma"}
+  "_build/src/ppx_deriving_runtime.cmi" {"ppx_deriving_runtime.cmi"}
+  "?_build/src/ppx_deriving_runtime.cmti" {"ppx_deriving_runtime.cmti"}
+  "_build/src/ppx_deriving_runtime.cmx" {"ppx_deriving_runtime.cmx"}
+  "_build/src/ppx_deriving_runtime.cmxa" {"ppx_deriving_runtime.cmxa"}
+  "_build/src/ppx_deriving_runtime.cmxs" {"ppx_deriving_runtime.cmxs"}
+  "_build/src/ppx_deriving_runtime.mli" {"ppx_deriving_runtime.mli"}
+  "_build/src_plugins/ppx_deriving_create.a" {"ppx_deriving_create.a"}
+  "_build/src_plugins/ppx_deriving_create.cma" {"ppx_deriving_create.cma"}
+  "_build/src_plugins/ppx_deriving_create.cmxa" {"ppx_deriving_create.cmxa"}
+  "_build/src_plugins/ppx_deriving_create.cmxs" {"ppx_deriving_create.cmxs"}
+  "_build/src_plugins/ppx_deriving_enum.a" {"ppx_deriving_enum.a"}
+  "_build/src_plugins/ppx_deriving_enum.cma" {"ppx_deriving_enum.cma"}
+  "_build/src_plugins/ppx_deriving_enum.cmxa" {"ppx_deriving_enum.cmxa"}
+  "_build/src_plugins/ppx_deriving_enum.cmxs" {"ppx_deriving_enum.cmxs"}
+  "_build/src_plugins/ppx_deriving_eq.a" {"ppx_deriving_eq.a"}
+  "_build/src_plugins/ppx_deriving_eq.cma" {"ppx_deriving_eq.cma"}
+  "_build/src_plugins/ppx_deriving_eq.cmxa" {"ppx_deriving_eq.cmxa"}
+  "_build/src_plugins/ppx_deriving_eq.cmxs" {"ppx_deriving_eq.cmxs"}
+  "_build/src_plugins/ppx_deriving_fold.a" {"ppx_deriving_fold.a"}
+  "_build/src_plugins/ppx_deriving_fold.cma" {"ppx_deriving_fold.cma"}
+  "_build/src_plugins/ppx_deriving_fold.cmxa" {"ppx_deriving_fold.cmxa"}
+  "_build/src_plugins/ppx_deriving_fold.cmxs" {"ppx_deriving_fold.cmxs"}
+  "_build/src_plugins/ppx_deriving_iter.a" {"ppx_deriving_iter.a"}
+  "_build/src_plugins/ppx_deriving_iter.cma" {"ppx_deriving_iter.cma"}
+  "_build/src_plugins/ppx_deriving_iter.cmxa" {"ppx_deriving_iter.cmxa"}
+  "_build/src_plugins/ppx_deriving_iter.cmxs" {"ppx_deriving_iter.cmxs"}
+  "_build/src_plugins/ppx_deriving_make.a" {"ppx_deriving_make.a"}
+  "_build/src_plugins/ppx_deriving_make.cma" {"ppx_deriving_make.cma"}
+  "_build/src_plugins/ppx_deriving_make.cmxa" {"ppx_deriving_make.cmxa"}
+  "_build/src_plugins/ppx_deriving_make.cmxs" {"ppx_deriving_make.cmxs"}
+  "_build/src_plugins/ppx_deriving_map.a" {"ppx_deriving_map.a"}
+  "_build/src_plugins/ppx_deriving_map.cma" {"ppx_deriving_map.cma"}
+  "_build/src_plugins/ppx_deriving_map.cmxa" {"ppx_deriving_map.cmxa"}
+  "_build/src_plugins/ppx_deriving_map.cmxs" {"ppx_deriving_map.cmxs"}
+  "_build/src_plugins/ppx_deriving_ord.a" {"ppx_deriving_ord.a"}
+  "_build/src_plugins/ppx_deriving_ord.cma" {"ppx_deriving_ord.cma"}
+  "_build/src_plugins/ppx_deriving_ord.cmxa" {"ppx_deriving_ord.cmxa"}
+  "_build/src_plugins/ppx_deriving_ord.cmxs" {"ppx_deriving_ord.cmxs"}
+  "_build/src_plugins/ppx_deriving_show.a" {"ppx_deriving_show.a"}
+  "_build/src_plugins/ppx_deriving_show.cma" {"ppx_deriving_show.cma"}
+  "_build/src_plugins/ppx_deriving_show.cmxa" {"ppx_deriving_show.cmxa"}
+  "_build/src_plugins/ppx_deriving_show.cmxs" {"ppx_deriving_show.cmxs"}
+]
+bin:
+  "_build/src/ppx_deriving_main.native" {"../lib/ppx_deriving/ppx_deriving"}
+doc: [
+  "_build/CHANGELOG.md" {"CHANGELOG.md"}
+  "_build/LICENSE.txt" {"LICENSE.txt"}
+  "_build/README.md" {"README.md"}
+]

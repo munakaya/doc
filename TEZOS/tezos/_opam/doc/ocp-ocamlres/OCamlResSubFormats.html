@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="next" href="OCamlResFormats.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="OCamlResSubFormats" rel="Chapter" href="OCamlResSubFormats.html">
+<link title="OCamlResFormats" rel="Chapter" href="OCamlResFormats.html">
+<link title="OCamlResScanners" rel="Chapter" href="OCamlResScanners.html">
+<link title="OCamlResRegistry" rel="Chapter" href="OCamlResRegistry.html"><title>OCamlResSubFormats</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="OCamlResFormats.html" title="OCamlResFormats">Next</a>
+</div>
+<h1>Module <a href="type_OCamlResSubFormats.html">OCamlResSubFormats</a></h1>
+
+<pre><span id="MODULEOCamlResSubFormats"><span class="keyword">module</span> OCamlResSubFormats</span>: <code class="code">sig</code> <a href="OCamlResSubFormats.html">..</a> <code class="code">end</code></pre><div class="info module top">
+<div class="info-desc">
+<p>Formatters for resource leaves in the tree structure</p>
+</div>
+</div>
+<hr width="100%">
+
+<pre><span id="MODULETYPESubFormat"><span class="keyword">module type</span> <a href="OCamlResSubFormats.SubFormat.html">SubFormat</a></span> = <code class="code">sig</code> <a href="OCamlResSubFormats.SubFormat.html">..</a> <code class="code">end</code></pre><div class="info">
+<p>The type of subformats, as passed to format functors.</p>
+
+</div>
+
+<pre><span id="MODULEInt"><span class="keyword">module</span> <a href="OCamlResSubFormats.Int.html">Int</a></span>: <code class="type"><a href="OCamlResSubFormats.SubFormat.html">SubFormat</a></code><code class="type">  with type t = int</code></pre><div class="info">
+<p>A probably useless subformat, for demonstration purposes</p>
+
+</div>
+
+<pre><span id="MODULERaw"><span class="keyword">module</span> <a href="OCamlResSubFormats.Raw.html">Raw</a></span>: <code class="type"><a href="OCamlResSubFormats.SubFormat.html">SubFormat</a></code><code class="type">  with type t = string</code></pre><div class="info">
+<p>The default format (raw contents as a string)</p>
+
+</div>
+
+<pre><span id="MODULELines"><span class="keyword">module</span> <a href="OCamlResSubFormats.Lines.html">Lines</a></span>: <code class="type"><a href="OCamlResSubFormats.SubFormat.html">SubFormat</a></code><code class="type">  with type t = string list</code></pre><div class="info">
+<p>Splits the input into lines</p>
+
+</div>
+</body></html>

@@ -1,0 +1,7 @@
+version = "v0.10.0"
+description = ""
+requires = ""
+archive(byte) = "ppx_traverse_builtins.cma"
+archive(native) = "ppx_traverse_builtins.cmxa"
+plugin(byte) = "ppx_traverse_builtins.cma"
+plugin(native) = "ppx_traverse_builtins.cmxs"

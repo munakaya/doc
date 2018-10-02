@@ -1,0 +1,42 @@
+(**************************************************************************)
+(*                                                                        *)
+(*   Typerex Libraries                                                    *)
+(*                                                                        *)
+(*   Copyright 2011-2017 OCamlPro SAS                                     *)
+(*                                                                        *)
+(*   All rights reserved.  This file is distributed under the terms of    *)
+(*   the GNU Lesser General Public License version 2.1, with the          *)
+(*   special exception on linking described in the file LICENSE.          *)
+(*                                                                        *)
+(**************************************************************************)
+
+begin
+  ocaml.files = [
+    "ocpPervasives.ml";
+    "ocpList.ml";
+    "ocpString.ml";
+    "ocpStream.ml";
+    "ocpGenlex.ml";
+    "ocpHashtbl.ml";
+    "ocpDigest.ml";
+    "ocpArray.ml";
+    "ocpOption.ml";
+    
+    "ocpManpage.ml";
+
+    "ocpToposort.ml";
+    "ocamllexer.mll", { pp = [] };
+(*    "trie.ml"; *)
+(*    "ocpLang.ml"; *)
+    "ocpSubst.ml";
+
+(* "stringTemplate.ml"; *)
+     "ocpReuse.ml"; 
+  ];
+
+  ocaml.requires = [ "ocplib-debug" ] +  string_compat ;
+
+  new_package( "ocplib-lang", "library", ocaml);
+end
+
+install = false;

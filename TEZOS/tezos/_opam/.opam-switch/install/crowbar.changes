@@ -1,0 +1,20 @@
+added: [
+  "doc/crowbar" {"D"}
+  "doc/crowbar/CHANGES.md" {"F:S63T1537259896.18"}
+  "doc/crowbar/LICENSE.md" {"F:S1058T1537259896.17"}
+  "doc/crowbar/README.md" {"F:S3781T1537259896.16"}
+  "lib/crowbar" {"D"}
+  "lib/crowbar/META" {"F:S196T1537259896.02"}
+  "lib/crowbar/crowbar.a" {"F:S112044T1537259896.13"}
+  "lib/crowbar/crowbar.cma" {"F:S86911T1537259896.11"}
+  "lib/crowbar/crowbar.cmi" {"F:S4515T1537259896.04"}
+  "lib/crowbar/crowbar.cmt" {"F:S250133T1537259896.06"}
+  "lib/crowbar/crowbar.cmti" {"F:S32234T1537259896.07"}
+  "lib/crowbar/crowbar.cmx" {"F:S4981T1537259896.05"}
+  "lib/crowbar/crowbar.cmxa" {"F:S1375T1537259896.11"}
+  "lib/crowbar/crowbar.cmxs" {"F:S120016T1537259896.14"}
+  "lib/crowbar/crowbar.dune" {"F:S12T1537259896.15"}
+  "lib/crowbar/crowbar.ml" {"F:S17079T1537259896.09"}
+  "lib/crowbar/crowbar.mli" {"F:S5929T1537259896.08"}
+  "lib/crowbar/opam" {"F:S682T1537259896.03"}
+]

@@ -1,0 +1,8 @@
+(** @canonical Caml.Caml *)
+module Caml = Caml
+
+(** @canonical Caml.Result *)
+module Result = Caml__Result
+
+(** @canonical Caml.Result_compat *)
+module Result_compat = Caml__Result_compat

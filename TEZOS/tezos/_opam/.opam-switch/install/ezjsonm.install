@@ -1,0 +1,20 @@
+lib: [
+  "_build/install/default/lib/ezjsonm/META" {"META"}
+  "_build/install/default/lib/ezjsonm/opam" {"opam"}
+  "_build/install/default/lib/ezjsonm/ezjsonm.cmi" {"ezjsonm.cmi"}
+  "_build/install/default/lib/ezjsonm/ezjsonm.cmx" {"ezjsonm.cmx"}
+  "_build/install/default/lib/ezjsonm/ezjsonm.cmt" {"ezjsonm.cmt"}
+  "_build/install/default/lib/ezjsonm/ezjsonm.cmti" {"ezjsonm.cmti"}
+  "_build/install/default/lib/ezjsonm/ezjsonm.mli" {"ezjsonm.mli"}
+  "_build/install/default/lib/ezjsonm/ezjsonm.ml" {"ezjsonm.ml"}
+  "_build/install/default/lib/ezjsonm/ezjsonm.cma" {"ezjsonm.cma"}
+  "_build/install/default/lib/ezjsonm/ezjsonm.cmxa" {"ezjsonm.cmxa"}
+  "_build/install/default/lib/ezjsonm/ezjsonm.a" {"ezjsonm.a"}
+  "_build/install/default/lib/ezjsonm/ezjsonm.cmxs" {"ezjsonm.cmxs"}
+  "_build/install/default/lib/ezjsonm/ezjsonm.dune" {"ezjsonm.dune"}
+]
+doc: [
+  "_build/install/default/doc/ezjsonm/README.md"
+  "_build/install/default/doc/ezjsonm/LICENSE"
+  "_build/install/default/doc/ezjsonm/CHANGES.md"
+]

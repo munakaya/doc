@@ -1,0 +1,7 @@
+version = "0.8.0"
+description = ""
+requires = "alcotest logs lwt.unix"
+archive(byte) = "alcotest_lwt.cma"
+archive(native) = "alcotest_lwt.cmxa"
+plugin(byte) = "alcotest_lwt.cma"
+plugin(native) = "alcotest_lwt.cmxs"

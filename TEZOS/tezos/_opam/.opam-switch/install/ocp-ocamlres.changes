@@ -1,0 +1,114 @@
+added: [
+  "bin/ocp-ocamlres" {"F:S2910488T1537259900.83"}
+  "bin/ocp-ocamlres.byte" {"F:S5239091T1537259900.83"}
+  "doc/ocp-ocamlres" {"D"}
+  "doc/ocp-ocamlres/OCamlResFormats.Files.html" {"F:S3251T1537259901."}
+  "doc/ocp-ocamlres/OCamlResFormats.Format.html" {"F:S2426T1537259901."}
+  "doc/ocp-ocamlres/OCamlResFormats.OCaml.html" {"F:S3484T1537259901."}
+  "doc/ocp-ocamlres/OCamlResFormats.Res.html" {"F:S3456T1537259901."}
+  "doc/ocp-ocamlres/OCamlResFormats.html" {"F:S9399T1537259901."}
+  "doc/ocp-ocamlres/OCamlResRegistry.ExtensionDispatcherSubFormat.html"
+    {"F:S6247T1537259901."}
+  "doc/ocp-ocamlres/OCamlResRegistry.Files.html" {"F:S2492T1537259901."}
+  "doc/ocp-ocamlres/OCamlResRegistry.Format.html" {"F:S3050T1537259901."}
+  "doc/ocp-ocamlres/OCamlResRegistry.Int.html" {"F:S2473T1537259901."}
+  "doc/ocp-ocamlres/OCamlResRegistry.Lines.html" {"F:S2517T1537259901."}
+  "doc/ocp-ocamlres/OCamlResRegistry.OCaml.html" {"F:S2690T1537259901."}
+  "doc/ocp-ocamlres/OCamlResRegistry.PredefOptions.html"
+    {"F:S3311T1537259901."}
+  "doc/ocp-ocamlres/OCamlResRegistry.Raw.html" {"F:S2325T1537259901."}
+  "doc/ocp-ocamlres/OCamlResRegistry.Res.html" {"F:S2629T1537259901."}
+  "doc/ocp-ocamlres/OCamlResRegistry.SubFormat.html" {"F:S2338T1537259901."}
+  "doc/ocp-ocamlres/OCamlResRegistry.Variants.html" {"F:S2639T1537259901."}
+  "doc/ocp-ocamlres/OCamlResRegistry.html" {"F:S8933T1537259901."}
+  "doc/ocp-ocamlres/OCamlResScanners.PathFilter.html" {"F:S3264T1537259901."}
+  "doc/ocp-ocamlres/OCamlResScanners.ResFilter.html" {"F:S3256T1537259901."}
+  "doc/ocp-ocamlres/OCamlResScanners.html" {"F:S2979T1537259901."}
+  "doc/ocp-ocamlres/OCamlResSubFormats.Int.html" {"F:S5457T1537259901."}
+  "doc/ocp-ocamlres/OCamlResSubFormats.Lines.html" {"F:S5453T1537259901."}
+  "doc/ocp-ocamlres/OCamlResSubFormats.Raw.html" {"F:S5606T1537259901."}
+  "doc/ocp-ocamlres/OCamlResSubFormats.SubFormat.html"
+    {"F:S6117T1537259901."}
+  "doc/ocp-ocamlres/OCamlResSubFormats.html" {"F:S3002T1537259901."}
+  "doc/ocp-ocamlres/index.html" {"F:S2034T1537259901."}
+  "doc/ocp-ocamlres/index_attributes.html" {"F:S1054T1537259901."}
+  "doc/ocp-ocamlres/index_class_types.html" {"F:S1044T1537259901."}
+  "doc/ocp-ocamlres/index_classes.html" {"F:S1036T1537259901."}
+  "doc/ocp-ocamlres/index_exceptions.html" {"F:S1042T1537259901."}
+  "doc/ocp-ocamlres/index_extensions.html" {"F:S1042T1537259901."}
+  "doc/ocp-ocamlres/index_methods.html" {"F:S1048T1537259901."}
+  "doc/ocp-ocamlres/index_module_types.html" {"F:S2047T1537259901."}
+  "doc/ocp-ocamlres/index_modules.html" {"F:S6129T1537259901."}
+  "doc/ocp-ocamlres/index_types.html" {"F:S3168T1537259901."}
+  "doc/ocp-ocamlres/index_values.html" {"F:S10916T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResFormats.Files.html" {"F:S1775T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResFormats.Format.html" {"F:S1623T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResFormats.OCaml.html" {"F:S1775T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResFormats.Res.html" {"F:S1771T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResFormats.html" {"F:S6096T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResRegistry.ExtensionDispatcherSubFormat.html"
+    {"F:S3364T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResRegistry.Files.html" {"F:S970T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResRegistry.Format.html"
+    {"F:S1536T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResRegistry.Int.html" {"F:S3648T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResRegistry.Lines.html" {"F:S3663T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResRegistry.OCaml.html" {"F:S970T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResRegistry.PredefOptions.html"
+    {"F:S1933T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResRegistry.Raw.html" {"F:S3651T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResRegistry.Res.html" {"F:S968T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResRegistry.SubFormat.html"
+    {"F:S3638T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResRegistry.Variants.html"
+    {"F:S973T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResRegistry.html" {"F:S21237T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResScanners.PathFilter.html"
+    {"F:S3038T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResScanners.ResFilter.html"
+    {"F:S3190T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResScanners.html" {"F:S7388T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResSubFormats.Int.html" {"F:S3338T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResSubFormats.Lines.html"
+    {"F:S3353T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResSubFormats.Raw.html" {"F:S3341T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResSubFormats.SubFormat.html"
+    {"F:S4203T1537259901."}
+  "doc/ocp-ocamlres/type_OCamlResSubFormats.html" {"F:S13334T1537259901."}
+  "lib/ocplib-ocamlres" {"D"}
+  "lib/ocplib-ocamlres/META" {"F:S638T1515451153."}
+  "lib/ocplib-ocamlres/oCamlRes.cmi" {"F:S2570T1537259877.88"}
+  "lib/ocplib-ocamlres/oCamlRes.cmt" {"F:S114194T1537259877.9"}
+  "lib/ocplib-ocamlres/oCamlRes.cmti" {"F:S16860T1537259877.88"}
+  "lib/ocplib-ocamlres/oCamlRes.ml" {"F:S6971T1515451153."}
+  "lib/ocplib-ocamlres/oCamlRes.mli" {"F:S2739T1515451153."}
+  "lib/ocplib-ocamlres/oCamlResFormats.cmi" {"F:S2492T1537259878.04"}
+  "lib/ocplib-ocamlres/oCamlResFormats.cmt" {"F:S98700T1537259878.07"}
+  "lib/ocplib-ocamlres/oCamlResFormats.cmti" {"F:S14243T1537259878.04"}
+  "lib/ocplib-ocamlres/oCamlResFormats.ml" {"F:S6488T1515451153."}
+  "lib/ocplib-ocamlres/oCamlResFormats.mli" {"F:S2696T1515451153."}
+  "lib/ocplib-ocamlres/oCamlResRegistry.cmi" {"F:S8201T1537259878.11"}
+  "lib/ocplib-ocamlres/oCamlResRegistry.cmt" {"F:S95307T1537259878.13"}
+  "lib/ocplib-ocamlres/oCamlResRegistry.cmti" {"F:S33962T1537259878.11"}
+  "lib/ocplib-ocamlres/oCamlResRegistry.ml" {"F:S7404T1515451153."}
+  "lib/ocplib-ocamlres/oCamlResRegistry.mli" {"F:S5313T1515451153."}
+  "lib/ocplib-ocamlres/oCamlResScanners.cmi" {"F:S2318T1537259878.08"}
+  "lib/ocplib-ocamlres/oCamlResScanners.cmt" {"F:S70414T1537259878.1"}
+  "lib/ocplib-ocamlres/oCamlResScanners.cmti" {"F:S13697T1537259878.09"}
+  "lib/ocplib-ocamlres/oCamlResScanners.ml" {"F:S4240T1515451153."}
+  "lib/ocplib-ocamlres/oCamlResScanners.mli" {"F:S1739T1515451153."}
+  "lib/ocplib-ocamlres/oCamlResSubFormats.cmi" {"F:S4481T1537259878.01"}
+  "lib/ocplib-ocamlres/oCamlResSubFormats.cmt" {"F:S65845T1537259878.03"}
+  "lib/ocplib-ocamlres/oCamlResSubFormats.cmti" {"F:S19526T1537259878.01"}
+  "lib/ocplib-ocamlres/oCamlResSubFormats.ml" {"F:S5257T1515451153."}
+  "lib/ocplib-ocamlres/oCamlResSubFormats.mli" {"F:S3367T1515451153."}
+  "lib/ocplib-ocamlres/ocplib-ocamlres-runtime.a" {"F:S36056T1537259877.97"}
+  "lib/ocplib-ocamlres/ocplib-ocamlres-runtime.cma"
+    {"F:S46827T1537259877.91"}
+  "lib/ocplib-ocamlres/ocplib-ocamlres-runtime.cmxa" {"F:S478T1537259877.97"}
+  "lib/ocplib-ocamlres/ocplib-ocamlres-runtime.cmxs" {"F:S41184T1537259878."}
+  "lib/ocplib-ocamlres/ocplib-ocamlres.a" {"F:S139112T1537259878.33"}
+  "lib/ocplib-ocamlres/ocplib-ocamlres.cma" {"F:S131486T1537259878.15"}
+  "lib/ocplib-ocamlres/ocplib-ocamlres.cmxa" {"F:S3654T1537259878.33"}
+  "lib/ocplib-ocamlres/ocplib-ocamlres.cmxs" {"F:S134432T1537259878.37"}
+]

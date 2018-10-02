@@ -1,0 +1,244 @@
+lib: [
+  "_build/install/default/lib/lwt/META" {"META"}
+  "_build/install/default/lib/lwt/opam" {"opam"}
+  "_build/install/default/lib/lwt/unix/lwt_bytes.cmi" {"lwt_bytes.cmi"}
+  "_build/install/default/lib/lwt/unix/lwt_bytes.cmx" {"lwt_bytes.cmx"}
+  "_build/install/default/lib/lwt/unix/lwt_bytes.cmt" {"lwt_bytes.cmt"}
+  "_build/install/default/lib/lwt/unix/lwt_bytes.cmti" {"lwt_bytes.cmti"}
+  "_build/install/default/lib/lwt/unix/lwt_bytes.mli" {"lwt_bytes.mli"}
+  "_build/install/default/lib/lwt/unix/lwt_bytes.ml" {"lwt_bytes.ml"}
+  "_build/install/default/lib/lwt/unix/lwt_chan.cmi" {"lwt_chan.cmi"}
+  "_build/install/default/lib/lwt/unix/lwt_chan.cmx" {"lwt_chan.cmx"}
+  "_build/install/default/lib/lwt/unix/lwt_chan.cmt" {"lwt_chan.cmt"}
+  "_build/install/default/lib/lwt/unix/lwt_chan.cmti" {"lwt_chan.cmti"}
+  "_build/install/default/lib/lwt/unix/lwt_chan.mli" {"lwt_chan.mli"}
+  "_build/install/default/lib/lwt/unix/lwt_chan.ml" {"lwt_chan.ml"}
+  "_build/install/default/lib/lwt/unix/lwt_config.cmi" {"lwt_config.cmi"}
+  "_build/install/default/lib/lwt/unix/lwt_config.cmx" {"lwt_config.cmx"}
+  "_build/install/default/lib/lwt/unix/lwt_config.cmt" {"lwt_config.cmt"}
+  "_build/install/default/lib/lwt/unix/lwt_config.ml" {"lwt_config.ml"}
+  "_build/install/default/lib/lwt/unix/lwt_daemon.cmi" {"lwt_daemon.cmi"}
+  "_build/install/default/lib/lwt/unix/lwt_daemon.cmx" {"lwt_daemon.cmx"}
+  "_build/install/default/lib/lwt/unix/lwt_daemon.cmt" {"lwt_daemon.cmt"}
+  "_build/install/default/lib/lwt/unix/lwt_daemon.cmti" {"lwt_daemon.cmti"}
+  "_build/install/default/lib/lwt/unix/lwt_daemon.mli" {"lwt_daemon.mli"}
+  "_build/install/default/lib/lwt/unix/lwt_daemon.ml" {"lwt_daemon.ml"}
+  "_build/install/default/lib/lwt/unix/lwt_engine.cmi" {"lwt_engine.cmi"}
+  "_build/install/default/lib/lwt/unix/lwt_engine.cmx" {"lwt_engine.cmx"}
+  "_build/install/default/lib/lwt/unix/lwt_engine.cmt" {"lwt_engine.cmt"}
+  "_build/install/default/lib/lwt/unix/lwt_engine.cmti" {"lwt_engine.cmti"}
+  "_build/install/default/lib/lwt/unix/lwt_engine.mli" {"lwt_engine.mli"}
+  "_build/install/default/lib/lwt/unix/lwt_engine.ml" {"lwt_engine.ml"}
+  "_build/install/default/lib/lwt/unix/lwt_gc.cmi" {"lwt_gc.cmi"}
+  "_build/install/default/lib/lwt/unix/lwt_gc.cmx" {"lwt_gc.cmx"}
+  "_build/install/default/lib/lwt/unix/lwt_gc.cmt" {"lwt_gc.cmt"}
+  "_build/install/default/lib/lwt/unix/lwt_gc.cmti" {"lwt_gc.cmti"}
+  "_build/install/default/lib/lwt/unix/lwt_gc.mli" {"lwt_gc.mli"}
+  "_build/install/default/lib/lwt/unix/lwt_gc.ml" {"lwt_gc.ml"}
+  "_build/install/default/lib/lwt/unix/lwt_io.cmi" {"lwt_io.cmi"}
+  "_build/install/default/lib/lwt/unix/lwt_io.cmx" {"lwt_io.cmx"}
+  "_build/install/default/lib/lwt/unix/lwt_io.cmt" {"lwt_io.cmt"}
+  "_build/install/default/lib/lwt/unix/lwt_io.cmti" {"lwt_io.cmti"}
+  "_build/install/default/lib/lwt/unix/lwt_io.mli" {"lwt_io.mli"}
+  "_build/install/default/lib/lwt/unix/lwt_io.ml" {"lwt_io.ml"}
+  "_build/install/default/lib/lwt/unix/lwt_log.cmi" {"lwt_log.cmi"}
+  "_build/install/default/lib/lwt/unix/lwt_log.cmx" {"lwt_log.cmx"}
+  "_build/install/default/lib/lwt/unix/lwt_log.cmt" {"lwt_log.cmt"}
+  "_build/install/default/lib/lwt/unix/lwt_log.cmti" {"lwt_log.cmti"}
+  "_build/install/default/lib/lwt/unix/lwt_log.mli" {"lwt_log.mli"}
+  "_build/install/default/lib/lwt/unix/lwt_log.ml" {"lwt_log.ml"}
+  "_build/install/default/lib/lwt/unix/lwt_main.cmi" {"lwt_main.cmi"}
+  "_build/install/default/lib/lwt/unix/lwt_main.cmx" {"lwt_main.cmx"}
+  "_build/install/default/lib/lwt/unix/lwt_main.cmt" {"lwt_main.cmt"}
+  "_build/install/default/lib/lwt/unix/lwt_main.cmti" {"lwt_main.cmti"}
+  "_build/install/default/lib/lwt/unix/lwt_main.mli" {"lwt_main.mli"}
+  "_build/install/default/lib/lwt/unix/lwt_main.ml" {"lwt_main.ml"}
+  "_build/install/default/lib/lwt/unix/lwt_preemptive.cmi"
+    {"lwt_preemptive.cmi"}
+  "_build/install/default/lib/lwt/unix/lwt_preemptive.cmx"
+    {"lwt_preemptive.cmx"}
+  "_build/install/default/lib/lwt/unix/lwt_preemptive.cmt"
+    {"lwt_preemptive.cmt"}
+  "_build/install/default/lib/lwt/unix/lwt_preemptive.cmti"
+    {"lwt_preemptive.cmti"}
+  "_build/install/default/lib/lwt/unix/lwt_preemptive.mli"
+    {"lwt_preemptive.mli"}
+  "_build/install/default/lib/lwt/unix/lwt_preemptive.ml"
+    {"lwt_preemptive.ml"}
+  "_build/install/default/lib/lwt/unix/lwt_process.cmi" {"lwt_process.cmi"}
+  "_build/install/default/lib/lwt/unix/lwt_process.cmx" {"lwt_process.cmx"}
+  "_build/install/default/lib/lwt/unix/lwt_process.cmt" {"lwt_process.cmt"}
+  "_build/install/default/lib/lwt/unix/lwt_process.cmti" {"lwt_process.cmti"}
+  "_build/install/default/lib/lwt/unix/lwt_process.mli" {"lwt_process.mli"}
+  "_build/install/default/lib/lwt/unix/lwt_process.ml" {"lwt_process.ml"}
+  "_build/install/default/lib/lwt/unix/lwt_sys.cmi" {"lwt_sys.cmi"}
+  "_build/install/default/lib/lwt/unix/lwt_sys.cmx" {"lwt_sys.cmx"}
+  "_build/install/default/lib/lwt/unix/lwt_sys.cmt" {"lwt_sys.cmt"}
+  "_build/install/default/lib/lwt/unix/lwt_sys.cmti" {"lwt_sys.cmti"}
+  "_build/install/default/lib/lwt/unix/lwt_sys.mli" {"lwt_sys.mli"}
+  "_build/install/default/lib/lwt/unix/lwt_sys.ml" {"lwt_sys.ml"}
+  "_build/install/default/lib/lwt/unix/lwt_throttle.cmi" {"lwt_throttle.cmi"}
+  "_build/install/default/lib/lwt/unix/lwt_throttle.cmx" {"lwt_throttle.cmx"}
+  "_build/install/default/lib/lwt/unix/lwt_throttle.cmt" {"lwt_throttle.cmt"}
+  "_build/install/default/lib/lwt/unix/lwt_throttle.cmti"
+    {"lwt_throttle.cmti"}
+  "_build/install/default/lib/lwt/unix/lwt_throttle.mli" {"lwt_throttle.mli"}
+  "_build/install/default/lib/lwt/unix/lwt_throttle.ml" {"lwt_throttle.ml"}
+  "_build/install/default/lib/lwt/unix/lwt_timeout.cmi" {"lwt_timeout.cmi"}
+  "_build/install/default/lib/lwt/unix/lwt_timeout.cmx" {"lwt_timeout.cmx"}
+  "_build/install/default/lib/lwt/unix/lwt_timeout.cmt" {"lwt_timeout.cmt"}
+  "_build/install/default/lib/lwt/unix/lwt_timeout.cmti" {"lwt_timeout.cmti"}
+  "_build/install/default/lib/lwt/unix/lwt_timeout.mli" {"lwt_timeout.mli"}
+  "_build/install/default/lib/lwt/unix/lwt_timeout.ml" {"lwt_timeout.ml"}
+  "_build/install/default/lib/lwt/unix/lwt_unix.cmi" {"lwt_unix.cmi"}
+  "_build/install/default/lib/lwt/unix/lwt_unix.cmx" {"lwt_unix.cmx"}
+  "_build/install/default/lib/lwt/unix/lwt_unix.cmt" {"lwt_unix.cmt"}
+  "_build/install/default/lib/lwt/unix/lwt_unix.cmti" {"lwt_unix.cmti"}
+  "_build/install/default/lib/lwt/unix/lwt_unix.mli" {"lwt_unix.mli"}
+  "_build/install/default/lib/lwt/unix/lwt_unix.ml" {"lwt_unix.ml"}
+  "_build/install/default/lib/lwt/unix/lwt_unix_jobs.cmi"
+    {"lwt_unix_jobs.cmi"}
+  "_build/install/default/lib/lwt/unix/lwt_unix_jobs.cmx"
+    {"lwt_unix_jobs.cmx"}
+  "_build/install/default/lib/lwt/unix/lwt_unix_jobs.cmt"
+    {"lwt_unix_jobs.cmt"}
+  "_build/install/default/lib/lwt/unix/lwt_unix_jobs.ml" {"lwt_unix_jobs.ml"}
+  "_build/install/default/lib/lwt/unix/lwt_unix.cma" {"lwt_unix.cma"}
+  "_build/install/default/lib/lwt/unix/liblwt_unix_stubs.a"
+    {"liblwt_unix_stubs.a"}
+  "_build/install/default/lib/lwt/unix/lwt_unix.cmxa" {"lwt_unix.cmxa"}
+  "_build/install/default/lib/lwt/unix/lwt_unix.a" {"lwt_unix.a"}
+  "_build/install/default/lib/lwt/unix/lwt_unix.cmxs" {"lwt_unix.cmxs"}
+  "_build/install/default/lib/lwt/unix/lwt_config.h" {"lwt_config.h"}
+  "_build/install/default/lib/lwt/unix/lwt_unix.h" {"lwt_unix.h"}
+  "_build/install/default/lib/lwt/unix/lwt.unix.dune" {"lwt.unix.dune"}
+  "_build/install/default/lib/lwt/simple-top/lwt_simple_top.cmi"
+    {"lwt_simple_top.cmi"}
+  "_build/install/default/lib/lwt/simple-top/lwt_simple_top.cmx"
+    {"lwt_simple_top.cmx"}
+  "_build/install/default/lib/lwt/simple-top/lwt_simple_top.cmt"
+    {"lwt_simple_top.cmt"}
+  "_build/install/default/lib/lwt/simple-top/lwt_simple_top.ml"
+    {"lwt_simple_top.ml"}
+  "_build/install/default/lib/lwt/simple-top/lwt_simple_top.cma"
+    {"lwt_simple_top.cma"}
+  "_build/install/default/lib/lwt/simple-top/lwt_simple_top.cmxa"
+    {"lwt_simple_top.cmxa"}
+  "_build/install/default/lib/lwt/simple-top/lwt_simple_top.a"
+    {"lwt_simple_top.a"}
+  "_build/install/default/lib/lwt/simple-top/lwt_simple_top.cmxs"
+    {"lwt_simple_top.cmxs"}
+  "_build/install/default/lib/lwt/simple-top/lwt.simple-top.dune"
+    {"lwt.simple-top.dune"}
+  "_build/install/default/lib/lwt/ppx/ppx_lwt.cmi" {"ppx_lwt.cmi"}
+  "_build/install/default/lib/lwt/ppx/ppx_lwt.cmx" {"ppx_lwt.cmx"}
+  "_build/install/default/lib/lwt/ppx/ppx_lwt.cmt" {"ppx_lwt.cmt"}
+  "_build/install/default/lib/lwt/ppx/ppx_lwt.cmti" {"ppx_lwt.cmti"}
+  "_build/install/default/lib/lwt/ppx/ppx_lwt.mli" {"ppx_lwt.mli"}
+  "_build/install/default/lib/lwt/ppx/ppx_lwt.ml" {"ppx_lwt.ml"}
+  "_build/install/default/lib/lwt/ppx/ppx_lwt.cma" {"ppx_lwt.cma"}
+  "_build/install/default/lib/lwt/ppx/ppx_lwt.cmxa" {"ppx_lwt.cmxa"}
+  "_build/install/default/lib/lwt/ppx/ppx_lwt.a" {"ppx_lwt.a"}
+  "_build/install/default/lib/lwt/ppx/ppx_lwt.cmxs" {"ppx_lwt.cmxs"}
+  "_build/install/default/lib/lwt/ppx/lwt.ppx.dune" {"lwt.ppx.dune"}
+  "_build/install/default/lib/lwt/log/lwt_log_core.cmi" {"lwt_log_core.cmi"}
+  "_build/install/default/lib/lwt/log/lwt_log_core.cmx" {"lwt_log_core.cmx"}
+  "_build/install/default/lib/lwt/log/lwt_log_core.cmt" {"lwt_log_core.cmt"}
+  "_build/install/default/lib/lwt/log/lwt_log_core.cmti"
+    {"lwt_log_core.cmti"}
+  "_build/install/default/lib/lwt/log/lwt_log_core.mli" {"lwt_log_core.mli"}
+  "_build/install/default/lib/lwt/log/lwt_log_core.ml" {"lwt_log_core.ml"}
+  "_build/install/default/lib/lwt/log/lwt_log_rules.cmi"
+    {"lwt_log_rules.cmi"}
+  "_build/install/default/lib/lwt/log/lwt_log_rules.cmx"
+    {"lwt_log_rules.cmx"}
+  "_build/install/default/lib/lwt/log/lwt_log_rules.cmt"
+    {"lwt_log_rules.cmt"}
+  "_build/install/default/lib/lwt/log/lwt_log_rules.cmti"
+    {"lwt_log_rules.cmti"}
+  "_build/install/default/lib/lwt/log/lwt_log_rules.mli"
+    {"lwt_log_rules.mli"}
+  "_build/install/default/lib/lwt/log/lwt_log_rules.ml" {"lwt_log_rules.ml"}
+  "_build/install/default/lib/lwt/log/lwt_log.cma" {"lwt_log.cma"}
+  "_build/install/default/lib/lwt/log/lwt_log.cmxa" {"lwt_log.cmxa"}
+  "_build/install/default/lib/lwt/log/lwt_log.a" {"lwt_log.a"}
+  "_build/install/default/lib/lwt/log/lwt_log.cmxs" {"lwt_log.cmxs"}
+  "_build/install/default/lib/lwt/log/lwt.log.dune" {"lwt.log.dune"}
+  "_build/install/default/lib/lwt/lwt.cmi" {"lwt.cmi"}
+  "_build/install/default/lib/lwt/lwt.cmx" {"lwt.cmx"}
+  "_build/install/default/lib/lwt/lwt.cmt" {"lwt.cmt"}
+  "_build/install/default/lib/lwt/lwt.cmti" {"lwt.cmti"}
+  "_build/install/default/lib/lwt/lwt.mli" {"lwt.mli"}
+  "_build/install/default/lib/lwt/lwt.ml" {"lwt.ml"}
+  "_build/install/default/lib/lwt/lwt_condition.cmi" {"lwt_condition.cmi"}
+  "_build/install/default/lib/lwt/lwt_condition.cmx" {"lwt_condition.cmx"}
+  "_build/install/default/lib/lwt/lwt_condition.cmt" {"lwt_condition.cmt"}
+  "_build/install/default/lib/lwt/lwt_condition.cmti" {"lwt_condition.cmti"}
+  "_build/install/default/lib/lwt/lwt_condition.mli" {"lwt_condition.mli"}
+  "_build/install/default/lib/lwt/lwt_condition.ml" {"lwt_condition.ml"}
+  "_build/install/default/lib/lwt/lwt_list.cmi" {"lwt_list.cmi"}
+  "_build/install/default/lib/lwt/lwt_list.cmx" {"lwt_list.cmx"}
+  "_build/install/default/lib/lwt/lwt_list.cmt" {"lwt_list.cmt"}
+  "_build/install/default/lib/lwt/lwt_list.cmti" {"lwt_list.cmti"}
+  "_build/install/default/lib/lwt/lwt_list.mli" {"lwt_list.mli"}
+  "_build/install/default/lib/lwt/lwt_list.ml" {"lwt_list.ml"}
+  "_build/install/default/lib/lwt/lwt_mutex.cmi" {"lwt_mutex.cmi"}
+  "_build/install/default/lib/lwt/lwt_mutex.cmx" {"lwt_mutex.cmx"}
+  "_build/install/default/lib/lwt/lwt_mutex.cmt" {"lwt_mutex.cmt"}
+  "_build/install/default/lib/lwt/lwt_mutex.cmti" {"lwt_mutex.cmti"}
+  "_build/install/default/lib/lwt/lwt_mutex.mli" {"lwt_mutex.mli"}
+  "_build/install/default/lib/lwt/lwt_mutex.ml" {"lwt_mutex.ml"}
+  "_build/install/default/lib/lwt/lwt_mvar.cmi" {"lwt_mvar.cmi"}
+  "_build/install/default/lib/lwt/lwt_mvar.cmx" {"lwt_mvar.cmx"}
+  "_build/install/default/lib/lwt/lwt_mvar.cmt" {"lwt_mvar.cmt"}
+  "_build/install/default/lib/lwt/lwt_mvar.cmti" {"lwt_mvar.cmti"}
+  "_build/install/default/lib/lwt/lwt_mvar.mli" {"lwt_mvar.mli"}
+  "_build/install/default/lib/lwt/lwt_mvar.ml" {"lwt_mvar.ml"}
+  "_build/install/default/lib/lwt/lwt_pool.cmi" {"lwt_pool.cmi"}
+  "_build/install/default/lib/lwt/lwt_pool.cmx" {"lwt_pool.cmx"}
+  "_build/install/default/lib/lwt/lwt_pool.cmt" {"lwt_pool.cmt"}
+  "_build/install/default/lib/lwt/lwt_pool.cmti" {"lwt_pool.cmti"}
+  "_build/install/default/lib/lwt/lwt_pool.mli" {"lwt_pool.mli"}
+  "_build/install/default/lib/lwt/lwt_pool.ml" {"lwt_pool.ml"}
+  "_build/install/default/lib/lwt/lwt_pqueue.cmi" {"lwt_pqueue.cmi"}
+  "_build/install/default/lib/lwt/lwt_pqueue.cmx" {"lwt_pqueue.cmx"}
+  "_build/install/default/lib/lwt/lwt_pqueue.cmt" {"lwt_pqueue.cmt"}
+  "_build/install/default/lib/lwt/lwt_pqueue.cmti" {"lwt_pqueue.cmti"}
+  "_build/install/default/lib/lwt/lwt_pqueue.mli" {"lwt_pqueue.mli"}
+  "_build/install/default/lib/lwt/lwt_pqueue.ml" {"lwt_pqueue.ml"}
+  "_build/install/default/lib/lwt/lwt_result.cmi" {"lwt_result.cmi"}
+  "_build/install/default/lib/lwt/lwt_result.cmx" {"lwt_result.cmx"}
+  "_build/install/default/lib/lwt/lwt_result.cmt" {"lwt_result.cmt"}
+  "_build/install/default/lib/lwt/lwt_result.cmti" {"lwt_result.cmti"}
+  "_build/install/default/lib/lwt/lwt_result.mli" {"lwt_result.mli"}
+  "_build/install/default/lib/lwt/lwt_result.ml" {"lwt_result.ml"}
+  "_build/install/default/lib/lwt/lwt_sequence.cmi" {"lwt_sequence.cmi"}
+  "_build/install/default/lib/lwt/lwt_sequence.cmx" {"lwt_sequence.cmx"}
+  "_build/install/default/lib/lwt/lwt_sequence.cmt" {"lwt_sequence.cmt"}
+  "_build/install/default/lib/lwt/lwt_sequence.cmti" {"lwt_sequence.cmti"}
+  "_build/install/default/lib/lwt/lwt_sequence.mli" {"lwt_sequence.mli"}
+  "_build/install/default/lib/lwt/lwt_sequence.ml" {"lwt_sequence.ml"}
+  "_build/install/default/lib/lwt/lwt_stream.cmi" {"lwt_stream.cmi"}
+  "_build/install/default/lib/lwt/lwt_stream.cmx" {"lwt_stream.cmx"}
+  "_build/install/default/lib/lwt/lwt_stream.cmt" {"lwt_stream.cmt"}
+  "_build/install/default/lib/lwt/lwt_stream.cmti" {"lwt_stream.cmti"}
+  "_build/install/default/lib/lwt/lwt_stream.mli" {"lwt_stream.mli"}
+  "_build/install/default/lib/lwt/lwt_stream.ml" {"lwt_stream.ml"}
+  "_build/install/default/lib/lwt/lwt_switch.cmi" {"lwt_switch.cmi"}
+  "_build/install/default/lib/lwt/lwt_switch.cmx" {"lwt_switch.cmx"}
+  "_build/install/default/lib/lwt/lwt_switch.cmt" {"lwt_switch.cmt"}
+  "_build/install/default/lib/lwt/lwt_switch.cmti" {"lwt_switch.cmti"}
+  "_build/install/default/lib/lwt/lwt_switch.mli" {"lwt_switch.mli"}
+  "_build/install/default/lib/lwt/lwt_switch.ml" {"lwt_switch.ml"}
+  "_build/install/default/lib/lwt/lwt.cma" {"lwt.cma"}
+  "_build/install/default/lib/lwt/lwt.cmxa" {"lwt.cmxa"}
+  "_build/install/default/lib/lwt/lwt.a" {"lwt.a"}
+  "_build/install/default/lib/lwt/lwt.cmxs" {"lwt.cmxs"}
+  "_build/install/default/lib/lwt/lwt.dune" {"lwt.dune"}
+]
+stublibs: "_build/install/default/lib/stublibs/dlllwt_unix_stubs.so"
+doc: [
+  "_build/install/default/doc/lwt/README.md"
+  "_build/install/default/doc/lwt/CHANGES"
+]
+libexec: "_build/install/default/lib/lwt/ppx/ppx.exe" {"ppx.exe"}

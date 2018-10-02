@@ -1,0 +1,26 @@
+opam-version: "1.2"
+version: "dev"
+maintainer: "contact@tezos.com"
+authors: [ "Tezos devteam" ]
+homepage: "https://www.tezos.com/"
+bug-reports: "https://gitlab.com/tezos/tezos/issues"
+dev-repo: "https://gitlab.com/tezos/tezos.git"
+license: "MIT"
+depends: [
+  "ocamlfind" { build }
+  "dune" { build & = "1.0.1" }
+  "base-unix"
+  "tezos-base"
+  "tezos-protocol-environment-sigs"
+  "tezos-stdlib-unix"
+  "ocplib-endian"
+  "ocp-ocamlres" { >= "0.4" }
+]
+build: [
+  [ "dune" "build" "-p" name "-j" jobs ]
+]
+build-test: [
+  [ "dune" "runtest" "-p" name "-j" jobs ]
+]
+## ocaml-version should be in sync with `script/version.sh`
+available: [ ocaml-version = "4.06.1" ]

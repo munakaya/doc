@@ -1,0 +1,169 @@
+lib: [
+  "_build/install/default/lib/irmin/META" {"META"}
+  "_build/install/default/lib/irmin/opam" {"opam"}
+  "_build/install/default/lib/irmin/irmin__Branch.cmi" {"irmin__Branch.cmi"}
+  "_build/install/default/lib/irmin/irmin__Branch.cmx" {"irmin__Branch.cmx"}
+  "_build/install/default/lib/irmin/irmin__Branch.cmt" {"irmin__Branch.cmt"}
+  "_build/install/default/lib/irmin/irmin__Branch.cmti"
+    {"irmin__Branch.cmti"}
+  "_build/install/default/lib/irmin/branch.mli" {"branch.mli"}
+  "_build/install/default/lib/irmin/branch.ml" {"branch.ml"}
+  "_build/install/default/lib/irmin/irmin__Commit.cmi" {"irmin__Commit.cmi"}
+  "_build/install/default/lib/irmin/irmin__Commit.cmx" {"irmin__Commit.cmx"}
+  "_build/install/default/lib/irmin/irmin__Commit.cmt" {"irmin__Commit.cmt"}
+  "_build/install/default/lib/irmin/irmin__Commit.cmti"
+    {"irmin__Commit.cmti"}
+  "_build/install/default/lib/irmin/commit.mli" {"commit.mli"}
+  "_build/install/default/lib/irmin/commit.ml" {"commit.ml"}
+  "_build/install/default/lib/irmin/irmin__Conf.cmi" {"irmin__Conf.cmi"}
+  "_build/install/default/lib/irmin/irmin__Conf.cmx" {"irmin__Conf.cmx"}
+  "_build/install/default/lib/irmin/irmin__Conf.cmt" {"irmin__Conf.cmt"}
+  "_build/install/default/lib/irmin/irmin__Conf.cmti" {"irmin__Conf.cmti"}
+  "_build/install/default/lib/irmin/conf.mli" {"conf.mli"}
+  "_build/install/default/lib/irmin/conf.ml" {"conf.ml"}
+  "_build/install/default/lib/irmin/irmin__Contents.cmi"
+    {"irmin__Contents.cmi"}
+  "_build/install/default/lib/irmin/irmin__Contents.cmx"
+    {"irmin__Contents.cmx"}
+  "_build/install/default/lib/irmin/irmin__Contents.cmt"
+    {"irmin__Contents.cmt"}
+  "_build/install/default/lib/irmin/irmin__Contents.cmti"
+    {"irmin__Contents.cmti"}
+  "_build/install/default/lib/irmin/contents.mli" {"contents.mli"}
+  "_build/install/default/lib/irmin/contents.ml" {"contents.ml"}
+  "_build/install/default/lib/irmin/irmin__Diff.cmi" {"irmin__Diff.cmi"}
+  "_build/install/default/lib/irmin/irmin__Diff.cmx" {"irmin__Diff.cmx"}
+  "_build/install/default/lib/irmin/irmin__Diff.cmt" {"irmin__Diff.cmt"}
+  "_build/install/default/lib/irmin/irmin__Diff.cmti" {"irmin__Diff.cmti"}
+  "_build/install/default/lib/irmin/diff.mli" {"diff.mli"}
+  "_build/install/default/lib/irmin/diff.ml" {"diff.ml"}
+  "_build/install/default/lib/irmin/irmin__Dot.cmi" {"irmin__Dot.cmi"}
+  "_build/install/default/lib/irmin/irmin__Dot.cmx" {"irmin__Dot.cmx"}
+  "_build/install/default/lib/irmin/irmin__Dot.cmt" {"irmin__Dot.cmt"}
+  "_build/install/default/lib/irmin/irmin__Dot.cmti" {"irmin__Dot.cmti"}
+  "_build/install/default/lib/irmin/dot.mli" {"dot.mli"}
+  "_build/install/default/lib/irmin/dot.ml" {"dot.ml"}
+  "_build/install/default/lib/irmin/irmin__Hash.cmi" {"irmin__Hash.cmi"}
+  "_build/install/default/lib/irmin/irmin__Hash.cmx" {"irmin__Hash.cmx"}
+  "_build/install/default/lib/irmin/irmin__Hash.cmt" {"irmin__Hash.cmt"}
+  "_build/install/default/lib/irmin/irmin__Hash.cmti" {"irmin__Hash.cmti"}
+  "_build/install/default/lib/irmin/hash.mli" {"hash.mli"}
+  "_build/install/default/lib/irmin/hash.ml" {"hash.ml"}
+  "_build/install/default/lib/irmin/irmin__Info.cmi" {"irmin__Info.cmi"}
+  "_build/install/default/lib/irmin/irmin__Info.cmx" {"irmin__Info.cmx"}
+  "_build/install/default/lib/irmin/irmin__Info.cmt" {"irmin__Info.cmt"}
+  "_build/install/default/lib/irmin/irmin__Info.cmti" {"irmin__Info.cmti"}
+  "_build/install/default/lib/irmin/info.mli" {"info.mli"}
+  "_build/install/default/lib/irmin/info.ml" {"info.ml"}
+  "_build/install/default/lib/irmin/irmin.cmi" {"irmin.cmi"}
+  "_build/install/default/lib/irmin/irmin.cmx" {"irmin.cmx"}
+  "_build/install/default/lib/irmin/irmin.cmt" {"irmin.cmt"}
+  "_build/install/default/lib/irmin/irmin.cmti" {"irmin.cmti"}
+  "_build/install/default/lib/irmin/irmin.mli" {"irmin.mli"}
+  "_build/install/default/lib/irmin/irmin.ml" {"irmin.ml"}
+  "_build/install/default/lib/irmin/irmin__.cmi" {"irmin__.cmi"}
+  "_build/install/default/lib/irmin/irmin__.cmx" {"irmin__.cmx"}
+  "_build/install/default/lib/irmin/irmin__.cmt" {"irmin__.cmt"}
+  "_build/install/default/lib/irmin/irmin__.ml-gen" {"irmin__.ml-gen"}
+  "_build/install/default/lib/irmin/irmin__Lock.cmi" {"irmin__Lock.cmi"}
+  "_build/install/default/lib/irmin/irmin__Lock.cmx" {"irmin__Lock.cmx"}
+  "_build/install/default/lib/irmin/irmin__Lock.cmt" {"irmin__Lock.cmt"}
+  "_build/install/default/lib/irmin/irmin__Lock.cmti" {"irmin__Lock.cmti"}
+  "_build/install/default/lib/irmin/lock.mli" {"lock.mli"}
+  "_build/install/default/lib/irmin/lock.ml" {"lock.ml"}
+  "_build/install/default/lib/irmin/irmin__Merge.cmi" {"irmin__Merge.cmi"}
+  "_build/install/default/lib/irmin/irmin__Merge.cmx" {"irmin__Merge.cmx"}
+  "_build/install/default/lib/irmin/irmin__Merge.cmt" {"irmin__Merge.cmt"}
+  "_build/install/default/lib/irmin/irmin__Merge.cmti" {"irmin__Merge.cmti"}
+  "_build/install/default/lib/irmin/merge.mli" {"merge.mli"}
+  "_build/install/default/lib/irmin/merge.ml" {"merge.ml"}
+  "_build/install/default/lib/irmin/irmin__Node.cmi" {"irmin__Node.cmi"}
+  "_build/install/default/lib/irmin/irmin__Node.cmx" {"irmin__Node.cmx"}
+  "_build/install/default/lib/irmin/irmin__Node.cmt" {"irmin__Node.cmt"}
+  "_build/install/default/lib/irmin/irmin__Node.cmti" {"irmin__Node.cmti"}
+  "_build/install/default/lib/irmin/node.mli" {"node.mli"}
+  "_build/install/default/lib/irmin/node.ml" {"node.ml"}
+  "_build/install/default/lib/irmin/irmin__Object_graph.cmi"
+    {"irmin__Object_graph.cmi"}
+  "_build/install/default/lib/irmin/irmin__Object_graph.cmx"
+    {"irmin__Object_graph.cmx"}
+  "_build/install/default/lib/irmin/irmin__Object_graph.cmt"
+    {"irmin__Object_graph.cmt"}
+  "_build/install/default/lib/irmin/irmin__Object_graph.cmti"
+    {"irmin__Object_graph.cmti"}
+  "_build/install/default/lib/irmin/object_graph.mli" {"object_graph.mli"}
+  "_build/install/default/lib/irmin/object_graph.ml" {"object_graph.ml"}
+  "_build/install/default/lib/irmin/irmin__Path.cmi" {"irmin__Path.cmi"}
+  "_build/install/default/lib/irmin/irmin__Path.cmx" {"irmin__Path.cmx"}
+  "_build/install/default/lib/irmin/irmin__Path.cmt" {"irmin__Path.cmt"}
+  "_build/install/default/lib/irmin/irmin__Path.cmti" {"irmin__Path.cmti"}
+  "_build/install/default/lib/irmin/path.mli" {"path.mli"}
+  "_build/install/default/lib/irmin/path.ml" {"path.ml"}
+  "_build/install/default/lib/irmin/irmin__S.cmi" {"irmin__S.cmi"}
+  "_build/install/default/lib/irmin/irmin__S.cmx" {"irmin__S.cmx"}
+  "_build/install/default/lib/irmin/irmin__S.cmt" {"irmin__S.cmt"}
+  "_build/install/default/lib/irmin/s.ml" {"s.ml"}
+  "_build/install/default/lib/irmin/irmin__Slice.cmi" {"irmin__Slice.cmi"}
+  "_build/install/default/lib/irmin/irmin__Slice.cmx" {"irmin__Slice.cmx"}
+  "_build/install/default/lib/irmin/irmin__Slice.cmt" {"irmin__Slice.cmt"}
+  "_build/install/default/lib/irmin/irmin__Slice.cmti" {"irmin__Slice.cmti"}
+  "_build/install/default/lib/irmin/slice.mli" {"slice.mli"}
+  "_build/install/default/lib/irmin/slice.ml" {"slice.ml"}
+  "_build/install/default/lib/irmin/irmin__Store.cmi" {"irmin__Store.cmi"}
+  "_build/install/default/lib/irmin/irmin__Store.cmx" {"irmin__Store.cmx"}
+  "_build/install/default/lib/irmin/irmin__Store.cmt" {"irmin__Store.cmt"}
+  "_build/install/default/lib/irmin/irmin__Store.cmti" {"irmin__Store.cmti"}
+  "_build/install/default/lib/irmin/store.mli" {"store.mli"}
+  "_build/install/default/lib/irmin/store.ml" {"store.ml"}
+  "_build/install/default/lib/irmin/irmin__Sync.cmi" {"irmin__Sync.cmi"}
+  "_build/install/default/lib/irmin/irmin__Sync.cmx" {"irmin__Sync.cmx"}
+  "_build/install/default/lib/irmin/irmin__Sync.cmt" {"irmin__Sync.cmt"}
+  "_build/install/default/lib/irmin/irmin__Sync.cmti" {"irmin__Sync.cmti"}
+  "_build/install/default/lib/irmin/sync.mli" {"sync.mli"}
+  "_build/install/default/lib/irmin/sync.ml" {"sync.ml"}
+  "_build/install/default/lib/irmin/irmin__Sync_ext.cmi"
+    {"irmin__Sync_ext.cmi"}
+  "_build/install/default/lib/irmin/irmin__Sync_ext.cmx"
+    {"irmin__Sync_ext.cmx"}
+  "_build/install/default/lib/irmin/irmin__Sync_ext.cmt"
+    {"irmin__Sync_ext.cmt"}
+  "_build/install/default/lib/irmin/irmin__Sync_ext.cmti"
+    {"irmin__Sync_ext.cmti"}
+  "_build/install/default/lib/irmin/sync_ext.mli" {"sync_ext.mli"}
+  "_build/install/default/lib/irmin/sync_ext.ml" {"sync_ext.ml"}
+  "_build/install/default/lib/irmin/irmin__Tree.cmi" {"irmin__Tree.cmi"}
+  "_build/install/default/lib/irmin/irmin__Tree.cmx" {"irmin__Tree.cmx"}
+  "_build/install/default/lib/irmin/irmin__Tree.cmt" {"irmin__Tree.cmt"}
+  "_build/install/default/lib/irmin/irmin__Tree.cmti" {"irmin__Tree.cmti"}
+  "_build/install/default/lib/irmin/tree.mli" {"tree.mli"}
+  "_build/install/default/lib/irmin/tree.ml" {"tree.ml"}
+  "_build/install/default/lib/irmin/irmin__Type.cmi" {"irmin__Type.cmi"}
+  "_build/install/default/lib/irmin/irmin__Type.cmx" {"irmin__Type.cmx"}
+  "_build/install/default/lib/irmin/irmin__Type.cmt" {"irmin__Type.cmt"}
+  "_build/install/default/lib/irmin/irmin__Type.cmti" {"irmin__Type.cmti"}
+  "_build/install/default/lib/irmin/type.mli" {"type.mli"}
+  "_build/install/default/lib/irmin/type.ml" {"type.ml"}
+  "_build/install/default/lib/irmin/irmin__Version.cmi"
+    {"irmin__Version.cmi"}
+  "_build/install/default/lib/irmin/irmin__Version.cmx"
+    {"irmin__Version.cmx"}
+  "_build/install/default/lib/irmin/irmin__Version.cmt"
+    {"irmin__Version.cmt"}
+  "_build/install/default/lib/irmin/version.ml" {"version.ml"}
+  "_build/install/default/lib/irmin/irmin__Watch.cmi" {"irmin__Watch.cmi"}
+  "_build/install/default/lib/irmin/irmin__Watch.cmx" {"irmin__Watch.cmx"}
+  "_build/install/default/lib/irmin/irmin__Watch.cmt" {"irmin__Watch.cmt"}
+  "_build/install/default/lib/irmin/irmin__Watch.cmti" {"irmin__Watch.cmti"}
+  "_build/install/default/lib/irmin/watch.mli" {"watch.mli"}
+  "_build/install/default/lib/irmin/watch.ml" {"watch.ml"}
+  "_build/install/default/lib/irmin/irmin.cma" {"irmin.cma"}
+  "_build/install/default/lib/irmin/irmin.cmxa" {"irmin.cmxa"}
+  "_build/install/default/lib/irmin/irmin.a" {"irmin.a"}
+  "_build/install/default/lib/irmin/irmin.cmxs" {"irmin.cmxs"}
+  "_build/install/default/lib/irmin/irmin.dune" {"irmin.dune"}
+]
+doc: [
+  "_build/install/default/doc/irmin/README.md"
+  "_build/install/default/doc/irmin/LICENSE.md"
+  "_build/install/default/doc/irmin/CHANGES.md"
+]

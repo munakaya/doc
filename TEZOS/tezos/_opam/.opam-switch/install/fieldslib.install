@@ -1,0 +1,17 @@
+lib: [
+  "_build/install/default/lib/fieldslib/META" {"META"}
+  "_build/install/default/lib/fieldslib/opam" {"opam"}
+  "_build/install/default/lib/fieldslib/fieldslib.cmi" {"fieldslib.cmi"}
+  "_build/install/default/lib/fieldslib/fieldslib.cmx" {"fieldslib.cmx"}
+  "_build/install/default/lib/fieldslib/fieldslib.cmt" {"fieldslib.cmt"}
+  "_build/install/default/lib/fieldslib/fieldslib.ml" {"fieldslib.ml"}
+  "_build/install/default/lib/fieldslib/fieldslib.cma" {"fieldslib.cma"}
+  "_build/install/default/lib/fieldslib/fieldslib.cmxa" {"fieldslib.cmxa"}
+  "_build/install/default/lib/fieldslib/fieldslib.a" {"fieldslib.a"}
+  "_build/install/default/lib/fieldslib/fieldslib.cmxs" {"fieldslib.cmxs"}
+  "_build/install/default/lib/fieldslib/fieldslib.dune" {"fieldslib.dune"}
+]
+doc: [
+  "_build/install/default/doc/fieldslib/LICENSE.txt"
+  "_build/install/default/doc/fieldslib/CHANGES.md"
+]

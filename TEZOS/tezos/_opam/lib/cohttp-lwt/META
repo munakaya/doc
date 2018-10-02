@@ -1,0 +1,7 @@
+version = "1.0.2"
+description = "Lwt backend"
+requires = "cohttp lwt sexplib uri"
+archive(byte) = "cohttp_lwt.cma"
+archive(native) = "cohttp_lwt.cmxa"
+plugin(byte) = "cohttp_lwt.cma"
+plugin(native) = "cohttp_lwt.cmxs"

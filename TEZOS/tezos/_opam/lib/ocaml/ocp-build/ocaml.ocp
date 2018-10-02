@@ -1,0 +1,107 @@
+(**************************************************************************)
+(*                                                                        *)
+(*                              OCamlPro TypeRex                          *)
+(*                                                                        *)
+(*   Copyright OCamlPro 2011-2016. All rights reserved.                   *)
+(*   This file is distributed under the terms of the GPL v3.0             *)
+(*      (GNU Public Licence version 3.0).                                 *)
+(*                                                                        *)
+(*     Contact: <typerex@ocamlpro.com> (http://www.ocamlpro.com/)         *)
+(*                                                                        *)
+(*  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,       *)
+(*  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES       *)
+(*  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND              *)
+(*  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS   *)
+(*  BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN    *)
+(*  ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN     *)
+(*  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE      *)
+(*  SOFTWARE.                                                             *)
+(**************************************************************************)
+
+
+(* Warning: if you modify this file, do not forget to copy it in
+   ocaml/ocpwin/ocp-build/
+*)
+
+begin
+  generated = true
+  version = "[distributed with Ocaml]"
+  dirname = [ "%{OCAMLLIB}%" ]
+
+begin library "threads.posix"
+  dirname = [ "%{OCAMLLIB}%"; "threads" ]
+  link = [ "-thread" ]
+
+  byte_targets = [ "threads.cma" ]
+  asm_targets = [ "threads.cmxa" ]
+  requires = [ "unix" ]
+end
+
+  begin library "unix"
+    byte_targets = [ "unix.cma" ]
+    asm_targets = [ "unix.cmxa" ]
+  end
+
+  begin library "str"
+    requires = [ ]
+    byte_targets = [ "str.cma" ]
+    asm_targets = [ "str.cmxa" ]
+  end
+
+  begin library "dynlink"
+    has_byte = true
+    has_asm = true
+    byte_targets = [ "dynlink.cma" ]
+    asm_targets = [ "dynlink.cmxa" ]
+  end
+
+  begin library "bigarray"
+    requires = [ "unix" ]
+    byte_targets = [ "bigarray.cma" ]
+    asm_targets = [ "bigarray.cmxa" ]
+  end
+
+  begin library "graphics"
+    byte_targets = [ "graphics.cma" ]
+    asm_targets = [ "graphics.cmxa" ]
+  end
+
+  begin library "nums"
+    byte_targets = [ "nums.cma" ]
+    asm_targets = [ "nums.cmxa" ]
+  end
+
+  if ocaml_version >= "4" then {
+
+    dirname = [ "%{OCAMLLIB}%/compiler-libs" ]
+
+    begin library "compiler-libs.common"
+      byte_targets = [ "ocamlcommon.cma" ]
+      asm_targets = [ "ocamlcommon.cmxa" ]
+          archive = "ocamlcommon"
+    end
+
+    begin library "compiler-libs.bytecomp"
+      byte_targets = [ "ocamlbytecomp.cma" ]
+      asm_targets = [ "ocamlbytecomp.cmxa" ]
+      archive = "ocamlbytecomp"
+      requires = [ "compiler-libs.common" ]
+    end
+
+    begin library "compiler-libs.optcomp"
+      archive = "ocamloptcomp"
+      byte_targets = [ "ocamloptcomp.cma" ]
+      asm_targets = [ "ocamloptcomp.cmxa" ]
+      requires = [ "compiler-libs.common" ]
+    end
+
+    begin library "compiler-libs.toplevel"
+      archive = "ocamltoplevel"
+      byte_targets = [ "ocamltoplevel.cma" ]
+      asm_targets = [ "ocamltoplevel.cmxa" ]
+      requires = [ "compiler-libs.bytecomp" ]
+    end
+
+  }
+
+end

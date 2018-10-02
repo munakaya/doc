@@ -1,0 +1,236 @@
+lib: [
+  "_build/install/default/lib/js_of_ocaml/META" {"META"}
+  "_build/install/default/lib/js_of_ocaml/opam" {"opam"}
+  "_build/install/default/lib/js_of_ocaml/deriving/deriving_Json.cmi"
+    {"deriving/deriving_Json.cmi"}
+  "_build/install/default/lib/js_of_ocaml/deriving/deriving_Json.cmx"
+    {"deriving/deriving_Json.cmx"}
+  "_build/install/default/lib/js_of_ocaml/deriving/deriving_Json.cmt"
+    {"deriving/deriving_Json.cmt"}
+  "_build/install/default/lib/js_of_ocaml/deriving/deriving_Json.cmti"
+    {"deriving/deriving_Json.cmti"}
+  "_build/install/default/lib/js_of_ocaml/deriving/deriving_Json.mli"
+    {"deriving/deriving_Json.mli"}
+  "_build/install/default/lib/js_of_ocaml/deriving/deriving_Json.ml"
+    {"deriving/deriving_Json.ml"}
+  "_build/install/default/lib/js_of_ocaml/deriving/deriving_Json_lexer.cmi"
+    {"deriving/deriving_Json_lexer.cmi"}
+  "_build/install/default/lib/js_of_ocaml/deriving/deriving_Json_lexer.cmx"
+    {"deriving/deriving_Json_lexer.cmx"}
+  "_build/install/default/lib/js_of_ocaml/deriving/deriving_Json_lexer.cmt"
+    {"deriving/deriving_Json_lexer.cmt"}
+  "_build/install/default/lib/js_of_ocaml/deriving/deriving_Json_lexer.cmti"
+    {"deriving/deriving_Json_lexer.cmti"}
+  "_build/install/default/lib/js_of_ocaml/deriving/deriving_Json_lexer.mli"
+    {"deriving/deriving_Json_lexer.mli"}
+  "_build/install/default/lib/js_of_ocaml/deriving/deriving_Json_lexer.ml"
+    {"deriving/deriving_Json_lexer.ml"}
+  "_build/install/default/lib/js_of_ocaml/deriving/js_of_ocaml_deriving.cma"
+    {"deriving/js_of_ocaml_deriving.cma"}
+  "_build/install/default/lib/js_of_ocaml/deriving/js_of_ocaml_deriving.cmxa"
+    {"deriving/js_of_ocaml_deriving.cmxa"}
+  "_build/install/default/lib/js_of_ocaml/deriving/js_of_ocaml_deriving.a"
+    {"deriving/js_of_ocaml_deriving.a"}
+  "_build/install/default/lib/js_of_ocaml/deriving/js_of_ocaml_deriving.cmxs"
+    {"deriving/js_of_ocaml_deriving.cmxs"}
+  "_build/install/default/lib/js_of_ocaml/deriving/js_of_ocaml.deriving.dune"
+    {"deriving/js_of_ocaml.deriving.dune"}
+  "_build/install/default/lib/js_of_ocaml/cSS.cmi" {"cSS.cmi"}
+  "_build/install/default/lib/js_of_ocaml/cSS.cmx" {"cSS.cmx"}
+  "_build/install/default/lib/js_of_ocaml/cSS.cmt" {"cSS.cmt"}
+  "_build/install/default/lib/js_of_ocaml/cSS.cmti" {"cSS.cmti"}
+  "_build/install/default/lib/js_of_ocaml/cSS.mli" {"cSS.mli"}
+  "_build/install/default/lib/js_of_ocaml/cSS.ml" {"cSS.ml"}
+  "_build/install/default/lib/js_of_ocaml/dom.cmi" {"dom.cmi"}
+  "_build/install/default/lib/js_of_ocaml/dom.cmx" {"dom.cmx"}
+  "_build/install/default/lib/js_of_ocaml/dom.cmt" {"dom.cmt"}
+  "_build/install/default/lib/js_of_ocaml/dom.cmti" {"dom.cmti"}
+  "_build/install/default/lib/js_of_ocaml/dom.mli" {"dom.mli"}
+  "_build/install/default/lib/js_of_ocaml/dom.ml" {"dom.ml"}
+  "_build/install/default/lib/js_of_ocaml/dom_events.cmi" {"dom_events.cmi"}
+  "_build/install/default/lib/js_of_ocaml/dom_events.cmx" {"dom_events.cmx"}
+  "_build/install/default/lib/js_of_ocaml/dom_events.cmt" {"dom_events.cmt"}
+  "_build/install/default/lib/js_of_ocaml/dom_events.cmti"
+    {"dom_events.cmti"}
+  "_build/install/default/lib/js_of_ocaml/dom_events.mli" {"dom_events.mli"}
+  "_build/install/default/lib/js_of_ocaml/dom_events.ml" {"dom_events.ml"}
+  "_build/install/default/lib/js_of_ocaml/dom_html.cmi" {"dom_html.cmi"}
+  "_build/install/default/lib/js_of_ocaml/dom_html.cmx" {"dom_html.cmx"}
+  "_build/install/default/lib/js_of_ocaml/dom_html.cmt" {"dom_html.cmt"}
+  "_build/install/default/lib/js_of_ocaml/dom_html.cmti" {"dom_html.cmti"}
+  "_build/install/default/lib/js_of_ocaml/dom_html.mli" {"dom_html.mli"}
+  "_build/install/default/lib/js_of_ocaml/dom_html.ml" {"dom_html.ml"}
+  "_build/install/default/lib/js_of_ocaml/dom_svg.cmi" {"dom_svg.cmi"}
+  "_build/install/default/lib/js_of_ocaml/dom_svg.cmx" {"dom_svg.cmx"}
+  "_build/install/default/lib/js_of_ocaml/dom_svg.cmt" {"dom_svg.cmt"}
+  "_build/install/default/lib/js_of_ocaml/dom_svg.cmti" {"dom_svg.cmti"}
+  "_build/install/default/lib/js_of_ocaml/dom_svg.mli" {"dom_svg.mli"}
+  "_build/install/default/lib/js_of_ocaml/dom_svg.ml" {"dom_svg.ml"}
+  "_build/install/default/lib/js_of_ocaml/eventSource.cmi"
+    {"eventSource.cmi"}
+  "_build/install/default/lib/js_of_ocaml/eventSource.cmx"
+    {"eventSource.cmx"}
+  "_build/install/default/lib/js_of_ocaml/eventSource.cmt"
+    {"eventSource.cmt"}
+  "_build/install/default/lib/js_of_ocaml/eventSource.cmti"
+    {"eventSource.cmti"}
+  "_build/install/default/lib/js_of_ocaml/eventSource.mli"
+    {"eventSource.mli"}
+  "_build/install/default/lib/js_of_ocaml/eventSource.ml" {"eventSource.ml"}
+  "_build/install/default/lib/js_of_ocaml/file.cmi" {"file.cmi"}
+  "_build/install/default/lib/js_of_ocaml/file.cmx" {"file.cmx"}
+  "_build/install/default/lib/js_of_ocaml/file.cmt" {"file.cmt"}
+  "_build/install/default/lib/js_of_ocaml/file.cmti" {"file.cmti"}
+  "_build/install/default/lib/js_of_ocaml/file.mli" {"file.mli"}
+  "_build/install/default/lib/js_of_ocaml/file.ml" {"file.ml"}
+  "_build/install/default/lib/js_of_ocaml/firebug.cmi" {"firebug.cmi"}
+  "_build/install/default/lib/js_of_ocaml/firebug.cmx" {"firebug.cmx"}
+  "_build/install/default/lib/js_of_ocaml/firebug.cmt" {"firebug.cmt"}
+  "_build/install/default/lib/js_of_ocaml/firebug.cmti" {"firebug.cmti"}
+  "_build/install/default/lib/js_of_ocaml/firebug.mli" {"firebug.mli"}
+  "_build/install/default/lib/js_of_ocaml/firebug.ml" {"firebug.ml"}
+  "_build/install/default/lib/js_of_ocaml/form.cmi" {"form.cmi"}
+  "_build/install/default/lib/js_of_ocaml/form.cmx" {"form.cmx"}
+  "_build/install/default/lib/js_of_ocaml/form.cmt" {"form.cmt"}
+  "_build/install/default/lib/js_of_ocaml/form.cmti" {"form.cmti"}
+  "_build/install/default/lib/js_of_ocaml/form.mli" {"form.mli"}
+  "_build/install/default/lib/js_of_ocaml/form.ml" {"form.ml"}
+  "_build/install/default/lib/js_of_ocaml/geolocation.cmi"
+    {"geolocation.cmi"}
+  "_build/install/default/lib/js_of_ocaml/geolocation.cmx"
+    {"geolocation.cmx"}
+  "_build/install/default/lib/js_of_ocaml/geolocation.cmt"
+    {"geolocation.cmt"}
+  "_build/install/default/lib/js_of_ocaml/geolocation.cmti"
+    {"geolocation.cmti"}
+  "_build/install/default/lib/js_of_ocaml/geolocation.mli"
+    {"geolocation.mli"}
+  "_build/install/default/lib/js_of_ocaml/geolocation.ml" {"geolocation.ml"}
+  "_build/install/default/lib/js_of_ocaml/intl.cmi" {"intl.cmi"}
+  "_build/install/default/lib/js_of_ocaml/intl.cmx" {"intl.cmx"}
+  "_build/install/default/lib/js_of_ocaml/intl.cmt" {"intl.cmt"}
+  "_build/install/default/lib/js_of_ocaml/intl.cmti" {"intl.cmti"}
+  "_build/install/default/lib/js_of_ocaml/intl.mli" {"intl.mli"}
+  "_build/install/default/lib/js_of_ocaml/intl.ml" {"intl.ml"}
+  "_build/install/default/lib/js_of_ocaml/js.cmi" {"js.cmi"}
+  "_build/install/default/lib/js_of_ocaml/js.cmx" {"js.cmx"}
+  "_build/install/default/lib/js_of_ocaml/js.cmt" {"js.cmt"}
+  "_build/install/default/lib/js_of_ocaml/js.cmti" {"js.cmti"}
+  "_build/install/default/lib/js_of_ocaml/js.mli" {"js.mli"}
+  "_build/install/default/lib/js_of_ocaml/js.ml" {"js.ml"}
+  "_build/install/default/lib/js_of_ocaml/js_of_ocaml.cmi"
+    {"js_of_ocaml.cmi"}
+  "_build/install/default/lib/js_of_ocaml/js_of_ocaml.cmx"
+    {"js_of_ocaml.cmx"}
+  "_build/install/default/lib/js_of_ocaml/js_of_ocaml.cmt"
+    {"js_of_ocaml.cmt"}
+  "_build/install/default/lib/js_of_ocaml/js_of_ocaml.ml" {"js_of_ocaml.ml"}
+  "_build/install/default/lib/js_of_ocaml/json.cmi" {"json.cmi"}
+  "_build/install/default/lib/js_of_ocaml/json.cmx" {"json.cmx"}
+  "_build/install/default/lib/js_of_ocaml/json.cmt" {"json.cmt"}
+  "_build/install/default/lib/js_of_ocaml/json.cmti" {"json.cmti"}
+  "_build/install/default/lib/js_of_ocaml/json.mli" {"json.mli"}
+  "_build/install/default/lib/js_of_ocaml/json.ml" {"json.ml"}
+  "_build/install/default/lib/js_of_ocaml/jstable.cmi" {"jstable.cmi"}
+  "_build/install/default/lib/js_of_ocaml/jstable.cmx" {"jstable.cmx"}
+  "_build/install/default/lib/js_of_ocaml/jstable.cmt" {"jstable.cmt"}
+  "_build/install/default/lib/js_of_ocaml/jstable.cmti" {"jstable.cmti"}
+  "_build/install/default/lib/js_of_ocaml/jstable.mli" {"jstable.mli"}
+  "_build/install/default/lib/js_of_ocaml/jstable.ml" {"jstable.ml"}
+  "_build/install/default/lib/js_of_ocaml/lib_version.cmi"
+    {"lib_version.cmi"}
+  "_build/install/default/lib/js_of_ocaml/lib_version.cmx"
+    {"lib_version.cmx"}
+  "_build/install/default/lib/js_of_ocaml/lib_version.cmt"
+    {"lib_version.cmt"}
+  "_build/install/default/lib/js_of_ocaml/lib_version.ml" {"lib_version.ml"}
+  "_build/install/default/lib/js_of_ocaml/mutationObserver.cmi"
+    {"mutationObserver.cmi"}
+  "_build/install/default/lib/js_of_ocaml/mutationObserver.cmx"
+    {"mutationObserver.cmx"}
+  "_build/install/default/lib/js_of_ocaml/mutationObserver.cmt"
+    {"mutationObserver.cmt"}
+  "_build/install/default/lib/js_of_ocaml/mutationObserver.cmti"
+    {"mutationObserver.cmti"}
+  "_build/install/default/lib/js_of_ocaml/mutationObserver.mli"
+    {"mutationObserver.mli"}
+  "_build/install/default/lib/js_of_ocaml/mutationObserver.ml"
+    {"mutationObserver.ml"}
+  "_build/install/default/lib/js_of_ocaml/regexp.cmi" {"regexp.cmi"}
+  "_build/install/default/lib/js_of_ocaml/regexp.cmx" {"regexp.cmx"}
+  "_build/install/default/lib/js_of_ocaml/regexp.cmt" {"regexp.cmt"}
+  "_build/install/default/lib/js_of_ocaml/regexp.cmti" {"regexp.cmti"}
+  "_build/install/default/lib/js_of_ocaml/regexp.mli" {"regexp.mli"}
+  "_build/install/default/lib/js_of_ocaml/regexp.ml" {"regexp.ml"}
+  "_build/install/default/lib/js_of_ocaml/sys_js.cmi" {"sys_js.cmi"}
+  "_build/install/default/lib/js_of_ocaml/sys_js.cmx" {"sys_js.cmx"}
+  "_build/install/default/lib/js_of_ocaml/sys_js.cmt" {"sys_js.cmt"}
+  "_build/install/default/lib/js_of_ocaml/sys_js.cmti" {"sys_js.cmti"}
+  "_build/install/default/lib/js_of_ocaml/sys_js.mli" {"sys_js.mli"}
+  "_build/install/default/lib/js_of_ocaml/sys_js.ml" {"sys_js.ml"}
+  "_build/install/default/lib/js_of_ocaml/typed_array.cmi"
+    {"typed_array.cmi"}
+  "_build/install/default/lib/js_of_ocaml/typed_array.cmx"
+    {"typed_array.cmx"}
+  "_build/install/default/lib/js_of_ocaml/typed_array.cmt"
+    {"typed_array.cmt"}
+  "_build/install/default/lib/js_of_ocaml/typed_array.cmti"
+    {"typed_array.cmti"}
+  "_build/install/default/lib/js_of_ocaml/typed_array.mli"
+    {"typed_array.mli"}
+  "_build/install/default/lib/js_of_ocaml/typed_array.ml" {"typed_array.ml"}
+  "_build/install/default/lib/js_of_ocaml/url.cmi" {"url.cmi"}
+  "_build/install/default/lib/js_of_ocaml/url.cmx" {"url.cmx"}
+  "_build/install/default/lib/js_of_ocaml/url.cmt" {"url.cmt"}
+  "_build/install/default/lib/js_of_ocaml/url.cmti" {"url.cmti"}
+  "_build/install/default/lib/js_of_ocaml/url.mli" {"url.mli"}
+  "_build/install/default/lib/js_of_ocaml/url.ml" {"url.ml"}
+  "_build/install/default/lib/js_of_ocaml/webGL.cmi" {"webGL.cmi"}
+  "_build/install/default/lib/js_of_ocaml/webGL.cmx" {"webGL.cmx"}
+  "_build/install/default/lib/js_of_ocaml/webGL.cmt" {"webGL.cmt"}
+  "_build/install/default/lib/js_of_ocaml/webGL.cmti" {"webGL.cmti"}
+  "_build/install/default/lib/js_of_ocaml/webGL.mli" {"webGL.mli"}
+  "_build/install/default/lib/js_of_ocaml/webGL.ml" {"webGL.ml"}
+  "_build/install/default/lib/js_of_ocaml/webSockets.cmi" {"webSockets.cmi"}
+  "_build/install/default/lib/js_of_ocaml/webSockets.cmx" {"webSockets.cmx"}
+  "_build/install/default/lib/js_of_ocaml/webSockets.cmt" {"webSockets.cmt"}
+  "_build/install/default/lib/js_of_ocaml/webSockets.cmti"
+    {"webSockets.cmti"}
+  "_build/install/default/lib/js_of_ocaml/webSockets.mli" {"webSockets.mli"}
+  "_build/install/default/lib/js_of_ocaml/webSockets.ml" {"webSockets.ml"}
+  "_build/install/default/lib/js_of_ocaml/worker.cmi" {"worker.cmi"}
+  "_build/install/default/lib/js_of_ocaml/worker.cmx" {"worker.cmx"}
+  "_build/install/default/lib/js_of_ocaml/worker.cmt" {"worker.cmt"}
+  "_build/install/default/lib/js_of_ocaml/worker.cmti" {"worker.cmti"}
+  "_build/install/default/lib/js_of_ocaml/worker.mli" {"worker.mli"}
+  "_build/install/default/lib/js_of_ocaml/worker.ml" {"worker.ml"}
+  "_build/install/default/lib/js_of_ocaml/xmlHttpRequest.cmi"
+    {"xmlHttpRequest.cmi"}
+  "_build/install/default/lib/js_of_ocaml/xmlHttpRequest.cmx"
+    {"xmlHttpRequest.cmx"}
+  "_build/install/default/lib/js_of_ocaml/xmlHttpRequest.cmt"
+    {"xmlHttpRequest.cmt"}
+  "_build/install/default/lib/js_of_ocaml/xmlHttpRequest.cmti"
+    {"xmlHttpRequest.cmti"}
+  "_build/install/default/lib/js_of_ocaml/xmlHttpRequest.mli"
+    {"xmlHttpRequest.mli"}
+  "_build/install/default/lib/js_of_ocaml/xmlHttpRequest.ml"
+    {"xmlHttpRequest.ml"}
+  "_build/install/default/lib/js_of_ocaml/js_of_ocaml.cma"
+    {"js_of_ocaml.cma"}
+  "_build/install/default/lib/js_of_ocaml/libjs_of_ocaml_stubs.a"
+    {"libjs_of_ocaml_stubs.a"}
+  "_build/install/default/lib/js_of_ocaml/js_of_ocaml.cmxa"
+    {"js_of_ocaml.cmxa"}
+  "_build/install/default/lib/js_of_ocaml/js_of_ocaml.a" {"js_of_ocaml.a"}
+  "_build/install/default/lib/js_of_ocaml/js_of_ocaml.cmxs"
+    {"js_of_ocaml.cmxs"}
+  "_build/install/default/lib/js_of_ocaml/js_of_ocaml.dune"
+    {"js_of_ocaml.dune"}
+]
+stublibs: "_build/install/default/lib/stublibs/dlljs_of_ocaml_stubs.so"
+doc: [
+  "_build/install/default/doc/js_of_ocaml/README.md"
+  "_build/install/default/doc/js_of_ocaml/LICENSE"
+  "_build/install/default/doc/js_of_ocaml/CHANGES"
+]

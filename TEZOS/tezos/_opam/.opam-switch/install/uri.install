@@ -1,0 +1,79 @@
+lib: [
+  "_build/install/default/lib/uri/META" {"META"}
+  "_build/install/default/lib/uri/opam" {"opam"}
+  "_build/install/default/lib/uri/uri.cmi" {"uri.cmi"}
+  "_build/install/default/lib/uri/uri.cmx" {"uri.cmx"}
+  "_build/install/default/lib/uri/uri.cmt" {"uri.cmt"}
+  "_build/install/default/lib/uri/uri.cmti" {"uri.cmti"}
+  "_build/install/default/lib/uri/uri.mli" {"uri.mli"}
+  "_build/install/default/lib/uri/uri.ml" {"uri.ml"}
+  "_build/install/default/lib/uri/uri_re.cmi" {"uri_re.cmi"}
+  "_build/install/default/lib/uri/uri_re.cmx" {"uri_re.cmx"}
+  "_build/install/default/lib/uri/uri_re.cmt" {"uri_re.cmt"}
+  "_build/install/default/lib/uri/uri_re.cmti" {"uri_re.cmti"}
+  "_build/install/default/lib/uri/uri_re.mli" {"uri_re.mli"}
+  "_build/install/default/lib/uri/uri_re.ml" {"uri_re.ml"}
+  "_build/install/default/lib/uri/uri.cma" {"uri.cma"}
+  "_build/install/default/lib/uri/uri.cmxa" {"uri.cmxa"}
+  "_build/install/default/lib/uri/uri.a" {"uri.a"}
+  "_build/install/default/lib/uri/uri.cmxs" {"uri.cmxs"}
+  "_build/install/default/lib/uri/uri.dune" {"uri.dune"}
+  "_build/install/default/lib/uri/top/uri_top.cmi" {"top/uri_top.cmi"}
+  "_build/install/default/lib/uri/top/uri_top.cmx" {"top/uri_top.cmx"}
+  "_build/install/default/lib/uri/top/uri_top.cmt" {"top/uri_top.cmt"}
+  "_build/install/default/lib/uri/top/uri_top.ml" {"top/uri_top.ml"}
+  "_build/install/default/lib/uri/top/uri_top.cma" {"top/uri_top.cma"}
+  "_build/install/default/lib/uri/top/uri_top.cmxa" {"top/uri_top.cmxa"}
+  "_build/install/default/lib/uri/top/uri_top.a" {"top/uri_top.a"}
+  "_build/install/default/lib/uri/top/uri_top.cmxs" {"top/uri_top.cmxs"}
+  "_build/install/default/lib/uri/top/uri.top.dune" {"top/uri.top.dune"}
+  "_build/install/default/lib/uri/services/uri_services.cmi"
+    {"services/uri_services.cmi"}
+  "_build/install/default/lib/uri/services/uri_services.cmx"
+    {"services/uri_services.cmx"}
+  "_build/install/default/lib/uri/services/uri_services.cmt"
+    {"services/uri_services.cmt"}
+  "_build/install/default/lib/uri/services/uri_services.cmti"
+    {"services/uri_services.cmti"}
+  "_build/install/default/lib/uri/services/uri_services.mli"
+    {"services/uri_services.mli"}
+  "_build/install/default/lib/uri/services/uri_services.ml"
+    {"services/uri_services.ml"}
+  "_build/install/default/lib/uri/services/uri_services.cma"
+    {"services/uri_services.cma"}
+  "_build/install/default/lib/uri/services/uri_services.cmxa"
+    {"services/uri_services.cmxa"}
+  "_build/install/default/lib/uri/services/uri_services.a"
+    {"services/uri_services.a"}
+  "_build/install/default/lib/uri/services/uri_services.cmxs"
+    {"services/uri_services.cmxs"}
+  "_build/install/default/lib/uri/services/uri.services.dune"
+    {"services/uri.services.dune"}
+  "_build/install/default/lib/uri/services_full/uri_services_full.cmi"
+    {"services_full/uri_services_full.cmi"}
+  "_build/install/default/lib/uri/services_full/uri_services_full.cmx"
+    {"services_full/uri_services_full.cmx"}
+  "_build/install/default/lib/uri/services_full/uri_services_full.cmt"
+    {"services_full/uri_services_full.cmt"}
+  "_build/install/default/lib/uri/services_full/uri_services_full.cmti"
+    {"services_full/uri_services_full.cmti"}
+  "_build/install/default/lib/uri/services_full/uri_services_full.mli"
+    {"services_full/uri_services_full.mli"}
+  "_build/install/default/lib/uri/services_full/uri_services_full.ml"
+    {"services_full/uri_services_full.ml"}
+  "_build/install/default/lib/uri/services_full/uri_services_full.cma"
+    {"services_full/uri_services_full.cma"}
+  "_build/install/default/lib/uri/services_full/uri_services_full.cmxa"
+    {"services_full/uri_services_full.cmxa"}
+  "_build/install/default/lib/uri/services_full/uri_services_full.a"
+    {"services_full/uri_services_full.a"}
+  "_build/install/default/lib/uri/services_full/uri_services_full.cmxs"
+    {"services_full/uri_services_full.cmxs"}
+  "_build/install/default/lib/uri/services_full/uri.services_full.dune"
+    {"services_full/uri.services_full.dune"}
+]
+doc: [
+  "_build/install/default/doc/uri/README.md"
+  "_build/install/default/doc/uri/LICENSE.md"
+  "_build/install/default/doc/uri/CHANGES.md"
+]

@@ -1,0 +1,6 @@
+name = "calendar"
+description = "calendar library"
+version = "2.04"
+archive(byte) = "calendarLib.cma"
+archive(native) = "calendarLib.cmxa"
+requires = "unix str"

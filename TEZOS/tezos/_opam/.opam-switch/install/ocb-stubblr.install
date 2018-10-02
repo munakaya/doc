@@ -1,0 +1,25 @@
+lib: [
+  "_build/opam" {"opam"}
+  "_build/pkg/META" {"META"}
+  "_build/src-topkg/ocb-stubblr-topkg.a" {"ocb-stubblr-topkg.a"}
+  "_build/src-topkg/ocb-stubblr-topkg.cma" {"ocb-stubblr-topkg.cma"}
+  "_build/src-topkg/ocb-stubblr-topkg.cmxa" {"ocb-stubblr-topkg.cmxa"}
+  "_build/src-topkg/ocb-stubblr-topkg.cmxs" {"ocb-stubblr-topkg.cmxs"}
+  "_build/src-topkg/ocb_stubblr_topkg.cmi" {"ocb_stubblr_topkg.cmi"}
+  "?_build/src-topkg/ocb_stubblr_topkg.cmti" {"ocb_stubblr_topkg.cmti"}
+  "_build/src-topkg/ocb_stubblr_topkg.cmx" {"ocb_stubblr_topkg.cmx"}
+  "_build/src-topkg/ocb_stubblr_topkg.mli" {"ocb_stubblr_topkg.mli"}
+  "_build/src/ocb-stubblr.a" {"ocb-stubblr.a"}
+  "_build/src/ocb-stubblr.cma" {"ocb-stubblr.cma"}
+  "_build/src/ocb-stubblr.cmxa" {"ocb-stubblr.cmxa"}
+  "_build/src/ocb-stubblr.cmxs" {"ocb-stubblr.cmxs"}
+  "_build/src/ocb_stubblr.cmi" {"ocb_stubblr.cmi"}
+  "?_build/src/ocb_stubblr.cmti" {"ocb_stubblr.cmti"}
+  "_build/src/ocb_stubblr.cmx" {"ocb_stubblr.cmx"}
+  "_build/src/ocb_stubblr.mli" {"ocb_stubblr.mli"}
+]
+doc: [
+  "_build/CHANGES.md" {"CHANGES.md"}
+  "_build/LICENSE.md" {"LICENSE.md"}
+  "_build/README.md" {"README.md"}
+]

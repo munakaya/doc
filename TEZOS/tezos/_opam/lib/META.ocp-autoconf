@@ -1,0 +1,3 @@
+description = "ocp-autoconf"
+directory = "ocaml/ocp-autoconf"
+version = "1.99.20-beta"

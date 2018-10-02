@@ -1,0 +1,30 @@
+lib: [
+  "_build/install/default/lib/conduit-lwt/META" {"META"}
+  "_build/install/default/lib/conduit-lwt/opam" {"opam"}
+  "_build/install/default/lib/conduit-lwt/resolver_lwt.cmi"
+    {"resolver_lwt.cmi"}
+  "_build/install/default/lib/conduit-lwt/resolver_lwt.cmx"
+    {"resolver_lwt.cmx"}
+  "_build/install/default/lib/conduit-lwt/resolver_lwt.cmt"
+    {"resolver_lwt.cmt"}
+  "_build/install/default/lib/conduit-lwt/resolver_lwt.cmti"
+    {"resolver_lwt.cmti"}
+  "_build/install/default/lib/conduit-lwt/resolver_lwt.mli"
+    {"resolver_lwt.mli"}
+  "_build/install/default/lib/conduit-lwt/resolver_lwt.ml"
+    {"resolver_lwt.ml"}
+  "_build/install/default/lib/conduit-lwt/conduit_lwt.cma"
+    {"conduit_lwt.cma"}
+  "_build/install/default/lib/conduit-lwt/conduit_lwt.cmxa"
+    {"conduit_lwt.cmxa"}
+  "_build/install/default/lib/conduit-lwt/conduit_lwt.a" {"conduit_lwt.a"}
+  "_build/install/default/lib/conduit-lwt/conduit_lwt.cmxs"
+    {"conduit_lwt.cmxs"}
+  "_build/install/default/lib/conduit-lwt/conduit-lwt.dune"
+    {"conduit-lwt.dune"}
+]
+doc: [
+  "_build/install/default/doc/conduit-lwt/README.md"
+  "_build/install/default/doc/conduit-lwt/LICENSE.md"
+  "_build/install/default/doc/conduit-lwt/CHANGES.md"
+]

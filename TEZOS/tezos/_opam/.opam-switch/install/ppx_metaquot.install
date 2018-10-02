@@ -1,0 +1,44 @@
+lib: [
+  "_build/install/default/lib/ppx_metaquot/META" {"META"}
+  "_build/install/default/lib/ppx_metaquot/opam" {"opam"}
+  "_build/install/default/lib/ppx_metaquot/ppx_metaquot.cmi"
+    {"ppx_metaquot.cmi"}
+  "_build/install/default/lib/ppx_metaquot/ppx_metaquot.cmx"
+    {"ppx_metaquot.cmx"}
+  "_build/install/default/lib/ppx_metaquot/ppx_metaquot.cmt"
+    {"ppx_metaquot.cmt"}
+  "_build/install/default/lib/ppx_metaquot/ppx_metaquot.ml"
+    {"ppx_metaquot.ml"}
+  "_build/install/default/lib/ppx_metaquot/ppx_metaquot.cma"
+    {"ppx_metaquot.cma"}
+  "_build/install/default/lib/ppx_metaquot/ppx_metaquot.cmxa"
+    {"ppx_metaquot.cmxa"}
+  "_build/install/default/lib/ppx_metaquot/ppx_metaquot.a" {"ppx_metaquot.a"}
+  "_build/install/default/lib/ppx_metaquot/ppx_metaquot.cmxs"
+    {"ppx_metaquot.cmxs"}
+  "_build/install/default/lib/ppx_metaquot/ppx_metaquot.dune"
+    {"ppx_metaquot.dune"}
+  "_build/install/default/lib/ppx_metaquot/lifters/ppx_metaquot_lifters.cmi"
+    {"lifters/ppx_metaquot_lifters.cmi"}
+  "_build/install/default/lib/ppx_metaquot/lifters/ppx_metaquot_lifters.cmx"
+    {"lifters/ppx_metaquot_lifters.cmx"}
+  "_build/install/default/lib/ppx_metaquot/lifters/ppx_metaquot_lifters.cmt"
+    {"lifters/ppx_metaquot_lifters.cmt"}
+  "_build/install/default/lib/ppx_metaquot/lifters/ppx_metaquot_lifters.ml"
+    {"lifters/ppx_metaquot_lifters.ml"}
+  "_build/install/default/lib/ppx_metaquot/lifters/ppx_metaquot_lifters.cma"
+    {"lifters/ppx_metaquot_lifters.cma"}
+  "_build/install/default/lib/ppx_metaquot/lifters/ppx_metaquot_lifters.cmxa"
+    {"lifters/ppx_metaquot_lifters.cmxa"}
+  "_build/install/default/lib/ppx_metaquot/lifters/ppx_metaquot_lifters.a"
+    {"lifters/ppx_metaquot_lifters.a"}
+  "_build/install/default/lib/ppx_metaquot/lifters/ppx_metaquot_lifters.cmxs"
+    {"lifters/ppx_metaquot_lifters.cmxs"}
+  "_build/install/default/lib/ppx_metaquot/lifters/ppx_metaquot.lifters.dune"
+    {"lifters/ppx_metaquot.lifters.dune"}
+]
+doc: [
+  "_build/install/default/doc/ppx_metaquot/README.org"
+  "_build/install/default/doc/ppx_metaquot/LICENSE.txt"
+]
+libexec: "_build/install/default/lib/ppx_metaquot/ppx.exe" {"ppx.exe"}

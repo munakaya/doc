@@ -1,0 +1,34 @@
+(**************************************************************************)
+(*                                                                        *)
+(*   Typerex Tools                                                        *)
+(*                                                                        *)
+(*   Copyright 2011-2017 OCamlPro SAS                                     *)
+(*                                                                        *)
+(*   All rights reserved.  This file is distributed under the terms of    *)
+(*   the GNU General Public License version 3 described in the file       *)
+(*   LICENSE.                                                             *)
+(*                                                                        *)
+(**************************************************************************)
+
+ocaml = {};
+begin
+  ocaml.files = '
+    buildOCP2Tree.ml
+    buildOCP2Lexer.mll
+    buildOCP2Parser.mly
+    buildOCP2Parse.ml
+    buildOCP2Prims.ml
+    buildOCP2Interp.ml
+  ;
+
+  ocaml.requires = ' ocplib-compat ocplib-lang
+     ocp-build-misc ocp-build-value str ;
+  new_package("ocp-build-lang-ocp2", "library", ocaml);
+end
+
+begin
+   ocaml.install = false;
+   ocaml.files = [ "eval.ml" ];
+   ocaml.requires = [ "ocp-build-lang-ocp2" ];
+   new_package( "ocp2-eval", "program", ocaml);
+end

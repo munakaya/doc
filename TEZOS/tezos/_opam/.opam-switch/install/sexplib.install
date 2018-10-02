@@ -1,0 +1,265 @@
+lib: [
+  "_build/install/default/lib/sexplib/META" {"META"}
+  "_build/install/default/lib/sexplib/opam" {"opam"}
+  "_build/install/default/lib/sexplib/unix/sexplib_unix.cmi"
+    {"unix/sexplib_unix.cmi"}
+  "_build/install/default/lib/sexplib/unix/sexplib_unix.cmx"
+    {"unix/sexplib_unix.cmx"}
+  "_build/install/default/lib/sexplib/unix/sexplib_unix.cmt"
+    {"unix/sexplib_unix.cmt"}
+  "_build/install/default/lib/sexplib/unix/sexplib_unix.ml-gen"
+    {"unix/sexplib_unix.ml-gen"}
+  "_build/install/default/lib/sexplib/unix/sexplib_unix__Sexplib_unix_conv.cmi"
+    {"unix/sexplib_unix__Sexplib_unix_conv.cmi"}
+  "_build/install/default/lib/sexplib/unix/sexplib_unix__Sexplib_unix_conv.cmx"
+    {"unix/sexplib_unix__Sexplib_unix_conv.cmx"}
+  "_build/install/default/lib/sexplib/unix/sexplib_unix__Sexplib_unix_conv.cmt"
+    {"unix/sexplib_unix__Sexplib_unix_conv.cmt"}
+  "_build/install/default/lib/sexplib/unix/sexplib_unix_conv.ml"
+    {"unix/sexplib_unix_conv.ml"}
+  "_build/install/default/lib/sexplib/unix/sexplib_unix.cma"
+    {"unix/sexplib_unix.cma"}
+  "_build/install/default/lib/sexplib/unix/sexplib_unix.cmxa"
+    {"unix/sexplib_unix.cmxa"}
+  "_build/install/default/lib/sexplib/unix/sexplib_unix.a"
+    {"unix/sexplib_unix.a"}
+  "_build/install/default/lib/sexplib/unix/sexplib_unix.cmxs"
+    {"unix/sexplib_unix.cmxs"}
+  "_build/install/default/lib/sexplib/unix/sexplib.unix.dune"
+    {"unix/sexplib.unix.dune"}
+  "_build/install/default/lib/sexplib/0/sexplib0__Sexp.cmi"
+    {"0/sexplib0__Sexp.cmi"}
+  "_build/install/default/lib/sexplib/0/sexplib0__Sexp.cmx"
+    {"0/sexplib0__Sexp.cmx"}
+  "_build/install/default/lib/sexplib/0/sexplib0__Sexp.cmt"
+    {"0/sexplib0__Sexp.cmt"}
+  "_build/install/default/lib/sexplib/0/sexplib0__Sexp.cmti"
+    {"0/sexplib0__Sexp.cmti"}
+  "_build/install/default/lib/sexplib/0/sexp.mli" {"0/sexp.mli"}
+  "_build/install/default/lib/sexplib/0/sexp.ml" {"0/sexp.ml"}
+  "_build/install/default/lib/sexplib/0/sexplib0__Sexp_conv.cmi"
+    {"0/sexplib0__Sexp_conv.cmi"}
+  "_build/install/default/lib/sexplib/0/sexplib0__Sexp_conv.cmx"
+    {"0/sexplib0__Sexp_conv.cmx"}
+  "_build/install/default/lib/sexplib/0/sexplib0__Sexp_conv.cmt"
+    {"0/sexplib0__Sexp_conv.cmt"}
+  "_build/install/default/lib/sexplib/0/sexplib0__Sexp_conv.cmti"
+    {"0/sexplib0__Sexp_conv.cmti"}
+  "_build/install/default/lib/sexplib/0/sexp_conv.mli" {"0/sexp_conv.mli"}
+  "_build/install/default/lib/sexplib/0/sexp_conv.ml" {"0/sexp_conv.ml"}
+  "_build/install/default/lib/sexplib/0/sexplib0__Sexp_conv_error.cmi"
+    {"0/sexplib0__Sexp_conv_error.cmi"}
+  "_build/install/default/lib/sexplib/0/sexplib0__Sexp_conv_error.cmx"
+    {"0/sexplib0__Sexp_conv_error.cmx"}
+  "_build/install/default/lib/sexplib/0/sexplib0__Sexp_conv_error.cmt"
+    {"0/sexplib0__Sexp_conv_error.cmt"}
+  "_build/install/default/lib/sexplib/0/sexp_conv_error.ml"
+    {"0/sexp_conv_error.ml"}
+  "_build/install/default/lib/sexplib/0/sexplib0.cmi" {"0/sexplib0.cmi"}
+  "_build/install/default/lib/sexplib/0/sexplib0.cmx" {"0/sexplib0.cmx"}
+  "_build/install/default/lib/sexplib/0/sexplib0.cmt" {"0/sexplib0.cmt"}
+  "_build/install/default/lib/sexplib/0/sexplib0.ml-gen"
+    {"0/sexplib0.ml-gen"}
+  "_build/install/default/lib/sexplib/0/sexplib0.cma" {"0/sexplib0.cma"}
+  "_build/install/default/lib/sexplib/0/sexplib0.cmxa" {"0/sexplib0.cmxa"}
+  "_build/install/default/lib/sexplib/0/sexplib0.a" {"0/sexplib0.a"}
+  "_build/install/default/lib/sexplib/0/sexplib0.cmxs" {"0/sexplib0.cmxs"}
+  "_build/install/default/lib/sexplib/0/sexplib.0.dune" {"0/sexplib.0.dune"}
+  "_build/install/default/lib/sexplib/sexplib__Conv.cmi"
+    {"sexplib__Conv.cmi"}
+  "_build/install/default/lib/sexplib/sexplib__Conv.cmx"
+    {"sexplib__Conv.cmx"}
+  "_build/install/default/lib/sexplib/sexplib__Conv.cmt"
+    {"sexplib__Conv.cmt"}
+  "_build/install/default/lib/sexplib/sexplib__Conv.cmti"
+    {"sexplib__Conv.cmti"}
+  "_build/install/default/lib/sexplib/conv.mli" {"conv.mli"}
+  "_build/install/default/lib/sexplib/conv.ml" {"conv.ml"}
+  "_build/install/default/lib/sexplib/sexplib__Conv_error.cmi"
+    {"sexplib__Conv_error.cmi"}
+  "_build/install/default/lib/sexplib/sexplib__Conv_error.cmx"
+    {"sexplib__Conv_error.cmx"}
+  "_build/install/default/lib/sexplib/sexplib__Conv_error.cmt"
+    {"sexplib__Conv_error.cmt"}
+  "_build/install/default/lib/sexplib/conv_error.ml" {"conv_error.ml"}
+  "_build/install/default/lib/sexplib/sexplib__Exn_magic.cmi"
+    {"sexplib__Exn_magic.cmi"}
+  "_build/install/default/lib/sexplib/sexplib__Exn_magic.cmx"
+    {"sexplib__Exn_magic.cmx"}
+  "_build/install/default/lib/sexplib/sexplib__Exn_magic.cmt"
+    {"sexplib__Exn_magic.cmt"}
+  "_build/install/default/lib/sexplib/sexplib__Exn_magic.cmti"
+    {"sexplib__Exn_magic.cmti"}
+  "_build/install/default/lib/sexplib/exn_magic.mli" {"exn_magic.mli"}
+  "_build/install/default/lib/sexplib/exn_magic.ml" {"exn_magic.ml"}
+  "_build/install/default/lib/sexplib/sexplib__Lexer.cmi"
+    {"sexplib__Lexer.cmi"}
+  "_build/install/default/lib/sexplib/sexplib__Lexer.cmx"
+    {"sexplib__Lexer.cmx"}
+  "_build/install/default/lib/sexplib/sexplib__Lexer.cmt"
+    {"sexplib__Lexer.cmt"}
+  "_build/install/default/lib/sexplib/sexplib__Lexer.cmti"
+    {"sexplib__Lexer.cmti"}
+  "_build/install/default/lib/sexplib/lexer.mli" {"lexer.mli"}
+  "_build/install/default/lib/sexplib/lexer.ml" {"lexer.ml"}
+  "_build/install/default/lib/sexplib/sexplib__Macro.cmi"
+    {"sexplib__Macro.cmi"}
+  "_build/install/default/lib/sexplib/sexplib__Macro.cmx"
+    {"sexplib__Macro.cmx"}
+  "_build/install/default/lib/sexplib/sexplib__Macro.cmt"
+    {"sexplib__Macro.cmt"}
+  "_build/install/default/lib/sexplib/sexplib__Macro.cmti"
+    {"sexplib__Macro.cmti"}
+  "_build/install/default/lib/sexplib/macro.mli" {"macro.mli"}
+  "_build/install/default/lib/sexplib/macro.ml" {"macro.ml"}
+  "_build/install/default/lib/sexplib/sexplib__Parser.cmi"
+    {"sexplib__Parser.cmi"}
+  "_build/install/default/lib/sexplib/sexplib__Parser.cmx"
+    {"sexplib__Parser.cmx"}
+  "_build/install/default/lib/sexplib/sexplib__Parser.cmt"
+    {"sexplib__Parser.cmt"}
+  "_build/install/default/lib/sexplib/sexplib__Parser.cmti"
+    {"sexplib__Parser.cmti"}
+  "_build/install/default/lib/sexplib/parser.mli" {"parser.mli"}
+  "_build/install/default/lib/sexplib/parser.ml" {"parser.ml"}
+  "_build/install/default/lib/sexplib/sexplib__Parser_with_layout.cmi"
+    {"sexplib__Parser_with_layout.cmi"}
+  "_build/install/default/lib/sexplib/sexplib__Parser_with_layout.cmx"
+    {"sexplib__Parser_with_layout.cmx"}
+  "_build/install/default/lib/sexplib/sexplib__Parser_with_layout.cmt"
+    {"sexplib__Parser_with_layout.cmt"}
+  "_build/install/default/lib/sexplib/sexplib__Parser_with_layout.cmti"
+    {"sexplib__Parser_with_layout.cmti"}
+  "_build/install/default/lib/sexplib/parser_with_layout.mli"
+    {"parser_with_layout.mli"}
+  "_build/install/default/lib/sexplib/parser_with_layout.ml"
+    {"parser_with_layout.ml"}
+  "_build/install/default/lib/sexplib/sexplib__Path.cmi"
+    {"sexplib__Path.cmi"}
+  "_build/install/default/lib/sexplib/sexplib__Path.cmx"
+    {"sexplib__Path.cmx"}
+  "_build/install/default/lib/sexplib/sexplib__Path.cmt"
+    {"sexplib__Path.cmt"}
+  "_build/install/default/lib/sexplib/sexplib__Path.cmti"
+    {"sexplib__Path.cmti"}
+  "_build/install/default/lib/sexplib/path.mli" {"path.mli"}
+  "_build/install/default/lib/sexplib/path.ml" {"path.ml"}
+  "_build/install/default/lib/sexplib/sexplib__Pre_sexp.cmi"
+    {"sexplib__Pre_sexp.cmi"}
+  "_build/install/default/lib/sexplib/sexplib__Pre_sexp.cmx"
+    {"sexplib__Pre_sexp.cmx"}
+  "_build/install/default/lib/sexplib/sexplib__Pre_sexp.cmt"
+    {"sexplib__Pre_sexp.cmt"}
+  "_build/install/default/lib/sexplib/pre_sexp.ml" {"pre_sexp.ml"}
+  "_build/install/default/lib/sexplib/sexplib__Sexp.cmi"
+    {"sexplib__Sexp.cmi"}
+  "_build/install/default/lib/sexplib/sexplib__Sexp.cmx"
+    {"sexplib__Sexp.cmx"}
+  "_build/install/default/lib/sexplib/sexplib__Sexp.cmt"
+    {"sexplib__Sexp.cmt"}
+  "_build/install/default/lib/sexplib/sexplib__Sexp.cmti"
+    {"sexplib__Sexp.cmti"}
+  "_build/install/default/lib/sexplib/sexp.mli" {"sexp.mli"}
+  "_build/install/default/lib/sexplib/sexp.ml" {"sexp.ml"}
+  "_build/install/default/lib/sexplib/sexplib__Sexp_intf.cmi"
+    {"sexplib__Sexp_intf.cmi"}
+  "_build/install/default/lib/sexplib/sexplib__Sexp_intf.cmx"
+    {"sexplib__Sexp_intf.cmx"}
+  "_build/install/default/lib/sexplib/sexplib__Sexp_intf.cmt"
+    {"sexplib__Sexp_intf.cmt"}
+  "_build/install/default/lib/sexplib/sexp_intf.ml" {"sexp_intf.ml"}
+  "_build/install/default/lib/sexplib/sexplib__Sexp_with_layout.cmi"
+    {"sexplib__Sexp_with_layout.cmi"}
+  "_build/install/default/lib/sexplib/sexplib__Sexp_with_layout.cmx"
+    {"sexplib__Sexp_with_layout.cmx"}
+  "_build/install/default/lib/sexplib/sexplib__Sexp_with_layout.cmt"
+    {"sexplib__Sexp_with_layout.cmt"}
+  "_build/install/default/lib/sexplib/sexp_with_layout.ml"
+    {"sexp_with_layout.ml"}
+  "_build/install/default/lib/sexplib/sexplib.cmi" {"sexplib.cmi"}
+  "_build/install/default/lib/sexplib/sexplib.cmx" {"sexplib.cmx"}
+  "_build/install/default/lib/sexplib/sexplib.cmt" {"sexplib.cmt"}
+  "_build/install/default/lib/sexplib/sexplib.ml-gen" {"sexplib.ml-gen"}
+  "_build/install/default/lib/sexplib/sexplib__Src_pos.cmi"
+    {"sexplib__Src_pos.cmi"}
+  "_build/install/default/lib/sexplib/sexplib__Src_pos.cmx"
+    {"sexplib__Src_pos.cmx"}
+  "_build/install/default/lib/sexplib/sexplib__Src_pos.cmt"
+    {"sexplib__Src_pos.cmt"}
+  "_build/install/default/lib/sexplib/sexplib__Src_pos.cmti"
+    {"sexplib__Src_pos.cmti"}
+  "_build/install/default/lib/sexplib/src_pos.mli" {"src_pos.mli"}
+  "_build/install/default/lib/sexplib/src_pos.ml" {"src_pos.ml"}
+  "_build/install/default/lib/sexplib/sexplib__Std.cmi" {"sexplib__Std.cmi"}
+  "_build/install/default/lib/sexplib/sexplib__Std.cmx" {"sexplib__Std.cmx"}
+  "_build/install/default/lib/sexplib/sexplib__Std.cmt" {"sexplib__Std.cmt"}
+  "_build/install/default/lib/sexplib/std.ml" {"std.ml"}
+  "_build/install/default/lib/sexplib/sexplib__Type.cmi"
+    {"sexplib__Type.cmi"}
+  "_build/install/default/lib/sexplib/sexplib__Type.cmx"
+    {"sexplib__Type.cmx"}
+  "_build/install/default/lib/sexplib/sexplib__Type.cmt"
+    {"sexplib__Type.cmt"}
+  "_build/install/default/lib/sexplib/type.ml" {"type.ml"}
+  "_build/install/default/lib/sexplib/sexplib__Type_with_layout.cmi"
+    {"sexplib__Type_with_layout.cmi"}
+  "_build/install/default/lib/sexplib/sexplib__Type_with_layout.cmx"
+    {"sexplib__Type_with_layout.cmx"}
+  "_build/install/default/lib/sexplib/sexplib__Type_with_layout.cmt"
+    {"sexplib__Type_with_layout.cmt"}
+  "_build/install/default/lib/sexplib/sexplib__Type_with_layout.cmti"
+    {"sexplib__Type_with_layout.cmti"}
+  "_build/install/default/lib/sexplib/type_with_layout.mli"
+    {"type_with_layout.mli"}
+  "_build/install/default/lib/sexplib/type_with_layout.ml"
+    {"type_with_layout.ml"}
+  "_build/install/default/lib/sexplib/sexplib.cma" {"sexplib.cma"}
+  "_build/install/default/lib/sexplib/sexplib.cmxa" {"sexplib.cmxa"}
+  "_build/install/default/lib/sexplib/sexplib.a" {"sexplib.a"}
+  "_build/install/default/lib/sexplib/sexplib.cmxs" {"sexplib.cmxs"}
+  "_build/install/default/lib/sexplib/sexplib.dune" {"sexplib.dune"}
+  "_build/install/default/lib/sexplib/num/sexplib_num.cmi"
+    {"num/sexplib_num.cmi"}
+  "_build/install/default/lib/sexplib/num/sexplib_num.cmx"
+    {"num/sexplib_num.cmx"}
+  "_build/install/default/lib/sexplib/num/sexplib_num.cmt"
+    {"num/sexplib_num.cmt"}
+  "_build/install/default/lib/sexplib/num/sexplib_num.ml-gen"
+    {"num/sexplib_num.ml-gen"}
+  "_build/install/default/lib/sexplib/num/sexplib_num__Sexplib_num_conv.cmi"
+    {"num/sexplib_num__Sexplib_num_conv.cmi"}
+  "_build/install/default/lib/sexplib/num/sexplib_num__Sexplib_num_conv.cmx"
+    {"num/sexplib_num__Sexplib_num_conv.cmx"}
+  "_build/install/default/lib/sexplib/num/sexplib_num__Sexplib_num_conv.cmt"
+    {"num/sexplib_num__Sexplib_num_conv.cmt"}
+  "_build/install/default/lib/sexplib/num/sexplib_num__Sexplib_num_conv.cmti"
+    {"num/sexplib_num__Sexplib_num_conv.cmti"}
+  "_build/install/default/lib/sexplib/num/sexplib_num_conv.mli"
+    {"num/sexplib_num_conv.mli"}
+  "_build/install/default/lib/sexplib/num/sexplib_num_conv.ml"
+    {"num/sexplib_num_conv.ml"}
+  "_build/install/default/lib/sexplib/num/sexplib_num__Std.cmi"
+    {"num/sexplib_num__Std.cmi"}
+  "_build/install/default/lib/sexplib/num/sexplib_num__Std.cmx"
+    {"num/sexplib_num__Std.cmx"}
+  "_build/install/default/lib/sexplib/num/sexplib_num__Std.cmt"
+    {"num/sexplib_num__Std.cmt"}
+  "_build/install/default/lib/sexplib/num/std.ml" {"num/std.ml"}
+  "_build/install/default/lib/sexplib/num/sexplib_num.cma"
+    {"num/sexplib_num.cma"}
+  "_build/install/default/lib/sexplib/num/sexplib_num.cmxa"
+    {"num/sexplib_num.cmxa"}
+  "_build/install/default/lib/sexplib/num/sexplib_num.a"
+    {"num/sexplib_num.a"}
+  "_build/install/default/lib/sexplib/num/sexplib_num.cmxs"
+    {"num/sexplib_num.cmxs"}
+  "_build/install/default/lib/sexplib/num/sexplib.num.dune"
+    {"num/sexplib.num.dune"}
+]
+doc: [
+  "_build/install/default/doc/sexplib/README.org"
+  "_build/install/default/doc/sexplib/LICENSE.txt"
+  "_build/install/default/doc/sexplib/LICENSE-Tywith.txt"
+  "_build/install/default/doc/sexplib/CHANGES.txt"
+  "_build/install/default/doc/sexplib/CHANGES.md"
+]

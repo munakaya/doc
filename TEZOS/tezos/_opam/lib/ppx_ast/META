@@ -1,0 +1,10 @@
+version = "v0.10.0"
+description = ""
+requires = "compiler-libs.common
+            ocaml-compiler-libs.common
+            ocaml-compiler-libs.shadow
+            ocaml-migrate-parsetree"
+archive(byte) = "ppx_ast.cma"
+archive(native) = "ppx_ast.cmxa"
+plugin(byte) = "ppx_ast.cma"
+plugin(native) = "ppx_ast.cmxs"

@@ -1,0 +1,9 @@
+lib: [
+  "_build/install/default/lib/cppo/META" {"META"}
+  "_build/install/default/lib/cppo/opam" {"opam"}
+]
+bin: "_build/install/default/bin/cppo" {"cppo"}
+doc: [
+  "_build/install/default/doc/cppo/README.md"
+  "_build/install/default/doc/cppo/LICENSE.md"
+]

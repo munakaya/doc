@@ -1,0 +1,19 @@
+lib: [
+  "_build/opam" {"opam"}
+  "_build/pkg/META" {"META"}
+  "_build/src/cpuid.a" {"cpuid.a"}
+  "_build/src/cpuid.cma" {"cpuid.cma"}
+  "_build/src/cpuid.cmi" {"cpuid.cmi"}
+  "?_build/src/cpuid.cmti" {"cpuid.cmti"}
+  "_build/src/cpuid.cmx" {"cpuid.cmx"}
+  "_build/src/cpuid.cmxa" {"cpuid.cmxa"}
+  "_build/src/cpuid.cmxs" {"cpuid.cmxs"}
+  "_build/src/cpuid.mli" {"cpuid.mli"}
+  "_build/src/libcpuid_stubs.a" {"libcpuid_stubs.a"}
+]
+stublibs: "_build/src/dllcpuid_stubs.so" {"dllcpuid_stubs.so"}
+doc: [
+  "_build/CHANGES.md" {"CHANGES.md"}
+  "_build/LICENSE.md" {"LICENSE.md"}
+  "_build/README.md" {"README.md"}
+]

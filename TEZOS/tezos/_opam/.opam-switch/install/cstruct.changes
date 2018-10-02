@@ -1,0 +1,23 @@
+added: [
+  "doc/cstruct" {"D"}
+  "doc/cstruct/CHANGES.md" {"F:S12659T1537259838.94"}
+  "doc/cstruct/LICENSE.md" {"F:S1457T1537259838.93"}
+  "doc/cstruct/README.md" {"F:S6675T1537259838.92"}
+  "lib/cstruct" {"D"}
+  "lib/cstruct/META" {"F:S555T1537259838.75"}
+  "lib/cstruct/cstruct.a" {"F:S93544T1537259838.87"}
+  "lib/cstruct/cstruct.cma" {"F:S83052T1537259838.84"}
+  "lib/cstruct/cstruct.cmi" {"F:S10135T1537259838.77"}
+  "lib/cstruct/cstruct.cmt" {"F:S259340T1537259838.79"}
+  "lib/cstruct/cstruct.cmti" {"F:S76628T1537259838.8"}
+  "lib/cstruct/cstruct.cmx" {"F:S6853T1537259838.78"}
+  "lib/cstruct/cstruct.cmxa" {"F:S1489T1537259838.86"}
+  "lib/cstruct/cstruct.cmxs" {"F:S113536T1537259838.88"}
+  "lib/cstruct/cstruct.dune" {"F:S12T1537259838.89"}
+  "lib/cstruct/cstruct.js" {"F:S2388T1537259838.9"}
+  "lib/cstruct/cstruct.ml" {"F:S16955T1537259838.83"}
+  "lib/cstruct/cstruct.mli" {"F:S18544T1537259838.81"}
+  "lib/cstruct/libcstruct_stubs.a" {"F:S14388T1537259838.85"}
+  "lib/cstruct/opam" {"F:S784T1537259838.76"}
+  "lib/stublibs/dllcstruct_stubs.so" {"F:S15576T1537259838.91"}
+]

@@ -1,0 +1,7 @@
+version = "v0.10.0"
+description = ""
+requires = "compiler-libs.common ppx_core"
+archive(byte) = "ppx_optcomp.cma"
+archive(native) = "ppx_optcomp.cmxa"
+plugin(byte) = "ppx_optcomp.cma"
+plugin(native) = "ppx_optcomp.cmxs"

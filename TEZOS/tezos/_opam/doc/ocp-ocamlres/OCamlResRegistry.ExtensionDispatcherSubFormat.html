@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="OCamlResRegistry.PredefOptions.html">
+<link rel="next" href="OCamlResRegistry.OCaml.html">
+<link rel="Up" href="OCamlResRegistry.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="OCamlResSubFormats" rel="Chapter" href="OCamlResSubFormats.html">
+<link title="OCamlResFormats" rel="Chapter" href="OCamlResFormats.html">
+<link title="OCamlResScanners" rel="Chapter" href="OCamlResScanners.html">
+<link title="OCamlResRegistry" rel="Chapter" href="OCamlResRegistry.html"><title>OCamlResRegistry.ExtensionDispatcherSubFormat</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="OCamlResRegistry.PredefOptions.html" title="OCamlResRegistry.PredefOptions">Previous</a>
+&nbsp;<a class="up" href="OCamlResRegistry.html" title="OCamlResRegistry">Up</a>
+&nbsp;<a class="post" href="OCamlResRegistry.OCaml.html" title="OCamlResRegistry.OCaml">Next</a>
+</div>
+<h1>Module <a href="type_OCamlResRegistry.ExtensionDispatcherSubFormat.html">OCamlResRegistry.ExtensionDispatcherSubFormat</a></h1>
+
+<pre><span id="MODULEExtensionDispatcherSubFormat"><span class="keyword">module</span> ExtensionDispatcherSubFormat</span>: <code class="type"><a href="OCamlResSubFormats.SubFormat.html">OCamlResSubFormats.SubFormat</a></code><code class="type">  with type t = string</code></pre><div class="info module top">
+<div class="info-desc">
+<p>Output subformat dispatching the output depending on file
+    extensions and the command line options. To be polymorphic, the
+    <code class="code">t</code> type is a string containing the raw resource representation,
+    and the <code class="code">from_raw</code> method of the selected subformat is used at
+    every operation. The <code class="code">SubFormat</code> used is resolved using table
+    <a href="OCamlResRegistry.PredefOptions.html#VALsubformats"><code class="code">OCamlResRegistry.PredefOptions.subformats</code></a>.</p>
+</div>
+</div>
+<hr width="100%">
+
+<pre><span id="TYPEt"><span class="keyword">type</span> <code class="type"></code>t</span> </pre>
+<div class="info ">
+<div class="info-desc">
+<p>The generation-time intermediate representation of data.</p>
+</div>
+</div>
+
+
+<pre><span id="VALfrom_raw"><span class="keyword">val</span> from_raw</span> : <code class="type">OCamlRes.Path.t -> string -> <a href="OCamlResSubFormats.SubFormat.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p>A parser as used by the scanner to obtain the in-memory
+      resources from files.</p>
+</div>
+</div>
+
+<pre><span id="VALto_raw"><span class="keyword">val</span> to_raw</span> : <code class="type">OCamlRes.Path.t -> <a href="OCamlResSubFormats.SubFormat.html#TYPEt">t</a> -> string</code></pre><div class="info ">
+<div class="info-desc">
+<p>A dumper to reconstitute the files from the in-memory
+      resources.</p>
+</div>
+</div>
+
+<pre><span id="VALpprint"><span class="keyword">val</span> pprint</span> : <code class="type">OCamlRes.Path.t -> <a href="OCamlResSubFormats.SubFormat.html#TYPEt">t</a> -> PPrint.document</code></pre><div class="info ">
+<div class="info-desc">
+<p>Takes the path to the resource in the resource tree, and its
+      value to pretty print. Returns the OCaml representation of the
+      value.</p>
+</div>
+</div>
+
+<pre><span id="VALpprint_header"><span class="keyword">val</span> pprint_header</span> : <code class="type">OCamlRes.Path.t -> <a href="OCamlResSubFormats.SubFormat.html#TYPEt">t</a> -> PPrint.document option</code></pre><div class="info ">
+<div class="info-desc">
+<p>Provides an optional piece of OCaml code to put before the
+      resource store definition, for instance a type definition.</p>
+</div>
+</div>
+
+<pre><span id="VALpprint_footer"><span class="keyword">val</span> pprint_footer</span> : <code class="type">OCamlRes.Path.t -> <a href="OCamlResSubFormats.SubFormat.html#TYPEt">t</a> -> PPrint.document option</code></pre><div class="info ">
+<div class="info-desc">
+<p>Provides an optional piece of OCaml code to put after the
+      resource store definition, for instance a type definition.</p>
+</div>
+</div>
+
+<pre><span id="VALname"><span class="keyword">val</span> name</span> : <code class="type">OCamlRes.Path.t -> <a href="OCamlResSubFormats.SubFormat.html#TYPEt">t</a> -> string</code></pre><div class="info ">
+<div class="info-desc">
+<p>A name used to identify the subformat.</p>
+</div>
+</div>
+
+<pre><span id="VALtype_name"><span class="keyword">val</span> type_name</span> : <code class="type">OCamlRes.Path.t -> <a href="OCamlResSubFormats.SubFormat.html#TYPEt">t</a> -> string</code></pre><div class="info ">
+<div class="info-desc">
+<p>The run-time OCaml type name (that describes the type of
+      values generated by <a href="OCamlResSubFormats.SubFormat.html#VALpprint"><code class="code">OCamlResSubFormats.SubFormat.pprint</code></a>). Used to annotate the generated
+      source where needed. The common usecase is when this function
+      returns the same type as the static <a href="OCamlResSubFormats.SubFormat.html#TYPEt"><code class="code">OCamlResSubFormats.SubFormat.t</code></a> type.</p>
+</div>
+</div>
+
+<pre><span id="VALmod_name"><span class="keyword">val</span> mod_name</span> : <code class="type">OCamlRes.Path.t -> <a href="OCamlResSubFormats.SubFormat.html#TYPEt">t</a> -> string</code></pre><div class="info ">
+<div class="info-desc">
+<p>The name of the subformat module at run-time. If the static type
+      <a href="OCamlResSubFormats.SubFormat.html#TYPEt"><code class="code">OCamlResSubFormats.SubFormat.t</code></a> is the same as the runtime type returned by <code class="code">type_abbrv</code>,
+      this is simply the path to the module used for generation.</p>
+</div>
+</div>
+</body></html>

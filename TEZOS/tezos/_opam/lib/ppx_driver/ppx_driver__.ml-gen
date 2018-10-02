@@ -1,0 +1,11 @@
+(** @canonical Ppx_driver.Import *)
+module Import = Ppx_driver__Import
+
+(** @canonical Ppx_driver.Options *)
+module Options = Ppx_driver__Options
+
+(** @canonical Ppx_driver.Ppx_driver *)
+module Ppx_driver = Ppx_driver
+
+(** @canonical Ppx_driver.Reconcile *)
+module Reconcile = Ppx_driver__Reconcile

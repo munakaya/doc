@@ -1,0 +1,35 @@
+lib: [
+  "_build/lwt/nocrypto_entropy_lwt.cmi" {"nocrypto_entropy_lwt.cmi"}
+  "?_build/lwt/nocrypto_entropy_lwt.cmti" {"nocrypto_entropy_lwt.cmti"}
+  "_build/lwt/nocrypto_entropy_lwt.cmx" {"nocrypto_entropy_lwt.cmx"}
+  "_build/lwt/nocrypto_entropy_lwt.mli" {"nocrypto_entropy_lwt.mli"}
+  "_build/lwt/nocrypto_lwt.a" {"nocrypto_lwt.a"}
+  "_build/lwt/nocrypto_lwt.cma" {"nocrypto_lwt.cma"}
+  "_build/lwt/nocrypto_lwt.cmxa" {"nocrypto_lwt.cmxa"}
+  "_build/lwt/nocrypto_lwt.cmxs" {"nocrypto_lwt.cmxs"}
+  "_build/opam" {"opam"}
+  "_build/pkg/META" {"META"}
+  "_build/src/libnocrypto_stubs.a" {"libnocrypto_stubs.a"}
+  "_build/src/nocrypto.a" {"nocrypto.a"}
+  "_build/src/nocrypto.cma" {"nocrypto.cma"}
+  "_build/src/nocrypto.cmi" {"nocrypto.cmi"}
+  "?_build/src/nocrypto.cmti" {"nocrypto.cmti"}
+  "_build/src/nocrypto.cmx" {"nocrypto.cmx"}
+  "_build/src/nocrypto.cmxa" {"nocrypto.cmxa"}
+  "_build/src/nocrypto.cmxs" {"nocrypto.cmxs"}
+  "_build/src/nocrypto.mli" {"nocrypto.mli"}
+  "_build/unix/nocrypto_entropy_unix.cmi" {"nocrypto_entropy_unix.cmi"}
+  "?_build/unix/nocrypto_entropy_unix.cmti" {"nocrypto_entropy_unix.cmti"}
+  "_build/unix/nocrypto_entropy_unix.cmx" {"nocrypto_entropy_unix.cmx"}
+  "_build/unix/nocrypto_entropy_unix.mli" {"nocrypto_entropy_unix.mli"}
+  "_build/unix/nocrypto_unix.a" {"nocrypto_unix.a"}
+  "_build/unix/nocrypto_unix.cma" {"nocrypto_unix.cma"}
+  "_build/unix/nocrypto_unix.cmxa" {"nocrypto_unix.cmxa"}
+  "_build/unix/nocrypto_unix.cmxs" {"nocrypto_unix.cmxs"}
+]
+stublibs: "_build/src/dllnocrypto_stubs.so" {"dllnocrypto_stubs.so"}
+doc: [
+  "_build/CHANGES.md" {"CHANGES.md"}
+  "_build/LICENSE.md" {"LICENSE.md"}
+  "_build/README.md" {"README.md"}
+]

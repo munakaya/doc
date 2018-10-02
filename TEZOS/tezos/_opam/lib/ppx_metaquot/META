@@ -1,0 +1,24 @@
+version = "v0.10.0"
+description = ""
+requires(ppx_driver) = "ppx_core
+                        ppx_driver
+                        ppx_metaquot.lifters
+                        ppx_traverse_builtins"
+archive(ppx_driver,byte) = "ppx_metaquot.cma"
+archive(ppx_driver,native) = "ppx_metaquot.cmxa"
+plugin(ppx_driver,byte) = "ppx_metaquot.cma"
+plugin(ppx_driver,native) = "ppx_metaquot.cmxs"
+# This line makes things transparent for people mixing preprocessors
+# and normal dependencies
+requires(-ppx_driver) = ""
+ppx(-ppx_driver,-custom_ppx) = "./ppx.exe --as-ppx"
+package "lifters" (
+  directory = "lifters"
+  version = "v0.10.0"
+  description = ""
+  requires = "ppx_core ppx_traverse_builtins"
+  archive(byte) = "ppx_metaquot_lifters.cma"
+  archive(native) = "ppx_metaquot_lifters.cmxa"
+  plugin(byte) = "ppx_metaquot_lifters.cma"
+  plugin(native) = "ppx_metaquot_lifters.cmxs"
+)

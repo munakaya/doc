@@ -1,0 +1,48 @@
+(**************************************************************************)
+(*                                                                        *)
+(*   Typerex Libraries                                                    *)
+(*                                                                        *)
+(*   Copyright 2011-2017 OCamlPro SAS                                     *)
+(*                                                                        *)
+(*   All rights reserved.  This file is distributed under the terms of    *)
+(*   the GNU Lesser General Public License version 2.1, with the          *)
+(*   special exception on linking described in the file LICENSE.          *)
+(*                                                                        *)
+(**************************************************************************)
+
+ocaml.version = autoconf.package_version;
+
+(*
+function set_default(env, varname, default){
+    try { return env[varname]; }
+    catch("unknown-field", arg){ return default; }
+}
+
+generated = set_default(., "generated", false);
+
+ocaml = { pp_requires = [] } + ocaml;
+
+  if( generated ) begin
+        new_package("ocp-pp","program",{
+            generated = true;
+            files = [];
+            requires = [] });
+      end
+*)
+
+  begin
+    ocaml.files = [  "ocpCompat.ml";  "stringCompat.ml"; ];
+    ocaml.pp = [ "%{ocp-pp_FULL_DST_DIR}%/ocp-pp.byte" ]; 
+    ocaml.requires = [ "ocp-pp" ];
+    ocaml.pp_requires = [ "ocp-pp:byte" ];
+(*  Wrong on windows, as it should set .byte.exe instead of .byte
+
+     ocaml.pp_deps = [ "%{ocp-pp_FULL_DST_DIR}%/ocp-pp.byte" ]; *)
+    OCaml.library( "ocplib-compat", ocaml);
+  end
+
+  begin
+      ocaml.is_toplevel = true;
+      ocaml.requires = [ "ocplib-compat" ];
+      OCaml.library( "ocplib-compat-top", ocaml);
+  end

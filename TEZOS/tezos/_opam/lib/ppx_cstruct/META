@@ -1,0 +1,17 @@
+version = "3.2.1"
+description = ""
+requires(ppx_driver) = "bigarray
+                        ocaml-migrate-parsetree
+                        ppx_tools_versioned
+                        ppx_tools_versioned.metaquot_404"
+archive(ppx_driver,byte) = "ppx_cstruct.cma"
+archive(ppx_driver,native) = "ppx_cstruct.cmxa"
+plugin(ppx_driver,byte) = "ppx_cstruct.cma"
+plugin(ppx_driver,native) = "ppx_cstruct.cmxs"
+# This is what jbuilder uses to find out the runtime dependencies of
+# a preprocessor
+ppx_runtime_deps = "cstruct"
+# This line makes things transparent for people mixing preprocessors
+# and normal dependencies
+requires(-ppx_driver) = "cstruct ppx_tools_versioned"
+ppx(-ppx_driver,-custom_ppx) = "./ppx.exe --as-ppx"

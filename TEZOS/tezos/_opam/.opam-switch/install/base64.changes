@@ -1,0 +1,20 @@
+added: [
+  "doc/base64" {"D"}
+  "doc/base64/CHANGES.md" {"F:S931T1537259747.03"}
+  "doc/base64/LICENSE.md" {"F:S800T1537259747.03"}
+  "doc/base64/README.md" {"F:S700T1537259747.02"}
+  "lib/base64" {"D"}
+  "lib/base64/META" {"F:S174T1537259746.91"}
+  "lib/base64/b64.cmi" {"F:S647T1537259746.93"}
+  "lib/base64/b64.cmt" {"F:S42779T1537259746.95"}
+  "lib/base64/b64.cmti" {"F:S6748T1537259746.95"}
+  "lib/base64/b64.cmx" {"F:S893T1537259746.94"}
+  "lib/base64/b64.ml" {"F:S3416T1537259746.97"}
+  "lib/base64/b64.mli" {"F:S2008T1537259746.96"}
+  "lib/base64/base64.a" {"F:S13902T1537259746.99"}
+  "lib/base64/base64.cma" {"F:S13718T1537259746.98"}
+  "lib/base64/base64.cmxa" {"F:S299T1537259746.99"}
+  "lib/base64/base64.cmxs" {"F:S21728T1537259747."}
+  "lib/base64/base64.dune" {"F:S12T1537259747.01"}
+  "lib/base64/opam" {"F:S661T1537259746.92"}
+]

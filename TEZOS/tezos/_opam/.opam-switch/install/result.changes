@@ -1,0 +1,18 @@
+added: [
+  "doc/result" {"D"}
+  "doc/result/CHANGES.md" {"F:S56T1537259759.08"}
+  "doc/result/LICENSE.md" {"F:S1536T1537259759.07"}
+  "doc/result/README.md" {"F:S210T1537259759.06"}
+  "lib/result" {"D"}
+  "lib/result/META" {"F:S167T1537259758.94"}
+  "lib/result/opam" {"F:S406T1537259758.95"}
+  "lib/result/result.a" {"F:S2070T1537259759.03"}
+  "lib/result/result.cma" {"F:S1835T1537259759.01"}
+  "lib/result/result.cmi" {"F:S388T1537259758.96"}
+  "lib/result/result.cmt" {"F:S2821T1537259758.99"}
+  "lib/result/result.cmx" {"F:S173T1537259758.97"}
+  "lib/result/result.cmxa" {"F:S179T1537259759.02"}
+  "lib/result/result.cmxs" {"F:S8608T1537259759.04"}
+  "lib/result/result.dune" {"F:S12T1537259759.05"}
+  "lib/result/result.ml" {"F:S100T1537259759."}
+]

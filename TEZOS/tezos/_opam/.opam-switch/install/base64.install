@@ -1,0 +1,20 @@
+lib: [
+  "_build/install/default/lib/base64/META" {"META"}
+  "_build/install/default/lib/base64/opam" {"opam"}
+  "_build/install/default/lib/base64/b64.cmi" {"b64.cmi"}
+  "_build/install/default/lib/base64/b64.cmx" {"b64.cmx"}
+  "_build/install/default/lib/base64/b64.cmt" {"b64.cmt"}
+  "_build/install/default/lib/base64/b64.cmti" {"b64.cmti"}
+  "_build/install/default/lib/base64/b64.mli" {"b64.mli"}
+  "_build/install/default/lib/base64/b64.ml" {"b64.ml"}
+  "_build/install/default/lib/base64/base64.cma" {"base64.cma"}
+  "_build/install/default/lib/base64/base64.cmxa" {"base64.cmxa"}
+  "_build/install/default/lib/base64/base64.a" {"base64.a"}
+  "_build/install/default/lib/base64/base64.cmxs" {"base64.cmxs"}
+  "_build/install/default/lib/base64/base64.dune" {"base64.dune"}
+]
+doc: [
+  "_build/install/default/doc/base64/README.md"
+  "_build/install/default/doc/base64/LICENSE.md"
+  "_build/install/default/doc/base64/CHANGES.md"
+]

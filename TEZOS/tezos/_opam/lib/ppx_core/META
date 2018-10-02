@@ -1,0 +1,13 @@
+version = "v0.10.0"
+description = ""
+requires = "base
+            compiler-libs.common
+            ocaml-compiler-libs.common
+            ocaml-compiler-libs.shadow
+            ppx_ast
+            ppx_traverse_builtins
+            stdio"
+archive(byte) = "ppx_core.cma"
+archive(native) = "ppx_core.cmxa"
+plugin(byte) = "ppx_core.cma"
+plugin(native) = "ppx_core.cmxs"

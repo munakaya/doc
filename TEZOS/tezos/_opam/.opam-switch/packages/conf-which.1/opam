@@ -1,0 +1,21 @@
+opam-version: "2.0"
+synopsis: "Virtual package relying on which"
+description:
+  "This package can only install if the which program is installed on the system."
+maintainer: "unixjunkie@sdf.org"
+authors: "Carlo Wood"
+license: "GPL-2+"
+homepage: "http://www.gnu.org/software/which/"
+bug-reports: "https://github.com/ocaml/opam-repository/issues"
+depends: ["ocaml"]
+build: ["which" "which"]
+depexts: [
+  ["which"] {os-distribution = "centos"}
+  ["which"] {os-distribution = "fedora"}
+  ["which"] {os-distribution = "opensuse"}
+  ["debianutils"] {os-distribution = "debian"}
+  ["debianutils"] {os-distribution = "ubuntu"}
+  ["which"] {os-distribution = "nixos"}
+  ["which"] {os-distribution = "archlinux"}
+]
+dev-repo: "git+https://github.com/ocaml/opam-repository.git"

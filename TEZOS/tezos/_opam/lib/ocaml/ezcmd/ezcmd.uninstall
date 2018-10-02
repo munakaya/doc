@@ -1,0 +1,13 @@
+OCP 1
+TYP library
+VER 1.99.20-beta
+REG /home/user/tezos_latest/tezos/_opam/lib/META.ezcmd
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ezcmd/ezcmd.cmi
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ezcmd/ezcmd.cmx
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ezcmd/ezcmd.cmi
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ezcmd/ezcmd.cmxs
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ezcmd/ezcmd.a
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ezcmd/ezcmd.cmxa
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ezcmd/ezcmd.cma
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ezcmd/ezcmd.uninstall
+DIR /home/user/tezos_latest/tezos/_opam/lib/ocaml/ezcmd

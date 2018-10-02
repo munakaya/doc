@@ -1,0 +1,30 @@
+lib: [
+  "_build/install/default/lib/cppo_ocamlbuild/META" {"META"}
+  "_build/install/default/lib/cppo_ocamlbuild/opam" {"opam"}
+  "_build/install/default/lib/cppo_ocamlbuild/ocamlbuild_cppo.cmi"
+    {"ocamlbuild_cppo.cmi"}
+  "_build/install/default/lib/cppo_ocamlbuild/ocamlbuild_cppo.cmx"
+    {"ocamlbuild_cppo.cmx"}
+  "_build/install/default/lib/cppo_ocamlbuild/ocamlbuild_cppo.cmt"
+    {"ocamlbuild_cppo.cmt"}
+  "_build/install/default/lib/cppo_ocamlbuild/ocamlbuild_cppo.cmti"
+    {"ocamlbuild_cppo.cmti"}
+  "_build/install/default/lib/cppo_ocamlbuild/ocamlbuild_cppo.mli"
+    {"ocamlbuild_cppo.mli"}
+  "_build/install/default/lib/cppo_ocamlbuild/ocamlbuild_cppo.ml"
+    {"ocamlbuild_cppo.ml"}
+  "_build/install/default/lib/cppo_ocamlbuild/cppo_ocamlbuild.cma"
+    {"cppo_ocamlbuild.cma"}
+  "_build/install/default/lib/cppo_ocamlbuild/cppo_ocamlbuild.cmxa"
+    {"cppo_ocamlbuild.cmxa"}
+  "_build/install/default/lib/cppo_ocamlbuild/cppo_ocamlbuild.a"
+    {"cppo_ocamlbuild.a"}
+  "_build/install/default/lib/cppo_ocamlbuild/cppo_ocamlbuild.cmxs"
+    {"cppo_ocamlbuild.cmxs"}
+  "_build/install/default/lib/cppo_ocamlbuild/cppo_ocamlbuild.dune"
+    {"cppo_ocamlbuild.dune"}
+]
+doc: [
+  "_build/install/default/doc/cppo_ocamlbuild/README.md"
+  "_build/install/default/doc/cppo_ocamlbuild/LICENSE.md"
+]

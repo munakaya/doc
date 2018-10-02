@@ -1,0 +1,6 @@
+description = "Indentation made easy(ier)"
+requires = ""
+archive(byte) = "easy_format.cma"
+archive(native) = "easy_format.cmxa"
+plugin(byte) = "easy_format.cma"
+plugin(native) = "easy_format.cmxs"

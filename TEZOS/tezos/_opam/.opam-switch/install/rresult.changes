@@ -1,0 +1,23 @@
+added: [
+  "doc/rresult" {"D"}
+  "doc/rresult/CHANGES.md" {"F:S1282T1537259901.31"}
+  "doc/rresult/LICENSE.md" {"F:S735T1537259901.32"}
+  "doc/rresult/README.md" {"F:S1276T1537259901.33"}
+  "lib/rresult" {"D"}
+  "lib/rresult/META" {"F:S466T1537259901.13"}
+  "lib/rresult/opam" {"F:S637T1537259901.11"}
+  "lib/rresult/rresult.a" {"F:S30528T1537259901.15"}
+  "lib/rresult/rresult.cma" {"F:S31653T1537259901.17"}
+  "lib/rresult/rresult.cmi" {"F:S8754T1537259901.18"}
+  "lib/rresult/rresult.cmti" {"F:S56578T1537259901.19"}
+  "lib/rresult/rresult.cmx" {"F:S2653T1537259901.2"}
+  "lib/rresult/rresult.cmxa" {"F:S453T1537259901.21"}
+  "lib/rresult/rresult.cmxs" {"F:S38456T1537259901.22"}
+  "lib/rresult/rresult.mli" {"F:S10889T1537259901.23"}
+  "lib/rresult/rresult_top.a" {"F:S3974T1537259901.24"}
+  "lib/rresult/rresult_top.cma" {"F:S2546T1537259901.25"}
+  "lib/rresult/rresult_top.cmx" {"F:S955T1537259901.27"}
+  "lib/rresult/rresult_top.cmxa" {"F:S961T1537259901.27"}
+  "lib/rresult/rresult_top.cmxs" {"F:S10608T1537259901.29"}
+  "lib/rresult/rresult_top_init.ml" {"F:S1253T1537259901.3"}
+]

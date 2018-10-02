@@ -1,0 +1,7196 @@
+"src/endianString.cppo.ml" 77 3495 3499 "src/endianString.cppo.ml" 77 3495 3507
+type(
+  string -> int -> char
+)
+ident(
+  def get_char "src/endianString.cppo.ml" 79 3544 3544 "src/endianString.ml" 1 0 -1
+)
+"src/endianString.cppo.ml" 77 3495 3509 "src/endianString.cppo.ml" 77 3495 3510
+type(
+  string
+)
+ident(
+  def s "src/endianString.cppo.ml" 77 3495 3519 "src/endianString.cppo.ml" 78 3525 3543
+)
+"src/endianString.cppo.ml" 77 3495 3519 "src/endianString.cppo.ml" 77 3495 3522
+type(
+  int
+)
+ident(
+  def off "src/endianString.cppo.ml" 78 3525 3527 "src/endianString.cppo.ml" 78 3525 3543
+)
+"src/endianString.cppo.ml" 78 3525 3527 "src/endianString.cppo.ml" 78 3525 3537
+type(
+  string -> int -> char
+)
+ident(
+  int_ref String.get "string.mli" 54 2781 2781 "string.mli" 54 2781 2838
+)
+"src/endianString.cppo.ml" 78 3525 3538 "src/endianString.cppo.ml" 78 3525 3539
+type(
+  string
+)
+ident(
+  int_ref s "src/endianString.cppo.ml" 77 3495 3509 "src/endianString.cppo.ml" 77 3495 3510
+)
+"src/endianString.cppo.ml" 78 3525 3540 "src/endianString.cppo.ml" 78 3525 3543
+type(
+  int
+)
+ident(
+  int_ref off "src/endianString.cppo.ml" 77 3495 3519 "src/endianString.cppo.ml" 77 3495 3522
+)
+"src/endianString.cppo.ml" 78 3525 3527 "src/endianString.cppo.ml" 78 3525 3543
+type(
+  char
+)
+"src/endianString.cppo.ml" 79 3544 3548 "src/endianString.cppo.ml" 79 3544 3556
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  def set_char "src/endianString.cppo.ml" 81 3597 3597 "src/endianString.ml" 1 0 -1
+)
+"src/endianString.cppo.ml" 79 3544 3558 "src/endianString.cppo.ml" 79 3544 3559
+type(
+  Bytes.t
+)
+ident(
+  def s "src/endianString.cppo.ml" 79 3544 3569 "src/endianString.cppo.ml" 80 3577 3596
+)
+"src/endianString.cppo.ml" 79 3544 3569 "src/endianString.cppo.ml" 79 3544 3572
+type(
+  int
+)
+ident(
+  def off "src/endianString.cppo.ml" 79 3544 3573 "src/endianString.cppo.ml" 80 3577 3596
+)
+"src/endianString.cppo.ml" 79 3544 3573 "src/endianString.cppo.ml" 79 3544 3574
+type(
+  char
+)
+ident(
+  def v "src/endianString.cppo.ml" 80 3577 3579 "src/endianString.cppo.ml" 80 3577 3596
+)
+"src/endianString.cppo.ml" 80 3577 3579 "src/endianString.cppo.ml" 80 3577 3588
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  int_ref Bytes.set "bytes.mli" 53 2531 2531 "bytes.mli" 53 2531 2594
+)
+"src/endianString.cppo.ml" 80 3577 3589 "src/endianString.cppo.ml" 80 3577 3590
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/endianString.cppo.ml" 79 3544 3558 "src/endianString.cppo.ml" 79 3544 3559
+)
+"src/endianString.cppo.ml" 80 3577 3591 "src/endianString.cppo.ml" 80 3577 3594
+type(
+  int
+)
+ident(
+  int_ref off "src/endianString.cppo.ml" 79 3544 3569 "src/endianString.cppo.ml" 79 3544 3572
+)
+"src/endianString.cppo.ml" 80 3577 3595 "src/endianString.cppo.ml" 80 3577 3596
+type(
+  char
+)
+ident(
+  int_ref v "src/endianString.cppo.ml" 79 3544 3573 "src/endianString.cppo.ml" 79 3544 3574
+)
+"src/endianString.cppo.ml" 80 3577 3579 "src/endianString.cppo.ml" 80 3577 3596
+type(
+  unit
+)
+"src/endianString.cppo.ml" 81 3597 3601 "src/endianString.cppo.ml" 81 3597 3616
+type(
+  string -> int -> char
+)
+ident(
+  def unsafe_get_char "src/endianString.cppo.ml" 83 3660 3660 "src/endianString.ml" 1 0 -1
+)
+"src/endianString.cppo.ml" 81 3597 3618 "src/endianString.cppo.ml" 81 3597 3619
+type(
+  string
+)
+ident(
+  def s "src/endianString.cppo.ml" 81 3597 3628 "src/endianString.cppo.ml" 82 3634 3659
+)
+"src/endianString.cppo.ml" 81 3597 3628 "src/endianString.cppo.ml" 81 3597 3631
+type(
+  int
+)
+ident(
+  def off "src/endianString.cppo.ml" 82 3634 3636 "src/endianString.cppo.ml" 82 3634 3659
+)
+"src/endianString.cppo.ml" 82 3634 3636 "src/endianString.cppo.ml" 82 3634 3653
+type(
+  string -> int -> char
+)
+ident(
+  int_ref String.unsafe_get "string.mli" 340 13744 13744 "string.mli" 340 13744 13810
+)
+"src/endianString.cppo.ml" 82 3634 3654 "src/endianString.cppo.ml" 82 3634 3655
+type(
+  string
+)
+ident(
+  int_ref s "src/endianString.cppo.ml" 81 3597 3618 "src/endianString.cppo.ml" 81 3597 3619
+)
+"src/endianString.cppo.ml" 82 3634 3656 "src/endianString.cppo.ml" 82 3634 3659
+type(
+  int
+)
+ident(
+  int_ref off "src/endianString.cppo.ml" 81 3597 3628 "src/endianString.cppo.ml" 81 3597 3631
+)
+"src/endianString.cppo.ml" 82 3634 3636 "src/endianString.cppo.ml" 82 3634 3659
+type(
+  char
+)
+"src/endianString.cppo.ml" 83 3660 3664 "src/endianString.cppo.ml" 83 3660 3679
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  def unsafe_set_char "src/common.ml" 1 3748 3748 "src/endianString.ml" 1 0 -1
+)
+"src/endianString.cppo.ml" 83 3660 3681 "src/endianString.cppo.ml" 83 3660 3682
+type(
+  Bytes.t
+)
+ident(
+  def s "src/endianString.cppo.ml" 83 3660 3692 "src/endianString.cppo.ml" 84 3700 3726
+)
+"src/endianString.cppo.ml" 83 3660 3692 "src/endianString.cppo.ml" 83 3660 3695
+type(
+  int
+)
+ident(
+  def off "src/endianString.cppo.ml" 83 3660 3696 "src/endianString.cppo.ml" 84 3700 3726
+)
+"src/endianString.cppo.ml" 83 3660 3696 "src/endianString.cppo.ml" 83 3660 3697
+type(
+  char
+)
+ident(
+  def v "src/endianString.cppo.ml" 84 3700 3702 "src/endianString.cppo.ml" 84 3700 3726
+)
+"src/endianString.cppo.ml" 84 3700 3702 "src/endianString.cppo.ml" 84 3700 3718
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  int_ref Bytes.unsafe_set "bytes.mli" 455 19029 19029 "bytes.mli" 455 19029 19101
+)
+"src/endianString.cppo.ml" 84 3700 3719 "src/endianString.cppo.ml" 84 3700 3720
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/endianString.cppo.ml" 83 3660 3681 "src/endianString.cppo.ml" 83 3660 3682
+)
+"src/endianString.cppo.ml" 84 3700 3721 "src/endianString.cppo.ml" 84 3700 3724
+type(
+  int
+)
+ident(
+  int_ref off "src/endianString.cppo.ml" 83 3660 3692 "src/endianString.cppo.ml" 83 3660 3695
+)
+"src/endianString.cppo.ml" 84 3700 3725 "src/endianString.cppo.ml" 84 3700 3726
+type(
+  char
+)
+ident(
+  int_ref v "src/endianString.cppo.ml" 83 3660 3696 "src/endianString.cppo.ml" 83 3660 3697
+)
+"src/endianString.cppo.ml" 84 3700 3702 "src/endianString.cppo.ml" 84 3700 3726
+type(
+  unit
+)
+"src/common.ml" 1 3748 3752 "src/common.ml" 1 3748 3757
+type(
+  int -> int
+)
+ident(
+  def sign8 "src/common.ml" 4 3821 3821 "src/endianString.ml" 1 0 -1
+)
+"src/common.ml" 1 3748 3758 "src/common.ml" 1 3748 3759
+type(
+  int
+)
+ident(
+  def v "src/common.ml" 2 3762 3764 "src/common.ml" 2 3762 3819
+)
+"src/common.ml" 2 3762 3765 "src/common.ml" 2 3762 3766
+type(
+  int
+)
+ident(
+  int_ref v "src/common.ml" 1 3748 3758 "src/common.ml" 1 3748 3759
+)
+"src/common.ml" 2 3762 3767 "src/common.ml" 2 3762 3770
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( lsl ) "pervasives.mli" 320 12299 12299 "pervasives.mli" 320 12299 12347
+)
+"src/common.ml" 2 3762 3773 "src/common.ml" 2 3762 3786
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/common.ml" 2 3762 3787 "src/common.ml" 2 3762 3788
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/common.ml" 2 3762 3789 "src/common.ml" 2 3762 3790
+type(
+  int
+)
+"src/common.ml" 2 3762 3771 "src/common.ml" 2 3762 3792
+type(
+  int
+)
+"src/common.ml" 2 3762 3764 "src/common.ml" 2 3762 3793
+type(
+  int
+)
+"src/common.ml" 2 3762 3794 "src/common.ml" 2 3762 3797
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( asr ) "pervasives.mli" 334 12900 12900 "pervasives.mli" 334 12900 12948
+)
+"src/common.ml" 2 3762 3800 "src/common.ml" 2 3762 3813
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/common.ml" 2 3762 3814 "src/common.ml" 2 3762 3815
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/common.ml" 2 3762 3816 "src/common.ml" 2 3762 3817
+type(
+  int
+)
+"src/common.ml" 2 3762 3798 "src/common.ml" 2 3762 3819
+type(
+  int
+)
+"src/common.ml" 2 3762 3764 "src/common.ml" 2 3762 3819
+type(
+  int
+)
+"src/common.ml" 4 3821 3825 "src/common.ml" 4 3821 3831
+type(
+  int -> int
+)
+ident(
+  def sign16 "src/common.ml" 7 3897 3897 "src/endianString.ml" 1 0 -1
+)
+"src/common.ml" 4 3821 3832 "src/common.ml" 4 3821 3833
+type(
+  int
+)
+ident(
+  def v "src/common.ml" 5 3836 3838 "src/common.ml" 5 3836 3895
+)
+"src/common.ml" 5 3836 3839 "src/common.ml" 5 3836 3840
+type(
+  int
+)
+ident(
+  int_ref v "src/common.ml" 4 3821 3832 "src/common.ml" 4 3821 3833
+)
+"src/common.ml" 5 3836 3841 "src/common.ml" 5 3836 3844
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( lsl ) "pervasives.mli" 320 12299 12299 "pervasives.mli" 320 12299 12347
+)
+"src/common.ml" 5 3836 3847 "src/common.ml" 5 3836 3860
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/common.ml" 5 3836 3861 "src/common.ml" 5 3836 3862
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/common.ml" 5 3836 3863 "src/common.ml" 5 3836 3865
+type(
+  int
+)
+"src/common.ml" 5 3836 3845 "src/common.ml" 5 3836 3867
+type(
+  int
+)
+"src/common.ml" 5 3836 3838 "src/common.ml" 5 3836 3868
+type(
+  int
+)
+"src/common.ml" 5 3836 3869 "src/common.ml" 5 3836 3872
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( asr ) "pervasives.mli" 334 12900 12900 "pervasives.mli" 334 12900 12948
+)
+"src/common.ml" 5 3836 3875 "src/common.ml" 5 3836 3888
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/common.ml" 5 3836 3889 "src/common.ml" 5 3836 3890
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/common.ml" 5 3836 3891 "src/common.ml" 5 3836 3893
+type(
+  int
+)
+"src/common.ml" 5 3836 3873 "src/common.ml" 5 3836 3895
+type(
+  int
+)
+"src/common.ml" 5 3836 3838 "src/common.ml" 5 3836 3895
+type(
+  int
+)
+"src/common.ml" 7 3897 3901 "src/common.ml" 7 3897 3910
+type(
+  string -> int -> int
+)
+ident(
+  def get_uint8 "src/common.ml" 9 3948 3948 "src/endianString.ml" 1 0 -1
+)
+"src/common.ml" 7 3897 3911 "src/common.ml" 7 3897 3912
+type(
+  string
+)
+ident(
+  def s "src/common.ml" 7 3897 3913 "src/common.ml" 8 3919 3947
+)
+"src/common.ml" 7 3897 3913 "src/common.ml" 7 3897 3916
+type(
+  int
+)
+ident(
+  def off "src/common.ml" 8 3919 3921 "src/common.ml" 8 3919 3947
+)
+"src/common.ml" 8 3919 3921 "src/common.ml" 8 3919 3930
+type(
+  char -> int
+)
+ident(
+  int_ref Char.code "char.mli" 18 1109 1109 "char.mli" 18 1109 1150
+)
+"src/common.ml" 8 3919 3932 "src/common.ml" 8 3919 3940
+type(
+  string -> int -> char
+)
+ident(
+  int_ref get_char "src/endianString.cppo.ml" 77 3495 3499 "src/endianString.cppo.ml" 77 3495 3507
+)
+"src/common.ml" 8 3919 3941 "src/common.ml" 8 3919 3942
+type(
+  string
+)
+ident(
+  int_ref s "src/common.ml" 7 3897 3911 "src/common.ml" 7 3897 3912
+)
+"src/common.ml" 8 3919 3943 "src/common.ml" 8 3919 3946
+type(
+  int
+)
+ident(
+  int_ref off "src/common.ml" 7 3897 3913 "src/common.ml" 7 3897 3916
+)
+"src/common.ml" 8 3919 3931 "src/common.ml" 8 3919 3947
+call(
+  tail
+)
+type(
+  char
+)
+"src/common.ml" 8 3919 3921 "src/common.ml" 8 3919 3947
+type(
+  int
+)
+"src/common.ml" 9 3948 3952 "src/common.ml" 9 3948 3960
+type(
+  string -> int -> int
+)
+ident(
+  def get_int8 "src/common.ml" 11 4043 4043 "src/endianString.ml" 1 0 -1
+)
+"src/common.ml" 9 3948 3961 "src/common.ml" 9 3948 3962
+type(
+  string
+)
+ident(
+  def s "src/common.ml" 9 3948 3963 "src/common.ml" 10 3969 4042
+)
+"src/common.ml" 9 3948 3963 "src/common.ml" 9 3948 3966
+type(
+  int
+)
+ident(
+  def off "src/common.ml" 10 3969 3971 "src/common.ml" 10 3969 4042
+)
+"src/common.ml" 10 3969 3973 "src/common.ml" 10 3969 3982
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_uint8 "src/common.ml" 7 3897 3901 "src/common.ml" 7 3897 3910
+)
+"src/common.ml" 10 3969 3983 "src/common.ml" 10 3969 3984
+type(
+  string
+)
+ident(
+  int_ref s "src/common.ml" 9 3948 3961 "src/common.ml" 9 3948 3962
+)
+"src/common.ml" 10 3969 3985 "src/common.ml" 10 3969 3988
+type(
+  int
+)
+ident(
+  int_ref off "src/common.ml" 9 3948 3963 "src/common.ml" 9 3948 3966
+)
+"src/common.ml" 10 3969 3972 "src/common.ml" 10 3969 3989
+call(
+  stack
+)
+type(
+  int
+)
+"src/common.ml" 10 3969 3990 "src/common.ml" 10 3969 3993
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( lsl ) "pervasives.mli" 320 12299 12299 "pervasives.mli" 320 12299 12347
+)
+"src/common.ml" 10 3969 3996 "src/common.ml" 10 3969 4009
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/common.ml" 10 3969 4010 "src/common.ml" 10 3969 4011
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/common.ml" 10 3969 4012 "src/common.ml" 10 3969 4013
+type(
+  int
+)
+"src/common.ml" 10 3969 3994 "src/common.ml" 10 3969 4015
+type(
+  int
+)
+"src/common.ml" 10 3969 3971 "src/common.ml" 10 3969 4016
+type(
+  int
+)
+"src/common.ml" 10 3969 4017 "src/common.ml" 10 3969 4020
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( asr ) "pervasives.mli" 334 12900 12900 "pervasives.mli" 334 12900 12948
+)
+"src/common.ml" 10 3969 4023 "src/common.ml" 10 3969 4036
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/common.ml" 10 3969 4037 "src/common.ml" 10 3969 4038
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/common.ml" 10 3969 4039 "src/common.ml" 10 3969 4040
+type(
+  int
+)
+"src/common.ml" 10 3969 4021 "src/common.ml" 10 3969 4042
+type(
+  int
+)
+"src/common.ml" 10 3969 3971 "src/common.ml" 10 3969 4042
+type(
+  int
+)
+"src/common.ml" 11 4043 4047 "src/common.ml" 11 4043 4055
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  def set_int8 "src/common.ml" 17 4310 4310 "src/endianString.ml" 1 0 -1
+)
+"src/common.ml" 11 4043 4056 "src/common.ml" 11 4043 4057
+type(
+  Bytes.t
+)
+ident(
+  def s "src/common.ml" 11 4043 4058 "src/common.ml" 15 4272 4308
+)
+"src/common.ml" 11 4043 4058 "src/common.ml" 11 4043 4061
+type(
+  int
+)
+ident(
+  def off "src/common.ml" 11 4043 4062 "src/common.ml" 15 4272 4308
+)
+"src/common.ml" 11 4043 4062 "src/common.ml" 11 4043 4063
+type(
+  int
+)
+ident(
+  def v "src/common.ml" 15 4272 4274 "src/common.ml" 15 4272 4308
+)
+"src/common.ml" 15 4272 4274 "src/common.ml" 15 4272 4282
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  int_ref set_char "src/endianString.cppo.ml" 79 3544 3548 "src/endianString.cppo.ml" 79 3544 3556
+)
+"src/common.ml" 15 4272 4283 "src/common.ml" 15 4272 4284
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/common.ml" 11 4043 4056 "src/common.ml" 11 4043 4057
+)
+"src/common.ml" 15 4272 4285 "src/common.ml" 15 4272 4288
+type(
+  int
+)
+ident(
+  int_ref off "src/common.ml" 11 4043 4058 "src/common.ml" 11 4043 4061
+)
+"src/common.ml" 15 4272 4290 "src/common.ml" 15 4272 4305
+type(
+  int -> char
+)
+ident(
+  int_ref Char.unsafe_chr "char.mli" 72 3075 3075 "char.mli" 72 3075 3122
+)
+"src/common.ml" 15 4272 4306 "src/common.ml" 15 4272 4307
+type(
+  int
+)
+ident(
+  int_ref v "src/common.ml" 11 4043 4062 "src/common.ml" 11 4043 4063
+)
+"src/common.ml" 15 4272 4289 "src/common.ml" 15 4272 4308
+type(
+  char
+)
+"src/common.ml" 15 4272 4274 "src/common.ml" 15 4272 4308
+call(
+  tail
+)
+type(
+  unit
+)
+"src/common.ml" 17 4310 4314 "src/common.ml" 17 4310 4330
+type(
+  string -> int -> int
+)
+ident(
+  def unsafe_get_uint8 "src/common.ml" 19 4375 4375 "src/endianString.ml" 1 0 -1
+)
+"src/common.ml" 17 4310 4331 "src/common.ml" 17 4310 4332
+type(
+  string
+)
+ident(
+  def s "src/common.ml" 17 4310 4333 "src/common.ml" 18 4339 4374
+)
+"src/common.ml" 17 4310 4333 "src/common.ml" 17 4310 4336
+type(
+  int
+)
+ident(
+  def off "src/common.ml" 18 4339 4341 "src/common.ml" 18 4339 4374
+)
+"src/common.ml" 18 4339 4341 "src/common.ml" 18 4339 4350
+type(
+  char -> int
+)
+ident(
+  int_ref Char.code "char.mli" 18 1109 1109 "char.mli" 18 1109 1150
+)
+"src/common.ml" 18 4339 4352 "src/common.ml" 18 4339 4367
+type(
+  string -> int -> char
+)
+ident(
+  int_ref unsafe_get_char "src/endianString.cppo.ml" 81 3597 3601 "src/endianString.cppo.ml" 81 3597 3616
+)
+"src/common.ml" 18 4339 4368 "src/common.ml" 18 4339 4369
+type(
+  string
+)
+ident(
+  int_ref s "src/common.ml" 17 4310 4331 "src/common.ml" 17 4310 4332
+)
+"src/common.ml" 18 4339 4370 "src/common.ml" 18 4339 4373
+type(
+  int
+)
+ident(
+  int_ref off "src/common.ml" 17 4310 4333 "src/common.ml" 17 4310 4336
+)
+"src/common.ml" 18 4339 4351 "src/common.ml" 18 4339 4374
+call(
+  tail
+)
+type(
+  char
+)
+"src/common.ml" 18 4339 4341 "src/common.ml" 18 4339 4374
+type(
+  int
+)
+"src/common.ml" 19 4375 4379 "src/common.ml" 19 4375 4394
+type(
+  string -> int -> int
+)
+ident(
+  def unsafe_get_int8 "src/common.ml" 21 4484 4484 "src/endianString.ml" 1 0 -1
+)
+"src/common.ml" 19 4375 4395 "src/common.ml" 19 4375 4396
+type(
+  string
+)
+ident(
+  def s "src/common.ml" 19 4375 4397 "src/common.ml" 20 4403 4483
+)
+"src/common.ml" 19 4375 4397 "src/common.ml" 19 4375 4400
+type(
+  int
+)
+ident(
+  def off "src/common.ml" 20 4403 4405 "src/common.ml" 20 4403 4483
+)
+"src/common.ml" 20 4403 4407 "src/common.ml" 20 4403 4423
+type(
+  string -> int -> int
+)
+ident(
+  int_ref unsafe_get_uint8 "src/common.ml" 17 4310 4314 "src/common.ml" 17 4310 4330
+)
+"src/common.ml" 20 4403 4424 "src/common.ml" 20 4403 4425
+type(
+  string
+)
+ident(
+  int_ref s "src/common.ml" 19 4375 4395 "src/common.ml" 19 4375 4396
+)
+"src/common.ml" 20 4403 4426 "src/common.ml" 20 4403 4429
+type(
+  int
+)
+ident(
+  int_ref off "src/common.ml" 19 4375 4397 "src/common.ml" 19 4375 4400
+)
+"src/common.ml" 20 4403 4406 "src/common.ml" 20 4403 4430
+call(
+  stack
+)
+type(
+  int
+)
+"src/common.ml" 20 4403 4431 "src/common.ml" 20 4403 4434
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( lsl ) "pervasives.mli" 320 12299 12299 "pervasives.mli" 320 12299 12347
+)
+"src/common.ml" 20 4403 4437 "src/common.ml" 20 4403 4450
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/common.ml" 20 4403 4451 "src/common.ml" 20 4403 4452
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/common.ml" 20 4403 4453 "src/common.ml" 20 4403 4454
+type(
+  int
+)
+"src/common.ml" 20 4403 4435 "src/common.ml" 20 4403 4456
+type(
+  int
+)
+"src/common.ml" 20 4403 4405 "src/common.ml" 20 4403 4457
+type(
+  int
+)
+"src/common.ml" 20 4403 4458 "src/common.ml" 20 4403 4461
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( asr ) "pervasives.mli" 334 12900 12900 "pervasives.mli" 334 12900 12948
+)
+"src/common.ml" 20 4403 4464 "src/common.ml" 20 4403 4477
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/common.ml" 20 4403 4478 "src/common.ml" 20 4403 4479
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/common.ml" 20 4403 4480 "src/common.ml" 20 4403 4481
+type(
+  int
+)
+"src/common.ml" 20 4403 4462 "src/common.ml" 20 4403 4483
+type(
+  int
+)
+"src/common.ml" 20 4403 4405 "src/common.ml" 20 4403 4483
+type(
+  int
+)
+"src/common.ml" 21 4484 4488 "src/common.ml" 21 4484 4503
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  def unsafe_set_int8 "src/endianString.cppo.ml" 90 4592 4592 "src/endianString.ml" 1 0 -1
+)
+"src/common.ml" 21 4484 4504 "src/common.ml" 21 4484 4505
+type(
+  Bytes.t
+)
+ident(
+  def s "src/common.ml" 21 4484 4506 "src/common.ml" 22 4514 4557
+)
+"src/common.ml" 21 4484 4506 "src/common.ml" 21 4484 4509
+type(
+  int
+)
+ident(
+  def off "src/common.ml" 21 4484 4510 "src/common.ml" 22 4514 4557
+)
+"src/common.ml" 21 4484 4510 "src/common.ml" 21 4484 4511
+type(
+  int
+)
+ident(
+  def v "src/common.ml" 22 4514 4516 "src/common.ml" 22 4514 4557
+)
+"src/common.ml" 22 4514 4516 "src/common.ml" 22 4514 4531
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  int_ref unsafe_set_char "src/endianString.cppo.ml" 83 3660 3664 "src/endianString.cppo.ml" 83 3660 3679
+)
+"src/common.ml" 22 4514 4532 "src/common.ml" 22 4514 4533
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/common.ml" 21 4484 4504 "src/common.ml" 21 4484 4505
+)
+"src/common.ml" 22 4514 4534 "src/common.ml" 22 4514 4537
+type(
+  int
+)
+ident(
+  int_ref off "src/common.ml" 21 4484 4506 "src/common.ml" 21 4484 4509
+)
+"src/common.ml" 22 4514 4539 "src/common.ml" 22 4514 4554
+type(
+  int -> char
+)
+ident(
+  int_ref Char.unsafe_chr "char.mli" 72 3075 3075 "char.mli" 72 3075 3122
+)
+"src/common.ml" 22 4514 4555 "src/common.ml" 22 4514 4556
+type(
+  int
+)
+ident(
+  int_ref v "src/common.ml" 21 4484 4510 "src/common.ml" 21 4484 4511
+)
+"src/common.ml" 22 4514 4538 "src/common.ml" 22 4514 4557
+type(
+  char
+)
+"src/common.ml" 22 4514 4516 "src/common.ml" 22 4514 4557
+call(
+  tail
+)
+type(
+  unit
+)
+"src/common_401.cppo.ml" 8 5750 5756 "src/common_401.cppo.ml" 8 5750 5764
+type(
+  string -> int -> char
+)
+ident(
+  def get_char "src/common_401.cppo.ml" 9 5776 5778 "src/common_401.cppo.ml" 17 7063 7066
+)
+"src/common_401.cppo.ml" 8 5750 5767 "src/common_401.cppo.ml" 8 5750 5775
+type(
+  string -> int -> char
+)
+ident(
+  int_ref get_char "src/endianString.cppo.ml" 77 3495 3499 "src/endianString.cppo.ml" 77 3495 3507
+)
+"src/common_401.cppo.ml" 9 5776 5782 "src/common_401.cppo.ml" 9 5776 5791
+type(
+  string -> int -> int
+)
+ident(
+  def get_uint8 "src/common_401.cppo.ml" 10 5804 5806 "src/common_401.cppo.ml" 17 7063 7066
+)
+"src/common_401.cppo.ml" 9 5776 5794 "src/common_401.cppo.ml" 9 5776 5803
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_uint8 "src/common.ml" 7 3897 3901 "src/common.ml" 7 3897 3910
+)
+"src/common_401.cppo.ml" 10 5804 5810 "src/common_401.cppo.ml" 10 5804 5818
+type(
+  string -> int -> int
+)
+ident(
+  def get_int8 "src/common_401.cppo.ml" 11 5830 5832 "src/common_401.cppo.ml" 17 7063 7066
+)
+"src/common_401.cppo.ml" 10 5804 5821 "src/common_401.cppo.ml" 10 5804 5829
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_int8 "src/common.ml" 9 3948 3952 "src/common.ml" 9 3948 3960
+)
+"src/common_401.cppo.ml" 11 5830 5836 "src/common_401.cppo.ml" 11 5830 5844
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  def set_char "src/common_401.cppo.ml" 12 5856 5858 "src/common_401.cppo.ml" 17 7063 7066
+)
+"src/common_401.cppo.ml" 11 5830 5847 "src/common_401.cppo.ml" 11 5830 5855
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  int_ref set_char "src/endianString.cppo.ml" 79 3544 3548 "src/endianString.cppo.ml" 79 3544 3556
+)
+"src/common_401.cppo.ml" 12 5856 5862 "src/common_401.cppo.ml" 12 5856 5870
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  def set_int8 "src/be_ocaml_401.ml" 1 5942 5944 "src/common_401.cppo.ml" 17 7063 7066
+)
+"src/common_401.cppo.ml" 12 5856 5873 "src/common_401.cppo.ml" 12 5856 5881
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref set_int8 "src/common.ml" 11 4043 4047 "src/common.ml" 11 4043 4055
+)
+"src/be_ocaml_401.ml" 1 5942 5948 "src/be_ocaml_401.ml" 1 5942 5958
+type(
+  string -> int -> int
+)
+ident(
+  def get_uint16 "src/be_ocaml_401.ml" 6 6047 6049 "src/common_401.cppo.ml" 17 7063 7066
+)
+"src/be_ocaml_401.ml" 1 5942 5959 "src/be_ocaml_401.ml" 1 5942 5960
+type(
+  string
+)
+ident(
+  def s "src/be_ocaml_401.ml" 1 5942 5961 "src/be_ocaml_401.ml" 4 6024 6045
+)
+"src/be_ocaml_401.ml" 1 5942 5961 "src/be_ocaml_401.ml" 1 5942 5964
+type(
+  int
+)
+ident(
+  def off "src/be_ocaml_401.ml" 2 5967 5971 "src/be_ocaml_401.ml" 4 6024 6045
+)
+"src/be_ocaml_401.ml" 2 5967 5974 "src/be_ocaml_401.ml" 2 5967 5977
+type(
+  bool -> bool
+)
+ident(
+  int_ref Pervasives.not "pervasives.mli" 134 5784 5784 "pervasives.mli" 134 5784 5824
+)
+"src/be_ocaml_401.ml" 2 5967 5978 "src/be_ocaml_401.ml" 2 5967 5992
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/be_ocaml_401.ml" 2 5967 5974 "src/be_ocaml_401.ml" 2 5967 5992
+type(
+  bool
+)
+"src/be_ocaml_401.ml" 3 5993 6002 "src/be_ocaml_401.ml" 3 5993 6008
+type(
+  int -> int
+)
+ident(
+  int_ref swap16 "src/common_401.cppo.ml" 1 5517 5517 "src/common_401.cppo.ml" 1 5517 5558
+)
+"src/be_ocaml_401.ml" 3 5993 6010 "src/be_ocaml_401.ml" 3 5993 6016
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_16 "src/endianString.cppo.ml" 98 5049 5049 "src/endianString.cppo.ml" 98 5049 5110
+)
+"src/be_ocaml_401.ml" 3 5993 6017 "src/be_ocaml_401.ml" 3 5993 6018
+type(
+  string
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 1 5942 5959 "src/be_ocaml_401.ml" 1 5942 5960
+)
+"src/be_ocaml_401.ml" 3 5993 6019 "src/be_ocaml_401.ml" 3 5993 6022
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 1 5942 5961 "src/be_ocaml_401.ml" 1 5942 5964
+)
+"src/be_ocaml_401.ml" 3 5993 6009 "src/be_ocaml_401.ml" 3 5993 6023
+type(
+  int
+)
+"src/be_ocaml_401.ml" 3 5993 6002 "src/be_ocaml_401.ml" 3 5993 6023
+type(
+  int
+)
+"src/be_ocaml_401.ml" 4 6024 6033 "src/be_ocaml_401.ml" 4 6024 6039
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_16 "src/endianString.cppo.ml" 98 5049 5049 "src/endianString.cppo.ml" 98 5049 5110
+)
+"src/be_ocaml_401.ml" 4 6024 6040 "src/be_ocaml_401.ml" 4 6024 6041
+type(
+  string
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 1 5942 5959 "src/be_ocaml_401.ml" 1 5942 5960
+)
+"src/be_ocaml_401.ml" 4 6024 6042 "src/be_ocaml_401.ml" 4 6024 6045
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 1 5942 5961 "src/be_ocaml_401.ml" 1 5942 5964
+)
+"src/be_ocaml_401.ml" 4 6024 6033 "src/be_ocaml_401.ml" 4 6024 6045
+type(
+  int
+)
+"src/be_ocaml_401.ml" 2 5967 5971 "src/be_ocaml_401.ml" 4 6024 6045
+type(
+  int
+)
+"src/be_ocaml_401.ml" 6 6047 6053 "src/be_ocaml_401.ml" 6 6047 6062
+type(
+  string -> int -> int
+)
+ident(
+  def get_int16 "src/be_ocaml_401.ml" 9 6150 6152 "src/common_401.cppo.ml" 17 7063 7066
+)
+"src/be_ocaml_401.ml" 6 6047 6063 "src/be_ocaml_401.ml" 6 6047 6064
+type(
+  string
+)
+ident(
+  def s "src/be_ocaml_401.ml" 6 6047 6065 "src/be_ocaml_401.ml" 7 6071 6148
+)
+"src/be_ocaml_401.ml" 6 6047 6065 "src/be_ocaml_401.ml" 6 6047 6068
+type(
+  int
+)
+ident(
+  def off "src/be_ocaml_401.ml" 7 6071 6074 "src/be_ocaml_401.ml" 7 6071 6148
+)
+"src/be_ocaml_401.ml" 7 6071 6076 "src/be_ocaml_401.ml" 7 6071 6086
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_uint16 "src/be_ocaml_401.ml" 1 5942 5948 "src/be_ocaml_401.ml" 1 5942 5958
+)
+"src/be_ocaml_401.ml" 7 6071 6087 "src/be_ocaml_401.ml" 7 6071 6088
+type(
+  string
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 6 6047 6063 "src/be_ocaml_401.ml" 6 6047 6064
+)
+"src/be_ocaml_401.ml" 7 6071 6089 "src/be_ocaml_401.ml" 7 6071 6092
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 6 6047 6065 "src/be_ocaml_401.ml" 6 6047 6068
+)
+"src/be_ocaml_401.ml" 7 6071 6075 "src/be_ocaml_401.ml" 7 6071 6093
+call(
+  stack
+)
+type(
+  int
+)
+"src/be_ocaml_401.ml" 7 6071 6094 "src/be_ocaml_401.ml" 7 6071 6097
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( lsl ) "pervasives.mli" 320 12299 12299 "pervasives.mli" 320 12299 12347
+)
+"src/be_ocaml_401.ml" 7 6071 6100 "src/be_ocaml_401.ml" 7 6071 6113
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/be_ocaml_401.ml" 7 6071 6114 "src/be_ocaml_401.ml" 7 6071 6115
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/be_ocaml_401.ml" 7 6071 6116 "src/be_ocaml_401.ml" 7 6071 6118
+type(
+  int
+)
+"src/be_ocaml_401.ml" 7 6071 6098 "src/be_ocaml_401.ml" 7 6071 6120
+type(
+  int
+)
+"src/be_ocaml_401.ml" 7 6071 6074 "src/be_ocaml_401.ml" 7 6071 6121
+type(
+  int
+)
+"src/be_ocaml_401.ml" 7 6071 6122 "src/be_ocaml_401.ml" 7 6071 6125
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( asr ) "pervasives.mli" 334 12900 12900 "pervasives.mli" 334 12900 12948
+)
+"src/be_ocaml_401.ml" 7 6071 6128 "src/be_ocaml_401.ml" 7 6071 6141
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/be_ocaml_401.ml" 7 6071 6142 "src/be_ocaml_401.ml" 7 6071 6143
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/be_ocaml_401.ml" 7 6071 6144 "src/be_ocaml_401.ml" 7 6071 6146
+type(
+  int
+)
+"src/be_ocaml_401.ml" 7 6071 6126 "src/be_ocaml_401.ml" 7 6071 6148
+type(
+  int
+)
+"src/be_ocaml_401.ml" 7 6071 6074 "src/be_ocaml_401.ml" 7 6071 6148
+type(
+  int
+)
+"src/be_ocaml_401.ml" 9 6150 6156 "src/be_ocaml_401.ml" 9 6150 6165
+type(
+  string -> int -> int32
+)
+ident(
+  def get_int32 "src/be_ocaml_401.ml" 14 6254 6256 "src/common_401.cppo.ml" 17 7063 7066
+)
+"src/be_ocaml_401.ml" 9 6150 6166 "src/be_ocaml_401.ml" 9 6150 6167
+type(
+  string
+)
+ident(
+  def s "src/be_ocaml_401.ml" 9 6150 6168 "src/be_ocaml_401.ml" 12 6231 6252
+)
+"src/be_ocaml_401.ml" 9 6150 6168 "src/be_ocaml_401.ml" 9 6150 6171
+type(
+  int
+)
+ident(
+  def off "src/be_ocaml_401.ml" 10 6174 6178 "src/be_ocaml_401.ml" 12 6231 6252
+)
+"src/be_ocaml_401.ml" 10 6174 6181 "src/be_ocaml_401.ml" 10 6174 6184
+type(
+  bool -> bool
+)
+ident(
+  int_ref Pervasives.not "pervasives.mli" 134 5784 5784 "pervasives.mli" 134 5784 5824
+)
+"src/be_ocaml_401.ml" 10 6174 6185 "src/be_ocaml_401.ml" 10 6174 6199
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/be_ocaml_401.ml" 10 6174 6181 "src/be_ocaml_401.ml" 10 6174 6199
+type(
+  bool
+)
+"src/be_ocaml_401.ml" 11 6200 6209 "src/be_ocaml_401.ml" 11 6200 6215
+type(
+  int32 -> int32
+)
+ident(
+  int_ref swap32 "src/common_401.cppo.ml" 2 5559 5559 "src/common_401.cppo.ml" 2 5559 5608
+)
+"src/be_ocaml_401.ml" 11 6200 6217 "src/be_ocaml_401.ml" 11 6200 6223
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref get_32 "src/endianString.cppo.ml" 99 5111 5111 "src/endianString.cppo.ml" 99 5111 5174
+)
+"src/be_ocaml_401.ml" 11 6200 6224 "src/be_ocaml_401.ml" 11 6200 6225
+type(
+  string
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 9 6150 6166 "src/be_ocaml_401.ml" 9 6150 6167
+)
+"src/be_ocaml_401.ml" 11 6200 6226 "src/be_ocaml_401.ml" 11 6200 6229
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 9 6150 6168 "src/be_ocaml_401.ml" 9 6150 6171
+)
+"src/be_ocaml_401.ml" 11 6200 6216 "src/be_ocaml_401.ml" 11 6200 6230
+type(
+  int32
+)
+"src/be_ocaml_401.ml" 11 6200 6209 "src/be_ocaml_401.ml" 11 6200 6230
+type(
+  int32
+)
+"src/be_ocaml_401.ml" 12 6231 6240 "src/be_ocaml_401.ml" 12 6231 6246
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref get_32 "src/endianString.cppo.ml" 99 5111 5111 "src/endianString.cppo.ml" 99 5111 5174
+)
+"src/be_ocaml_401.ml" 12 6231 6247 "src/be_ocaml_401.ml" 12 6231 6248
+type(
+  string
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 9 6150 6166 "src/be_ocaml_401.ml" 9 6150 6167
+)
+"src/be_ocaml_401.ml" 12 6231 6249 "src/be_ocaml_401.ml" 12 6231 6252
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 9 6150 6168 "src/be_ocaml_401.ml" 9 6150 6171
+)
+"src/be_ocaml_401.ml" 12 6231 6240 "src/be_ocaml_401.ml" 12 6231 6252
+type(
+  int32
+)
+"src/be_ocaml_401.ml" 10 6174 6178 "src/be_ocaml_401.ml" 12 6231 6252
+type(
+  int32
+)
+"src/be_ocaml_401.ml" 14 6254 6260 "src/be_ocaml_401.ml" 14 6254 6269
+type(
+  string -> int -> int64
+)
+ident(
+  def get_int64 "src/be_ocaml_401.ml" 19 6358 6360 "src/common_401.cppo.ml" 17 7063 7066
+)
+"src/be_ocaml_401.ml" 14 6254 6270 "src/be_ocaml_401.ml" 14 6254 6271
+type(
+  string
+)
+ident(
+  def s "src/be_ocaml_401.ml" 14 6254 6272 "src/be_ocaml_401.ml" 17 6335 6356
+)
+"src/be_ocaml_401.ml" 14 6254 6272 "src/be_ocaml_401.ml" 14 6254 6275
+type(
+  int
+)
+ident(
+  def off "src/be_ocaml_401.ml" 15 6278 6282 "src/be_ocaml_401.ml" 17 6335 6356
+)
+"src/be_ocaml_401.ml" 15 6278 6285 "src/be_ocaml_401.ml" 15 6278 6288
+type(
+  bool -> bool
+)
+ident(
+  int_ref Pervasives.not "pervasives.mli" 134 5784 5784 "pervasives.mli" 134 5784 5824
+)
+"src/be_ocaml_401.ml" 15 6278 6289 "src/be_ocaml_401.ml" 15 6278 6303
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/be_ocaml_401.ml" 15 6278 6285 "src/be_ocaml_401.ml" 15 6278 6303
+type(
+  bool
+)
+"src/be_ocaml_401.ml" 16 6304 6313 "src/be_ocaml_401.ml" 16 6304 6319
+type(
+  int64 -> int64
+)
+ident(
+  int_ref swap64 "src/common_401.cppo.ml" 3 5609 5609 "src/common_401.cppo.ml" 3 5609 5658
+)
+"src/be_ocaml_401.ml" 16 6304 6321 "src/be_ocaml_401.ml" 16 6304 6327
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref get_64 "src/endianString.cppo.ml" 100 5175 5175 "src/endianString.cppo.ml" 100 5175 5238
+)
+"src/be_ocaml_401.ml" 16 6304 6328 "src/be_ocaml_401.ml" 16 6304 6329
+type(
+  string
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 14 6254 6270 "src/be_ocaml_401.ml" 14 6254 6271
+)
+"src/be_ocaml_401.ml" 16 6304 6330 "src/be_ocaml_401.ml" 16 6304 6333
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 14 6254 6272 "src/be_ocaml_401.ml" 14 6254 6275
+)
+"src/be_ocaml_401.ml" 16 6304 6320 "src/be_ocaml_401.ml" 16 6304 6334
+type(
+  int64
+)
+"src/be_ocaml_401.ml" 16 6304 6313 "src/be_ocaml_401.ml" 16 6304 6334
+type(
+  int64
+)
+"src/be_ocaml_401.ml" 17 6335 6344 "src/be_ocaml_401.ml" 17 6335 6350
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref get_64 "src/endianString.cppo.ml" 100 5175 5175 "src/endianString.cppo.ml" 100 5175 5238
+)
+"src/be_ocaml_401.ml" 17 6335 6351 "src/be_ocaml_401.ml" 17 6335 6352
+type(
+  string
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 14 6254 6270 "src/be_ocaml_401.ml" 14 6254 6271
+)
+"src/be_ocaml_401.ml" 17 6335 6353 "src/be_ocaml_401.ml" 17 6335 6356
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 14 6254 6272 "src/be_ocaml_401.ml" 14 6254 6275
+)
+"src/be_ocaml_401.ml" 17 6335 6344 "src/be_ocaml_401.ml" 17 6335 6356
+type(
+  int64
+)
+"src/be_ocaml_401.ml" 15 6278 6282 "src/be_ocaml_401.ml" 17 6335 6356
+type(
+  int64
+)
+"src/be_ocaml_401.ml" 19 6358 6364 "src/be_ocaml_401.ml" 19 6358 6373
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  def set_int16 "src/be_ocaml_401.ml" 24 6470 6472 "src/common_401.cppo.ml" 17 7063 7066
+)
+"src/be_ocaml_401.ml" 19 6358 6374 "src/be_ocaml_401.ml" 19 6358 6375
+type(
+  Bytes.t
+)
+ident(
+  def s "src/be_ocaml_401.ml" 19 6358 6376 "src/be_ocaml_401.ml" 22 6445 6468
+)
+"src/be_ocaml_401.ml" 19 6358 6376 "src/be_ocaml_401.ml" 19 6358 6379
+type(
+  int
+)
+ident(
+  def off "src/be_ocaml_401.ml" 19 6358 6380 "src/be_ocaml_401.ml" 22 6445 6468
+)
+"src/be_ocaml_401.ml" 19 6358 6380 "src/be_ocaml_401.ml" 19 6358 6381
+type(
+  int
+)
+ident(
+  def v "src/be_ocaml_401.ml" 20 6384 6388 "src/be_ocaml_401.ml" 22 6445 6468
+)
+"src/be_ocaml_401.ml" 20 6384 6391 "src/be_ocaml_401.ml" 20 6384 6394
+type(
+  bool -> bool
+)
+ident(
+  int_ref Pervasives.not "pervasives.mli" 134 5784 5784 "pervasives.mli" 134 5784 5824
+)
+"src/be_ocaml_401.ml" 20 6384 6395 "src/be_ocaml_401.ml" 20 6384 6409
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/be_ocaml_401.ml" 20 6384 6391 "src/be_ocaml_401.ml" 20 6384 6409
+type(
+  bool
+)
+"src/be_ocaml_401.ml" 21 6410 6420 "src/be_ocaml_401.ml" 21 6410 6426
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref set_16 "src/endianString.cppo.ml" 102 5240 5240 "src/endianString.cppo.ml" 102 5240 5310
+)
+"src/be_ocaml_401.ml" 21 6410 6427 "src/be_ocaml_401.ml" 21 6410 6428
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 19 6358 6374 "src/be_ocaml_401.ml" 19 6358 6375
+)
+"src/be_ocaml_401.ml" 21 6410 6429 "src/be_ocaml_401.ml" 21 6410 6432
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 19 6358 6376 "src/be_ocaml_401.ml" 19 6358 6379
+)
+"src/be_ocaml_401.ml" 21 6410 6434 "src/be_ocaml_401.ml" 21 6410 6440
+type(
+  int -> int
+)
+ident(
+  int_ref swap16 "src/common_401.cppo.ml" 1 5517 5517 "src/common_401.cppo.ml" 1 5517 5558
+)
+"src/be_ocaml_401.ml" 21 6410 6441 "src/be_ocaml_401.ml" 21 6410 6442
+type(
+  int
+)
+ident(
+  int_ref v "src/be_ocaml_401.ml" 19 6358 6380 "src/be_ocaml_401.ml" 19 6358 6381
+)
+"src/be_ocaml_401.ml" 21 6410 6433 "src/be_ocaml_401.ml" 21 6410 6443
+type(
+  int
+)
+"src/be_ocaml_401.ml" 21 6410 6419 "src/be_ocaml_401.ml" 21 6410 6444
+type(
+  unit
+)
+"src/be_ocaml_401.ml" 22 6445 6454 "src/be_ocaml_401.ml" 22 6445 6460
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref set_16 "src/endianString.cppo.ml" 102 5240 5240 "src/endianString.cppo.ml" 102 5240 5310
+)
+"src/be_ocaml_401.ml" 22 6445 6461 "src/be_ocaml_401.ml" 22 6445 6462
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 19 6358 6374 "src/be_ocaml_401.ml" 19 6358 6375
+)
+"src/be_ocaml_401.ml" 22 6445 6463 "src/be_ocaml_401.ml" 22 6445 6466
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 19 6358 6376 "src/be_ocaml_401.ml" 19 6358 6379
+)
+"src/be_ocaml_401.ml" 22 6445 6467 "src/be_ocaml_401.ml" 22 6445 6468
+type(
+  int
+)
+ident(
+  int_ref v "src/be_ocaml_401.ml" 19 6358 6380 "src/be_ocaml_401.ml" 19 6358 6381
+)
+"src/be_ocaml_401.ml" 22 6445 6454 "src/be_ocaml_401.ml" 22 6445 6468
+type(
+  unit
+)
+"src/be_ocaml_401.ml" 20 6384 6388 "src/be_ocaml_401.ml" 22 6445 6468
+type(
+  unit
+)
+"src/be_ocaml_401.ml" 24 6470 6476 "src/be_ocaml_401.ml" 24 6470 6485
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  def set_int32 "src/be_ocaml_401.ml" 29 6580 6582 "src/common_401.cppo.ml" 17 7063 7066
+)
+"src/be_ocaml_401.ml" 24 6470 6486 "src/be_ocaml_401.ml" 24 6470 6487
+type(
+  Bytes.t
+)
+ident(
+  def s "src/be_ocaml_401.ml" 24 6470 6488 "src/be_ocaml_401.ml" 27 6555 6578
+)
+"src/be_ocaml_401.ml" 24 6470 6488 "src/be_ocaml_401.ml" 24 6470 6491
+type(
+  int
+)
+ident(
+  def off "src/be_ocaml_401.ml" 24 6470 6492 "src/be_ocaml_401.ml" 27 6555 6578
+)
+"src/be_ocaml_401.ml" 24 6470 6492 "src/be_ocaml_401.ml" 24 6470 6493
+type(
+  int32
+)
+ident(
+  def v "src/be_ocaml_401.ml" 25 6496 6500 "src/be_ocaml_401.ml" 27 6555 6578
+)
+"src/be_ocaml_401.ml" 25 6496 6503 "src/be_ocaml_401.ml" 25 6496 6506
+type(
+  bool -> bool
+)
+ident(
+  int_ref Pervasives.not "pervasives.mli" 134 5784 5784 "pervasives.mli" 134 5784 5824
+)
+"src/be_ocaml_401.ml" 25 6496 6507 "src/be_ocaml_401.ml" 25 6496 6521
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/be_ocaml_401.ml" 25 6496 6503 "src/be_ocaml_401.ml" 25 6496 6521
+type(
+  bool
+)
+"src/be_ocaml_401.ml" 26 6522 6531 "src/be_ocaml_401.ml" 26 6522 6537
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref set_32 "src/endianString.cppo.ml" 103 5311 5311 "src/endianString.cppo.ml" 103 5311 5383
+)
+"src/be_ocaml_401.ml" 26 6522 6538 "src/be_ocaml_401.ml" 26 6522 6539
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 24 6470 6486 "src/be_ocaml_401.ml" 24 6470 6487
+)
+"src/be_ocaml_401.ml" 26 6522 6540 "src/be_ocaml_401.ml" 26 6522 6543
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 24 6470 6488 "src/be_ocaml_401.ml" 24 6470 6491
+)
+"src/be_ocaml_401.ml" 26 6522 6545 "src/be_ocaml_401.ml" 26 6522 6551
+type(
+  int32 -> int32
+)
+ident(
+  int_ref swap32 "src/common_401.cppo.ml" 2 5559 5559 "src/common_401.cppo.ml" 2 5559 5608
+)
+"src/be_ocaml_401.ml" 26 6522 6552 "src/be_ocaml_401.ml" 26 6522 6553
+type(
+  int32
+)
+ident(
+  int_ref v "src/be_ocaml_401.ml" 24 6470 6492 "src/be_ocaml_401.ml" 24 6470 6493
+)
+"src/be_ocaml_401.ml" 26 6522 6544 "src/be_ocaml_401.ml" 26 6522 6554
+type(
+  int32
+)
+"src/be_ocaml_401.ml" 26 6522 6531 "src/be_ocaml_401.ml" 26 6522 6554
+type(
+  unit
+)
+"src/be_ocaml_401.ml" 27 6555 6564 "src/be_ocaml_401.ml" 27 6555 6570
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref set_32 "src/endianString.cppo.ml" 103 5311 5311 "src/endianString.cppo.ml" 103 5311 5383
+)
+"src/be_ocaml_401.ml" 27 6555 6571 "src/be_ocaml_401.ml" 27 6555 6572
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 24 6470 6486 "src/be_ocaml_401.ml" 24 6470 6487
+)
+"src/be_ocaml_401.ml" 27 6555 6573 "src/be_ocaml_401.ml" 27 6555 6576
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 24 6470 6488 "src/be_ocaml_401.ml" 24 6470 6491
+)
+"src/be_ocaml_401.ml" 27 6555 6577 "src/be_ocaml_401.ml" 27 6555 6578
+type(
+  int32
+)
+ident(
+  int_ref v "src/be_ocaml_401.ml" 24 6470 6492 "src/be_ocaml_401.ml" 24 6470 6493
+)
+"src/be_ocaml_401.ml" 27 6555 6564 "src/be_ocaml_401.ml" 27 6555 6578
+type(
+  unit
+)
+"src/be_ocaml_401.ml" 25 6496 6500 "src/be_ocaml_401.ml" 27 6555 6578
+type(
+  unit
+)
+"src/be_ocaml_401.ml" 29 6580 6586 "src/be_ocaml_401.ml" 29 6580 6595
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  def set_int64 "src/common_float.ml" 2 6743 6743 "src/common_401.cppo.ml" 17 7063 7066
+)
+"src/be_ocaml_401.ml" 29 6580 6596 "src/be_ocaml_401.ml" 29 6580 6597
+type(
+  Bytes.t
+)
+ident(
+  def s "src/be_ocaml_401.ml" 29 6580 6598 "src/be_ocaml_401.ml" 32 6665 6688
+)
+"src/be_ocaml_401.ml" 29 6580 6598 "src/be_ocaml_401.ml" 29 6580 6601
+type(
+  int
+)
+ident(
+  def off "src/be_ocaml_401.ml" 29 6580 6602 "src/be_ocaml_401.ml" 32 6665 6688
+)
+"src/be_ocaml_401.ml" 29 6580 6602 "src/be_ocaml_401.ml" 29 6580 6603
+type(
+  int64
+)
+ident(
+  def v "src/be_ocaml_401.ml" 30 6606 6610 "src/be_ocaml_401.ml" 32 6665 6688
+)
+"src/be_ocaml_401.ml" 30 6606 6613 "src/be_ocaml_401.ml" 30 6606 6616
+type(
+  bool -> bool
+)
+ident(
+  int_ref Pervasives.not "pervasives.mli" 134 5784 5784 "pervasives.mli" 134 5784 5824
+)
+"src/be_ocaml_401.ml" 30 6606 6617 "src/be_ocaml_401.ml" 30 6606 6631
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/be_ocaml_401.ml" 30 6606 6613 "src/be_ocaml_401.ml" 30 6606 6631
+type(
+  bool
+)
+"src/be_ocaml_401.ml" 31 6632 6641 "src/be_ocaml_401.ml" 31 6632 6647
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref set_64 "src/endianString.cppo.ml" 104 5384 5384 "src/endianString.cppo.ml" 104 5384 5456
+)
+"src/be_ocaml_401.ml" 31 6632 6648 "src/be_ocaml_401.ml" 31 6632 6649
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 29 6580 6596 "src/be_ocaml_401.ml" 29 6580 6597
+)
+"src/be_ocaml_401.ml" 31 6632 6650 "src/be_ocaml_401.ml" 31 6632 6653
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 29 6580 6598 "src/be_ocaml_401.ml" 29 6580 6601
+)
+"src/be_ocaml_401.ml" 31 6632 6655 "src/be_ocaml_401.ml" 31 6632 6661
+type(
+  int64 -> int64
+)
+ident(
+  int_ref swap64 "src/common_401.cppo.ml" 3 5609 5609 "src/common_401.cppo.ml" 3 5609 5658
+)
+"src/be_ocaml_401.ml" 31 6632 6662 "src/be_ocaml_401.ml" 31 6632 6663
+type(
+  int64
+)
+ident(
+  int_ref v "src/be_ocaml_401.ml" 29 6580 6602 "src/be_ocaml_401.ml" 29 6580 6603
+)
+"src/be_ocaml_401.ml" 31 6632 6654 "src/be_ocaml_401.ml" 31 6632 6664
+type(
+  int64
+)
+"src/be_ocaml_401.ml" 31 6632 6641 "src/be_ocaml_401.ml" 31 6632 6664
+type(
+  unit
+)
+"src/be_ocaml_401.ml" 32 6665 6674 "src/be_ocaml_401.ml" 32 6665 6680
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref set_64 "src/endianString.cppo.ml" 104 5384 5384 "src/endianString.cppo.ml" 104 5384 5456
+)
+"src/be_ocaml_401.ml" 32 6665 6681 "src/be_ocaml_401.ml" 32 6665 6682
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 29 6580 6596 "src/be_ocaml_401.ml" 29 6580 6597
+)
+"src/be_ocaml_401.ml" 32 6665 6683 "src/be_ocaml_401.ml" 32 6665 6686
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 29 6580 6598 "src/be_ocaml_401.ml" 29 6580 6601
+)
+"src/be_ocaml_401.ml" 32 6665 6687 "src/be_ocaml_401.ml" 32 6665 6688
+type(
+  int64
+)
+ident(
+  int_ref v "src/be_ocaml_401.ml" 29 6580 6602 "src/be_ocaml_401.ml" 29 6580 6603
+)
+"src/be_ocaml_401.ml" 32 6665 6674 "src/be_ocaml_401.ml" 32 6665 6688
+type(
+  unit
+)
+"src/be_ocaml_401.ml" 30 6606 6610 "src/be_ocaml_401.ml" 32 6665 6688
+type(
+  unit
+)
+"src/common_float.ml" 2 6743 6747 "src/common_float.ml" 2 6743 6756
+type(
+  string -> int -> float
+)
+ident(
+  def get_float "src/common_float.ml" 3 6805 6805 "src/common_401.cppo.ml" 17 7063 7066
+)
+"src/common_float.ml" 2 6743 6757 "src/common_float.ml" 2 6743 6761
+type(
+  string
+)
+ident(
+  def buff "src/common_float.ml" 2 6743 6762 "src/common_float.ml" 2 6743 6804
+)
+"src/common_float.ml" 2 6743 6762 "src/common_float.ml" 2 6743 6763
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 2 6743 6766 "src/common_float.ml" 2 6743 6804
+)
+"src/common_float.ml" 2 6743 6766 "src/common_float.ml" 2 6743 6785
+type(
+  int32 -> float
+)
+ident(
+  int_ref Int32.float_of_bits "int32.mli" 163 6610 6610 "int32.mli" 165 6716 6741
+)
+"src/common_float.ml" 2 6743 6787 "src/common_float.ml" 2 6743 6796
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref get_int32 "src/be_ocaml_401.ml" 9 6150 6156 "src/be_ocaml_401.ml" 9 6150 6165
+)
+"src/common_float.ml" 2 6743 6797 "src/common_float.ml" 2 6743 6801
+type(
+  string
+)
+ident(
+  int_ref buff "src/common_float.ml" 2 6743 6757 "src/common_float.ml" 2 6743 6761
+)
+"src/common_float.ml" 2 6743 6802 "src/common_float.ml" 2 6743 6803
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 2 6743 6762 "src/common_float.ml" 2 6743 6763
+)
+"src/common_float.ml" 2 6743 6786 "src/common_float.ml" 2 6743 6804
+call(
+  stack
+)
+type(
+  int32
+)
+"src/common_float.ml" 2 6743 6766 "src/common_float.ml" 2 6743 6804
+type(
+  float
+)
+"src/common_float.ml" 3 6805 6809 "src/common_float.ml" 3 6805 6819
+type(
+  string -> int -> float
+)
+ident(
+  def get_double "src/common_float.ml" 4 6868 6868 "src/common_401.cppo.ml" 17 7063 7066
+)
+"src/common_float.ml" 3 6805 6820 "src/common_float.ml" 3 6805 6824
+type(
+  string
+)
+ident(
+  def buff "src/common_float.ml" 3 6805 6825 "src/common_float.ml" 3 6805 6867
+)
+"src/common_float.ml" 3 6805 6825 "src/common_float.ml" 3 6805 6826
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 3 6805 6829 "src/common_float.ml" 3 6805 6867
+)
+"src/common_float.ml" 3 6805 6829 "src/common_float.ml" 3 6805 6848
+type(
+  int64 -> float
+)
+ident(
+  int_ref Int64.float_of_bits "int64.mli" 184 7509 7509 "int64.mli" 186 7615 7640
+)
+"src/common_float.ml" 3 6805 6850 "src/common_float.ml" 3 6805 6859
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref get_int64 "src/be_ocaml_401.ml" 14 6254 6260 "src/be_ocaml_401.ml" 14 6254 6269
+)
+"src/common_float.ml" 3 6805 6860 "src/common_float.ml" 3 6805 6864
+type(
+  string
+)
+ident(
+  int_ref buff "src/common_float.ml" 3 6805 6820 "src/common_float.ml" 3 6805 6824
+)
+"src/common_float.ml" 3 6805 6865 "src/common_float.ml" 3 6805 6866
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 3 6805 6825 "src/common_float.ml" 3 6805 6826
+)
+"src/common_float.ml" 3 6805 6849 "src/common_float.ml" 3 6805 6867
+call(
+  stack
+)
+type(
+  int64
+)
+"src/common_float.ml" 3 6805 6829 "src/common_float.ml" 3 6805 6867
+type(
+  float
+)
+"src/common_float.ml" 4 6868 6872 "src/common_float.ml" 4 6868 6881
+type(
+  Bytes.t -> int -> float -> unit
+)
+ident(
+  def set_float "src/common_float.ml" 5 6934 6934 "src/common_401.cppo.ml" 17 7063 7066
+)
+"src/common_float.ml" 4 6868 6882 "src/common_float.ml" 4 6868 6886
+type(
+  Bytes.t
+)
+ident(
+  def buff "src/common_float.ml" 4 6868 6887 "src/common_float.ml" 4 6868 6933
+)
+"src/common_float.ml" 4 6868 6887 "src/common_float.ml" 4 6868 6888
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 4 6868 6889 "src/common_float.ml" 4 6868 6933
+)
+"src/common_float.ml" 4 6868 6889 "src/common_float.ml" 4 6868 6890
+type(
+  float
+)
+ident(
+  def v "src/common_float.ml" 4 6868 6893 "src/common_float.ml" 4 6868 6933
+)
+"src/common_float.ml" 4 6868 6893 "src/common_float.ml" 4 6868 6902
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref set_int32 "src/be_ocaml_401.ml" 24 6470 6476 "src/be_ocaml_401.ml" 24 6470 6485
+)
+"src/common_float.ml" 4 6868 6903 "src/common_float.ml" 4 6868 6907
+type(
+  Bytes.t
+)
+ident(
+  int_ref buff "src/common_float.ml" 4 6868 6882 "src/common_float.ml" 4 6868 6886
+)
+"src/common_float.ml" 4 6868 6908 "src/common_float.ml" 4 6868 6909
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 4 6868 6887 "src/common_float.ml" 4 6868 6888
+)
+"src/common_float.ml" 4 6868 6911 "src/common_float.ml" 4 6868 6930
+type(
+  float -> int32
+)
+ident(
+  int_ref Int32.bits_of_float "int32.mli" 154 6196 6196 "int32.mli" 156 6302 6327
+)
+"src/common_float.ml" 4 6868 6931 "src/common_float.ml" 4 6868 6932
+type(
+  float
+)
+ident(
+  int_ref v "src/common_float.ml" 4 6868 6889 "src/common_float.ml" 4 6868 6890
+)
+"src/common_float.ml" 4 6868 6910 "src/common_float.ml" 4 6868 6933
+type(
+  int32
+)
+"src/common_float.ml" 4 6868 6893 "src/common_float.ml" 4 6868 6933
+call(
+  tail
+)
+type(
+  unit
+)
+"src/common_float.ml" 5 6934 6938 "src/common_float.ml" 5 6934 6948
+type(
+  Bytes.t -> int -> float -> unit
+)
+ident(
+  def set_double "src/common_float.ml" 5 6934 7000 "src/common_401.cppo.ml" 17 7063 7066
+)
+"src/common_float.ml" 5 6934 6949 "src/common_float.ml" 5 6934 6953
+type(
+  Bytes.t
+)
+ident(
+  def buff "src/common_float.ml" 5 6934 6954 "src/common_float.ml" 5 6934 7000
+)
+"src/common_float.ml" 5 6934 6954 "src/common_float.ml" 5 6934 6955
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 5 6934 6956 "src/common_float.ml" 5 6934 7000
+)
+"src/common_float.ml" 5 6934 6956 "src/common_float.ml" 5 6934 6957
+type(
+  float
+)
+ident(
+  def v "src/common_float.ml" 5 6934 6960 "src/common_float.ml" 5 6934 7000
+)
+"src/common_float.ml" 5 6934 6960 "src/common_float.ml" 5 6934 6969
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref set_int64 "src/be_ocaml_401.ml" 29 6580 6586 "src/be_ocaml_401.ml" 29 6580 6595
+)
+"src/common_float.ml" 5 6934 6970 "src/common_float.ml" 5 6934 6974
+type(
+  Bytes.t
+)
+ident(
+  int_ref buff "src/common_float.ml" 5 6934 6949 "src/common_float.ml" 5 6934 6953
+)
+"src/common_float.ml" 5 6934 6975 "src/common_float.ml" 5 6934 6976
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 5 6934 6954 "src/common_float.ml" 5 6934 6955
+)
+"src/common_float.ml" 5 6934 6978 "src/common_float.ml" 5 6934 6997
+type(
+  float -> int64
+)
+ident(
+  int_ref Int64.bits_of_float "int64.mli" 175 7095 7095 "int64.mli" 177 7201 7226
+)
+"src/common_float.ml" 5 6934 6998 "src/common_float.ml" 5 6934 6999
+type(
+  float
+)
+ident(
+  int_ref v "src/common_float.ml" 5 6934 6956 "src/common_float.ml" 5 6934 6957
+)
+"src/common_float.ml" 5 6934 6977 "src/common_float.ml" 5 6934 7000
+type(
+  int64
+)
+"src/common_float.ml" 5 6934 6960 "src/common_float.ml" 5 6934 7000
+call(
+  tail
+)
+type(
+  unit
+)
+"src/common_401.cppo.ml" 21 7102 7108 "src/common_401.cppo.ml" 21 7102 7116
+type(
+  string -> int -> char
+)
+ident(
+  def get_char "src/common_401.cppo.ml" 22 7135 7137 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/common_401.cppo.ml" 21 7102 7119 "src/common_401.cppo.ml" 21 7102 7134
+type(
+  string -> int -> char
+)
+ident(
+  int_ref unsafe_get_char "src/endianString.cppo.ml" 81 3597 3601 "src/endianString.cppo.ml" 81 3597 3616
+)
+"src/common_401.cppo.ml" 22 7135 7141 "src/common_401.cppo.ml" 22 7135 7150
+type(
+  string -> int -> int
+)
+ident(
+  def get_uint8 "src/common_401.cppo.ml" 23 7170 7172 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/common_401.cppo.ml" 22 7135 7153 "src/common_401.cppo.ml" 22 7135 7169
+type(
+  string -> int -> int
+)
+ident(
+  int_ref unsafe_get_uint8 "src/common.ml" 17 4310 4314 "src/common.ml" 17 4310 4330
+)
+"src/common_401.cppo.ml" 23 7170 7176 "src/common_401.cppo.ml" 23 7170 7184
+type(
+  string -> int -> int
+)
+ident(
+  def get_int8 "src/common_401.cppo.ml" 24 7203 7205 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/common_401.cppo.ml" 23 7170 7187 "src/common_401.cppo.ml" 23 7170 7202
+type(
+  string -> int -> int
+)
+ident(
+  int_ref unsafe_get_int8 "src/common.ml" 19 4375 4379 "src/common.ml" 19 4375 4394
+)
+"src/common_401.cppo.ml" 24 7203 7209 "src/common_401.cppo.ml" 24 7203 7217
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  def set_char "src/common_401.cppo.ml" 25 7236 7238 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/common_401.cppo.ml" 24 7203 7220 "src/common_401.cppo.ml" 24 7203 7235
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  int_ref unsafe_set_char "src/endianString.cppo.ml" 83 3660 3664 "src/endianString.cppo.ml" 83 3660 3679
+)
+"src/common_401.cppo.ml" 25 7236 7242 "src/common_401.cppo.ml" 25 7236 7250
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  def set_int8 "src/common_401.cppo.ml" 26 7269 7271 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/common_401.cppo.ml" 25 7236 7253 "src/common_401.cppo.ml" 25 7236 7268
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref unsafe_set_int8 "src/common.ml" 21 4484 4488 "src/common.ml" 21 4484 4503
+)
+"src/common_401.cppo.ml" 26 7269 7275 "src/common_401.cppo.ml" 26 7269 7281
+type(
+  string -> int -> int
+)
+ident(
+  def get_16 "src/common_401.cppo.ml" 27 7298 7300 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/common_401.cppo.ml" 26 7269 7284 "src/common_401.cppo.ml" 26 7269 7297
+type(
+  string -> int -> int
+)
+ident(
+  int_ref unsafe_get_16 "src/endianString.cppo.ml" 90 4592 4592 "src/endianString.cppo.ml" 90 4592 4661
+)
+"src/common_401.cppo.ml" 27 7298 7304 "src/common_401.cppo.ml" 27 7298 7310
+type(
+  string -> int -> int32
+)
+ident(
+  def get_32 "src/common_401.cppo.ml" 28 7327 7329 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/common_401.cppo.ml" 27 7298 7313 "src/common_401.cppo.ml" 27 7298 7326
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref unsafe_get_32 "src/endianString.cppo.ml" 91 4662 4662 "src/endianString.cppo.ml" 91 4662 4733
+)
+"src/common_401.cppo.ml" 28 7327 7333 "src/common_401.cppo.ml" 28 7327 7339
+type(
+  string -> int -> int64
+)
+ident(
+  def get_64 "src/common_401.cppo.ml" 29 7356 7358 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/common_401.cppo.ml" 28 7327 7342 "src/common_401.cppo.ml" 28 7327 7355
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref unsafe_get_64 "src/endianString.cppo.ml" 92 4734 4734 "src/endianString.cppo.ml" 92 4734 4805
+)
+"src/common_401.cppo.ml" 29 7356 7362 "src/common_401.cppo.ml" 29 7356 7368
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  def set_16 "src/common_401.cppo.ml" 30 7385 7387 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/common_401.cppo.ml" 29 7356 7371 "src/common_401.cppo.ml" 29 7356 7384
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref unsafe_set_16 "src/endianString.cppo.ml" 94 4807 4807 "src/endianString.cppo.ml" 94 4807 4885
+)
+"src/common_401.cppo.ml" 30 7385 7391 "src/common_401.cppo.ml" 30 7385 7397
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  def set_32 "src/common_401.cppo.ml" 31 7414 7416 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/common_401.cppo.ml" 30 7385 7400 "src/common_401.cppo.ml" 30 7385 7413
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref unsafe_set_32 "src/endianString.cppo.ml" 95 4886 4886 "src/endianString.cppo.ml" 95 4886 4966
+)
+"src/common_401.cppo.ml" 31 7414 7420 "src/common_401.cppo.ml" 31 7414 7426
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  def set_64 "src/be_ocaml_401.ml" 1 7503 7505 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/common_401.cppo.ml" 31 7414 7429 "src/common_401.cppo.ml" 31 7414 7442
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref unsafe_set_64 "src/endianString.cppo.ml" 96 4967 4967 "src/endianString.cppo.ml" 96 4967 5047
+)
+"src/be_ocaml_401.ml" 1 7503 7509 "src/be_ocaml_401.ml" 1 7503 7519
+type(
+  string -> int -> int
+)
+ident(
+  def get_uint16 "src/be_ocaml_401.ml" 6 7608 7610 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/be_ocaml_401.ml" 1 7503 7520 "src/be_ocaml_401.ml" 1 7503 7521
+type(
+  string
+)
+ident(
+  def s "src/be_ocaml_401.ml" 1 7503 7522 "src/be_ocaml_401.ml" 4 7585 7606
+)
+"src/be_ocaml_401.ml" 1 7503 7522 "src/be_ocaml_401.ml" 1 7503 7525
+type(
+  int
+)
+ident(
+  def off "src/be_ocaml_401.ml" 2 7528 7532 "src/be_ocaml_401.ml" 4 7585 7606
+)
+"src/be_ocaml_401.ml" 2 7528 7535 "src/be_ocaml_401.ml" 2 7528 7538
+type(
+  bool -> bool
+)
+ident(
+  int_ref Pervasives.not "pervasives.mli" 134 5784 5784 "pervasives.mli" 134 5784 5824
+)
+"src/be_ocaml_401.ml" 2 7528 7539 "src/be_ocaml_401.ml" 2 7528 7553
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/be_ocaml_401.ml" 2 7528 7535 "src/be_ocaml_401.ml" 2 7528 7553
+type(
+  bool
+)
+"src/be_ocaml_401.ml" 3 7554 7563 "src/be_ocaml_401.ml" 3 7554 7569
+type(
+  int -> int
+)
+ident(
+  int_ref swap16 "src/common_401.cppo.ml" 1 5517 5517 "src/common_401.cppo.ml" 1 5517 5558
+)
+"src/be_ocaml_401.ml" 3 7554 7571 "src/be_ocaml_401.ml" 3 7554 7577
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_16 "src/common_401.cppo.ml" 26 7269 7275 "src/common_401.cppo.ml" 26 7269 7281
+)
+"src/be_ocaml_401.ml" 3 7554 7578 "src/be_ocaml_401.ml" 3 7554 7579
+type(
+  string
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 1 7503 7520 "src/be_ocaml_401.ml" 1 7503 7521
+)
+"src/be_ocaml_401.ml" 3 7554 7580 "src/be_ocaml_401.ml" 3 7554 7583
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 1 7503 7522 "src/be_ocaml_401.ml" 1 7503 7525
+)
+"src/be_ocaml_401.ml" 3 7554 7570 "src/be_ocaml_401.ml" 3 7554 7584
+call(
+  stack
+)
+type(
+  int
+)
+"src/be_ocaml_401.ml" 3 7554 7563 "src/be_ocaml_401.ml" 3 7554 7584
+type(
+  int
+)
+"src/be_ocaml_401.ml" 4 7585 7594 "src/be_ocaml_401.ml" 4 7585 7600
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_16 "src/common_401.cppo.ml" 26 7269 7275 "src/common_401.cppo.ml" 26 7269 7281
+)
+"src/be_ocaml_401.ml" 4 7585 7601 "src/be_ocaml_401.ml" 4 7585 7602
+type(
+  string
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 1 7503 7520 "src/be_ocaml_401.ml" 1 7503 7521
+)
+"src/be_ocaml_401.ml" 4 7585 7603 "src/be_ocaml_401.ml" 4 7585 7606
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 1 7503 7522 "src/be_ocaml_401.ml" 1 7503 7525
+)
+"src/be_ocaml_401.ml" 4 7585 7594 "src/be_ocaml_401.ml" 4 7585 7606
+call(
+  tail
+)
+type(
+  int
+)
+"src/be_ocaml_401.ml" 2 7528 7532 "src/be_ocaml_401.ml" 4 7585 7606
+type(
+  int
+)
+"src/be_ocaml_401.ml" 6 7608 7614 "src/be_ocaml_401.ml" 6 7608 7623
+type(
+  string -> int -> int
+)
+ident(
+  def get_int16 "src/be_ocaml_401.ml" 9 7711 7713 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/be_ocaml_401.ml" 6 7608 7624 "src/be_ocaml_401.ml" 6 7608 7625
+type(
+  string
+)
+ident(
+  def s "src/be_ocaml_401.ml" 6 7608 7626 "src/be_ocaml_401.ml" 7 7632 7709
+)
+"src/be_ocaml_401.ml" 6 7608 7626 "src/be_ocaml_401.ml" 6 7608 7629
+type(
+  int
+)
+ident(
+  def off "src/be_ocaml_401.ml" 7 7632 7635 "src/be_ocaml_401.ml" 7 7632 7709
+)
+"src/be_ocaml_401.ml" 7 7632 7637 "src/be_ocaml_401.ml" 7 7632 7647
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_uint16 "src/be_ocaml_401.ml" 1 7503 7509 "src/be_ocaml_401.ml" 1 7503 7519
+)
+"src/be_ocaml_401.ml" 7 7632 7648 "src/be_ocaml_401.ml" 7 7632 7649
+type(
+  string
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 6 7608 7624 "src/be_ocaml_401.ml" 6 7608 7625
+)
+"src/be_ocaml_401.ml" 7 7632 7650 "src/be_ocaml_401.ml" 7 7632 7653
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 6 7608 7626 "src/be_ocaml_401.ml" 6 7608 7629
+)
+"src/be_ocaml_401.ml" 7 7632 7636 "src/be_ocaml_401.ml" 7 7632 7654
+call(
+  stack
+)
+type(
+  int
+)
+"src/be_ocaml_401.ml" 7 7632 7655 "src/be_ocaml_401.ml" 7 7632 7658
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( lsl ) "pervasives.mli" 320 12299 12299 "pervasives.mli" 320 12299 12347
+)
+"src/be_ocaml_401.ml" 7 7632 7661 "src/be_ocaml_401.ml" 7 7632 7674
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/be_ocaml_401.ml" 7 7632 7675 "src/be_ocaml_401.ml" 7 7632 7676
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/be_ocaml_401.ml" 7 7632 7677 "src/be_ocaml_401.ml" 7 7632 7679
+type(
+  int
+)
+"src/be_ocaml_401.ml" 7 7632 7659 "src/be_ocaml_401.ml" 7 7632 7681
+type(
+  int
+)
+"src/be_ocaml_401.ml" 7 7632 7635 "src/be_ocaml_401.ml" 7 7632 7682
+type(
+  int
+)
+"src/be_ocaml_401.ml" 7 7632 7683 "src/be_ocaml_401.ml" 7 7632 7686
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( asr ) "pervasives.mli" 334 12900 12900 "pervasives.mli" 334 12900 12948
+)
+"src/be_ocaml_401.ml" 7 7632 7689 "src/be_ocaml_401.ml" 7 7632 7702
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/be_ocaml_401.ml" 7 7632 7703 "src/be_ocaml_401.ml" 7 7632 7704
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/be_ocaml_401.ml" 7 7632 7705 "src/be_ocaml_401.ml" 7 7632 7707
+type(
+  int
+)
+"src/be_ocaml_401.ml" 7 7632 7687 "src/be_ocaml_401.ml" 7 7632 7709
+type(
+  int
+)
+"src/be_ocaml_401.ml" 7 7632 7635 "src/be_ocaml_401.ml" 7 7632 7709
+type(
+  int
+)
+"src/be_ocaml_401.ml" 9 7711 7717 "src/be_ocaml_401.ml" 9 7711 7726
+type(
+  string -> int -> int32
+)
+ident(
+  def get_int32 "src/be_ocaml_401.ml" 14 7815 7817 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/be_ocaml_401.ml" 9 7711 7727 "src/be_ocaml_401.ml" 9 7711 7728
+type(
+  string
+)
+ident(
+  def s "src/be_ocaml_401.ml" 9 7711 7729 "src/be_ocaml_401.ml" 12 7792 7813
+)
+"src/be_ocaml_401.ml" 9 7711 7729 "src/be_ocaml_401.ml" 9 7711 7732
+type(
+  int
+)
+ident(
+  def off "src/be_ocaml_401.ml" 10 7735 7739 "src/be_ocaml_401.ml" 12 7792 7813
+)
+"src/be_ocaml_401.ml" 10 7735 7742 "src/be_ocaml_401.ml" 10 7735 7745
+type(
+  bool -> bool
+)
+ident(
+  int_ref Pervasives.not "pervasives.mli" 134 5784 5784 "pervasives.mli" 134 5784 5824
+)
+"src/be_ocaml_401.ml" 10 7735 7746 "src/be_ocaml_401.ml" 10 7735 7760
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/be_ocaml_401.ml" 10 7735 7742 "src/be_ocaml_401.ml" 10 7735 7760
+type(
+  bool
+)
+"src/be_ocaml_401.ml" 11 7761 7770 "src/be_ocaml_401.ml" 11 7761 7776
+type(
+  int32 -> int32
+)
+ident(
+  int_ref swap32 "src/common_401.cppo.ml" 2 5559 5559 "src/common_401.cppo.ml" 2 5559 5608
+)
+"src/be_ocaml_401.ml" 11 7761 7778 "src/be_ocaml_401.ml" 11 7761 7784
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref get_32 "src/common_401.cppo.ml" 27 7298 7304 "src/common_401.cppo.ml" 27 7298 7310
+)
+"src/be_ocaml_401.ml" 11 7761 7785 "src/be_ocaml_401.ml" 11 7761 7786
+type(
+  string
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 9 7711 7727 "src/be_ocaml_401.ml" 9 7711 7728
+)
+"src/be_ocaml_401.ml" 11 7761 7787 "src/be_ocaml_401.ml" 11 7761 7790
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 9 7711 7729 "src/be_ocaml_401.ml" 9 7711 7732
+)
+"src/be_ocaml_401.ml" 11 7761 7777 "src/be_ocaml_401.ml" 11 7761 7791
+call(
+  stack
+)
+type(
+  int32
+)
+"src/be_ocaml_401.ml" 11 7761 7770 "src/be_ocaml_401.ml" 11 7761 7791
+type(
+  int32
+)
+"src/be_ocaml_401.ml" 12 7792 7801 "src/be_ocaml_401.ml" 12 7792 7807
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref get_32 "src/common_401.cppo.ml" 27 7298 7304 "src/common_401.cppo.ml" 27 7298 7310
+)
+"src/be_ocaml_401.ml" 12 7792 7808 "src/be_ocaml_401.ml" 12 7792 7809
+type(
+  string
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 9 7711 7727 "src/be_ocaml_401.ml" 9 7711 7728
+)
+"src/be_ocaml_401.ml" 12 7792 7810 "src/be_ocaml_401.ml" 12 7792 7813
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 9 7711 7729 "src/be_ocaml_401.ml" 9 7711 7732
+)
+"src/be_ocaml_401.ml" 12 7792 7801 "src/be_ocaml_401.ml" 12 7792 7813
+call(
+  tail
+)
+type(
+  int32
+)
+"src/be_ocaml_401.ml" 10 7735 7739 "src/be_ocaml_401.ml" 12 7792 7813
+type(
+  int32
+)
+"src/be_ocaml_401.ml" 14 7815 7821 "src/be_ocaml_401.ml" 14 7815 7830
+type(
+  string -> int -> int64
+)
+ident(
+  def get_int64 "src/be_ocaml_401.ml" 19 7919 7921 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/be_ocaml_401.ml" 14 7815 7831 "src/be_ocaml_401.ml" 14 7815 7832
+type(
+  string
+)
+ident(
+  def s "src/be_ocaml_401.ml" 14 7815 7833 "src/be_ocaml_401.ml" 17 7896 7917
+)
+"src/be_ocaml_401.ml" 14 7815 7833 "src/be_ocaml_401.ml" 14 7815 7836
+type(
+  int
+)
+ident(
+  def off "src/be_ocaml_401.ml" 15 7839 7843 "src/be_ocaml_401.ml" 17 7896 7917
+)
+"src/be_ocaml_401.ml" 15 7839 7846 "src/be_ocaml_401.ml" 15 7839 7849
+type(
+  bool -> bool
+)
+ident(
+  int_ref Pervasives.not "pervasives.mli" 134 5784 5784 "pervasives.mli" 134 5784 5824
+)
+"src/be_ocaml_401.ml" 15 7839 7850 "src/be_ocaml_401.ml" 15 7839 7864
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/be_ocaml_401.ml" 15 7839 7846 "src/be_ocaml_401.ml" 15 7839 7864
+type(
+  bool
+)
+"src/be_ocaml_401.ml" 16 7865 7874 "src/be_ocaml_401.ml" 16 7865 7880
+type(
+  int64 -> int64
+)
+ident(
+  int_ref swap64 "src/common_401.cppo.ml" 3 5609 5609 "src/common_401.cppo.ml" 3 5609 5658
+)
+"src/be_ocaml_401.ml" 16 7865 7882 "src/be_ocaml_401.ml" 16 7865 7888
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref get_64 "src/common_401.cppo.ml" 28 7327 7333 "src/common_401.cppo.ml" 28 7327 7339
+)
+"src/be_ocaml_401.ml" 16 7865 7889 "src/be_ocaml_401.ml" 16 7865 7890
+type(
+  string
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 14 7815 7831 "src/be_ocaml_401.ml" 14 7815 7832
+)
+"src/be_ocaml_401.ml" 16 7865 7891 "src/be_ocaml_401.ml" 16 7865 7894
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 14 7815 7833 "src/be_ocaml_401.ml" 14 7815 7836
+)
+"src/be_ocaml_401.ml" 16 7865 7881 "src/be_ocaml_401.ml" 16 7865 7895
+call(
+  stack
+)
+type(
+  int64
+)
+"src/be_ocaml_401.ml" 16 7865 7874 "src/be_ocaml_401.ml" 16 7865 7895
+type(
+  int64
+)
+"src/be_ocaml_401.ml" 17 7896 7905 "src/be_ocaml_401.ml" 17 7896 7911
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref get_64 "src/common_401.cppo.ml" 28 7327 7333 "src/common_401.cppo.ml" 28 7327 7339
+)
+"src/be_ocaml_401.ml" 17 7896 7912 "src/be_ocaml_401.ml" 17 7896 7913
+type(
+  string
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 14 7815 7831 "src/be_ocaml_401.ml" 14 7815 7832
+)
+"src/be_ocaml_401.ml" 17 7896 7914 "src/be_ocaml_401.ml" 17 7896 7917
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 14 7815 7833 "src/be_ocaml_401.ml" 14 7815 7836
+)
+"src/be_ocaml_401.ml" 17 7896 7905 "src/be_ocaml_401.ml" 17 7896 7917
+call(
+  tail
+)
+type(
+  int64
+)
+"src/be_ocaml_401.ml" 15 7839 7843 "src/be_ocaml_401.ml" 17 7896 7917
+type(
+  int64
+)
+"src/be_ocaml_401.ml" 19 7919 7925 "src/be_ocaml_401.ml" 19 7919 7934
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  def set_int16 "src/be_ocaml_401.ml" 24 8031 8033 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/be_ocaml_401.ml" 19 7919 7935 "src/be_ocaml_401.ml" 19 7919 7936
+type(
+  Bytes.t
+)
+ident(
+  def s "src/be_ocaml_401.ml" 19 7919 7937 "src/be_ocaml_401.ml" 22 8006 8029
+)
+"src/be_ocaml_401.ml" 19 7919 7937 "src/be_ocaml_401.ml" 19 7919 7940
+type(
+  int
+)
+ident(
+  def off "src/be_ocaml_401.ml" 19 7919 7941 "src/be_ocaml_401.ml" 22 8006 8029
+)
+"src/be_ocaml_401.ml" 19 7919 7941 "src/be_ocaml_401.ml" 19 7919 7942
+type(
+  int
+)
+ident(
+  def v "src/be_ocaml_401.ml" 20 7945 7949 "src/be_ocaml_401.ml" 22 8006 8029
+)
+"src/be_ocaml_401.ml" 20 7945 7952 "src/be_ocaml_401.ml" 20 7945 7955
+type(
+  bool -> bool
+)
+ident(
+  int_ref Pervasives.not "pervasives.mli" 134 5784 5784 "pervasives.mli" 134 5784 5824
+)
+"src/be_ocaml_401.ml" 20 7945 7956 "src/be_ocaml_401.ml" 20 7945 7970
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/be_ocaml_401.ml" 20 7945 7952 "src/be_ocaml_401.ml" 20 7945 7970
+type(
+  bool
+)
+"src/be_ocaml_401.ml" 21 7971 7981 "src/be_ocaml_401.ml" 21 7971 7987
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref set_16 "src/common_401.cppo.ml" 29 7356 7362 "src/common_401.cppo.ml" 29 7356 7368
+)
+"src/be_ocaml_401.ml" 21 7971 7988 "src/be_ocaml_401.ml" 21 7971 7989
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 19 7919 7935 "src/be_ocaml_401.ml" 19 7919 7936
+)
+"src/be_ocaml_401.ml" 21 7971 7990 "src/be_ocaml_401.ml" 21 7971 7993
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 19 7919 7937 "src/be_ocaml_401.ml" 19 7919 7940
+)
+"src/be_ocaml_401.ml" 21 7971 7995 "src/be_ocaml_401.ml" 21 7971 8001
+type(
+  int -> int
+)
+ident(
+  int_ref swap16 "src/common_401.cppo.ml" 1 5517 5517 "src/common_401.cppo.ml" 1 5517 5558
+)
+"src/be_ocaml_401.ml" 21 7971 8002 "src/be_ocaml_401.ml" 21 7971 8003
+type(
+  int
+)
+ident(
+  int_ref v "src/be_ocaml_401.ml" 19 7919 7941 "src/be_ocaml_401.ml" 19 7919 7942
+)
+"src/be_ocaml_401.ml" 21 7971 7994 "src/be_ocaml_401.ml" 21 7971 8004
+type(
+  int
+)
+"src/be_ocaml_401.ml" 21 7971 7980 "src/be_ocaml_401.ml" 21 7971 8005
+call(
+  tail
+)
+type(
+  unit
+)
+"src/be_ocaml_401.ml" 22 8006 8015 "src/be_ocaml_401.ml" 22 8006 8021
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref set_16 "src/common_401.cppo.ml" 29 7356 7362 "src/common_401.cppo.ml" 29 7356 7368
+)
+"src/be_ocaml_401.ml" 22 8006 8022 "src/be_ocaml_401.ml" 22 8006 8023
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 19 7919 7935 "src/be_ocaml_401.ml" 19 7919 7936
+)
+"src/be_ocaml_401.ml" 22 8006 8024 "src/be_ocaml_401.ml" 22 8006 8027
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 19 7919 7937 "src/be_ocaml_401.ml" 19 7919 7940
+)
+"src/be_ocaml_401.ml" 22 8006 8028 "src/be_ocaml_401.ml" 22 8006 8029
+type(
+  int
+)
+ident(
+  int_ref v "src/be_ocaml_401.ml" 19 7919 7941 "src/be_ocaml_401.ml" 19 7919 7942
+)
+"src/be_ocaml_401.ml" 22 8006 8015 "src/be_ocaml_401.ml" 22 8006 8029
+call(
+  tail
+)
+type(
+  unit
+)
+"src/be_ocaml_401.ml" 20 7945 7949 "src/be_ocaml_401.ml" 22 8006 8029
+type(
+  unit
+)
+"src/be_ocaml_401.ml" 24 8031 8037 "src/be_ocaml_401.ml" 24 8031 8046
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  def set_int32 "src/be_ocaml_401.ml" 29 8141 8143 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/be_ocaml_401.ml" 24 8031 8047 "src/be_ocaml_401.ml" 24 8031 8048
+type(
+  Bytes.t
+)
+ident(
+  def s "src/be_ocaml_401.ml" 24 8031 8049 "src/be_ocaml_401.ml" 27 8116 8139
+)
+"src/be_ocaml_401.ml" 24 8031 8049 "src/be_ocaml_401.ml" 24 8031 8052
+type(
+  int
+)
+ident(
+  def off "src/be_ocaml_401.ml" 24 8031 8053 "src/be_ocaml_401.ml" 27 8116 8139
+)
+"src/be_ocaml_401.ml" 24 8031 8053 "src/be_ocaml_401.ml" 24 8031 8054
+type(
+  int32
+)
+ident(
+  def v "src/be_ocaml_401.ml" 25 8057 8061 "src/be_ocaml_401.ml" 27 8116 8139
+)
+"src/be_ocaml_401.ml" 25 8057 8064 "src/be_ocaml_401.ml" 25 8057 8067
+type(
+  bool -> bool
+)
+ident(
+  int_ref Pervasives.not "pervasives.mli" 134 5784 5784 "pervasives.mli" 134 5784 5824
+)
+"src/be_ocaml_401.ml" 25 8057 8068 "src/be_ocaml_401.ml" 25 8057 8082
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/be_ocaml_401.ml" 25 8057 8064 "src/be_ocaml_401.ml" 25 8057 8082
+type(
+  bool
+)
+"src/be_ocaml_401.ml" 26 8083 8092 "src/be_ocaml_401.ml" 26 8083 8098
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref set_32 "src/common_401.cppo.ml" 30 7385 7391 "src/common_401.cppo.ml" 30 7385 7397
+)
+"src/be_ocaml_401.ml" 26 8083 8099 "src/be_ocaml_401.ml" 26 8083 8100
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 24 8031 8047 "src/be_ocaml_401.ml" 24 8031 8048
+)
+"src/be_ocaml_401.ml" 26 8083 8101 "src/be_ocaml_401.ml" 26 8083 8104
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 24 8031 8049 "src/be_ocaml_401.ml" 24 8031 8052
+)
+"src/be_ocaml_401.ml" 26 8083 8106 "src/be_ocaml_401.ml" 26 8083 8112
+type(
+  int32 -> int32
+)
+ident(
+  int_ref swap32 "src/common_401.cppo.ml" 2 5559 5559 "src/common_401.cppo.ml" 2 5559 5608
+)
+"src/be_ocaml_401.ml" 26 8083 8113 "src/be_ocaml_401.ml" 26 8083 8114
+type(
+  int32
+)
+ident(
+  int_ref v "src/be_ocaml_401.ml" 24 8031 8053 "src/be_ocaml_401.ml" 24 8031 8054
+)
+"src/be_ocaml_401.ml" 26 8083 8105 "src/be_ocaml_401.ml" 26 8083 8115
+type(
+  int32
+)
+"src/be_ocaml_401.ml" 26 8083 8092 "src/be_ocaml_401.ml" 26 8083 8115
+call(
+  tail
+)
+type(
+  unit
+)
+"src/be_ocaml_401.ml" 27 8116 8125 "src/be_ocaml_401.ml" 27 8116 8131
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref set_32 "src/common_401.cppo.ml" 30 7385 7391 "src/common_401.cppo.ml" 30 7385 7397
+)
+"src/be_ocaml_401.ml" 27 8116 8132 "src/be_ocaml_401.ml" 27 8116 8133
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 24 8031 8047 "src/be_ocaml_401.ml" 24 8031 8048
+)
+"src/be_ocaml_401.ml" 27 8116 8134 "src/be_ocaml_401.ml" 27 8116 8137
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 24 8031 8049 "src/be_ocaml_401.ml" 24 8031 8052
+)
+"src/be_ocaml_401.ml" 27 8116 8138 "src/be_ocaml_401.ml" 27 8116 8139
+type(
+  int32
+)
+ident(
+  int_ref v "src/be_ocaml_401.ml" 24 8031 8053 "src/be_ocaml_401.ml" 24 8031 8054
+)
+"src/be_ocaml_401.ml" 27 8116 8125 "src/be_ocaml_401.ml" 27 8116 8139
+call(
+  tail
+)
+type(
+  unit
+)
+"src/be_ocaml_401.ml" 25 8057 8061 "src/be_ocaml_401.ml" 27 8116 8139
+type(
+  unit
+)
+"src/be_ocaml_401.ml" 29 8141 8147 "src/be_ocaml_401.ml" 29 8141 8156
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  def set_int64 "src/common_float.ml" 2 8304 8304 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/be_ocaml_401.ml" 29 8141 8157 "src/be_ocaml_401.ml" 29 8141 8158
+type(
+  Bytes.t
+)
+ident(
+  def s "src/be_ocaml_401.ml" 29 8141 8159 "src/be_ocaml_401.ml" 32 8226 8249
+)
+"src/be_ocaml_401.ml" 29 8141 8159 "src/be_ocaml_401.ml" 29 8141 8162
+type(
+  int
+)
+ident(
+  def off "src/be_ocaml_401.ml" 29 8141 8163 "src/be_ocaml_401.ml" 32 8226 8249
+)
+"src/be_ocaml_401.ml" 29 8141 8163 "src/be_ocaml_401.ml" 29 8141 8164
+type(
+  int64
+)
+ident(
+  def v "src/be_ocaml_401.ml" 30 8167 8171 "src/be_ocaml_401.ml" 32 8226 8249
+)
+"src/be_ocaml_401.ml" 30 8167 8174 "src/be_ocaml_401.ml" 30 8167 8177
+type(
+  bool -> bool
+)
+ident(
+  int_ref Pervasives.not "pervasives.mli" 134 5784 5784 "pervasives.mli" 134 5784 5824
+)
+"src/be_ocaml_401.ml" 30 8167 8178 "src/be_ocaml_401.ml" 30 8167 8192
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/be_ocaml_401.ml" 30 8167 8174 "src/be_ocaml_401.ml" 30 8167 8192
+type(
+  bool
+)
+"src/be_ocaml_401.ml" 31 8193 8202 "src/be_ocaml_401.ml" 31 8193 8208
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref set_64 "src/common_401.cppo.ml" 31 7414 7420 "src/common_401.cppo.ml" 31 7414 7426
+)
+"src/be_ocaml_401.ml" 31 8193 8209 "src/be_ocaml_401.ml" 31 8193 8210
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 29 8141 8157 "src/be_ocaml_401.ml" 29 8141 8158
+)
+"src/be_ocaml_401.ml" 31 8193 8211 "src/be_ocaml_401.ml" 31 8193 8214
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 29 8141 8159 "src/be_ocaml_401.ml" 29 8141 8162
+)
+"src/be_ocaml_401.ml" 31 8193 8216 "src/be_ocaml_401.ml" 31 8193 8222
+type(
+  int64 -> int64
+)
+ident(
+  int_ref swap64 "src/common_401.cppo.ml" 3 5609 5609 "src/common_401.cppo.ml" 3 5609 5658
+)
+"src/be_ocaml_401.ml" 31 8193 8223 "src/be_ocaml_401.ml" 31 8193 8224
+type(
+  int64
+)
+ident(
+  int_ref v "src/be_ocaml_401.ml" 29 8141 8163 "src/be_ocaml_401.ml" 29 8141 8164
+)
+"src/be_ocaml_401.ml" 31 8193 8215 "src/be_ocaml_401.ml" 31 8193 8225
+type(
+  int64
+)
+"src/be_ocaml_401.ml" 31 8193 8202 "src/be_ocaml_401.ml" 31 8193 8225
+call(
+  tail
+)
+type(
+  unit
+)
+"src/be_ocaml_401.ml" 32 8226 8235 "src/be_ocaml_401.ml" 32 8226 8241
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref set_64 "src/common_401.cppo.ml" 31 7414 7420 "src/common_401.cppo.ml" 31 7414 7426
+)
+"src/be_ocaml_401.ml" 32 8226 8242 "src/be_ocaml_401.ml" 32 8226 8243
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/be_ocaml_401.ml" 29 8141 8157 "src/be_ocaml_401.ml" 29 8141 8158
+)
+"src/be_ocaml_401.ml" 32 8226 8244 "src/be_ocaml_401.ml" 32 8226 8247
+type(
+  int
+)
+ident(
+  int_ref off "src/be_ocaml_401.ml" 29 8141 8159 "src/be_ocaml_401.ml" 29 8141 8162
+)
+"src/be_ocaml_401.ml" 32 8226 8248 "src/be_ocaml_401.ml" 32 8226 8249
+type(
+  int64
+)
+ident(
+  int_ref v "src/be_ocaml_401.ml" 29 8141 8163 "src/be_ocaml_401.ml" 29 8141 8164
+)
+"src/be_ocaml_401.ml" 32 8226 8235 "src/be_ocaml_401.ml" 32 8226 8249
+call(
+  tail
+)
+type(
+  unit
+)
+"src/be_ocaml_401.ml" 30 8167 8171 "src/be_ocaml_401.ml" 32 8226 8249
+type(
+  unit
+)
+"src/common_float.ml" 2 8304 8308 "src/common_float.ml" 2 8304 8317
+type(
+  string -> int -> float
+)
+ident(
+  def get_float "src/common_float.ml" 3 8366 8366 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/common_float.ml" 2 8304 8318 "src/common_float.ml" 2 8304 8322
+type(
+  string
+)
+ident(
+  def buff "src/common_float.ml" 2 8304 8323 "src/common_float.ml" 2 8304 8365
+)
+"src/common_float.ml" 2 8304 8323 "src/common_float.ml" 2 8304 8324
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 2 8304 8327 "src/common_float.ml" 2 8304 8365
+)
+"src/common_float.ml" 2 8304 8327 "src/common_float.ml" 2 8304 8346
+type(
+  int32 -> float
+)
+ident(
+  int_ref Int32.float_of_bits "int32.mli" 163 6610 6610 "int32.mli" 165 6716 6741
+)
+"src/common_float.ml" 2 8304 8348 "src/common_float.ml" 2 8304 8357
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref get_int32 "src/be_ocaml_401.ml" 9 7711 7717 "src/be_ocaml_401.ml" 9 7711 7726
+)
+"src/common_float.ml" 2 8304 8358 "src/common_float.ml" 2 8304 8362
+type(
+  string
+)
+ident(
+  int_ref buff "src/common_float.ml" 2 8304 8318 "src/common_float.ml" 2 8304 8322
+)
+"src/common_float.ml" 2 8304 8363 "src/common_float.ml" 2 8304 8364
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 2 8304 8323 "src/common_float.ml" 2 8304 8324
+)
+"src/common_float.ml" 2 8304 8347 "src/common_float.ml" 2 8304 8365
+call(
+  stack
+)
+type(
+  int32
+)
+"src/common_float.ml" 2 8304 8327 "src/common_float.ml" 2 8304 8365
+type(
+  float
+)
+"src/common_float.ml" 3 8366 8370 "src/common_float.ml" 3 8366 8380
+type(
+  string -> int -> float
+)
+ident(
+  def get_double "src/common_float.ml" 4 8429 8429 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/common_float.ml" 3 8366 8381 "src/common_float.ml" 3 8366 8385
+type(
+  string
+)
+ident(
+  def buff "src/common_float.ml" 3 8366 8386 "src/common_float.ml" 3 8366 8428
+)
+"src/common_float.ml" 3 8366 8386 "src/common_float.ml" 3 8366 8387
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 3 8366 8390 "src/common_float.ml" 3 8366 8428
+)
+"src/common_float.ml" 3 8366 8390 "src/common_float.ml" 3 8366 8409
+type(
+  int64 -> float
+)
+ident(
+  int_ref Int64.float_of_bits "int64.mli" 184 7509 7509 "int64.mli" 186 7615 7640
+)
+"src/common_float.ml" 3 8366 8411 "src/common_float.ml" 3 8366 8420
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref get_int64 "src/be_ocaml_401.ml" 14 7815 7821 "src/be_ocaml_401.ml" 14 7815 7830
+)
+"src/common_float.ml" 3 8366 8421 "src/common_float.ml" 3 8366 8425
+type(
+  string
+)
+ident(
+  int_ref buff "src/common_float.ml" 3 8366 8381 "src/common_float.ml" 3 8366 8385
+)
+"src/common_float.ml" 3 8366 8426 "src/common_float.ml" 3 8366 8427
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 3 8366 8386 "src/common_float.ml" 3 8366 8387
+)
+"src/common_float.ml" 3 8366 8410 "src/common_float.ml" 3 8366 8428
+call(
+  stack
+)
+type(
+  int64
+)
+"src/common_float.ml" 3 8366 8390 "src/common_float.ml" 3 8366 8428
+type(
+  float
+)
+"src/common_float.ml" 4 8429 8433 "src/common_float.ml" 4 8429 8442
+type(
+  Bytes.t -> int -> float -> unit
+)
+ident(
+  def set_float "src/common_float.ml" 5 8495 8495 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/common_float.ml" 4 8429 8443 "src/common_float.ml" 4 8429 8447
+type(
+  Bytes.t
+)
+ident(
+  def buff "src/common_float.ml" 4 8429 8448 "src/common_float.ml" 4 8429 8494
+)
+"src/common_float.ml" 4 8429 8448 "src/common_float.ml" 4 8429 8449
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 4 8429 8450 "src/common_float.ml" 4 8429 8494
+)
+"src/common_float.ml" 4 8429 8450 "src/common_float.ml" 4 8429 8451
+type(
+  float
+)
+ident(
+  def v "src/common_float.ml" 4 8429 8454 "src/common_float.ml" 4 8429 8494
+)
+"src/common_float.ml" 4 8429 8454 "src/common_float.ml" 4 8429 8463
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref set_int32 "src/be_ocaml_401.ml" 24 8031 8037 "src/be_ocaml_401.ml" 24 8031 8046
+)
+"src/common_float.ml" 4 8429 8464 "src/common_float.ml" 4 8429 8468
+type(
+  Bytes.t
+)
+ident(
+  int_ref buff "src/common_float.ml" 4 8429 8443 "src/common_float.ml" 4 8429 8447
+)
+"src/common_float.ml" 4 8429 8469 "src/common_float.ml" 4 8429 8470
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 4 8429 8448 "src/common_float.ml" 4 8429 8449
+)
+"src/common_float.ml" 4 8429 8472 "src/common_float.ml" 4 8429 8491
+type(
+  float -> int32
+)
+ident(
+  int_ref Int32.bits_of_float "int32.mli" 154 6196 6196 "int32.mli" 156 6302 6327
+)
+"src/common_float.ml" 4 8429 8492 "src/common_float.ml" 4 8429 8493
+type(
+  float
+)
+ident(
+  int_ref v "src/common_float.ml" 4 8429 8450 "src/common_float.ml" 4 8429 8451
+)
+"src/common_float.ml" 4 8429 8471 "src/common_float.ml" 4 8429 8494
+type(
+  int32
+)
+"src/common_float.ml" 4 8429 8454 "src/common_float.ml" 4 8429 8494
+call(
+  tail
+)
+type(
+  unit
+)
+"src/common_float.ml" 5 8495 8499 "src/common_float.ml" 5 8495 8509
+type(
+  Bytes.t -> int -> float -> unit
+)
+ident(
+  def set_double "src/common_float.ml" 5 8495 8561 "src/common_401.cppo.ml" 36 8624 8627
+)
+"src/common_float.ml" 5 8495 8510 "src/common_float.ml" 5 8495 8514
+type(
+  Bytes.t
+)
+ident(
+  def buff "src/common_float.ml" 5 8495 8515 "src/common_float.ml" 5 8495 8561
+)
+"src/common_float.ml" 5 8495 8515 "src/common_float.ml" 5 8495 8516
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 5 8495 8517 "src/common_float.ml" 5 8495 8561
+)
+"src/common_float.ml" 5 8495 8517 "src/common_float.ml" 5 8495 8518
+type(
+  float
+)
+ident(
+  def v "src/common_float.ml" 5 8495 8521 "src/common_float.ml" 5 8495 8561
+)
+"src/common_float.ml" 5 8495 8521 "src/common_float.ml" 5 8495 8530
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref set_int64 "src/be_ocaml_401.ml" 29 8141 8147 "src/be_ocaml_401.ml" 29 8141 8156
+)
+"src/common_float.ml" 5 8495 8531 "src/common_float.ml" 5 8495 8535
+type(
+  Bytes.t
+)
+ident(
+  int_ref buff "src/common_float.ml" 5 8495 8510 "src/common_float.ml" 5 8495 8514
+)
+"src/common_float.ml" 5 8495 8536 "src/common_float.ml" 5 8495 8537
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 5 8495 8515 "src/common_float.ml" 5 8495 8516
+)
+"src/common_float.ml" 5 8495 8539 "src/common_float.ml" 5 8495 8558
+type(
+  float -> int64
+)
+ident(
+  int_ref Int64.bits_of_float "int64.mli" 175 7095 7095 "int64.mli" 177 7201 7226
+)
+"src/common_float.ml" 5 8495 8559 "src/common_float.ml" 5 8495 8560
+type(
+  float
+)
+ident(
+  int_ref v "src/common_float.ml" 5 8495 8517 "src/common_float.ml" 5 8495 8518
+)
+"src/common_float.ml" 5 8495 8538 "src/common_float.ml" 5 8495 8561
+type(
+  int64
+)
+"src/common_float.ml" 5 8495 8521 "src/common_float.ml" 5 8495 8561
+call(
+  tail
+)
+type(
+  unit
+)
+"src/common_401.cppo.ml" 40 8659 8665 "src/common_401.cppo.ml" 40 8659 8673
+type(
+  string -> int -> char
+)
+ident(
+  def get_char "src/common_401.cppo.ml" 41 8685 8687 "src/common_401.cppo.ml" 49 9948 9951
+)
+"src/common_401.cppo.ml" 40 8659 8676 "src/common_401.cppo.ml" 40 8659 8684
+type(
+  string -> int -> char
+)
+ident(
+  int_ref get_char "src/endianString.cppo.ml" 77 3495 3499 "src/endianString.cppo.ml" 77 3495 3507
+)
+"src/common_401.cppo.ml" 41 8685 8691 "src/common_401.cppo.ml" 41 8685 8700
+type(
+  string -> int -> int
+)
+ident(
+  def get_uint8 "src/common_401.cppo.ml" 42 8713 8715 "src/common_401.cppo.ml" 49 9948 9951
+)
+"src/common_401.cppo.ml" 41 8685 8703 "src/common_401.cppo.ml" 41 8685 8712
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_uint8 "src/common.ml" 7 3897 3901 "src/common.ml" 7 3897 3910
+)
+"src/common_401.cppo.ml" 42 8713 8719 "src/common_401.cppo.ml" 42 8713 8727
+type(
+  string -> int -> int
+)
+ident(
+  def get_int8 "src/common_401.cppo.ml" 43 8739 8741 "src/common_401.cppo.ml" 49 9948 9951
+)
+"src/common_401.cppo.ml" 42 8713 8730 "src/common_401.cppo.ml" 42 8713 8738
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_int8 "src/common.ml" 9 3948 3952 "src/common.ml" 9 3948 3960
+)
+"src/common_401.cppo.ml" 43 8739 8745 "src/common_401.cppo.ml" 43 8739 8753
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  def set_char "src/common_401.cppo.ml" 44 8765 8767 "src/common_401.cppo.ml" 49 9948 9951
+)
+"src/common_401.cppo.ml" 43 8739 8756 "src/common_401.cppo.ml" 43 8739 8764
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  int_ref set_char "src/endianString.cppo.ml" 79 3544 3548 "src/endianString.cppo.ml" 79 3544 3556
+)
+"src/common_401.cppo.ml" 44 8765 8771 "src/common_401.cppo.ml" 44 8765 8779
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  def set_int8 "src/le_ocaml_401.ml" 1 8851 8853 "src/common_401.cppo.ml" 49 9948 9951
+)
+"src/common_401.cppo.ml" 44 8765 8782 "src/common_401.cppo.ml" 44 8765 8790
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref set_int8 "src/common.ml" 11 4043 4047 "src/common.ml" 11 4043 4055
+)
+"src/le_ocaml_401.ml" 1 8851 8857 "src/le_ocaml_401.ml" 1 8851 8867
+type(
+  string -> int -> int
+)
+ident(
+  def get_uint16 "src/le_ocaml_401.ml" 6 8952 8954 "src/common_401.cppo.ml" 49 9948 9951
+)
+"src/le_ocaml_401.ml" 1 8851 8868 "src/le_ocaml_401.ml" 1 8851 8869
+type(
+  string
+)
+ident(
+  def s "src/le_ocaml_401.ml" 1 8851 8870 "src/le_ocaml_401.ml" 4 8929 8950
+)
+"src/le_ocaml_401.ml" 1 8851 8870 "src/le_ocaml_401.ml" 1 8851 8873
+type(
+  int
+)
+ident(
+  def off "src/le_ocaml_401.ml" 2 8876 8880 "src/le_ocaml_401.ml" 4 8929 8950
+)
+"src/le_ocaml_401.ml" 2 8876 8883 "src/le_ocaml_401.ml" 2 8876 8897
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/le_ocaml_401.ml" 3 8898 8907 "src/le_ocaml_401.ml" 3 8898 8913
+type(
+  int -> int
+)
+ident(
+  int_ref swap16 "src/common_401.cppo.ml" 1 5517 5517 "src/common_401.cppo.ml" 1 5517 5558
+)
+"src/le_ocaml_401.ml" 3 8898 8915 "src/le_ocaml_401.ml" 3 8898 8921
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_16 "src/endianString.cppo.ml" 98 5049 5049 "src/endianString.cppo.ml" 98 5049 5110
+)
+"src/le_ocaml_401.ml" 3 8898 8922 "src/le_ocaml_401.ml" 3 8898 8923
+type(
+  string
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 1 8851 8868 "src/le_ocaml_401.ml" 1 8851 8869
+)
+"src/le_ocaml_401.ml" 3 8898 8924 "src/le_ocaml_401.ml" 3 8898 8927
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 1 8851 8870 "src/le_ocaml_401.ml" 1 8851 8873
+)
+"src/le_ocaml_401.ml" 3 8898 8914 "src/le_ocaml_401.ml" 3 8898 8928
+type(
+  int
+)
+"src/le_ocaml_401.ml" 3 8898 8907 "src/le_ocaml_401.ml" 3 8898 8928
+type(
+  int
+)
+"src/le_ocaml_401.ml" 4 8929 8938 "src/le_ocaml_401.ml" 4 8929 8944
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_16 "src/endianString.cppo.ml" 98 5049 5049 "src/endianString.cppo.ml" 98 5049 5110
+)
+"src/le_ocaml_401.ml" 4 8929 8945 "src/le_ocaml_401.ml" 4 8929 8946
+type(
+  string
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 1 8851 8868 "src/le_ocaml_401.ml" 1 8851 8869
+)
+"src/le_ocaml_401.ml" 4 8929 8947 "src/le_ocaml_401.ml" 4 8929 8950
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 1 8851 8870 "src/le_ocaml_401.ml" 1 8851 8873
+)
+"src/le_ocaml_401.ml" 4 8929 8938 "src/le_ocaml_401.ml" 4 8929 8950
+type(
+  int
+)
+"src/le_ocaml_401.ml" 2 8876 8880 "src/le_ocaml_401.ml" 4 8929 8950
+type(
+  int
+)
+"src/le_ocaml_401.ml" 6 8952 8958 "src/le_ocaml_401.ml" 6 8952 8967
+type(
+  string -> int -> int
+)
+ident(
+  def get_int16 "src/le_ocaml_401.ml" 9 9055 9057 "src/common_401.cppo.ml" 49 9948 9951
+)
+"src/le_ocaml_401.ml" 6 8952 8968 "src/le_ocaml_401.ml" 6 8952 8969
+type(
+  string
+)
+ident(
+  def s "src/le_ocaml_401.ml" 6 8952 8970 "src/le_ocaml_401.ml" 7 8976 9053
+)
+"src/le_ocaml_401.ml" 6 8952 8970 "src/le_ocaml_401.ml" 6 8952 8973
+type(
+  int
+)
+ident(
+  def off "src/le_ocaml_401.ml" 7 8976 8979 "src/le_ocaml_401.ml" 7 8976 9053
+)
+"src/le_ocaml_401.ml" 7 8976 8981 "src/le_ocaml_401.ml" 7 8976 8991
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_uint16 "src/le_ocaml_401.ml" 1 8851 8857 "src/le_ocaml_401.ml" 1 8851 8867
+)
+"src/le_ocaml_401.ml" 7 8976 8992 "src/le_ocaml_401.ml" 7 8976 8993
+type(
+  string
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 6 8952 8968 "src/le_ocaml_401.ml" 6 8952 8969
+)
+"src/le_ocaml_401.ml" 7 8976 8994 "src/le_ocaml_401.ml" 7 8976 8997
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 6 8952 8970 "src/le_ocaml_401.ml" 6 8952 8973
+)
+"src/le_ocaml_401.ml" 7 8976 8980 "src/le_ocaml_401.ml" 7 8976 8998
+call(
+  stack
+)
+type(
+  int
+)
+"src/le_ocaml_401.ml" 7 8976 8999 "src/le_ocaml_401.ml" 7 8976 9002
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( lsl ) "pervasives.mli" 320 12299 12299 "pervasives.mli" 320 12299 12347
+)
+"src/le_ocaml_401.ml" 7 8976 9005 "src/le_ocaml_401.ml" 7 8976 9018
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/le_ocaml_401.ml" 7 8976 9019 "src/le_ocaml_401.ml" 7 8976 9020
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/le_ocaml_401.ml" 7 8976 9021 "src/le_ocaml_401.ml" 7 8976 9023
+type(
+  int
+)
+"src/le_ocaml_401.ml" 7 8976 9003 "src/le_ocaml_401.ml" 7 8976 9025
+type(
+  int
+)
+"src/le_ocaml_401.ml" 7 8976 8979 "src/le_ocaml_401.ml" 7 8976 9026
+type(
+  int
+)
+"src/le_ocaml_401.ml" 7 8976 9027 "src/le_ocaml_401.ml" 7 8976 9030
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( asr ) "pervasives.mli" 334 12900 12900 "pervasives.mli" 334 12900 12948
+)
+"src/le_ocaml_401.ml" 7 8976 9033 "src/le_ocaml_401.ml" 7 8976 9046
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/le_ocaml_401.ml" 7 8976 9047 "src/le_ocaml_401.ml" 7 8976 9048
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/le_ocaml_401.ml" 7 8976 9049 "src/le_ocaml_401.ml" 7 8976 9051
+type(
+  int
+)
+"src/le_ocaml_401.ml" 7 8976 9031 "src/le_ocaml_401.ml" 7 8976 9053
+type(
+  int
+)
+"src/le_ocaml_401.ml" 7 8976 8979 "src/le_ocaml_401.ml" 7 8976 9053
+type(
+  int
+)
+"src/le_ocaml_401.ml" 9 9055 9061 "src/le_ocaml_401.ml" 9 9055 9070
+type(
+  string -> int -> int32
+)
+ident(
+  def get_int32 "src/le_ocaml_401.ml" 14 9155 9157 "src/common_401.cppo.ml" 49 9948 9951
+)
+"src/le_ocaml_401.ml" 9 9055 9071 "src/le_ocaml_401.ml" 9 9055 9072
+type(
+  string
+)
+ident(
+  def s "src/le_ocaml_401.ml" 9 9055 9073 "src/le_ocaml_401.ml" 12 9132 9153
+)
+"src/le_ocaml_401.ml" 9 9055 9073 "src/le_ocaml_401.ml" 9 9055 9076
+type(
+  int
+)
+ident(
+  def off "src/le_ocaml_401.ml" 10 9079 9083 "src/le_ocaml_401.ml" 12 9132 9153
+)
+"src/le_ocaml_401.ml" 10 9079 9086 "src/le_ocaml_401.ml" 10 9079 9100
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/le_ocaml_401.ml" 11 9101 9110 "src/le_ocaml_401.ml" 11 9101 9116
+type(
+  int32 -> int32
+)
+ident(
+  int_ref swap32 "src/common_401.cppo.ml" 2 5559 5559 "src/common_401.cppo.ml" 2 5559 5608
+)
+"src/le_ocaml_401.ml" 11 9101 9118 "src/le_ocaml_401.ml" 11 9101 9124
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref get_32 "src/endianString.cppo.ml" 99 5111 5111 "src/endianString.cppo.ml" 99 5111 5174
+)
+"src/le_ocaml_401.ml" 11 9101 9125 "src/le_ocaml_401.ml" 11 9101 9126
+type(
+  string
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 9 9055 9071 "src/le_ocaml_401.ml" 9 9055 9072
+)
+"src/le_ocaml_401.ml" 11 9101 9127 "src/le_ocaml_401.ml" 11 9101 9130
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 9 9055 9073 "src/le_ocaml_401.ml" 9 9055 9076
+)
+"src/le_ocaml_401.ml" 11 9101 9117 "src/le_ocaml_401.ml" 11 9101 9131
+type(
+  int32
+)
+"src/le_ocaml_401.ml" 11 9101 9110 "src/le_ocaml_401.ml" 11 9101 9131
+type(
+  int32
+)
+"src/le_ocaml_401.ml" 12 9132 9141 "src/le_ocaml_401.ml" 12 9132 9147
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref get_32 "src/endianString.cppo.ml" 99 5111 5111 "src/endianString.cppo.ml" 99 5111 5174
+)
+"src/le_ocaml_401.ml" 12 9132 9148 "src/le_ocaml_401.ml" 12 9132 9149
+type(
+  string
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 9 9055 9071 "src/le_ocaml_401.ml" 9 9055 9072
+)
+"src/le_ocaml_401.ml" 12 9132 9150 "src/le_ocaml_401.ml" 12 9132 9153
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 9 9055 9073 "src/le_ocaml_401.ml" 9 9055 9076
+)
+"src/le_ocaml_401.ml" 12 9132 9141 "src/le_ocaml_401.ml" 12 9132 9153
+type(
+  int32
+)
+"src/le_ocaml_401.ml" 10 9079 9083 "src/le_ocaml_401.ml" 12 9132 9153
+type(
+  int32
+)
+"src/le_ocaml_401.ml" 14 9155 9161 "src/le_ocaml_401.ml" 14 9155 9170
+type(
+  string -> int -> int64
+)
+ident(
+  def get_int64 "src/le_ocaml_401.ml" 19 9255 9257 "src/common_401.cppo.ml" 49 9948 9951
+)
+"src/le_ocaml_401.ml" 14 9155 9171 "src/le_ocaml_401.ml" 14 9155 9172
+type(
+  string
+)
+ident(
+  def s "src/le_ocaml_401.ml" 14 9155 9173 "src/le_ocaml_401.ml" 17 9232 9253
+)
+"src/le_ocaml_401.ml" 14 9155 9173 "src/le_ocaml_401.ml" 14 9155 9176
+type(
+  int
+)
+ident(
+  def off "src/le_ocaml_401.ml" 15 9179 9183 "src/le_ocaml_401.ml" 17 9232 9253
+)
+"src/le_ocaml_401.ml" 15 9179 9186 "src/le_ocaml_401.ml" 15 9179 9200
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/le_ocaml_401.ml" 16 9201 9210 "src/le_ocaml_401.ml" 16 9201 9216
+type(
+  int64 -> int64
+)
+ident(
+  int_ref swap64 "src/common_401.cppo.ml" 3 5609 5609 "src/common_401.cppo.ml" 3 5609 5658
+)
+"src/le_ocaml_401.ml" 16 9201 9218 "src/le_ocaml_401.ml" 16 9201 9224
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref get_64 "src/endianString.cppo.ml" 100 5175 5175 "src/endianString.cppo.ml" 100 5175 5238
+)
+"src/le_ocaml_401.ml" 16 9201 9225 "src/le_ocaml_401.ml" 16 9201 9226
+type(
+  string
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 14 9155 9171 "src/le_ocaml_401.ml" 14 9155 9172
+)
+"src/le_ocaml_401.ml" 16 9201 9227 "src/le_ocaml_401.ml" 16 9201 9230
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 14 9155 9173 "src/le_ocaml_401.ml" 14 9155 9176
+)
+"src/le_ocaml_401.ml" 16 9201 9217 "src/le_ocaml_401.ml" 16 9201 9231
+type(
+  int64
+)
+"src/le_ocaml_401.ml" 16 9201 9210 "src/le_ocaml_401.ml" 16 9201 9231
+type(
+  int64
+)
+"src/le_ocaml_401.ml" 17 9232 9241 "src/le_ocaml_401.ml" 17 9232 9247
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref get_64 "src/endianString.cppo.ml" 100 5175 5175 "src/endianString.cppo.ml" 100 5175 5238
+)
+"src/le_ocaml_401.ml" 17 9232 9248 "src/le_ocaml_401.ml" 17 9232 9249
+type(
+  string
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 14 9155 9171 "src/le_ocaml_401.ml" 14 9155 9172
+)
+"src/le_ocaml_401.ml" 17 9232 9250 "src/le_ocaml_401.ml" 17 9232 9253
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 14 9155 9173 "src/le_ocaml_401.ml" 14 9155 9176
+)
+"src/le_ocaml_401.ml" 17 9232 9241 "src/le_ocaml_401.ml" 17 9232 9253
+type(
+  int64
+)
+"src/le_ocaml_401.ml" 15 9179 9183 "src/le_ocaml_401.ml" 17 9232 9253
+type(
+  int64
+)
+"src/le_ocaml_401.ml" 19 9255 9261 "src/le_ocaml_401.ml" 19 9255 9270
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  def set_int16 "src/le_ocaml_401.ml" 24 9363 9365 "src/common_401.cppo.ml" 49 9948 9951
+)
+"src/le_ocaml_401.ml" 19 9255 9271 "src/le_ocaml_401.ml" 19 9255 9272
+type(
+  Bytes.t
+)
+ident(
+  def s "src/le_ocaml_401.ml" 19 9255 9273 "src/le_ocaml_401.ml" 22 9338 9361
+)
+"src/le_ocaml_401.ml" 19 9255 9273 "src/le_ocaml_401.ml" 19 9255 9276
+type(
+  int
+)
+ident(
+  def off "src/le_ocaml_401.ml" 19 9255 9277 "src/le_ocaml_401.ml" 22 9338 9361
+)
+"src/le_ocaml_401.ml" 19 9255 9277 "src/le_ocaml_401.ml" 19 9255 9278
+type(
+  int
+)
+ident(
+  def v "src/le_ocaml_401.ml" 20 9281 9285 "src/le_ocaml_401.ml" 22 9338 9361
+)
+"src/le_ocaml_401.ml" 20 9281 9288 "src/le_ocaml_401.ml" 20 9281 9302
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/le_ocaml_401.ml" 21 9303 9313 "src/le_ocaml_401.ml" 21 9303 9319
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref set_16 "src/endianString.cppo.ml" 102 5240 5240 "src/endianString.cppo.ml" 102 5240 5310
+)
+"src/le_ocaml_401.ml" 21 9303 9320 "src/le_ocaml_401.ml" 21 9303 9321
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 19 9255 9271 "src/le_ocaml_401.ml" 19 9255 9272
+)
+"src/le_ocaml_401.ml" 21 9303 9322 "src/le_ocaml_401.ml" 21 9303 9325
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 19 9255 9273 "src/le_ocaml_401.ml" 19 9255 9276
+)
+"src/le_ocaml_401.ml" 21 9303 9327 "src/le_ocaml_401.ml" 21 9303 9333
+type(
+  int -> int
+)
+ident(
+  int_ref swap16 "src/common_401.cppo.ml" 1 5517 5517 "src/common_401.cppo.ml" 1 5517 5558
+)
+"src/le_ocaml_401.ml" 21 9303 9334 "src/le_ocaml_401.ml" 21 9303 9335
+type(
+  int
+)
+ident(
+  int_ref v "src/le_ocaml_401.ml" 19 9255 9277 "src/le_ocaml_401.ml" 19 9255 9278
+)
+"src/le_ocaml_401.ml" 21 9303 9326 "src/le_ocaml_401.ml" 21 9303 9336
+type(
+  int
+)
+"src/le_ocaml_401.ml" 21 9303 9312 "src/le_ocaml_401.ml" 21 9303 9337
+type(
+  unit
+)
+"src/le_ocaml_401.ml" 22 9338 9347 "src/le_ocaml_401.ml" 22 9338 9353
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref set_16 "src/endianString.cppo.ml" 102 5240 5240 "src/endianString.cppo.ml" 102 5240 5310
+)
+"src/le_ocaml_401.ml" 22 9338 9354 "src/le_ocaml_401.ml" 22 9338 9355
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 19 9255 9271 "src/le_ocaml_401.ml" 19 9255 9272
+)
+"src/le_ocaml_401.ml" 22 9338 9356 "src/le_ocaml_401.ml" 22 9338 9359
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 19 9255 9273 "src/le_ocaml_401.ml" 19 9255 9276
+)
+"src/le_ocaml_401.ml" 22 9338 9360 "src/le_ocaml_401.ml" 22 9338 9361
+type(
+  int
+)
+ident(
+  int_ref v "src/le_ocaml_401.ml" 19 9255 9277 "src/le_ocaml_401.ml" 19 9255 9278
+)
+"src/le_ocaml_401.ml" 22 9338 9347 "src/le_ocaml_401.ml" 22 9338 9361
+type(
+  unit
+)
+"src/le_ocaml_401.ml" 20 9281 9285 "src/le_ocaml_401.ml" 22 9338 9361
+type(
+  unit
+)
+"src/le_ocaml_401.ml" 24 9363 9369 "src/le_ocaml_401.ml" 24 9363 9378
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  def set_int32 "src/le_ocaml_401.ml" 29 9469 9471 "src/common_401.cppo.ml" 49 9948 9951
+)
+"src/le_ocaml_401.ml" 24 9363 9379 "src/le_ocaml_401.ml" 24 9363 9380
+type(
+  Bytes.t
+)
+ident(
+  def s "src/le_ocaml_401.ml" 24 9363 9381 "src/le_ocaml_401.ml" 27 9444 9467
+)
+"src/le_ocaml_401.ml" 24 9363 9381 "src/le_ocaml_401.ml" 24 9363 9384
+type(
+  int
+)
+ident(
+  def off "src/le_ocaml_401.ml" 24 9363 9385 "src/le_ocaml_401.ml" 27 9444 9467
+)
+"src/le_ocaml_401.ml" 24 9363 9385 "src/le_ocaml_401.ml" 24 9363 9386
+type(
+  int32
+)
+ident(
+  def v "src/le_ocaml_401.ml" 25 9389 9393 "src/le_ocaml_401.ml" 27 9444 9467
+)
+"src/le_ocaml_401.ml" 25 9389 9396 "src/le_ocaml_401.ml" 25 9389 9410
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/le_ocaml_401.ml" 26 9411 9420 "src/le_ocaml_401.ml" 26 9411 9426
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref set_32 "src/endianString.cppo.ml" 103 5311 5311 "src/endianString.cppo.ml" 103 5311 5383
+)
+"src/le_ocaml_401.ml" 26 9411 9427 "src/le_ocaml_401.ml" 26 9411 9428
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 24 9363 9379 "src/le_ocaml_401.ml" 24 9363 9380
+)
+"src/le_ocaml_401.ml" 26 9411 9429 "src/le_ocaml_401.ml" 26 9411 9432
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 24 9363 9381 "src/le_ocaml_401.ml" 24 9363 9384
+)
+"src/le_ocaml_401.ml" 26 9411 9434 "src/le_ocaml_401.ml" 26 9411 9440
+type(
+  int32 -> int32
+)
+ident(
+  int_ref swap32 "src/common_401.cppo.ml" 2 5559 5559 "src/common_401.cppo.ml" 2 5559 5608
+)
+"src/le_ocaml_401.ml" 26 9411 9441 "src/le_ocaml_401.ml" 26 9411 9442
+type(
+  int32
+)
+ident(
+  int_ref v "src/le_ocaml_401.ml" 24 9363 9385 "src/le_ocaml_401.ml" 24 9363 9386
+)
+"src/le_ocaml_401.ml" 26 9411 9433 "src/le_ocaml_401.ml" 26 9411 9443
+type(
+  int32
+)
+"src/le_ocaml_401.ml" 26 9411 9420 "src/le_ocaml_401.ml" 26 9411 9443
+type(
+  unit
+)
+"src/le_ocaml_401.ml" 27 9444 9453 "src/le_ocaml_401.ml" 27 9444 9459
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref set_32 "src/endianString.cppo.ml" 103 5311 5311 "src/endianString.cppo.ml" 103 5311 5383
+)
+"src/le_ocaml_401.ml" 27 9444 9460 "src/le_ocaml_401.ml" 27 9444 9461
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 24 9363 9379 "src/le_ocaml_401.ml" 24 9363 9380
+)
+"src/le_ocaml_401.ml" 27 9444 9462 "src/le_ocaml_401.ml" 27 9444 9465
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 24 9363 9381 "src/le_ocaml_401.ml" 24 9363 9384
+)
+"src/le_ocaml_401.ml" 27 9444 9466 "src/le_ocaml_401.ml" 27 9444 9467
+type(
+  int32
+)
+ident(
+  int_ref v "src/le_ocaml_401.ml" 24 9363 9385 "src/le_ocaml_401.ml" 24 9363 9386
+)
+"src/le_ocaml_401.ml" 27 9444 9453 "src/le_ocaml_401.ml" 27 9444 9467
+type(
+  unit
+)
+"src/le_ocaml_401.ml" 25 9389 9393 "src/le_ocaml_401.ml" 27 9444 9467
+type(
+  unit
+)
+"src/le_ocaml_401.ml" 29 9469 9475 "src/le_ocaml_401.ml" 29 9469 9484
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  def set_int64 "src/common_float.ml" 2 9628 9628 "src/common_401.cppo.ml" 49 9948 9951
+)
+"src/le_ocaml_401.ml" 29 9469 9485 "src/le_ocaml_401.ml" 29 9469 9486
+type(
+  Bytes.t
+)
+ident(
+  def s "src/le_ocaml_401.ml" 29 9469 9487 "src/le_ocaml_401.ml" 32 9550 9573
+)
+"src/le_ocaml_401.ml" 29 9469 9487 "src/le_ocaml_401.ml" 29 9469 9490
+type(
+  int
+)
+ident(
+  def off "src/le_ocaml_401.ml" 29 9469 9491 "src/le_ocaml_401.ml" 32 9550 9573
+)
+"src/le_ocaml_401.ml" 29 9469 9491 "src/le_ocaml_401.ml" 29 9469 9492
+type(
+  int64
+)
+ident(
+  def v "src/le_ocaml_401.ml" 30 9495 9499 "src/le_ocaml_401.ml" 32 9550 9573
+)
+"src/le_ocaml_401.ml" 30 9495 9502 "src/le_ocaml_401.ml" 30 9495 9516
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/le_ocaml_401.ml" 31 9517 9526 "src/le_ocaml_401.ml" 31 9517 9532
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref set_64 "src/endianString.cppo.ml" 104 5384 5384 "src/endianString.cppo.ml" 104 5384 5456
+)
+"src/le_ocaml_401.ml" 31 9517 9533 "src/le_ocaml_401.ml" 31 9517 9534
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 29 9469 9485 "src/le_ocaml_401.ml" 29 9469 9486
+)
+"src/le_ocaml_401.ml" 31 9517 9535 "src/le_ocaml_401.ml" 31 9517 9538
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 29 9469 9487 "src/le_ocaml_401.ml" 29 9469 9490
+)
+"src/le_ocaml_401.ml" 31 9517 9540 "src/le_ocaml_401.ml" 31 9517 9546
+type(
+  int64 -> int64
+)
+ident(
+  int_ref swap64 "src/common_401.cppo.ml" 3 5609 5609 "src/common_401.cppo.ml" 3 5609 5658
+)
+"src/le_ocaml_401.ml" 31 9517 9547 "src/le_ocaml_401.ml" 31 9517 9548
+type(
+  int64
+)
+ident(
+  int_ref v "src/le_ocaml_401.ml" 29 9469 9491 "src/le_ocaml_401.ml" 29 9469 9492
+)
+"src/le_ocaml_401.ml" 31 9517 9539 "src/le_ocaml_401.ml" 31 9517 9549
+type(
+  int64
+)
+"src/le_ocaml_401.ml" 31 9517 9526 "src/le_ocaml_401.ml" 31 9517 9549
+type(
+  unit
+)
+"src/le_ocaml_401.ml" 32 9550 9559 "src/le_ocaml_401.ml" 32 9550 9565
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref set_64 "src/endianString.cppo.ml" 104 5384 5384 "src/endianString.cppo.ml" 104 5384 5456
+)
+"src/le_ocaml_401.ml" 32 9550 9566 "src/le_ocaml_401.ml" 32 9550 9567
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 29 9469 9485 "src/le_ocaml_401.ml" 29 9469 9486
+)
+"src/le_ocaml_401.ml" 32 9550 9568 "src/le_ocaml_401.ml" 32 9550 9571
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 29 9469 9487 "src/le_ocaml_401.ml" 29 9469 9490
+)
+"src/le_ocaml_401.ml" 32 9550 9572 "src/le_ocaml_401.ml" 32 9550 9573
+type(
+  int64
+)
+ident(
+  int_ref v "src/le_ocaml_401.ml" 29 9469 9491 "src/le_ocaml_401.ml" 29 9469 9492
+)
+"src/le_ocaml_401.ml" 32 9550 9559 "src/le_ocaml_401.ml" 32 9550 9573
+type(
+  unit
+)
+"src/le_ocaml_401.ml" 30 9495 9499 "src/le_ocaml_401.ml" 32 9550 9573
+type(
+  unit
+)
+"src/common_float.ml" 2 9628 9632 "src/common_float.ml" 2 9628 9641
+type(
+  string -> int -> float
+)
+ident(
+  def get_float "src/common_float.ml" 3 9690 9690 "src/common_401.cppo.ml" 49 9948 9951
+)
+"src/common_float.ml" 2 9628 9642 "src/common_float.ml" 2 9628 9646
+type(
+  string
+)
+ident(
+  def buff "src/common_float.ml" 2 9628 9647 "src/common_float.ml" 2 9628 9689
+)
+"src/common_float.ml" 2 9628 9647 "src/common_float.ml" 2 9628 9648
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 2 9628 9651 "src/common_float.ml" 2 9628 9689
+)
+"src/common_float.ml" 2 9628 9651 "src/common_float.ml" 2 9628 9670
+type(
+  int32 -> float
+)
+ident(
+  int_ref Int32.float_of_bits "int32.mli" 163 6610 6610 "int32.mli" 165 6716 6741
+)
+"src/common_float.ml" 2 9628 9672 "src/common_float.ml" 2 9628 9681
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref get_int32 "src/le_ocaml_401.ml" 9 9055 9061 "src/le_ocaml_401.ml" 9 9055 9070
+)
+"src/common_float.ml" 2 9628 9682 "src/common_float.ml" 2 9628 9686
+type(
+  string
+)
+ident(
+  int_ref buff "src/common_float.ml" 2 9628 9642 "src/common_float.ml" 2 9628 9646
+)
+"src/common_float.ml" 2 9628 9687 "src/common_float.ml" 2 9628 9688
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 2 9628 9647 "src/common_float.ml" 2 9628 9648
+)
+"src/common_float.ml" 2 9628 9671 "src/common_float.ml" 2 9628 9689
+call(
+  stack
+)
+type(
+  int32
+)
+"src/common_float.ml" 2 9628 9651 "src/common_float.ml" 2 9628 9689
+type(
+  float
+)
+"src/common_float.ml" 3 9690 9694 "src/common_float.ml" 3 9690 9704
+type(
+  string -> int -> float
+)
+ident(
+  def get_double "src/common_float.ml" 4 9753 9753 "src/common_401.cppo.ml" 49 9948 9951
+)
+"src/common_float.ml" 3 9690 9705 "src/common_float.ml" 3 9690 9709
+type(
+  string
+)
+ident(
+  def buff "src/common_float.ml" 3 9690 9710 "src/common_float.ml" 3 9690 9752
+)
+"src/common_float.ml" 3 9690 9710 "src/common_float.ml" 3 9690 9711
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 3 9690 9714 "src/common_float.ml" 3 9690 9752
+)
+"src/common_float.ml" 3 9690 9714 "src/common_float.ml" 3 9690 9733
+type(
+  int64 -> float
+)
+ident(
+  int_ref Int64.float_of_bits "int64.mli" 184 7509 7509 "int64.mli" 186 7615 7640
+)
+"src/common_float.ml" 3 9690 9735 "src/common_float.ml" 3 9690 9744
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref get_int64 "src/le_ocaml_401.ml" 14 9155 9161 "src/le_ocaml_401.ml" 14 9155 9170
+)
+"src/common_float.ml" 3 9690 9745 "src/common_float.ml" 3 9690 9749
+type(
+  string
+)
+ident(
+  int_ref buff "src/common_float.ml" 3 9690 9705 "src/common_float.ml" 3 9690 9709
+)
+"src/common_float.ml" 3 9690 9750 "src/common_float.ml" 3 9690 9751
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 3 9690 9710 "src/common_float.ml" 3 9690 9711
+)
+"src/common_float.ml" 3 9690 9734 "src/common_float.ml" 3 9690 9752
+call(
+  stack
+)
+type(
+  int64
+)
+"src/common_float.ml" 3 9690 9714 "src/common_float.ml" 3 9690 9752
+type(
+  float
+)
+"src/common_float.ml" 4 9753 9757 "src/common_float.ml" 4 9753 9766
+type(
+  Bytes.t -> int -> float -> unit
+)
+ident(
+  def set_float "src/common_float.ml" 5 9819 9819 "src/common_401.cppo.ml" 49 9948 9951
+)
+"src/common_float.ml" 4 9753 9767 "src/common_float.ml" 4 9753 9771
+type(
+  Bytes.t
+)
+ident(
+  def buff "src/common_float.ml" 4 9753 9772 "src/common_float.ml" 4 9753 9818
+)
+"src/common_float.ml" 4 9753 9772 "src/common_float.ml" 4 9753 9773
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 4 9753 9774 "src/common_float.ml" 4 9753 9818
+)
+"src/common_float.ml" 4 9753 9774 "src/common_float.ml" 4 9753 9775
+type(
+  float
+)
+ident(
+  def v "src/common_float.ml" 4 9753 9778 "src/common_float.ml" 4 9753 9818
+)
+"src/common_float.ml" 4 9753 9778 "src/common_float.ml" 4 9753 9787
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref set_int32 "src/le_ocaml_401.ml" 24 9363 9369 "src/le_ocaml_401.ml" 24 9363 9378
+)
+"src/common_float.ml" 4 9753 9788 "src/common_float.ml" 4 9753 9792
+type(
+  Bytes.t
+)
+ident(
+  int_ref buff "src/common_float.ml" 4 9753 9767 "src/common_float.ml" 4 9753 9771
+)
+"src/common_float.ml" 4 9753 9793 "src/common_float.ml" 4 9753 9794
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 4 9753 9772 "src/common_float.ml" 4 9753 9773
+)
+"src/common_float.ml" 4 9753 9796 "src/common_float.ml" 4 9753 9815
+type(
+  float -> int32
+)
+ident(
+  int_ref Int32.bits_of_float "int32.mli" 154 6196 6196 "int32.mli" 156 6302 6327
+)
+"src/common_float.ml" 4 9753 9816 "src/common_float.ml" 4 9753 9817
+type(
+  float
+)
+ident(
+  int_ref v "src/common_float.ml" 4 9753 9774 "src/common_float.ml" 4 9753 9775
+)
+"src/common_float.ml" 4 9753 9795 "src/common_float.ml" 4 9753 9818
+type(
+  int32
+)
+"src/common_float.ml" 4 9753 9778 "src/common_float.ml" 4 9753 9818
+call(
+  tail
+)
+type(
+  unit
+)
+"src/common_float.ml" 5 9819 9823 "src/common_float.ml" 5 9819 9833
+type(
+  Bytes.t -> int -> float -> unit
+)
+ident(
+  def set_double "src/common_float.ml" 5 9819 9885 "src/common_401.cppo.ml" 49 9948 9951
+)
+"src/common_float.ml" 5 9819 9834 "src/common_float.ml" 5 9819 9838
+type(
+  Bytes.t
+)
+ident(
+  def buff "src/common_float.ml" 5 9819 9839 "src/common_float.ml" 5 9819 9885
+)
+"src/common_float.ml" 5 9819 9839 "src/common_float.ml" 5 9819 9840
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 5 9819 9841 "src/common_float.ml" 5 9819 9885
+)
+"src/common_float.ml" 5 9819 9841 "src/common_float.ml" 5 9819 9842
+type(
+  float
+)
+ident(
+  def v "src/common_float.ml" 5 9819 9845 "src/common_float.ml" 5 9819 9885
+)
+"src/common_float.ml" 5 9819 9845 "src/common_float.ml" 5 9819 9854
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref set_int64 "src/le_ocaml_401.ml" 29 9469 9475 "src/le_ocaml_401.ml" 29 9469 9484
+)
+"src/common_float.ml" 5 9819 9855 "src/common_float.ml" 5 9819 9859
+type(
+  Bytes.t
+)
+ident(
+  int_ref buff "src/common_float.ml" 5 9819 9834 "src/common_float.ml" 5 9819 9838
+)
+"src/common_float.ml" 5 9819 9860 "src/common_float.ml" 5 9819 9861
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 5 9819 9839 "src/common_float.ml" 5 9819 9840
+)
+"src/common_float.ml" 5 9819 9863 "src/common_float.ml" 5 9819 9882
+type(
+  float -> int64
+)
+ident(
+  int_ref Int64.bits_of_float "int64.mli" 175 7095 7095 "int64.mli" 177 7201 7226
+)
+"src/common_float.ml" 5 9819 9883 "src/common_float.ml" 5 9819 9884
+type(
+  float
+)
+ident(
+  int_ref v "src/common_float.ml" 5 9819 9841 "src/common_float.ml" 5 9819 9842
+)
+"src/common_float.ml" 5 9819 9862 "src/common_float.ml" 5 9819 9885
+type(
+  int64
+)
+"src/common_float.ml" 5 9819 9845 "src/common_float.ml" 5 9819 9885
+call(
+  tail
+)
+type(
+  unit
+)
+"src/common_401.cppo.ml" 53 9990 9996 "src/common_401.cppo.ml" 53 9990 10004
+type(
+  string -> int -> char
+)
+ident(
+  def get_char "src/common_401.cppo.ml" 54 10023 10025 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/common_401.cppo.ml" 53 9990 10007 "src/common_401.cppo.ml" 53 9990 10022
+type(
+  string -> int -> char
+)
+ident(
+  int_ref unsafe_get_char "src/endianString.cppo.ml" 81 3597 3601 "src/endianString.cppo.ml" 81 3597 3616
+)
+"src/common_401.cppo.ml" 54 10023 10029 "src/common_401.cppo.ml" 54 10023 10038
+type(
+  string -> int -> int
+)
+ident(
+  def get_uint8 "src/common_401.cppo.ml" 55 10058 10060 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/common_401.cppo.ml" 54 10023 10041 "src/common_401.cppo.ml" 54 10023 10057
+type(
+  string -> int -> int
+)
+ident(
+  int_ref unsafe_get_uint8 "src/common.ml" 17 4310 4314 "src/common.ml" 17 4310 4330
+)
+"src/common_401.cppo.ml" 55 10058 10064 "src/common_401.cppo.ml" 55 10058 10072
+type(
+  string -> int -> int
+)
+ident(
+  def get_int8 "src/common_401.cppo.ml" 56 10091 10093 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/common_401.cppo.ml" 55 10058 10075 "src/common_401.cppo.ml" 55 10058 10090
+type(
+  string -> int -> int
+)
+ident(
+  int_ref unsafe_get_int8 "src/common.ml" 19 4375 4379 "src/common.ml" 19 4375 4394
+)
+"src/common_401.cppo.ml" 56 10091 10097 "src/common_401.cppo.ml" 56 10091 10105
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  def set_char "src/common_401.cppo.ml" 57 10124 10126 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/common_401.cppo.ml" 56 10091 10108 "src/common_401.cppo.ml" 56 10091 10123
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  int_ref unsafe_set_char "src/endianString.cppo.ml" 83 3660 3664 "src/endianString.cppo.ml" 83 3660 3679
+)
+"src/common_401.cppo.ml" 57 10124 10130 "src/common_401.cppo.ml" 57 10124 10138
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  def set_int8 "src/common_401.cppo.ml" 58 10157 10159 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/common_401.cppo.ml" 57 10124 10141 "src/common_401.cppo.ml" 57 10124 10156
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref unsafe_set_int8 "src/common.ml" 21 4484 4488 "src/common.ml" 21 4484 4503
+)
+"src/common_401.cppo.ml" 58 10157 10163 "src/common_401.cppo.ml" 58 10157 10169
+type(
+  string -> int -> int
+)
+ident(
+  def get_16 "src/common_401.cppo.ml" 59 10186 10188 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/common_401.cppo.ml" 58 10157 10172 "src/common_401.cppo.ml" 58 10157 10185
+type(
+  string -> int -> int
+)
+ident(
+  int_ref unsafe_get_16 "src/endianString.cppo.ml" 90 4592 4592 "src/endianString.cppo.ml" 90 4592 4661
+)
+"src/common_401.cppo.ml" 59 10186 10192 "src/common_401.cppo.ml" 59 10186 10198
+type(
+  string -> int -> int32
+)
+ident(
+  def get_32 "src/common_401.cppo.ml" 60 10215 10217 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/common_401.cppo.ml" 59 10186 10201 "src/common_401.cppo.ml" 59 10186 10214
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref unsafe_get_32 "src/endianString.cppo.ml" 91 4662 4662 "src/endianString.cppo.ml" 91 4662 4733
+)
+"src/common_401.cppo.ml" 60 10215 10221 "src/common_401.cppo.ml" 60 10215 10227
+type(
+  string -> int -> int64
+)
+ident(
+  def get_64 "src/common_401.cppo.ml" 61 10244 10246 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/common_401.cppo.ml" 60 10215 10230 "src/common_401.cppo.ml" 60 10215 10243
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref unsafe_get_64 "src/endianString.cppo.ml" 92 4734 4734 "src/endianString.cppo.ml" 92 4734 4805
+)
+"src/common_401.cppo.ml" 61 10244 10250 "src/common_401.cppo.ml" 61 10244 10256
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  def set_16 "src/common_401.cppo.ml" 62 10273 10275 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/common_401.cppo.ml" 61 10244 10259 "src/common_401.cppo.ml" 61 10244 10272
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref unsafe_set_16 "src/endianString.cppo.ml" 94 4807 4807 "src/endianString.cppo.ml" 94 4807 4885
+)
+"src/common_401.cppo.ml" 62 10273 10279 "src/common_401.cppo.ml" 62 10273 10285
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  def set_32 "src/common_401.cppo.ml" 63 10302 10304 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/common_401.cppo.ml" 62 10273 10288 "src/common_401.cppo.ml" 62 10273 10301
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref unsafe_set_32 "src/endianString.cppo.ml" 95 4886 4886 "src/endianString.cppo.ml" 95 4886 4966
+)
+"src/common_401.cppo.ml" 63 10302 10308 "src/common_401.cppo.ml" 63 10302 10314
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  def set_64 "src/le_ocaml_401.ml" 1 10391 10393 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/common_401.cppo.ml" 63 10302 10317 "src/common_401.cppo.ml" 63 10302 10330
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref unsafe_set_64 "src/endianString.cppo.ml" 96 4967 4967 "src/endianString.cppo.ml" 96 4967 5047
+)
+"src/le_ocaml_401.ml" 1 10391 10397 "src/le_ocaml_401.ml" 1 10391 10407
+type(
+  string -> int -> int
+)
+ident(
+  def get_uint16 "src/le_ocaml_401.ml" 6 10492 10494 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/le_ocaml_401.ml" 1 10391 10408 "src/le_ocaml_401.ml" 1 10391 10409
+type(
+  string
+)
+ident(
+  def s "src/le_ocaml_401.ml" 1 10391 10410 "src/le_ocaml_401.ml" 4 10469 10490
+)
+"src/le_ocaml_401.ml" 1 10391 10410 "src/le_ocaml_401.ml" 1 10391 10413
+type(
+  int
+)
+ident(
+  def off "src/le_ocaml_401.ml" 2 10416 10420 "src/le_ocaml_401.ml" 4 10469 10490
+)
+"src/le_ocaml_401.ml" 2 10416 10423 "src/le_ocaml_401.ml" 2 10416 10437
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/le_ocaml_401.ml" 3 10438 10447 "src/le_ocaml_401.ml" 3 10438 10453
+type(
+  int -> int
+)
+ident(
+  int_ref swap16 "src/common_401.cppo.ml" 1 5517 5517 "src/common_401.cppo.ml" 1 5517 5558
+)
+"src/le_ocaml_401.ml" 3 10438 10455 "src/le_ocaml_401.ml" 3 10438 10461
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_16 "src/common_401.cppo.ml" 58 10157 10163 "src/common_401.cppo.ml" 58 10157 10169
+)
+"src/le_ocaml_401.ml" 3 10438 10462 "src/le_ocaml_401.ml" 3 10438 10463
+type(
+  string
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 1 10391 10408 "src/le_ocaml_401.ml" 1 10391 10409
+)
+"src/le_ocaml_401.ml" 3 10438 10464 "src/le_ocaml_401.ml" 3 10438 10467
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 1 10391 10410 "src/le_ocaml_401.ml" 1 10391 10413
+)
+"src/le_ocaml_401.ml" 3 10438 10454 "src/le_ocaml_401.ml" 3 10438 10468
+call(
+  stack
+)
+type(
+  int
+)
+"src/le_ocaml_401.ml" 3 10438 10447 "src/le_ocaml_401.ml" 3 10438 10468
+type(
+  int
+)
+"src/le_ocaml_401.ml" 4 10469 10478 "src/le_ocaml_401.ml" 4 10469 10484
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_16 "src/common_401.cppo.ml" 58 10157 10163 "src/common_401.cppo.ml" 58 10157 10169
+)
+"src/le_ocaml_401.ml" 4 10469 10485 "src/le_ocaml_401.ml" 4 10469 10486
+type(
+  string
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 1 10391 10408 "src/le_ocaml_401.ml" 1 10391 10409
+)
+"src/le_ocaml_401.ml" 4 10469 10487 "src/le_ocaml_401.ml" 4 10469 10490
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 1 10391 10410 "src/le_ocaml_401.ml" 1 10391 10413
+)
+"src/le_ocaml_401.ml" 4 10469 10478 "src/le_ocaml_401.ml" 4 10469 10490
+call(
+  tail
+)
+type(
+  int
+)
+"src/le_ocaml_401.ml" 2 10416 10420 "src/le_ocaml_401.ml" 4 10469 10490
+type(
+  int
+)
+"src/le_ocaml_401.ml" 6 10492 10498 "src/le_ocaml_401.ml" 6 10492 10507
+type(
+  string -> int -> int
+)
+ident(
+  def get_int16 "src/le_ocaml_401.ml" 9 10595 10597 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/le_ocaml_401.ml" 6 10492 10508 "src/le_ocaml_401.ml" 6 10492 10509
+type(
+  string
+)
+ident(
+  def s "src/le_ocaml_401.ml" 6 10492 10510 "src/le_ocaml_401.ml" 7 10516 10593
+)
+"src/le_ocaml_401.ml" 6 10492 10510 "src/le_ocaml_401.ml" 6 10492 10513
+type(
+  int
+)
+ident(
+  def off "src/le_ocaml_401.ml" 7 10516 10519 "src/le_ocaml_401.ml" 7 10516 10593
+)
+"src/le_ocaml_401.ml" 7 10516 10521 "src/le_ocaml_401.ml" 7 10516 10531
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_uint16 "src/le_ocaml_401.ml" 1 10391 10397 "src/le_ocaml_401.ml" 1 10391 10407
+)
+"src/le_ocaml_401.ml" 7 10516 10532 "src/le_ocaml_401.ml" 7 10516 10533
+type(
+  string
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 6 10492 10508 "src/le_ocaml_401.ml" 6 10492 10509
+)
+"src/le_ocaml_401.ml" 7 10516 10534 "src/le_ocaml_401.ml" 7 10516 10537
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 6 10492 10510 "src/le_ocaml_401.ml" 6 10492 10513
+)
+"src/le_ocaml_401.ml" 7 10516 10520 "src/le_ocaml_401.ml" 7 10516 10538
+call(
+  stack
+)
+type(
+  int
+)
+"src/le_ocaml_401.ml" 7 10516 10539 "src/le_ocaml_401.ml" 7 10516 10542
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( lsl ) "pervasives.mli" 320 12299 12299 "pervasives.mli" 320 12299 12347
+)
+"src/le_ocaml_401.ml" 7 10516 10545 "src/le_ocaml_401.ml" 7 10516 10558
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/le_ocaml_401.ml" 7 10516 10559 "src/le_ocaml_401.ml" 7 10516 10560
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/le_ocaml_401.ml" 7 10516 10561 "src/le_ocaml_401.ml" 7 10516 10563
+type(
+  int
+)
+"src/le_ocaml_401.ml" 7 10516 10543 "src/le_ocaml_401.ml" 7 10516 10565
+type(
+  int
+)
+"src/le_ocaml_401.ml" 7 10516 10519 "src/le_ocaml_401.ml" 7 10516 10566
+type(
+  int
+)
+"src/le_ocaml_401.ml" 7 10516 10567 "src/le_ocaml_401.ml" 7 10516 10570
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( asr ) "pervasives.mli" 334 12900 12900 "pervasives.mli" 334 12900 12948
+)
+"src/le_ocaml_401.ml" 7 10516 10573 "src/le_ocaml_401.ml" 7 10516 10586
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/le_ocaml_401.ml" 7 10516 10587 "src/le_ocaml_401.ml" 7 10516 10588
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/le_ocaml_401.ml" 7 10516 10589 "src/le_ocaml_401.ml" 7 10516 10591
+type(
+  int
+)
+"src/le_ocaml_401.ml" 7 10516 10571 "src/le_ocaml_401.ml" 7 10516 10593
+type(
+  int
+)
+"src/le_ocaml_401.ml" 7 10516 10519 "src/le_ocaml_401.ml" 7 10516 10593
+type(
+  int
+)
+"src/le_ocaml_401.ml" 9 10595 10601 "src/le_ocaml_401.ml" 9 10595 10610
+type(
+  string -> int -> int32
+)
+ident(
+  def get_int32 "src/le_ocaml_401.ml" 14 10695 10697 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/le_ocaml_401.ml" 9 10595 10611 "src/le_ocaml_401.ml" 9 10595 10612
+type(
+  string
+)
+ident(
+  def s "src/le_ocaml_401.ml" 9 10595 10613 "src/le_ocaml_401.ml" 12 10672 10693
+)
+"src/le_ocaml_401.ml" 9 10595 10613 "src/le_ocaml_401.ml" 9 10595 10616
+type(
+  int
+)
+ident(
+  def off "src/le_ocaml_401.ml" 10 10619 10623 "src/le_ocaml_401.ml" 12 10672 10693
+)
+"src/le_ocaml_401.ml" 10 10619 10626 "src/le_ocaml_401.ml" 10 10619 10640
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/le_ocaml_401.ml" 11 10641 10650 "src/le_ocaml_401.ml" 11 10641 10656
+type(
+  int32 -> int32
+)
+ident(
+  int_ref swap32 "src/common_401.cppo.ml" 2 5559 5559 "src/common_401.cppo.ml" 2 5559 5608
+)
+"src/le_ocaml_401.ml" 11 10641 10658 "src/le_ocaml_401.ml" 11 10641 10664
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref get_32 "src/common_401.cppo.ml" 59 10186 10192 "src/common_401.cppo.ml" 59 10186 10198
+)
+"src/le_ocaml_401.ml" 11 10641 10665 "src/le_ocaml_401.ml" 11 10641 10666
+type(
+  string
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 9 10595 10611 "src/le_ocaml_401.ml" 9 10595 10612
+)
+"src/le_ocaml_401.ml" 11 10641 10667 "src/le_ocaml_401.ml" 11 10641 10670
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 9 10595 10613 "src/le_ocaml_401.ml" 9 10595 10616
+)
+"src/le_ocaml_401.ml" 11 10641 10657 "src/le_ocaml_401.ml" 11 10641 10671
+call(
+  stack
+)
+type(
+  int32
+)
+"src/le_ocaml_401.ml" 11 10641 10650 "src/le_ocaml_401.ml" 11 10641 10671
+type(
+  int32
+)
+"src/le_ocaml_401.ml" 12 10672 10681 "src/le_ocaml_401.ml" 12 10672 10687
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref get_32 "src/common_401.cppo.ml" 59 10186 10192 "src/common_401.cppo.ml" 59 10186 10198
+)
+"src/le_ocaml_401.ml" 12 10672 10688 "src/le_ocaml_401.ml" 12 10672 10689
+type(
+  string
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 9 10595 10611 "src/le_ocaml_401.ml" 9 10595 10612
+)
+"src/le_ocaml_401.ml" 12 10672 10690 "src/le_ocaml_401.ml" 12 10672 10693
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 9 10595 10613 "src/le_ocaml_401.ml" 9 10595 10616
+)
+"src/le_ocaml_401.ml" 12 10672 10681 "src/le_ocaml_401.ml" 12 10672 10693
+call(
+  tail
+)
+type(
+  int32
+)
+"src/le_ocaml_401.ml" 10 10619 10623 "src/le_ocaml_401.ml" 12 10672 10693
+type(
+  int32
+)
+"src/le_ocaml_401.ml" 14 10695 10701 "src/le_ocaml_401.ml" 14 10695 10710
+type(
+  string -> int -> int64
+)
+ident(
+  def get_int64 "src/le_ocaml_401.ml" 19 10795 10797 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/le_ocaml_401.ml" 14 10695 10711 "src/le_ocaml_401.ml" 14 10695 10712
+type(
+  string
+)
+ident(
+  def s "src/le_ocaml_401.ml" 14 10695 10713 "src/le_ocaml_401.ml" 17 10772 10793
+)
+"src/le_ocaml_401.ml" 14 10695 10713 "src/le_ocaml_401.ml" 14 10695 10716
+type(
+  int
+)
+ident(
+  def off "src/le_ocaml_401.ml" 15 10719 10723 "src/le_ocaml_401.ml" 17 10772 10793
+)
+"src/le_ocaml_401.ml" 15 10719 10726 "src/le_ocaml_401.ml" 15 10719 10740
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/le_ocaml_401.ml" 16 10741 10750 "src/le_ocaml_401.ml" 16 10741 10756
+type(
+  int64 -> int64
+)
+ident(
+  int_ref swap64 "src/common_401.cppo.ml" 3 5609 5609 "src/common_401.cppo.ml" 3 5609 5658
+)
+"src/le_ocaml_401.ml" 16 10741 10758 "src/le_ocaml_401.ml" 16 10741 10764
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref get_64 "src/common_401.cppo.ml" 60 10215 10221 "src/common_401.cppo.ml" 60 10215 10227
+)
+"src/le_ocaml_401.ml" 16 10741 10765 "src/le_ocaml_401.ml" 16 10741 10766
+type(
+  string
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 14 10695 10711 "src/le_ocaml_401.ml" 14 10695 10712
+)
+"src/le_ocaml_401.ml" 16 10741 10767 "src/le_ocaml_401.ml" 16 10741 10770
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 14 10695 10713 "src/le_ocaml_401.ml" 14 10695 10716
+)
+"src/le_ocaml_401.ml" 16 10741 10757 "src/le_ocaml_401.ml" 16 10741 10771
+call(
+  stack
+)
+type(
+  int64
+)
+"src/le_ocaml_401.ml" 16 10741 10750 "src/le_ocaml_401.ml" 16 10741 10771
+type(
+  int64
+)
+"src/le_ocaml_401.ml" 17 10772 10781 "src/le_ocaml_401.ml" 17 10772 10787
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref get_64 "src/common_401.cppo.ml" 60 10215 10221 "src/common_401.cppo.ml" 60 10215 10227
+)
+"src/le_ocaml_401.ml" 17 10772 10788 "src/le_ocaml_401.ml" 17 10772 10789
+type(
+  string
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 14 10695 10711 "src/le_ocaml_401.ml" 14 10695 10712
+)
+"src/le_ocaml_401.ml" 17 10772 10790 "src/le_ocaml_401.ml" 17 10772 10793
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 14 10695 10713 "src/le_ocaml_401.ml" 14 10695 10716
+)
+"src/le_ocaml_401.ml" 17 10772 10781 "src/le_ocaml_401.ml" 17 10772 10793
+call(
+  tail
+)
+type(
+  int64
+)
+"src/le_ocaml_401.ml" 15 10719 10723 "src/le_ocaml_401.ml" 17 10772 10793
+type(
+  int64
+)
+"src/le_ocaml_401.ml" 19 10795 10801 "src/le_ocaml_401.ml" 19 10795 10810
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  def set_int16 "src/le_ocaml_401.ml" 24 10903 10905 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/le_ocaml_401.ml" 19 10795 10811 "src/le_ocaml_401.ml" 19 10795 10812
+type(
+  Bytes.t
+)
+ident(
+  def s "src/le_ocaml_401.ml" 19 10795 10813 "src/le_ocaml_401.ml" 22 10878 10901
+)
+"src/le_ocaml_401.ml" 19 10795 10813 "src/le_ocaml_401.ml" 19 10795 10816
+type(
+  int
+)
+ident(
+  def off "src/le_ocaml_401.ml" 19 10795 10817 "src/le_ocaml_401.ml" 22 10878 10901
+)
+"src/le_ocaml_401.ml" 19 10795 10817 "src/le_ocaml_401.ml" 19 10795 10818
+type(
+  int
+)
+ident(
+  def v "src/le_ocaml_401.ml" 20 10821 10825 "src/le_ocaml_401.ml" 22 10878 10901
+)
+"src/le_ocaml_401.ml" 20 10821 10828 "src/le_ocaml_401.ml" 20 10821 10842
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/le_ocaml_401.ml" 21 10843 10853 "src/le_ocaml_401.ml" 21 10843 10859
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref set_16 "src/common_401.cppo.ml" 61 10244 10250 "src/common_401.cppo.ml" 61 10244 10256
+)
+"src/le_ocaml_401.ml" 21 10843 10860 "src/le_ocaml_401.ml" 21 10843 10861
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 19 10795 10811 "src/le_ocaml_401.ml" 19 10795 10812
+)
+"src/le_ocaml_401.ml" 21 10843 10862 "src/le_ocaml_401.ml" 21 10843 10865
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 19 10795 10813 "src/le_ocaml_401.ml" 19 10795 10816
+)
+"src/le_ocaml_401.ml" 21 10843 10867 "src/le_ocaml_401.ml" 21 10843 10873
+type(
+  int -> int
+)
+ident(
+  int_ref swap16 "src/common_401.cppo.ml" 1 5517 5517 "src/common_401.cppo.ml" 1 5517 5558
+)
+"src/le_ocaml_401.ml" 21 10843 10874 "src/le_ocaml_401.ml" 21 10843 10875
+type(
+  int
+)
+ident(
+  int_ref v "src/le_ocaml_401.ml" 19 10795 10817 "src/le_ocaml_401.ml" 19 10795 10818
+)
+"src/le_ocaml_401.ml" 21 10843 10866 "src/le_ocaml_401.ml" 21 10843 10876
+type(
+  int
+)
+"src/le_ocaml_401.ml" 21 10843 10852 "src/le_ocaml_401.ml" 21 10843 10877
+call(
+  tail
+)
+type(
+  unit
+)
+"src/le_ocaml_401.ml" 22 10878 10887 "src/le_ocaml_401.ml" 22 10878 10893
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref set_16 "src/common_401.cppo.ml" 61 10244 10250 "src/common_401.cppo.ml" 61 10244 10256
+)
+"src/le_ocaml_401.ml" 22 10878 10894 "src/le_ocaml_401.ml" 22 10878 10895
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 19 10795 10811 "src/le_ocaml_401.ml" 19 10795 10812
+)
+"src/le_ocaml_401.ml" 22 10878 10896 "src/le_ocaml_401.ml" 22 10878 10899
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 19 10795 10813 "src/le_ocaml_401.ml" 19 10795 10816
+)
+"src/le_ocaml_401.ml" 22 10878 10900 "src/le_ocaml_401.ml" 22 10878 10901
+type(
+  int
+)
+ident(
+  int_ref v "src/le_ocaml_401.ml" 19 10795 10817 "src/le_ocaml_401.ml" 19 10795 10818
+)
+"src/le_ocaml_401.ml" 22 10878 10887 "src/le_ocaml_401.ml" 22 10878 10901
+call(
+  tail
+)
+type(
+  unit
+)
+"src/le_ocaml_401.ml" 20 10821 10825 "src/le_ocaml_401.ml" 22 10878 10901
+type(
+  unit
+)
+"src/le_ocaml_401.ml" 24 10903 10909 "src/le_ocaml_401.ml" 24 10903 10918
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  def set_int32 "src/le_ocaml_401.ml" 29 11009 11011 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/le_ocaml_401.ml" 24 10903 10919 "src/le_ocaml_401.ml" 24 10903 10920
+type(
+  Bytes.t
+)
+ident(
+  def s "src/le_ocaml_401.ml" 24 10903 10921 "src/le_ocaml_401.ml" 27 10984 11007
+)
+"src/le_ocaml_401.ml" 24 10903 10921 "src/le_ocaml_401.ml" 24 10903 10924
+type(
+  int
+)
+ident(
+  def off "src/le_ocaml_401.ml" 24 10903 10925 "src/le_ocaml_401.ml" 27 10984 11007
+)
+"src/le_ocaml_401.ml" 24 10903 10925 "src/le_ocaml_401.ml" 24 10903 10926
+type(
+  int32
+)
+ident(
+  def v "src/le_ocaml_401.ml" 25 10929 10933 "src/le_ocaml_401.ml" 27 10984 11007
+)
+"src/le_ocaml_401.ml" 25 10929 10936 "src/le_ocaml_401.ml" 25 10929 10950
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/le_ocaml_401.ml" 26 10951 10960 "src/le_ocaml_401.ml" 26 10951 10966
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref set_32 "src/common_401.cppo.ml" 62 10273 10279 "src/common_401.cppo.ml" 62 10273 10285
+)
+"src/le_ocaml_401.ml" 26 10951 10967 "src/le_ocaml_401.ml" 26 10951 10968
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 24 10903 10919 "src/le_ocaml_401.ml" 24 10903 10920
+)
+"src/le_ocaml_401.ml" 26 10951 10969 "src/le_ocaml_401.ml" 26 10951 10972
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 24 10903 10921 "src/le_ocaml_401.ml" 24 10903 10924
+)
+"src/le_ocaml_401.ml" 26 10951 10974 "src/le_ocaml_401.ml" 26 10951 10980
+type(
+  int32 -> int32
+)
+ident(
+  int_ref swap32 "src/common_401.cppo.ml" 2 5559 5559 "src/common_401.cppo.ml" 2 5559 5608
+)
+"src/le_ocaml_401.ml" 26 10951 10981 "src/le_ocaml_401.ml" 26 10951 10982
+type(
+  int32
+)
+ident(
+  int_ref v "src/le_ocaml_401.ml" 24 10903 10925 "src/le_ocaml_401.ml" 24 10903 10926
+)
+"src/le_ocaml_401.ml" 26 10951 10973 "src/le_ocaml_401.ml" 26 10951 10983
+type(
+  int32
+)
+"src/le_ocaml_401.ml" 26 10951 10960 "src/le_ocaml_401.ml" 26 10951 10983
+call(
+  tail
+)
+type(
+  unit
+)
+"src/le_ocaml_401.ml" 27 10984 10993 "src/le_ocaml_401.ml" 27 10984 10999
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref set_32 "src/common_401.cppo.ml" 62 10273 10279 "src/common_401.cppo.ml" 62 10273 10285
+)
+"src/le_ocaml_401.ml" 27 10984 11000 "src/le_ocaml_401.ml" 27 10984 11001
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 24 10903 10919 "src/le_ocaml_401.ml" 24 10903 10920
+)
+"src/le_ocaml_401.ml" 27 10984 11002 "src/le_ocaml_401.ml" 27 10984 11005
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 24 10903 10921 "src/le_ocaml_401.ml" 24 10903 10924
+)
+"src/le_ocaml_401.ml" 27 10984 11006 "src/le_ocaml_401.ml" 27 10984 11007
+type(
+  int32
+)
+ident(
+  int_ref v "src/le_ocaml_401.ml" 24 10903 10925 "src/le_ocaml_401.ml" 24 10903 10926
+)
+"src/le_ocaml_401.ml" 27 10984 10993 "src/le_ocaml_401.ml" 27 10984 11007
+call(
+  tail
+)
+type(
+  unit
+)
+"src/le_ocaml_401.ml" 25 10929 10933 "src/le_ocaml_401.ml" 27 10984 11007
+type(
+  unit
+)
+"src/le_ocaml_401.ml" 29 11009 11015 "src/le_ocaml_401.ml" 29 11009 11024
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  def set_int64 "src/common_float.ml" 2 11168 11168 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/le_ocaml_401.ml" 29 11009 11025 "src/le_ocaml_401.ml" 29 11009 11026
+type(
+  Bytes.t
+)
+ident(
+  def s "src/le_ocaml_401.ml" 29 11009 11027 "src/le_ocaml_401.ml" 32 11090 11113
+)
+"src/le_ocaml_401.ml" 29 11009 11027 "src/le_ocaml_401.ml" 29 11009 11030
+type(
+  int
+)
+ident(
+  def off "src/le_ocaml_401.ml" 29 11009 11031 "src/le_ocaml_401.ml" 32 11090 11113
+)
+"src/le_ocaml_401.ml" 29 11009 11031 "src/le_ocaml_401.ml" 29 11009 11032
+type(
+  int64
+)
+ident(
+  def v "src/le_ocaml_401.ml" 30 11035 11039 "src/le_ocaml_401.ml" 32 11090 11113
+)
+"src/le_ocaml_401.ml" 30 11035 11042 "src/le_ocaml_401.ml" 30 11035 11056
+type(
+  bool
+)
+ident(
+  int_ref Sys.big_endian "sys.mli" 138 5492 5492 "sys.mli" 138 5492 5513
+)
+"src/le_ocaml_401.ml" 31 11057 11066 "src/le_ocaml_401.ml" 31 11057 11072
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref set_64 "src/common_401.cppo.ml" 63 10302 10308 "src/common_401.cppo.ml" 63 10302 10314
+)
+"src/le_ocaml_401.ml" 31 11057 11073 "src/le_ocaml_401.ml" 31 11057 11074
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 29 11009 11025 "src/le_ocaml_401.ml" 29 11009 11026
+)
+"src/le_ocaml_401.ml" 31 11057 11075 "src/le_ocaml_401.ml" 31 11057 11078
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 29 11009 11027 "src/le_ocaml_401.ml" 29 11009 11030
+)
+"src/le_ocaml_401.ml" 31 11057 11080 "src/le_ocaml_401.ml" 31 11057 11086
+type(
+  int64 -> int64
+)
+ident(
+  int_ref swap64 "src/common_401.cppo.ml" 3 5609 5609 "src/common_401.cppo.ml" 3 5609 5658
+)
+"src/le_ocaml_401.ml" 31 11057 11087 "src/le_ocaml_401.ml" 31 11057 11088
+type(
+  int64
+)
+ident(
+  int_ref v "src/le_ocaml_401.ml" 29 11009 11031 "src/le_ocaml_401.ml" 29 11009 11032
+)
+"src/le_ocaml_401.ml" 31 11057 11079 "src/le_ocaml_401.ml" 31 11057 11089
+type(
+  int64
+)
+"src/le_ocaml_401.ml" 31 11057 11066 "src/le_ocaml_401.ml" 31 11057 11089
+call(
+  tail
+)
+type(
+  unit
+)
+"src/le_ocaml_401.ml" 32 11090 11099 "src/le_ocaml_401.ml" 32 11090 11105
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref set_64 "src/common_401.cppo.ml" 63 10302 10308 "src/common_401.cppo.ml" 63 10302 10314
+)
+"src/le_ocaml_401.ml" 32 11090 11106 "src/le_ocaml_401.ml" 32 11090 11107
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/le_ocaml_401.ml" 29 11009 11025 "src/le_ocaml_401.ml" 29 11009 11026
+)
+"src/le_ocaml_401.ml" 32 11090 11108 "src/le_ocaml_401.ml" 32 11090 11111
+type(
+  int
+)
+ident(
+  int_ref off "src/le_ocaml_401.ml" 29 11009 11027 "src/le_ocaml_401.ml" 29 11009 11030
+)
+"src/le_ocaml_401.ml" 32 11090 11112 "src/le_ocaml_401.ml" 32 11090 11113
+type(
+  int64
+)
+ident(
+  int_ref v "src/le_ocaml_401.ml" 29 11009 11031 "src/le_ocaml_401.ml" 29 11009 11032
+)
+"src/le_ocaml_401.ml" 32 11090 11099 "src/le_ocaml_401.ml" 32 11090 11113
+call(
+  tail
+)
+type(
+  unit
+)
+"src/le_ocaml_401.ml" 30 11035 11039 "src/le_ocaml_401.ml" 32 11090 11113
+type(
+  unit
+)
+"src/common_float.ml" 2 11168 11172 "src/common_float.ml" 2 11168 11181
+type(
+  string -> int -> float
+)
+ident(
+  def get_float "src/common_float.ml" 3 11230 11230 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/common_float.ml" 2 11168 11182 "src/common_float.ml" 2 11168 11186
+type(
+  string
+)
+ident(
+  def buff "src/common_float.ml" 2 11168 11187 "src/common_float.ml" 2 11168 11229
+)
+"src/common_float.ml" 2 11168 11187 "src/common_float.ml" 2 11168 11188
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 2 11168 11191 "src/common_float.ml" 2 11168 11229
+)
+"src/common_float.ml" 2 11168 11191 "src/common_float.ml" 2 11168 11210
+type(
+  int32 -> float
+)
+ident(
+  int_ref Int32.float_of_bits "int32.mli" 163 6610 6610 "int32.mli" 165 6716 6741
+)
+"src/common_float.ml" 2 11168 11212 "src/common_float.ml" 2 11168 11221
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref get_int32 "src/le_ocaml_401.ml" 9 10595 10601 "src/le_ocaml_401.ml" 9 10595 10610
+)
+"src/common_float.ml" 2 11168 11222 "src/common_float.ml" 2 11168 11226
+type(
+  string
+)
+ident(
+  int_ref buff "src/common_float.ml" 2 11168 11182 "src/common_float.ml" 2 11168 11186
+)
+"src/common_float.ml" 2 11168 11227 "src/common_float.ml" 2 11168 11228
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 2 11168 11187 "src/common_float.ml" 2 11168 11188
+)
+"src/common_float.ml" 2 11168 11211 "src/common_float.ml" 2 11168 11229
+call(
+  stack
+)
+type(
+  int32
+)
+"src/common_float.ml" 2 11168 11191 "src/common_float.ml" 2 11168 11229
+type(
+  float
+)
+"src/common_float.ml" 3 11230 11234 "src/common_float.ml" 3 11230 11244
+type(
+  string -> int -> float
+)
+ident(
+  def get_double "src/common_float.ml" 4 11293 11293 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/common_float.ml" 3 11230 11245 "src/common_float.ml" 3 11230 11249
+type(
+  string
+)
+ident(
+  def buff "src/common_float.ml" 3 11230 11250 "src/common_float.ml" 3 11230 11292
+)
+"src/common_float.ml" 3 11230 11250 "src/common_float.ml" 3 11230 11251
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 3 11230 11254 "src/common_float.ml" 3 11230 11292
+)
+"src/common_float.ml" 3 11230 11254 "src/common_float.ml" 3 11230 11273
+type(
+  int64 -> float
+)
+ident(
+  int_ref Int64.float_of_bits "int64.mli" 184 7509 7509 "int64.mli" 186 7615 7640
+)
+"src/common_float.ml" 3 11230 11275 "src/common_float.ml" 3 11230 11284
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref get_int64 "src/le_ocaml_401.ml" 14 10695 10701 "src/le_ocaml_401.ml" 14 10695 10710
+)
+"src/common_float.ml" 3 11230 11285 "src/common_float.ml" 3 11230 11289
+type(
+  string
+)
+ident(
+  int_ref buff "src/common_float.ml" 3 11230 11245 "src/common_float.ml" 3 11230 11249
+)
+"src/common_float.ml" 3 11230 11290 "src/common_float.ml" 3 11230 11291
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 3 11230 11250 "src/common_float.ml" 3 11230 11251
+)
+"src/common_float.ml" 3 11230 11274 "src/common_float.ml" 3 11230 11292
+call(
+  stack
+)
+type(
+  int64
+)
+"src/common_float.ml" 3 11230 11254 "src/common_float.ml" 3 11230 11292
+type(
+  float
+)
+"src/common_float.ml" 4 11293 11297 "src/common_float.ml" 4 11293 11306
+type(
+  Bytes.t -> int -> float -> unit
+)
+ident(
+  def set_float "src/common_float.ml" 5 11359 11359 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/common_float.ml" 4 11293 11307 "src/common_float.ml" 4 11293 11311
+type(
+  Bytes.t
+)
+ident(
+  def buff "src/common_float.ml" 4 11293 11312 "src/common_float.ml" 4 11293 11358
+)
+"src/common_float.ml" 4 11293 11312 "src/common_float.ml" 4 11293 11313
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 4 11293 11314 "src/common_float.ml" 4 11293 11358
+)
+"src/common_float.ml" 4 11293 11314 "src/common_float.ml" 4 11293 11315
+type(
+  float
+)
+ident(
+  def v "src/common_float.ml" 4 11293 11318 "src/common_float.ml" 4 11293 11358
+)
+"src/common_float.ml" 4 11293 11318 "src/common_float.ml" 4 11293 11327
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref set_int32 "src/le_ocaml_401.ml" 24 10903 10909 "src/le_ocaml_401.ml" 24 10903 10918
+)
+"src/common_float.ml" 4 11293 11328 "src/common_float.ml" 4 11293 11332
+type(
+  Bytes.t
+)
+ident(
+  int_ref buff "src/common_float.ml" 4 11293 11307 "src/common_float.ml" 4 11293 11311
+)
+"src/common_float.ml" 4 11293 11333 "src/common_float.ml" 4 11293 11334
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 4 11293 11312 "src/common_float.ml" 4 11293 11313
+)
+"src/common_float.ml" 4 11293 11336 "src/common_float.ml" 4 11293 11355
+type(
+  float -> int32
+)
+ident(
+  int_ref Int32.bits_of_float "int32.mli" 154 6196 6196 "int32.mli" 156 6302 6327
+)
+"src/common_float.ml" 4 11293 11356 "src/common_float.ml" 4 11293 11357
+type(
+  float
+)
+ident(
+  int_ref v "src/common_float.ml" 4 11293 11314 "src/common_float.ml" 4 11293 11315
+)
+"src/common_float.ml" 4 11293 11335 "src/common_float.ml" 4 11293 11358
+type(
+  int32
+)
+"src/common_float.ml" 4 11293 11318 "src/common_float.ml" 4 11293 11358
+call(
+  tail
+)
+type(
+  unit
+)
+"src/common_float.ml" 5 11359 11363 "src/common_float.ml" 5 11359 11373
+type(
+  Bytes.t -> int -> float -> unit
+)
+ident(
+  def set_double "src/common_float.ml" 5 11359 11425 "src/common_401.cppo.ml" 68 11488 11491
+)
+"src/common_float.ml" 5 11359 11374 "src/common_float.ml" 5 11359 11378
+type(
+  Bytes.t
+)
+ident(
+  def buff "src/common_float.ml" 5 11359 11379 "src/common_float.ml" 5 11359 11425
+)
+"src/common_float.ml" 5 11359 11379 "src/common_float.ml" 5 11359 11380
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 5 11359 11381 "src/common_float.ml" 5 11359 11425
+)
+"src/common_float.ml" 5 11359 11381 "src/common_float.ml" 5 11359 11382
+type(
+  float
+)
+ident(
+  def v "src/common_float.ml" 5 11359 11385 "src/common_float.ml" 5 11359 11425
+)
+"src/common_float.ml" 5 11359 11385 "src/common_float.ml" 5 11359 11394
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref set_int64 "src/le_ocaml_401.ml" 29 11009 11015 "src/le_ocaml_401.ml" 29 11009 11024
+)
+"src/common_float.ml" 5 11359 11395 "src/common_float.ml" 5 11359 11399
+type(
+  Bytes.t
+)
+ident(
+  int_ref buff "src/common_float.ml" 5 11359 11374 "src/common_float.ml" 5 11359 11378
+)
+"src/common_float.ml" 5 11359 11400 "src/common_float.ml" 5 11359 11401
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 5 11359 11379 "src/common_float.ml" 5 11359 11380
+)
+"src/common_float.ml" 5 11359 11403 "src/common_float.ml" 5 11359 11422
+type(
+  float -> int64
+)
+ident(
+  int_ref Int64.bits_of_float "int64.mli" 175 7095 7095 "int64.mli" 177 7201 7226
+)
+"src/common_float.ml" 5 11359 11423 "src/common_float.ml" 5 11359 11424
+type(
+  float
+)
+ident(
+  int_ref v "src/common_float.ml" 5 11359 11381 "src/common_float.ml" 5 11359 11382
+)
+"src/common_float.ml" 5 11359 11402 "src/common_float.ml" 5 11359 11425
+type(
+  int64
+)
+"src/common_float.ml" 5 11359 11385 "src/common_float.ml" 5 11359 11425
+call(
+  tail
+)
+type(
+  unit
+)
+"src/common_401.cppo.ml" 72 11523 11529 "src/common_401.cppo.ml" 72 11523 11537
+type(
+  string -> int -> char
+)
+ident(
+  def get_char "src/common_401.cppo.ml" 73 11549 11551 "src/common_401.cppo.ml" 81 12456 12459
+)
+"src/common_401.cppo.ml" 72 11523 11540 "src/common_401.cppo.ml" 72 11523 11548
+type(
+  string -> int -> char
+)
+ident(
+  int_ref get_char "src/endianString.cppo.ml" 77 3495 3499 "src/endianString.cppo.ml" 77 3495 3507
+)
+"src/common_401.cppo.ml" 73 11549 11555 "src/common_401.cppo.ml" 73 11549 11564
+type(
+  string -> int -> int
+)
+ident(
+  def get_uint8 "src/common_401.cppo.ml" 74 11577 11579 "src/common_401.cppo.ml" 81 12456 12459
+)
+"src/common_401.cppo.ml" 73 11549 11567 "src/common_401.cppo.ml" 73 11549 11576
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_uint8 "src/common.ml" 7 3897 3901 "src/common.ml" 7 3897 3910
+)
+"src/common_401.cppo.ml" 74 11577 11583 "src/common_401.cppo.ml" 74 11577 11591
+type(
+  string -> int -> int
+)
+ident(
+  def get_int8 "src/common_401.cppo.ml" 75 11603 11605 "src/common_401.cppo.ml" 81 12456 12459
+)
+"src/common_401.cppo.ml" 74 11577 11594 "src/common_401.cppo.ml" 74 11577 11602
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_int8 "src/common.ml" 9 3948 3952 "src/common.ml" 9 3948 3960
+)
+"src/common_401.cppo.ml" 75 11603 11609 "src/common_401.cppo.ml" 75 11603 11617
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  def set_char "src/common_401.cppo.ml" 76 11629 11631 "src/common_401.cppo.ml" 81 12456 12459
+)
+"src/common_401.cppo.ml" 75 11603 11620 "src/common_401.cppo.ml" 75 11603 11628
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  int_ref set_char "src/endianString.cppo.ml" 79 3544 3548 "src/endianString.cppo.ml" 79 3544 3556
+)
+"src/common_401.cppo.ml" 76 11629 11635 "src/common_401.cppo.ml" 76 11629 11643
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  def set_int8 "src/ne_ocaml_401.ml" 1 11715 11717 "src/common_401.cppo.ml" 81 12456 12459
+)
+"src/common_401.cppo.ml" 76 11629 11646 "src/common_401.cppo.ml" 76 11629 11654
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref set_int8 "src/common.ml" 11 4043 4047 "src/common.ml" 11 4043 4055
+)
+"src/ne_ocaml_401.ml" 1 11715 11721 "src/ne_ocaml_401.ml" 1 11715 11731
+type(
+  string -> int -> int
+)
+ident(
+  def get_uint16 "src/ne_ocaml_401.ml" 4 11758 11760 "src/common_401.cppo.ml" 81 12456 12459
+)
+"src/ne_ocaml_401.ml" 1 11715 11732 "src/ne_ocaml_401.ml" 1 11715 11733
+type(
+  string
+)
+ident(
+  def s "src/ne_ocaml_401.ml" 1 11715 11734 "src/ne_ocaml_401.ml" 2 11740 11756
+)
+"src/ne_ocaml_401.ml" 1 11715 11734 "src/ne_ocaml_401.ml" 1 11715 11737
+type(
+  int
+)
+ident(
+  def off "src/ne_ocaml_401.ml" 2 11740 11744 "src/ne_ocaml_401.ml" 2 11740 11756
+)
+"src/ne_ocaml_401.ml" 2 11740 11744 "src/ne_ocaml_401.ml" 2 11740 11750
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_16 "src/endianString.cppo.ml" 98 5049 5049 "src/endianString.cppo.ml" 98 5049 5110
+)
+"src/ne_ocaml_401.ml" 2 11740 11751 "src/ne_ocaml_401.ml" 2 11740 11752
+type(
+  string
+)
+ident(
+  int_ref s "src/ne_ocaml_401.ml" 1 11715 11732 "src/ne_ocaml_401.ml" 1 11715 11733
+)
+"src/ne_ocaml_401.ml" 2 11740 11753 "src/ne_ocaml_401.ml" 2 11740 11756
+type(
+  int
+)
+ident(
+  int_ref off "src/ne_ocaml_401.ml" 1 11715 11734 "src/ne_ocaml_401.ml" 1 11715 11737
+)
+"src/ne_ocaml_401.ml" 2 11740 11744 "src/ne_ocaml_401.ml" 2 11740 11756
+type(
+  int
+)
+"src/ne_ocaml_401.ml" 4 11758 11764 "src/ne_ocaml_401.ml" 4 11758 11773
+type(
+  string -> int -> int
+)
+ident(
+  def get_int16 "src/ne_ocaml_401.ml" 7 11861 11863 "src/common_401.cppo.ml" 81 12456 12459
+)
+"src/ne_ocaml_401.ml" 4 11758 11774 "src/ne_ocaml_401.ml" 4 11758 11775
+type(
+  string
+)
+ident(
+  def s "src/ne_ocaml_401.ml" 4 11758 11776 "src/ne_ocaml_401.ml" 5 11782 11859
+)
+"src/ne_ocaml_401.ml" 4 11758 11776 "src/ne_ocaml_401.ml" 4 11758 11779
+type(
+  int
+)
+ident(
+  def off "src/ne_ocaml_401.ml" 5 11782 11785 "src/ne_ocaml_401.ml" 5 11782 11859
+)
+"src/ne_ocaml_401.ml" 5 11782 11787 "src/ne_ocaml_401.ml" 5 11782 11797
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_uint16 "src/ne_ocaml_401.ml" 1 11715 11721 "src/ne_ocaml_401.ml" 1 11715 11731
+)
+"src/ne_ocaml_401.ml" 5 11782 11798 "src/ne_ocaml_401.ml" 5 11782 11799
+type(
+  string
+)
+ident(
+  int_ref s "src/ne_ocaml_401.ml" 4 11758 11774 "src/ne_ocaml_401.ml" 4 11758 11775
+)
+"src/ne_ocaml_401.ml" 5 11782 11800 "src/ne_ocaml_401.ml" 5 11782 11803
+type(
+  int
+)
+ident(
+  int_ref off "src/ne_ocaml_401.ml" 4 11758 11776 "src/ne_ocaml_401.ml" 4 11758 11779
+)
+"src/ne_ocaml_401.ml" 5 11782 11786 "src/ne_ocaml_401.ml" 5 11782 11804
+call(
+  stack
+)
+type(
+  int
+)
+"src/ne_ocaml_401.ml" 5 11782 11805 "src/ne_ocaml_401.ml" 5 11782 11808
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( lsl ) "pervasives.mli" 320 12299 12299 "pervasives.mli" 320 12299 12347
+)
+"src/ne_ocaml_401.ml" 5 11782 11811 "src/ne_ocaml_401.ml" 5 11782 11824
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/ne_ocaml_401.ml" 5 11782 11825 "src/ne_ocaml_401.ml" 5 11782 11826
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/ne_ocaml_401.ml" 5 11782 11827 "src/ne_ocaml_401.ml" 5 11782 11829
+type(
+  int
+)
+"src/ne_ocaml_401.ml" 5 11782 11809 "src/ne_ocaml_401.ml" 5 11782 11831
+type(
+  int
+)
+"src/ne_ocaml_401.ml" 5 11782 11785 "src/ne_ocaml_401.ml" 5 11782 11832
+type(
+  int
+)
+"src/ne_ocaml_401.ml" 5 11782 11833 "src/ne_ocaml_401.ml" 5 11782 11836
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( asr ) "pervasives.mli" 334 12900 12900 "pervasives.mli" 334 12900 12948
+)
+"src/ne_ocaml_401.ml" 5 11782 11839 "src/ne_ocaml_401.ml" 5 11782 11852
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/ne_ocaml_401.ml" 5 11782 11853 "src/ne_ocaml_401.ml" 5 11782 11854
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/ne_ocaml_401.ml" 5 11782 11855 "src/ne_ocaml_401.ml" 5 11782 11857
+type(
+  int
+)
+"src/ne_ocaml_401.ml" 5 11782 11837 "src/ne_ocaml_401.ml" 5 11782 11859
+type(
+  int
+)
+"src/ne_ocaml_401.ml" 5 11782 11785 "src/ne_ocaml_401.ml" 5 11782 11859
+type(
+  int
+)
+"src/ne_ocaml_401.ml" 7 11861 11867 "src/ne_ocaml_401.ml" 7 11861 11876
+type(
+  string -> int -> int32
+)
+ident(
+  def get_int32 "src/ne_ocaml_401.ml" 10 11903 11905 "src/common_401.cppo.ml" 81 12456 12459
+)
+"src/ne_ocaml_401.ml" 7 11861 11877 "src/ne_ocaml_401.ml" 7 11861 11878
+type(
+  string
+)
+ident(
+  def s "src/ne_ocaml_401.ml" 7 11861 11879 "src/ne_ocaml_401.ml" 8 11885 11901
+)
+"src/ne_ocaml_401.ml" 7 11861 11879 "src/ne_ocaml_401.ml" 7 11861 11882
+type(
+  int
+)
+ident(
+  def off "src/ne_ocaml_401.ml" 8 11885 11889 "src/ne_ocaml_401.ml" 8 11885 11901
+)
+"src/ne_ocaml_401.ml" 8 11885 11889 "src/ne_ocaml_401.ml" 8 11885 11895
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref get_32 "src/endianString.cppo.ml" 99 5111 5111 "src/endianString.cppo.ml" 99 5111 5174
+)
+"src/ne_ocaml_401.ml" 8 11885 11896 "src/ne_ocaml_401.ml" 8 11885 11897
+type(
+  string
+)
+ident(
+  int_ref s "src/ne_ocaml_401.ml" 7 11861 11877 "src/ne_ocaml_401.ml" 7 11861 11878
+)
+"src/ne_ocaml_401.ml" 8 11885 11898 "src/ne_ocaml_401.ml" 8 11885 11901
+type(
+  int
+)
+ident(
+  int_ref off "src/ne_ocaml_401.ml" 7 11861 11879 "src/ne_ocaml_401.ml" 7 11861 11882
+)
+"src/ne_ocaml_401.ml" 8 11885 11889 "src/ne_ocaml_401.ml" 8 11885 11901
+type(
+  int32
+)
+"src/ne_ocaml_401.ml" 10 11903 11909 "src/ne_ocaml_401.ml" 10 11903 11918
+type(
+  string -> int -> int64
+)
+ident(
+  def get_int64 "src/ne_ocaml_401.ml" 13 11945 11947 "src/common_401.cppo.ml" 81 12456 12459
+)
+"src/ne_ocaml_401.ml" 10 11903 11919 "src/ne_ocaml_401.ml" 10 11903 11920
+type(
+  string
+)
+ident(
+  def s "src/ne_ocaml_401.ml" 10 11903 11921 "src/ne_ocaml_401.ml" 11 11927 11943
+)
+"src/ne_ocaml_401.ml" 10 11903 11921 "src/ne_ocaml_401.ml" 10 11903 11924
+type(
+  int
+)
+ident(
+  def off "src/ne_ocaml_401.ml" 11 11927 11931 "src/ne_ocaml_401.ml" 11 11927 11943
+)
+"src/ne_ocaml_401.ml" 11 11927 11931 "src/ne_ocaml_401.ml" 11 11927 11937
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref get_64 "src/endianString.cppo.ml" 100 5175 5175 "src/endianString.cppo.ml" 100 5175 5238
+)
+"src/ne_ocaml_401.ml" 11 11927 11938 "src/ne_ocaml_401.ml" 11 11927 11939
+type(
+  string
+)
+ident(
+  int_ref s "src/ne_ocaml_401.ml" 10 11903 11919 "src/ne_ocaml_401.ml" 10 11903 11920
+)
+"src/ne_ocaml_401.ml" 11 11927 11940 "src/ne_ocaml_401.ml" 11 11927 11943
+type(
+  int
+)
+ident(
+  int_ref off "src/ne_ocaml_401.ml" 10 11903 11921 "src/ne_ocaml_401.ml" 10 11903 11924
+)
+"src/ne_ocaml_401.ml" 11 11927 11931 "src/ne_ocaml_401.ml" 11 11927 11943
+type(
+  int64
+)
+"src/ne_ocaml_401.ml" 13 11945 11951 "src/ne_ocaml_401.ml" 13 11945 11960
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  def set_int16 "src/ne_ocaml_401.ml" 16 11991 11993 "src/common_401.cppo.ml" 81 12456 12459
+)
+"src/ne_ocaml_401.ml" 13 11945 11961 "src/ne_ocaml_401.ml" 13 11945 11962
+type(
+  Bytes.t
+)
+ident(
+  def s "src/ne_ocaml_401.ml" 13 11945 11963 "src/ne_ocaml_401.ml" 14 11971 11989
+)
+"src/ne_ocaml_401.ml" 13 11945 11963 "src/ne_ocaml_401.ml" 13 11945 11966
+type(
+  int
+)
+ident(
+  def off "src/ne_ocaml_401.ml" 13 11945 11967 "src/ne_ocaml_401.ml" 14 11971 11989
+)
+"src/ne_ocaml_401.ml" 13 11945 11967 "src/ne_ocaml_401.ml" 13 11945 11968
+type(
+  int
+)
+ident(
+  def v "src/ne_ocaml_401.ml" 14 11971 11975 "src/ne_ocaml_401.ml" 14 11971 11989
+)
+"src/ne_ocaml_401.ml" 14 11971 11975 "src/ne_ocaml_401.ml" 14 11971 11981
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref set_16 "src/endianString.cppo.ml" 102 5240 5240 "src/endianString.cppo.ml" 102 5240 5310
+)
+"src/ne_ocaml_401.ml" 14 11971 11982 "src/ne_ocaml_401.ml" 14 11971 11983
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/ne_ocaml_401.ml" 13 11945 11961 "src/ne_ocaml_401.ml" 13 11945 11962
+)
+"src/ne_ocaml_401.ml" 14 11971 11984 "src/ne_ocaml_401.ml" 14 11971 11987
+type(
+  int
+)
+ident(
+  int_ref off "src/ne_ocaml_401.ml" 13 11945 11963 "src/ne_ocaml_401.ml" 13 11945 11966
+)
+"src/ne_ocaml_401.ml" 14 11971 11988 "src/ne_ocaml_401.ml" 14 11971 11989
+type(
+  int
+)
+ident(
+  int_ref v "src/ne_ocaml_401.ml" 13 11945 11967 "src/ne_ocaml_401.ml" 13 11945 11968
+)
+"src/ne_ocaml_401.ml" 14 11971 11975 "src/ne_ocaml_401.ml" 14 11971 11989
+type(
+  unit
+)
+"src/ne_ocaml_401.ml" 16 11991 11997 "src/ne_ocaml_401.ml" 16 11991 12006
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  def set_int32 "src/ne_ocaml_401.ml" 19 12037 12039 "src/common_401.cppo.ml" 81 12456 12459
+)
+"src/ne_ocaml_401.ml" 16 11991 12007 "src/ne_ocaml_401.ml" 16 11991 12008
+type(
+  Bytes.t
+)
+ident(
+  def s "src/ne_ocaml_401.ml" 16 11991 12009 "src/ne_ocaml_401.ml" 17 12017 12035
+)
+"src/ne_ocaml_401.ml" 16 11991 12009 "src/ne_ocaml_401.ml" 16 11991 12012
+type(
+  int
+)
+ident(
+  def off "src/ne_ocaml_401.ml" 16 11991 12013 "src/ne_ocaml_401.ml" 17 12017 12035
+)
+"src/ne_ocaml_401.ml" 16 11991 12013 "src/ne_ocaml_401.ml" 16 11991 12014
+type(
+  int32
+)
+ident(
+  def v "src/ne_ocaml_401.ml" 17 12017 12021 "src/ne_ocaml_401.ml" 17 12017 12035
+)
+"src/ne_ocaml_401.ml" 17 12017 12021 "src/ne_ocaml_401.ml" 17 12017 12027
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref set_32 "src/endianString.cppo.ml" 103 5311 5311 "src/endianString.cppo.ml" 103 5311 5383
+)
+"src/ne_ocaml_401.ml" 17 12017 12028 "src/ne_ocaml_401.ml" 17 12017 12029
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/ne_ocaml_401.ml" 16 11991 12007 "src/ne_ocaml_401.ml" 16 11991 12008
+)
+"src/ne_ocaml_401.ml" 17 12017 12030 "src/ne_ocaml_401.ml" 17 12017 12033
+type(
+  int
+)
+ident(
+  int_ref off "src/ne_ocaml_401.ml" 16 11991 12009 "src/ne_ocaml_401.ml" 16 11991 12012
+)
+"src/ne_ocaml_401.ml" 17 12017 12034 "src/ne_ocaml_401.ml" 17 12017 12035
+type(
+  int32
+)
+ident(
+  int_ref v "src/ne_ocaml_401.ml" 16 11991 12013 "src/ne_ocaml_401.ml" 16 11991 12014
+)
+"src/ne_ocaml_401.ml" 17 12017 12021 "src/ne_ocaml_401.ml" 17 12017 12035
+type(
+  unit
+)
+"src/ne_ocaml_401.ml" 19 12037 12043 "src/ne_ocaml_401.ml" 19 12037 12052
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  def set_int64 "src/common_float.ml" 2 12136 12136 "src/common_401.cppo.ml" 81 12456 12459
+)
+"src/ne_ocaml_401.ml" 19 12037 12053 "src/ne_ocaml_401.ml" 19 12037 12054
+type(
+  Bytes.t
+)
+ident(
+  def s "src/ne_ocaml_401.ml" 19 12037 12055 "src/ne_ocaml_401.ml" 20 12063 12081
+)
+"src/ne_ocaml_401.ml" 19 12037 12055 "src/ne_ocaml_401.ml" 19 12037 12058
+type(
+  int
+)
+ident(
+  def off "src/ne_ocaml_401.ml" 19 12037 12059 "src/ne_ocaml_401.ml" 20 12063 12081
+)
+"src/ne_ocaml_401.ml" 19 12037 12059 "src/ne_ocaml_401.ml" 19 12037 12060
+type(
+  int64
+)
+ident(
+  def v "src/ne_ocaml_401.ml" 20 12063 12067 "src/ne_ocaml_401.ml" 20 12063 12081
+)
+"src/ne_ocaml_401.ml" 20 12063 12067 "src/ne_ocaml_401.ml" 20 12063 12073
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref set_64 "src/endianString.cppo.ml" 104 5384 5384 "src/endianString.cppo.ml" 104 5384 5456
+)
+"src/ne_ocaml_401.ml" 20 12063 12074 "src/ne_ocaml_401.ml" 20 12063 12075
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/ne_ocaml_401.ml" 19 12037 12053 "src/ne_ocaml_401.ml" 19 12037 12054
+)
+"src/ne_ocaml_401.ml" 20 12063 12076 "src/ne_ocaml_401.ml" 20 12063 12079
+type(
+  int
+)
+ident(
+  int_ref off "src/ne_ocaml_401.ml" 19 12037 12055 "src/ne_ocaml_401.ml" 19 12037 12058
+)
+"src/ne_ocaml_401.ml" 20 12063 12080 "src/ne_ocaml_401.ml" 20 12063 12081
+type(
+  int64
+)
+ident(
+  int_ref v "src/ne_ocaml_401.ml" 19 12037 12059 "src/ne_ocaml_401.ml" 19 12037 12060
+)
+"src/ne_ocaml_401.ml" 20 12063 12067 "src/ne_ocaml_401.ml" 20 12063 12081
+type(
+  unit
+)
+"src/common_float.ml" 2 12136 12140 "src/common_float.ml" 2 12136 12149
+type(
+  string -> int -> float
+)
+ident(
+  def get_float "src/common_float.ml" 3 12198 12198 "src/common_401.cppo.ml" 81 12456 12459
+)
+"src/common_float.ml" 2 12136 12150 "src/common_float.ml" 2 12136 12154
+type(
+  string
+)
+ident(
+  def buff "src/common_float.ml" 2 12136 12155 "src/common_float.ml" 2 12136 12197
+)
+"src/common_float.ml" 2 12136 12155 "src/common_float.ml" 2 12136 12156
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 2 12136 12159 "src/common_float.ml" 2 12136 12197
+)
+"src/common_float.ml" 2 12136 12159 "src/common_float.ml" 2 12136 12178
+type(
+  int32 -> float
+)
+ident(
+  int_ref Int32.float_of_bits "int32.mli" 163 6610 6610 "int32.mli" 165 6716 6741
+)
+"src/common_float.ml" 2 12136 12180 "src/common_float.ml" 2 12136 12189
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref get_int32 "src/ne_ocaml_401.ml" 7 11861 11867 "src/ne_ocaml_401.ml" 7 11861 11876
+)
+"src/common_float.ml" 2 12136 12190 "src/common_float.ml" 2 12136 12194
+type(
+  string
+)
+ident(
+  int_ref buff "src/common_float.ml" 2 12136 12150 "src/common_float.ml" 2 12136 12154
+)
+"src/common_float.ml" 2 12136 12195 "src/common_float.ml" 2 12136 12196
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 2 12136 12155 "src/common_float.ml" 2 12136 12156
+)
+"src/common_float.ml" 2 12136 12179 "src/common_float.ml" 2 12136 12197
+call(
+  stack
+)
+type(
+  int32
+)
+"src/common_float.ml" 2 12136 12159 "src/common_float.ml" 2 12136 12197
+type(
+  float
+)
+"src/common_float.ml" 3 12198 12202 "src/common_float.ml" 3 12198 12212
+type(
+  string -> int -> float
+)
+ident(
+  def get_double "src/common_float.ml" 4 12261 12261 "src/common_401.cppo.ml" 81 12456 12459
+)
+"src/common_float.ml" 3 12198 12213 "src/common_float.ml" 3 12198 12217
+type(
+  string
+)
+ident(
+  def buff "src/common_float.ml" 3 12198 12218 "src/common_float.ml" 3 12198 12260
+)
+"src/common_float.ml" 3 12198 12218 "src/common_float.ml" 3 12198 12219
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 3 12198 12222 "src/common_float.ml" 3 12198 12260
+)
+"src/common_float.ml" 3 12198 12222 "src/common_float.ml" 3 12198 12241
+type(
+  int64 -> float
+)
+ident(
+  int_ref Int64.float_of_bits "int64.mli" 184 7509 7509 "int64.mli" 186 7615 7640
+)
+"src/common_float.ml" 3 12198 12243 "src/common_float.ml" 3 12198 12252
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref get_int64 "src/ne_ocaml_401.ml" 10 11903 11909 "src/ne_ocaml_401.ml" 10 11903 11918
+)
+"src/common_float.ml" 3 12198 12253 "src/common_float.ml" 3 12198 12257
+type(
+  string
+)
+ident(
+  int_ref buff "src/common_float.ml" 3 12198 12213 "src/common_float.ml" 3 12198 12217
+)
+"src/common_float.ml" 3 12198 12258 "src/common_float.ml" 3 12198 12259
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 3 12198 12218 "src/common_float.ml" 3 12198 12219
+)
+"src/common_float.ml" 3 12198 12242 "src/common_float.ml" 3 12198 12260
+call(
+  stack
+)
+type(
+  int64
+)
+"src/common_float.ml" 3 12198 12222 "src/common_float.ml" 3 12198 12260
+type(
+  float
+)
+"src/common_float.ml" 4 12261 12265 "src/common_float.ml" 4 12261 12274
+type(
+  Bytes.t -> int -> float -> unit
+)
+ident(
+  def set_float "src/common_float.ml" 5 12327 12327 "src/common_401.cppo.ml" 81 12456 12459
+)
+"src/common_float.ml" 4 12261 12275 "src/common_float.ml" 4 12261 12279
+type(
+  Bytes.t
+)
+ident(
+  def buff "src/common_float.ml" 4 12261 12280 "src/common_float.ml" 4 12261 12326
+)
+"src/common_float.ml" 4 12261 12280 "src/common_float.ml" 4 12261 12281
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 4 12261 12282 "src/common_float.ml" 4 12261 12326
+)
+"src/common_float.ml" 4 12261 12282 "src/common_float.ml" 4 12261 12283
+type(
+  float
+)
+ident(
+  def v "src/common_float.ml" 4 12261 12286 "src/common_float.ml" 4 12261 12326
+)
+"src/common_float.ml" 4 12261 12286 "src/common_float.ml" 4 12261 12295
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref set_int32 "src/ne_ocaml_401.ml" 16 11991 11997 "src/ne_ocaml_401.ml" 16 11991 12006
+)
+"src/common_float.ml" 4 12261 12296 "src/common_float.ml" 4 12261 12300
+type(
+  Bytes.t
+)
+ident(
+  int_ref buff "src/common_float.ml" 4 12261 12275 "src/common_float.ml" 4 12261 12279
+)
+"src/common_float.ml" 4 12261 12301 "src/common_float.ml" 4 12261 12302
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 4 12261 12280 "src/common_float.ml" 4 12261 12281
+)
+"src/common_float.ml" 4 12261 12304 "src/common_float.ml" 4 12261 12323
+type(
+  float -> int32
+)
+ident(
+  int_ref Int32.bits_of_float "int32.mli" 154 6196 6196 "int32.mli" 156 6302 6327
+)
+"src/common_float.ml" 4 12261 12324 "src/common_float.ml" 4 12261 12325
+type(
+  float
+)
+ident(
+  int_ref v "src/common_float.ml" 4 12261 12282 "src/common_float.ml" 4 12261 12283
+)
+"src/common_float.ml" 4 12261 12303 "src/common_float.ml" 4 12261 12326
+type(
+  int32
+)
+"src/common_float.ml" 4 12261 12286 "src/common_float.ml" 4 12261 12326
+call(
+  tail
+)
+type(
+  unit
+)
+"src/common_float.ml" 5 12327 12331 "src/common_float.ml" 5 12327 12341
+type(
+  Bytes.t -> int -> float -> unit
+)
+ident(
+  def set_double "src/common_float.ml" 5 12327 12393 "src/common_401.cppo.ml" 81 12456 12459
+)
+"src/common_float.ml" 5 12327 12342 "src/common_float.ml" 5 12327 12346
+type(
+  Bytes.t
+)
+ident(
+  def buff "src/common_float.ml" 5 12327 12347 "src/common_float.ml" 5 12327 12393
+)
+"src/common_float.ml" 5 12327 12347 "src/common_float.ml" 5 12327 12348
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 5 12327 12349 "src/common_float.ml" 5 12327 12393
+)
+"src/common_float.ml" 5 12327 12349 "src/common_float.ml" 5 12327 12350
+type(
+  float
+)
+ident(
+  def v "src/common_float.ml" 5 12327 12353 "src/common_float.ml" 5 12327 12393
+)
+"src/common_float.ml" 5 12327 12353 "src/common_float.ml" 5 12327 12362
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref set_int64 "src/ne_ocaml_401.ml" 19 12037 12043 "src/ne_ocaml_401.ml" 19 12037 12052
+)
+"src/common_float.ml" 5 12327 12363 "src/common_float.ml" 5 12327 12367
+type(
+  Bytes.t
+)
+ident(
+  int_ref buff "src/common_float.ml" 5 12327 12342 "src/common_float.ml" 5 12327 12346
+)
+"src/common_float.ml" 5 12327 12368 "src/common_float.ml" 5 12327 12369
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 5 12327 12347 "src/common_float.ml" 5 12327 12348
+)
+"src/common_float.ml" 5 12327 12371 "src/common_float.ml" 5 12327 12390
+type(
+  float -> int64
+)
+ident(
+  int_ref Int64.bits_of_float "int64.mli" 175 7095 7095 "int64.mli" 177 7201 7226
+)
+"src/common_float.ml" 5 12327 12391 "src/common_float.ml" 5 12327 12392
+type(
+  float
+)
+ident(
+  int_ref v "src/common_float.ml" 5 12327 12349 "src/common_float.ml" 5 12327 12350
+)
+"src/common_float.ml" 5 12327 12370 "src/common_float.ml" 5 12327 12393
+type(
+  int64
+)
+"src/common_float.ml" 5 12327 12353 "src/common_float.ml" 5 12327 12393
+call(
+  tail
+)
+type(
+  unit
+)
+"src/common_401.cppo.ml" 85 12498 12504 "src/common_401.cppo.ml" 85 12498 12512
+type(
+  string -> int -> char
+)
+ident(
+  def get_char "src/common_401.cppo.ml" 86 12531 12533 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/common_401.cppo.ml" 85 12498 12515 "src/common_401.cppo.ml" 85 12498 12530
+type(
+  string -> int -> char
+)
+ident(
+  int_ref unsafe_get_char "src/endianString.cppo.ml" 81 3597 3601 "src/endianString.cppo.ml" 81 3597 3616
+)
+"src/common_401.cppo.ml" 86 12531 12537 "src/common_401.cppo.ml" 86 12531 12546
+type(
+  string -> int -> int
+)
+ident(
+  def get_uint8 "src/common_401.cppo.ml" 87 12566 12568 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/common_401.cppo.ml" 86 12531 12549 "src/common_401.cppo.ml" 86 12531 12565
+type(
+  string -> int -> int
+)
+ident(
+  int_ref unsafe_get_uint8 "src/common.ml" 17 4310 4314 "src/common.ml" 17 4310 4330
+)
+"src/common_401.cppo.ml" 87 12566 12572 "src/common_401.cppo.ml" 87 12566 12580
+type(
+  string -> int -> int
+)
+ident(
+  def get_int8 "src/common_401.cppo.ml" 88 12599 12601 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/common_401.cppo.ml" 87 12566 12583 "src/common_401.cppo.ml" 87 12566 12598
+type(
+  string -> int -> int
+)
+ident(
+  int_ref unsafe_get_int8 "src/common.ml" 19 4375 4379 "src/common.ml" 19 4375 4394
+)
+"src/common_401.cppo.ml" 88 12599 12605 "src/common_401.cppo.ml" 88 12599 12613
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  def set_char "src/common_401.cppo.ml" 89 12632 12634 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/common_401.cppo.ml" 88 12599 12616 "src/common_401.cppo.ml" 88 12599 12631
+type(
+  Bytes.t -> int -> char -> unit
+)
+ident(
+  int_ref unsafe_set_char "src/endianString.cppo.ml" 83 3660 3664 "src/endianString.cppo.ml" 83 3660 3679
+)
+"src/common_401.cppo.ml" 89 12632 12638 "src/common_401.cppo.ml" 89 12632 12646
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  def set_int8 "src/common_401.cppo.ml" 90 12665 12667 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/common_401.cppo.ml" 89 12632 12649 "src/common_401.cppo.ml" 89 12632 12664
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref unsafe_set_int8 "src/common.ml" 21 4484 4488 "src/common.ml" 21 4484 4503
+)
+"src/common_401.cppo.ml" 90 12665 12671 "src/common_401.cppo.ml" 90 12665 12677
+type(
+  string -> int -> int
+)
+ident(
+  def get_16 "src/common_401.cppo.ml" 91 12694 12696 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/common_401.cppo.ml" 90 12665 12680 "src/common_401.cppo.ml" 90 12665 12693
+type(
+  string -> int -> int
+)
+ident(
+  int_ref unsafe_get_16 "src/endianString.cppo.ml" 90 4592 4592 "src/endianString.cppo.ml" 90 4592 4661
+)
+"src/common_401.cppo.ml" 91 12694 12700 "src/common_401.cppo.ml" 91 12694 12706
+type(
+  string -> int -> int32
+)
+ident(
+  def get_32 "src/common_401.cppo.ml" 92 12723 12725 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/common_401.cppo.ml" 91 12694 12709 "src/common_401.cppo.ml" 91 12694 12722
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref unsafe_get_32 "src/endianString.cppo.ml" 91 4662 4662 "src/endianString.cppo.ml" 91 4662 4733
+)
+"src/common_401.cppo.ml" 92 12723 12729 "src/common_401.cppo.ml" 92 12723 12735
+type(
+  string -> int -> int64
+)
+ident(
+  def get_64 "src/common_401.cppo.ml" 93 12752 12754 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/common_401.cppo.ml" 92 12723 12738 "src/common_401.cppo.ml" 92 12723 12751
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref unsafe_get_64 "src/endianString.cppo.ml" 92 4734 4734 "src/endianString.cppo.ml" 92 4734 4805
+)
+"src/common_401.cppo.ml" 93 12752 12758 "src/common_401.cppo.ml" 93 12752 12764
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  def set_16 "src/common_401.cppo.ml" 94 12781 12783 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/common_401.cppo.ml" 93 12752 12767 "src/common_401.cppo.ml" 93 12752 12780
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref unsafe_set_16 "src/endianString.cppo.ml" 94 4807 4807 "src/endianString.cppo.ml" 94 4807 4885
+)
+"src/common_401.cppo.ml" 94 12781 12787 "src/common_401.cppo.ml" 94 12781 12793
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  def set_32 "src/common_401.cppo.ml" 95 12810 12812 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/common_401.cppo.ml" 94 12781 12796 "src/common_401.cppo.ml" 94 12781 12809
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref unsafe_set_32 "src/endianString.cppo.ml" 95 4886 4886 "src/endianString.cppo.ml" 95 4886 4966
+)
+"src/common_401.cppo.ml" 95 12810 12816 "src/common_401.cppo.ml" 95 12810 12822
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  def set_64 "src/ne_ocaml_401.ml" 1 12899 12901 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/common_401.cppo.ml" 95 12810 12825 "src/common_401.cppo.ml" 95 12810 12838
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref unsafe_set_64 "src/endianString.cppo.ml" 96 4967 4967 "src/endianString.cppo.ml" 96 4967 5047
+)
+"src/ne_ocaml_401.ml" 1 12899 12905 "src/ne_ocaml_401.ml" 1 12899 12915
+type(
+  string -> int -> int
+)
+ident(
+  def get_uint16 "src/ne_ocaml_401.ml" 4 12942 12944 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/ne_ocaml_401.ml" 1 12899 12916 "src/ne_ocaml_401.ml" 1 12899 12917
+type(
+  string
+)
+ident(
+  def s "src/ne_ocaml_401.ml" 1 12899 12918 "src/ne_ocaml_401.ml" 2 12924 12940
+)
+"src/ne_ocaml_401.ml" 1 12899 12918 "src/ne_ocaml_401.ml" 1 12899 12921
+type(
+  int
+)
+ident(
+  def off "src/ne_ocaml_401.ml" 2 12924 12928 "src/ne_ocaml_401.ml" 2 12924 12940
+)
+"src/ne_ocaml_401.ml" 2 12924 12928 "src/ne_ocaml_401.ml" 2 12924 12934
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_16 "src/common_401.cppo.ml" 90 12665 12671 "src/common_401.cppo.ml" 90 12665 12677
+)
+"src/ne_ocaml_401.ml" 2 12924 12935 "src/ne_ocaml_401.ml" 2 12924 12936
+type(
+  string
+)
+ident(
+  int_ref s "src/ne_ocaml_401.ml" 1 12899 12916 "src/ne_ocaml_401.ml" 1 12899 12917
+)
+"src/ne_ocaml_401.ml" 2 12924 12937 "src/ne_ocaml_401.ml" 2 12924 12940
+type(
+  int
+)
+ident(
+  int_ref off "src/ne_ocaml_401.ml" 1 12899 12918 "src/ne_ocaml_401.ml" 1 12899 12921
+)
+"src/ne_ocaml_401.ml" 2 12924 12928 "src/ne_ocaml_401.ml" 2 12924 12940
+call(
+  tail
+)
+type(
+  int
+)
+"src/ne_ocaml_401.ml" 4 12942 12948 "src/ne_ocaml_401.ml" 4 12942 12957
+type(
+  string -> int -> int
+)
+ident(
+  def get_int16 "src/ne_ocaml_401.ml" 7 13045 13047 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/ne_ocaml_401.ml" 4 12942 12958 "src/ne_ocaml_401.ml" 4 12942 12959
+type(
+  string
+)
+ident(
+  def s "src/ne_ocaml_401.ml" 4 12942 12960 "src/ne_ocaml_401.ml" 5 12966 13043
+)
+"src/ne_ocaml_401.ml" 4 12942 12960 "src/ne_ocaml_401.ml" 4 12942 12963
+type(
+  int
+)
+ident(
+  def off "src/ne_ocaml_401.ml" 5 12966 12969 "src/ne_ocaml_401.ml" 5 12966 13043
+)
+"src/ne_ocaml_401.ml" 5 12966 12971 "src/ne_ocaml_401.ml" 5 12966 12981
+type(
+  string -> int -> int
+)
+ident(
+  int_ref get_uint16 "src/ne_ocaml_401.ml" 1 12899 12905 "src/ne_ocaml_401.ml" 1 12899 12915
+)
+"src/ne_ocaml_401.ml" 5 12966 12982 "src/ne_ocaml_401.ml" 5 12966 12983
+type(
+  string
+)
+ident(
+  int_ref s "src/ne_ocaml_401.ml" 4 12942 12958 "src/ne_ocaml_401.ml" 4 12942 12959
+)
+"src/ne_ocaml_401.ml" 5 12966 12984 "src/ne_ocaml_401.ml" 5 12966 12987
+type(
+  int
+)
+ident(
+  int_ref off "src/ne_ocaml_401.ml" 4 12942 12960 "src/ne_ocaml_401.ml" 4 12942 12963
+)
+"src/ne_ocaml_401.ml" 5 12966 12970 "src/ne_ocaml_401.ml" 5 12966 12988
+call(
+  stack
+)
+type(
+  int
+)
+"src/ne_ocaml_401.ml" 5 12966 12989 "src/ne_ocaml_401.ml" 5 12966 12992
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( lsl ) "pervasives.mli" 320 12299 12299 "pervasives.mli" 320 12299 12347
+)
+"src/ne_ocaml_401.ml" 5 12966 12995 "src/ne_ocaml_401.ml" 5 12966 13008
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/ne_ocaml_401.ml" 5 12966 13009 "src/ne_ocaml_401.ml" 5 12966 13010
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/ne_ocaml_401.ml" 5 12966 13011 "src/ne_ocaml_401.ml" 5 12966 13013
+type(
+  int
+)
+"src/ne_ocaml_401.ml" 5 12966 12993 "src/ne_ocaml_401.ml" 5 12966 13015
+type(
+  int
+)
+"src/ne_ocaml_401.ml" 5 12966 12969 "src/ne_ocaml_401.ml" 5 12966 13016
+type(
+  int
+)
+"src/ne_ocaml_401.ml" 5 12966 13017 "src/ne_ocaml_401.ml" 5 12966 13020
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( asr ) "pervasives.mli" 334 12900 12900 "pervasives.mli" 334 12900 12948
+)
+"src/ne_ocaml_401.ml" 5 12966 13023 "src/ne_ocaml_401.ml" 5 12966 13036
+type(
+  int
+)
+ident(
+  int_ref Sys.word_size "sys.mli" 127 5113 5113 "sys.mli" 127 5113 5132
+)
+"src/ne_ocaml_401.ml" 5 12966 13037 "src/ne_ocaml_401.ml" 5 12966 13038
+type(
+  int -> int -> int
+)
+ident(
+  int_ref Pervasives.( - ) "pervasives.mli" 265 10396 10396 "pervasives.mli" 265 10396 10442
+)
+"src/ne_ocaml_401.ml" 5 12966 13039 "src/ne_ocaml_401.ml" 5 12966 13041
+type(
+  int
+)
+"src/ne_ocaml_401.ml" 5 12966 13021 "src/ne_ocaml_401.ml" 5 12966 13043
+type(
+  int
+)
+"src/ne_ocaml_401.ml" 5 12966 12969 "src/ne_ocaml_401.ml" 5 12966 13043
+type(
+  int
+)
+"src/ne_ocaml_401.ml" 7 13045 13051 "src/ne_ocaml_401.ml" 7 13045 13060
+type(
+  string -> int -> int32
+)
+ident(
+  def get_int32 "src/ne_ocaml_401.ml" 10 13087 13089 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/ne_ocaml_401.ml" 7 13045 13061 "src/ne_ocaml_401.ml" 7 13045 13062
+type(
+  string
+)
+ident(
+  def s "src/ne_ocaml_401.ml" 7 13045 13063 "src/ne_ocaml_401.ml" 8 13069 13085
+)
+"src/ne_ocaml_401.ml" 7 13045 13063 "src/ne_ocaml_401.ml" 7 13045 13066
+type(
+  int
+)
+ident(
+  def off "src/ne_ocaml_401.ml" 8 13069 13073 "src/ne_ocaml_401.ml" 8 13069 13085
+)
+"src/ne_ocaml_401.ml" 8 13069 13073 "src/ne_ocaml_401.ml" 8 13069 13079
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref get_32 "src/common_401.cppo.ml" 91 12694 12700 "src/common_401.cppo.ml" 91 12694 12706
+)
+"src/ne_ocaml_401.ml" 8 13069 13080 "src/ne_ocaml_401.ml" 8 13069 13081
+type(
+  string
+)
+ident(
+  int_ref s "src/ne_ocaml_401.ml" 7 13045 13061 "src/ne_ocaml_401.ml" 7 13045 13062
+)
+"src/ne_ocaml_401.ml" 8 13069 13082 "src/ne_ocaml_401.ml" 8 13069 13085
+type(
+  int
+)
+ident(
+  int_ref off "src/ne_ocaml_401.ml" 7 13045 13063 "src/ne_ocaml_401.ml" 7 13045 13066
+)
+"src/ne_ocaml_401.ml" 8 13069 13073 "src/ne_ocaml_401.ml" 8 13069 13085
+call(
+  tail
+)
+type(
+  int32
+)
+"src/ne_ocaml_401.ml" 10 13087 13093 "src/ne_ocaml_401.ml" 10 13087 13102
+type(
+  string -> int -> int64
+)
+ident(
+  def get_int64 "src/ne_ocaml_401.ml" 13 13129 13131 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/ne_ocaml_401.ml" 10 13087 13103 "src/ne_ocaml_401.ml" 10 13087 13104
+type(
+  string
+)
+ident(
+  def s "src/ne_ocaml_401.ml" 10 13087 13105 "src/ne_ocaml_401.ml" 11 13111 13127
+)
+"src/ne_ocaml_401.ml" 10 13087 13105 "src/ne_ocaml_401.ml" 10 13087 13108
+type(
+  int
+)
+ident(
+  def off "src/ne_ocaml_401.ml" 11 13111 13115 "src/ne_ocaml_401.ml" 11 13111 13127
+)
+"src/ne_ocaml_401.ml" 11 13111 13115 "src/ne_ocaml_401.ml" 11 13111 13121
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref get_64 "src/common_401.cppo.ml" 92 12723 12729 "src/common_401.cppo.ml" 92 12723 12735
+)
+"src/ne_ocaml_401.ml" 11 13111 13122 "src/ne_ocaml_401.ml" 11 13111 13123
+type(
+  string
+)
+ident(
+  int_ref s "src/ne_ocaml_401.ml" 10 13087 13103 "src/ne_ocaml_401.ml" 10 13087 13104
+)
+"src/ne_ocaml_401.ml" 11 13111 13124 "src/ne_ocaml_401.ml" 11 13111 13127
+type(
+  int
+)
+ident(
+  int_ref off "src/ne_ocaml_401.ml" 10 13087 13105 "src/ne_ocaml_401.ml" 10 13087 13108
+)
+"src/ne_ocaml_401.ml" 11 13111 13115 "src/ne_ocaml_401.ml" 11 13111 13127
+call(
+  tail
+)
+type(
+  int64
+)
+"src/ne_ocaml_401.ml" 13 13129 13135 "src/ne_ocaml_401.ml" 13 13129 13144
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  def set_int16 "src/ne_ocaml_401.ml" 16 13175 13177 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/ne_ocaml_401.ml" 13 13129 13145 "src/ne_ocaml_401.ml" 13 13129 13146
+type(
+  Bytes.t
+)
+ident(
+  def s "src/ne_ocaml_401.ml" 13 13129 13147 "src/ne_ocaml_401.ml" 14 13155 13173
+)
+"src/ne_ocaml_401.ml" 13 13129 13147 "src/ne_ocaml_401.ml" 13 13129 13150
+type(
+  int
+)
+ident(
+  def off "src/ne_ocaml_401.ml" 13 13129 13151 "src/ne_ocaml_401.ml" 14 13155 13173
+)
+"src/ne_ocaml_401.ml" 13 13129 13151 "src/ne_ocaml_401.ml" 13 13129 13152
+type(
+  int
+)
+ident(
+  def v "src/ne_ocaml_401.ml" 14 13155 13159 "src/ne_ocaml_401.ml" 14 13155 13173
+)
+"src/ne_ocaml_401.ml" 14 13155 13159 "src/ne_ocaml_401.ml" 14 13155 13165
+type(
+  Bytes.t -> int -> int -> unit
+)
+ident(
+  int_ref set_16 "src/common_401.cppo.ml" 93 12752 12758 "src/common_401.cppo.ml" 93 12752 12764
+)
+"src/ne_ocaml_401.ml" 14 13155 13166 "src/ne_ocaml_401.ml" 14 13155 13167
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/ne_ocaml_401.ml" 13 13129 13145 "src/ne_ocaml_401.ml" 13 13129 13146
+)
+"src/ne_ocaml_401.ml" 14 13155 13168 "src/ne_ocaml_401.ml" 14 13155 13171
+type(
+  int
+)
+ident(
+  int_ref off "src/ne_ocaml_401.ml" 13 13129 13147 "src/ne_ocaml_401.ml" 13 13129 13150
+)
+"src/ne_ocaml_401.ml" 14 13155 13172 "src/ne_ocaml_401.ml" 14 13155 13173
+type(
+  int
+)
+ident(
+  int_ref v "src/ne_ocaml_401.ml" 13 13129 13151 "src/ne_ocaml_401.ml" 13 13129 13152
+)
+"src/ne_ocaml_401.ml" 14 13155 13159 "src/ne_ocaml_401.ml" 14 13155 13173
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ne_ocaml_401.ml" 16 13175 13181 "src/ne_ocaml_401.ml" 16 13175 13190
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  def set_int32 "src/ne_ocaml_401.ml" 19 13221 13223 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/ne_ocaml_401.ml" 16 13175 13191 "src/ne_ocaml_401.ml" 16 13175 13192
+type(
+  Bytes.t
+)
+ident(
+  def s "src/ne_ocaml_401.ml" 16 13175 13193 "src/ne_ocaml_401.ml" 17 13201 13219
+)
+"src/ne_ocaml_401.ml" 16 13175 13193 "src/ne_ocaml_401.ml" 16 13175 13196
+type(
+  int
+)
+ident(
+  def off "src/ne_ocaml_401.ml" 16 13175 13197 "src/ne_ocaml_401.ml" 17 13201 13219
+)
+"src/ne_ocaml_401.ml" 16 13175 13197 "src/ne_ocaml_401.ml" 16 13175 13198
+type(
+  int32
+)
+ident(
+  def v "src/ne_ocaml_401.ml" 17 13201 13205 "src/ne_ocaml_401.ml" 17 13201 13219
+)
+"src/ne_ocaml_401.ml" 17 13201 13205 "src/ne_ocaml_401.ml" 17 13201 13211
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref set_32 "src/common_401.cppo.ml" 94 12781 12787 "src/common_401.cppo.ml" 94 12781 12793
+)
+"src/ne_ocaml_401.ml" 17 13201 13212 "src/ne_ocaml_401.ml" 17 13201 13213
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/ne_ocaml_401.ml" 16 13175 13191 "src/ne_ocaml_401.ml" 16 13175 13192
+)
+"src/ne_ocaml_401.ml" 17 13201 13214 "src/ne_ocaml_401.ml" 17 13201 13217
+type(
+  int
+)
+ident(
+  int_ref off "src/ne_ocaml_401.ml" 16 13175 13193 "src/ne_ocaml_401.ml" 16 13175 13196
+)
+"src/ne_ocaml_401.ml" 17 13201 13218 "src/ne_ocaml_401.ml" 17 13201 13219
+type(
+  int32
+)
+ident(
+  int_ref v "src/ne_ocaml_401.ml" 16 13175 13197 "src/ne_ocaml_401.ml" 16 13175 13198
+)
+"src/ne_ocaml_401.ml" 17 13201 13205 "src/ne_ocaml_401.ml" 17 13201 13219
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ne_ocaml_401.ml" 19 13221 13227 "src/ne_ocaml_401.ml" 19 13221 13236
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  def set_int64 "src/common_float.ml" 2 13320 13320 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/ne_ocaml_401.ml" 19 13221 13237 "src/ne_ocaml_401.ml" 19 13221 13238
+type(
+  Bytes.t
+)
+ident(
+  def s "src/ne_ocaml_401.ml" 19 13221 13239 "src/ne_ocaml_401.ml" 20 13247 13265
+)
+"src/ne_ocaml_401.ml" 19 13221 13239 "src/ne_ocaml_401.ml" 19 13221 13242
+type(
+  int
+)
+ident(
+  def off "src/ne_ocaml_401.ml" 19 13221 13243 "src/ne_ocaml_401.ml" 20 13247 13265
+)
+"src/ne_ocaml_401.ml" 19 13221 13243 "src/ne_ocaml_401.ml" 19 13221 13244
+type(
+  int64
+)
+ident(
+  def v "src/ne_ocaml_401.ml" 20 13247 13251 "src/ne_ocaml_401.ml" 20 13247 13265
+)
+"src/ne_ocaml_401.ml" 20 13247 13251 "src/ne_ocaml_401.ml" 20 13247 13257
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref set_64 "src/common_401.cppo.ml" 95 12810 12816 "src/common_401.cppo.ml" 95 12810 12822
+)
+"src/ne_ocaml_401.ml" 20 13247 13258 "src/ne_ocaml_401.ml" 20 13247 13259
+type(
+  Bytes.t
+)
+ident(
+  int_ref s "src/ne_ocaml_401.ml" 19 13221 13237 "src/ne_ocaml_401.ml" 19 13221 13238
+)
+"src/ne_ocaml_401.ml" 20 13247 13260 "src/ne_ocaml_401.ml" 20 13247 13263
+type(
+  int
+)
+ident(
+  int_ref off "src/ne_ocaml_401.ml" 19 13221 13239 "src/ne_ocaml_401.ml" 19 13221 13242
+)
+"src/ne_ocaml_401.ml" 20 13247 13264 "src/ne_ocaml_401.ml" 20 13247 13265
+type(
+  int64
+)
+ident(
+  int_ref v "src/ne_ocaml_401.ml" 19 13221 13243 "src/ne_ocaml_401.ml" 19 13221 13244
+)
+"src/ne_ocaml_401.ml" 20 13247 13251 "src/ne_ocaml_401.ml" 20 13247 13265
+call(
+  tail
+)
+type(
+  unit
+)
+"src/common_float.ml" 2 13320 13324 "src/common_float.ml" 2 13320 13333
+type(
+  string -> int -> float
+)
+ident(
+  def get_float "src/common_float.ml" 3 13382 13382 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/common_float.ml" 2 13320 13334 "src/common_float.ml" 2 13320 13338
+type(
+  string
+)
+ident(
+  def buff "src/common_float.ml" 2 13320 13339 "src/common_float.ml" 2 13320 13381
+)
+"src/common_float.ml" 2 13320 13339 "src/common_float.ml" 2 13320 13340
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 2 13320 13343 "src/common_float.ml" 2 13320 13381
+)
+"src/common_float.ml" 2 13320 13343 "src/common_float.ml" 2 13320 13362
+type(
+  int32 -> float
+)
+ident(
+  int_ref Int32.float_of_bits "int32.mli" 163 6610 6610 "int32.mli" 165 6716 6741
+)
+"src/common_float.ml" 2 13320 13364 "src/common_float.ml" 2 13320 13373
+type(
+  string -> int -> int32
+)
+ident(
+  int_ref get_int32 "src/ne_ocaml_401.ml" 7 13045 13051 "src/ne_ocaml_401.ml" 7 13045 13060
+)
+"src/common_float.ml" 2 13320 13374 "src/common_float.ml" 2 13320 13378
+type(
+  string
+)
+ident(
+  int_ref buff "src/common_float.ml" 2 13320 13334 "src/common_float.ml" 2 13320 13338
+)
+"src/common_float.ml" 2 13320 13379 "src/common_float.ml" 2 13320 13380
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 2 13320 13339 "src/common_float.ml" 2 13320 13340
+)
+"src/common_float.ml" 2 13320 13363 "src/common_float.ml" 2 13320 13381
+call(
+  stack
+)
+type(
+  int32
+)
+"src/common_float.ml" 2 13320 13343 "src/common_float.ml" 2 13320 13381
+type(
+  float
+)
+"src/common_float.ml" 3 13382 13386 "src/common_float.ml" 3 13382 13396
+type(
+  string -> int -> float
+)
+ident(
+  def get_double "src/common_float.ml" 4 13445 13445 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/common_float.ml" 3 13382 13397 "src/common_float.ml" 3 13382 13401
+type(
+  string
+)
+ident(
+  def buff "src/common_float.ml" 3 13382 13402 "src/common_float.ml" 3 13382 13444
+)
+"src/common_float.ml" 3 13382 13402 "src/common_float.ml" 3 13382 13403
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 3 13382 13406 "src/common_float.ml" 3 13382 13444
+)
+"src/common_float.ml" 3 13382 13406 "src/common_float.ml" 3 13382 13425
+type(
+  int64 -> float
+)
+ident(
+  int_ref Int64.float_of_bits "int64.mli" 184 7509 7509 "int64.mli" 186 7615 7640
+)
+"src/common_float.ml" 3 13382 13427 "src/common_float.ml" 3 13382 13436
+type(
+  string -> int -> int64
+)
+ident(
+  int_ref get_int64 "src/ne_ocaml_401.ml" 10 13087 13093 "src/ne_ocaml_401.ml" 10 13087 13102
+)
+"src/common_float.ml" 3 13382 13437 "src/common_float.ml" 3 13382 13441
+type(
+  string
+)
+ident(
+  int_ref buff "src/common_float.ml" 3 13382 13397 "src/common_float.ml" 3 13382 13401
+)
+"src/common_float.ml" 3 13382 13442 "src/common_float.ml" 3 13382 13443
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 3 13382 13402 "src/common_float.ml" 3 13382 13403
+)
+"src/common_float.ml" 3 13382 13426 "src/common_float.ml" 3 13382 13444
+call(
+  stack
+)
+type(
+  int64
+)
+"src/common_float.ml" 3 13382 13406 "src/common_float.ml" 3 13382 13444
+type(
+  float
+)
+"src/common_float.ml" 4 13445 13449 "src/common_float.ml" 4 13445 13458
+type(
+  Bytes.t -> int -> float -> unit
+)
+ident(
+  def set_float "src/common_float.ml" 5 13511 13511 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/common_float.ml" 4 13445 13459 "src/common_float.ml" 4 13445 13463
+type(
+  Bytes.t
+)
+ident(
+  def buff "src/common_float.ml" 4 13445 13464 "src/common_float.ml" 4 13445 13510
+)
+"src/common_float.ml" 4 13445 13464 "src/common_float.ml" 4 13445 13465
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 4 13445 13466 "src/common_float.ml" 4 13445 13510
+)
+"src/common_float.ml" 4 13445 13466 "src/common_float.ml" 4 13445 13467
+type(
+  float
+)
+ident(
+  def v "src/common_float.ml" 4 13445 13470 "src/common_float.ml" 4 13445 13510
+)
+"src/common_float.ml" 4 13445 13470 "src/common_float.ml" 4 13445 13479
+type(
+  Bytes.t -> int -> int32 -> unit
+)
+ident(
+  int_ref set_int32 "src/ne_ocaml_401.ml" 16 13175 13181 "src/ne_ocaml_401.ml" 16 13175 13190
+)
+"src/common_float.ml" 4 13445 13480 "src/common_float.ml" 4 13445 13484
+type(
+  Bytes.t
+)
+ident(
+  int_ref buff "src/common_float.ml" 4 13445 13459 "src/common_float.ml" 4 13445 13463
+)
+"src/common_float.ml" 4 13445 13485 "src/common_float.ml" 4 13445 13486
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 4 13445 13464 "src/common_float.ml" 4 13445 13465
+)
+"src/common_float.ml" 4 13445 13488 "src/common_float.ml" 4 13445 13507
+type(
+  float -> int32
+)
+ident(
+  int_ref Int32.bits_of_float "int32.mli" 154 6196 6196 "int32.mli" 156 6302 6327
+)
+"src/common_float.ml" 4 13445 13508 "src/common_float.ml" 4 13445 13509
+type(
+  float
+)
+ident(
+  int_ref v "src/common_float.ml" 4 13445 13466 "src/common_float.ml" 4 13445 13467
+)
+"src/common_float.ml" 4 13445 13487 "src/common_float.ml" 4 13445 13510
+type(
+  int32
+)
+"src/common_float.ml" 4 13445 13470 "src/common_float.ml" 4 13445 13510
+call(
+  tail
+)
+type(
+  unit
+)
+"src/common_float.ml" 5 13511 13515 "src/common_float.ml" 5 13511 13525
+type(
+  Bytes.t -> int -> float -> unit
+)
+ident(
+  def set_double "src/common_float.ml" 5 13511 13577 "src/common_401.cppo.ml" 100 13642 13645
+)
+"src/common_float.ml" 5 13511 13526 "src/common_float.ml" 5 13511 13530
+type(
+  Bytes.t
+)
+ident(
+  def buff "src/common_float.ml" 5 13511 13531 "src/common_float.ml" 5 13511 13577
+)
+"src/common_float.ml" 5 13511 13531 "src/common_float.ml" 5 13511 13532
+type(
+  int
+)
+ident(
+  def i "src/common_float.ml" 5 13511 13533 "src/common_float.ml" 5 13511 13577
+)
+"src/common_float.ml" 5 13511 13533 "src/common_float.ml" 5 13511 13534
+type(
+  float
+)
+ident(
+  def v "src/common_float.ml" 5 13511 13537 "src/common_float.ml" 5 13511 13577
+)
+"src/common_float.ml" 5 13511 13537 "src/common_float.ml" 5 13511 13546
+type(
+  Bytes.t -> int -> int64 -> unit
+)
+ident(
+  int_ref set_int64 "src/ne_ocaml_401.ml" 19 13221 13227 "src/ne_ocaml_401.ml" 19 13221 13236
+)
+"src/common_float.ml" 5 13511 13547 "src/common_float.ml" 5 13511 13551
+type(
+  Bytes.t
+)
+ident(
+  int_ref buff "src/common_float.ml" 5 13511 13526 "src/common_float.ml" 5 13511 13530
+)
+"src/common_float.ml" 5 13511 13552 "src/common_float.ml" 5 13511 13553
+type(
+  int
+)
+ident(
+  int_ref i "src/common_float.ml" 5 13511 13531 "src/common_float.ml" 5 13511 13532
+)
+"src/common_float.ml" 5 13511 13555 "src/common_float.ml" 5 13511 13574
+type(
+  float -> int64
+)
+ident(
+  int_ref Int64.bits_of_float "int64.mli" 175 7095 7095 "int64.mli" 177 7201 7226
+)
+"src/common_float.ml" 5 13511 13575 "src/common_float.ml" 5 13511 13576
+type(
+  float
+)
+ident(
+  int_ref v "src/common_float.ml" 5 13511 13533 "src/common_float.ml" 5 13511 13534
+)
+"src/common_float.ml" 5 13511 13554 "src/common_float.ml" 5 13511 13577
+type(
+  int64
+)
+"src/common_float.ml" 5 13511 13537 "src/common_float.ml" 5 13511 13577
+call(
+  tail
+)
+type(
+  unit
+)

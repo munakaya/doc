@@ -1,0 +1,31 @@
+lib: [
+  "_build/install/default/lib/ppx_fields_conv/META" {"META"}
+  "_build/install/default/lib/ppx_fields_conv/opam" {"opam"}
+  "_build/install/default/lib/ppx_fields_conv/ppx_fields_conv.cmi"
+    {"ppx_fields_conv.cmi"}
+  "_build/install/default/lib/ppx_fields_conv/ppx_fields_conv.cmx"
+    {"ppx_fields_conv.cmx"}
+  "_build/install/default/lib/ppx_fields_conv/ppx_fields_conv.cmt"
+    {"ppx_fields_conv.cmt"}
+  "_build/install/default/lib/ppx_fields_conv/ppx_fields_conv.cmti"
+    {"ppx_fields_conv.cmti"}
+  "_build/install/default/lib/ppx_fields_conv/ppx_fields_conv.mli"
+    {"ppx_fields_conv.mli"}
+  "_build/install/default/lib/ppx_fields_conv/ppx_fields_conv.ml"
+    {"ppx_fields_conv.ml"}
+  "_build/install/default/lib/ppx_fields_conv/ppx_fields_conv.cma"
+    {"ppx_fields_conv.cma"}
+  "_build/install/default/lib/ppx_fields_conv/ppx_fields_conv.cmxa"
+    {"ppx_fields_conv.cmxa"}
+  "_build/install/default/lib/ppx_fields_conv/ppx_fields_conv.a"
+    {"ppx_fields_conv.a"}
+  "_build/install/default/lib/ppx_fields_conv/ppx_fields_conv.cmxs"
+    {"ppx_fields_conv.cmxs"}
+  "_build/install/default/lib/ppx_fields_conv/ppx_fields_conv.dune"
+    {"ppx_fields_conv.dune"}
+]
+doc: [
+  "_build/install/default/doc/ppx_fields_conv/README.md"
+  "_build/install/default/doc/ppx_fields_conv/LICENSE.txt"
+  "_build/install/default/doc/ppx_fields_conv/CHANGES.md"
+]

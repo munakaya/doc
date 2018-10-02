@@ -1,0 +1,28 @@
+lib: [
+  "_build/install/default/lib/easy-format/META" {"META"}
+  "_build/install/default/lib/easy-format/opam" {"opam"}
+  "_build/install/default/lib/easy-format/easy_format.cmi"
+    {"easy_format.cmi"}
+  "_build/install/default/lib/easy-format/easy_format.cmx"
+    {"easy_format.cmx"}
+  "_build/install/default/lib/easy-format/easy_format.cmt"
+    {"easy_format.cmt"}
+  "_build/install/default/lib/easy-format/easy_format.cmti"
+    {"easy_format.cmti"}
+  "_build/install/default/lib/easy-format/easy_format.mli"
+    {"easy_format.mli"}
+  "_build/install/default/lib/easy-format/easy_format.ml" {"easy_format.ml"}
+  "_build/install/default/lib/easy-format/easy_format.cma"
+    {"easy_format.cma"}
+  "_build/install/default/lib/easy-format/easy_format.cmxa"
+    {"easy_format.cmxa"}
+  "_build/install/default/lib/easy-format/easy_format.a" {"easy_format.a"}
+  "_build/install/default/lib/easy-format/easy_format.cmxs"
+    {"easy_format.cmxs"}
+  "_build/install/default/lib/easy-format/easy-format.dune"
+    {"easy-format.dune"}
+]
+doc: [
+  "_build/install/default/doc/easy-format/README.md"
+  "_build/install/default/doc/easy-format/LICENSE"
+]

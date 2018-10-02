@@ -1,0 +1,20 @@
+lib: [
+  "_build/install/default/lib/hex/META" {"META"}
+  "_build/install/default/lib/hex/opam" {"opam"}
+  "_build/install/default/lib/hex/hex.cmi" {"hex.cmi"}
+  "_build/install/default/lib/hex/hex.cmx" {"hex.cmx"}
+  "_build/install/default/lib/hex/hex.cmt" {"hex.cmt"}
+  "_build/install/default/lib/hex/hex.cmti" {"hex.cmti"}
+  "_build/install/default/lib/hex/hex.mli" {"hex.mli"}
+  "_build/install/default/lib/hex/hex.ml" {"hex.ml"}
+  "_build/install/default/lib/hex/hex.cma" {"hex.cma"}
+  "_build/install/default/lib/hex/hex.cmxa" {"hex.cmxa"}
+  "_build/install/default/lib/hex/hex.a" {"hex.a"}
+  "_build/install/default/lib/hex/hex.cmxs" {"hex.cmxs"}
+  "_build/install/default/lib/hex/hex.dune" {"hex.dune"}
+]
+doc: [
+  "_build/install/default/doc/hex/README.md"
+  "_build/install/default/doc/hex/LICENSE.md"
+  "_build/install/default/doc/hex/CHANGES.md"
+]

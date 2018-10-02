@@ -1,0 +1,5 @@
+[ { "name": "bob", "value": "tz1Zz3thFd1X2UEjb9NpVu4wx1FCWUbqJNEE" },
+  { "name": "charlie", "value": "tz1dHVpE8yfAwUftj1pDDgJ2djBtr4qpfnUn" },
+  { "name": "dictator", "value": "tz1cmneVqddtKEiBrCwxGRhXfh3GfUha4j3G" },
+  { "name": "baker", "value": "tz1hjWhmmaLbtzrqhkAoeFiTp5U9mt7kcjtu" },
+  { "name": "alice", "value": "tz1iKDhmZoUXue3Q7qxVBRK47Rw1cCXjFTAt" } ]

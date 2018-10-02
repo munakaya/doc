@@ -1,0 +1,54 @@
+(**************************************************************************)
+(*                                                                        *)
+(*   Typerex Tools                                                        *)
+(*                                                                        *)
+(*   Copyright 2011-2017 OCamlPro SAS                                     *)
+(*                                                                        *)
+(*   All rights reserved.  This file is distributed under the terms of    *)
+(*   the GNU General Public License version 3 described in the file       *)
+(*   LICENSE.                                                             *)
+(*                                                                        *)
+(**************************************************************************)
+
+function StringMaker(){
+
+    String = {
+        mem = String_mem;
+        length = value_length;
+        concat = String_concat;
+    };
+
+    try { String.split = String_split; }
+    catch("unknown-variable",x){}
+
+    try { String.split_simplify = String_split_simplify; }
+    catch("unknown-variable",x){}
+
+    try { String.subst_suffix = String_subst_suffix; }
+    catch("unknown-variable",x){}
+
+    try { String.filter_by_suffix = String_filter_by_suffix; }
+    catch("unknown-variable",x){}
+    
+    try { String.subst = String_subst; }
+    catch("unknown-variable",x){}
+
+    (* before 1.0 *)
+
+    try { String.capitalize = String_capitalize; }
+    catch("unknown-variable",x){}
+    
+    try { String.write_file = String_write_file; }
+    catch("unknown-variable",x){}
+    
+    try { String.read_file = String_read_file; }
+    catch("unknown-variable",x){}
+
+    (* before 1.1 *)
+
+    return String;   
+}
+
+provides("ocp-build:String", "1.1", StringMaker);
+
+

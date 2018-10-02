@@ -1,0 +1,8 @@
+(dune
+ 1
+ ((ppx.driver
+   1.0
+   ((flags (-corrected-suffix ${corrected-suffix} -diff-cmd - -dump-ast))
+    (lint_flags (-corrected-suffix ${corrected-suffix} -diff-cmd - -null))
+    (main Ppx_driver.standalone)
+    (replaces (ocaml-migrate-parsetree))))))

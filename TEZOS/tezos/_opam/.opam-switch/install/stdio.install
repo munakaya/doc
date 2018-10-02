@@ -1,0 +1,47 @@
+lib: [
+  "_build/install/default/lib/stdio/META" {"META"}
+  "_build/install/default/lib/stdio/opam" {"opam"}
+  "_build/install/default/lib/stdio/stdio__Import.cmi" {"stdio__Import.cmi"}
+  "_build/install/default/lib/stdio/stdio__Import.cmx" {"stdio__Import.cmx"}
+  "_build/install/default/lib/stdio/stdio__Import.cmt" {"stdio__Import.cmt"}
+  "_build/install/default/lib/stdio/import.ml" {"import.ml"}
+  "_build/install/default/lib/stdio/stdio__In_channel.cmi"
+    {"stdio__In_channel.cmi"}
+  "_build/install/default/lib/stdio/stdio__In_channel.cmx"
+    {"stdio__In_channel.cmx"}
+  "_build/install/default/lib/stdio/stdio__In_channel.cmt"
+    {"stdio__In_channel.cmt"}
+  "_build/install/default/lib/stdio/stdio__In_channel.cmti"
+    {"stdio__In_channel.cmti"}
+  "_build/install/default/lib/stdio/in_channel.mli" {"in_channel.mli"}
+  "_build/install/default/lib/stdio/in_channel.ml" {"in_channel.ml"}
+  "_build/install/default/lib/stdio/stdio__Out_channel.cmi"
+    {"stdio__Out_channel.cmi"}
+  "_build/install/default/lib/stdio/stdio__Out_channel.cmx"
+    {"stdio__Out_channel.cmx"}
+  "_build/install/default/lib/stdio/stdio__Out_channel.cmt"
+    {"stdio__Out_channel.cmt"}
+  "_build/install/default/lib/stdio/stdio__Out_channel.cmti"
+    {"stdio__Out_channel.cmti"}
+  "_build/install/default/lib/stdio/out_channel.mli" {"out_channel.mli"}
+  "_build/install/default/lib/stdio/out_channel.ml" {"out_channel.ml"}
+  "_build/install/default/lib/stdio/stdio.cmi" {"stdio.cmi"}
+  "_build/install/default/lib/stdio/stdio.cmx" {"stdio.cmx"}
+  "_build/install/default/lib/stdio/stdio.cmt" {"stdio.cmt"}
+  "_build/install/default/lib/stdio/stdio.cmti" {"stdio.cmti"}
+  "_build/install/default/lib/stdio/stdio.mli" {"stdio.mli"}
+  "_build/install/default/lib/stdio/stdio.ml" {"stdio.ml"}
+  "_build/install/default/lib/stdio/stdio__.cmi" {"stdio__.cmi"}
+  "_build/install/default/lib/stdio/stdio__.cmx" {"stdio__.cmx"}
+  "_build/install/default/lib/stdio/stdio__.cmt" {"stdio__.cmt"}
+  "_build/install/default/lib/stdio/stdio__.ml-gen" {"stdio__.ml-gen"}
+  "_build/install/default/lib/stdio/stdio.cma" {"stdio.cma"}
+  "_build/install/default/lib/stdio/stdio.cmxa" {"stdio.cmxa"}
+  "_build/install/default/lib/stdio/stdio.a" {"stdio.a"}
+  "_build/install/default/lib/stdio/stdio.cmxs" {"stdio.cmxs"}
+  "_build/install/default/lib/stdio/stdio.dune" {"stdio.dune"}
+]
+doc: [
+  "_build/install/default/doc/stdio/README.org"
+  "_build/install/default/doc/stdio/LICENSE.txt"
+]

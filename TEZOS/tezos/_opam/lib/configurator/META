@@ -1,0 +1,7 @@
+version = "v0.10.0"
+description = ""
+requires = "base stdio unix"
+archive(byte) = "configurator.cma"
+archive(native) = "configurator.cmxa"
+plugin(byte) = "configurator.cma"
+plugin(native) = "configurator.cmxs"

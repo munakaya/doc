@@ -1,0 +1,117 @@
+lib: [
+  "_build/install/default/lib/ppx_ast/META" {"META"}
+  "_build/install/default/lib/ppx_ast/opam" {"opam"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Ast.cmi" {"ppx_ast__Ast.cmi"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Ast.cmx" {"ppx_ast__Ast.cmx"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Ast.cmt" {"ppx_ast__Ast.cmt"}
+  "_build/install/default/lib/ppx_ast/ast.ml" {"ast.ml"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Ast_helper.cmi"
+    {"ppx_ast__Ast_helper.cmi"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Ast_helper.cmx"
+    {"ppx_ast__Ast_helper.cmx"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Ast_helper.cmt"
+    {"ppx_ast__Ast_helper.cmt"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Ast_helper.cmti"
+    {"ppx_ast__Ast_helper.cmti"}
+  "_build/install/default/lib/ppx_ast/ast_helper.mli" {"ast_helper.mli"}
+  "_build/install/default/lib/ppx_ast/ast_helper.ml" {"ast_helper.ml"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Docstrings.cmi"
+    {"ppx_ast__Docstrings.cmi"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Docstrings.cmx"
+    {"ppx_ast__Docstrings.cmx"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Docstrings.cmt"
+    {"ppx_ast__Docstrings.cmt"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Docstrings.cmti"
+    {"ppx_ast__Docstrings.cmti"}
+  "_build/install/default/lib/ppx_ast/docstrings.mli" {"docstrings.mli"}
+  "_build/install/default/lib/ppx_ast/docstrings.ml" {"docstrings.ml"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Import.cmi"
+    {"ppx_ast__Import.cmi"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Import.cmx"
+    {"ppx_ast__Import.cmx"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Import.cmt"
+    {"ppx_ast__Import.cmt"}
+  "_build/install/default/lib/ppx_ast/import.ml" {"import.ml"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Lexer.cmi"
+    {"ppx_ast__Lexer.cmi"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Lexer.cmx"
+    {"ppx_ast__Lexer.cmx"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Lexer.cmt"
+    {"ppx_ast__Lexer.cmt"}
+  "_build/install/default/lib/ppx_ast/lexer.ml" {"lexer.ml"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Location_helper.cmi"
+    {"ppx_ast__Location_helper.cmi"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Location_helper.cmx"
+    {"ppx_ast__Location_helper.cmx"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Location_helper.cmt"
+    {"ppx_ast__Location_helper.cmt"}
+  "_build/install/default/lib/ppx_ast/location_helper.ml"
+    {"location_helper.ml"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Parse.cmi"
+    {"ppx_ast__Parse.cmi"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Parse.cmx"
+    {"ppx_ast__Parse.cmx"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Parse.cmt"
+    {"ppx_ast__Parse.cmt"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Parse.cmti"
+    {"ppx_ast__Parse.cmti"}
+  "_build/install/default/lib/ppx_ast/parse.mli" {"parse.mli"}
+  "_build/install/default/lib/ppx_ast/parse.ml" {"parse.ml"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Parser.cmi"
+    {"ppx_ast__Parser.cmi"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Parser.cmx"
+    {"ppx_ast__Parser.cmx"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Parser.cmt"
+    {"ppx_ast__Parser.cmt"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Parser.cmti"
+    {"ppx_ast__Parser.cmti"}
+  "_build/install/default/lib/ppx_ast/parser.mli" {"parser.mli"}
+  "_build/install/default/lib/ppx_ast/parser.ml" {"parser.ml"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Pprintast.cmi"
+    {"ppx_ast__Pprintast.cmi"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Pprintast.cmx"
+    {"ppx_ast__Pprintast.cmx"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Pprintast.cmt"
+    {"ppx_ast__Pprintast.cmt"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Pprintast.cmti"
+    {"ppx_ast__Pprintast.cmti"}
+  "_build/install/default/lib/ppx_ast/pprintast.mli" {"pprintast.mli"}
+  "_build/install/default/lib/ppx_ast/pprintast.ml" {"pprintast.ml"}
+  "_build/install/default/lib/ppx_ast/ppx_ast.cmi" {"ppx_ast.cmi"}
+  "_build/install/default/lib/ppx_ast/ppx_ast.cmx" {"ppx_ast.cmx"}
+  "_build/install/default/lib/ppx_ast/ppx_ast.cmt" {"ppx_ast.cmt"}
+  "_build/install/default/lib/ppx_ast/ppx_ast.ml" {"ppx_ast.ml"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__.cmi" {"ppx_ast__.cmi"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__.cmx" {"ppx_ast__.cmx"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__.cmt" {"ppx_ast__.cmt"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__.ml-gen" {"ppx_ast__.ml-gen"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Syntaxerr.cmi"
+    {"ppx_ast__Syntaxerr.cmi"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Syntaxerr.cmx"
+    {"ppx_ast__Syntaxerr.cmx"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Syntaxerr.cmt"
+    {"ppx_ast__Syntaxerr.cmt"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Syntaxerr.cmti"
+    {"ppx_ast__Syntaxerr.cmti"}
+  "_build/install/default/lib/ppx_ast/syntaxerr.mli" {"syntaxerr.mli"}
+  "_build/install/default/lib/ppx_ast/syntaxerr.ml" {"syntaxerr.ml"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Warn.cmi"
+    {"ppx_ast__Warn.cmi"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Warn.cmx"
+    {"ppx_ast__Warn.cmx"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Warn.cmt"
+    {"ppx_ast__Warn.cmt"}
+  "_build/install/default/lib/ppx_ast/ppx_ast__Warn.cmti"
+    {"ppx_ast__Warn.cmti"}
+  "_build/install/default/lib/ppx_ast/warn.mli" {"warn.mli"}
+  "_build/install/default/lib/ppx_ast/warn.ml" {"warn.ml"}
+  "_build/install/default/lib/ppx_ast/ppx_ast.cma" {"ppx_ast.cma"}
+  "_build/install/default/lib/ppx_ast/ppx_ast.cmxa" {"ppx_ast.cmxa"}
+  "_build/install/default/lib/ppx_ast/ppx_ast.a" {"ppx_ast.a"}
+  "_build/install/default/lib/ppx_ast/ppx_ast.cmxs" {"ppx_ast.cmxs"}
+  "_build/install/default/lib/ppx_ast/ppx_ast.dune" {"ppx_ast.dune"}
+]
+doc: [
+  "_build/install/default/doc/ppx_ast/README.org"
+  "_build/install/default/doc/ppx_ast/LICENSE.txt"
+]

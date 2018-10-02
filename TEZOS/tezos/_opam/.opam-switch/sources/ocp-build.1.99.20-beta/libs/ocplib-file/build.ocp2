@@ -1,0 +1,43 @@
+(**************************************************************************)
+(*                                                                        *)
+(*   Typerex Libraries                                                    *)
+(*                                                                        *)
+(*   Copyright 2011-2017 OCamlPro SAS                                     *)
+(*                                                                        *)
+(*   All rights reserved.  This file is distributed under the terms of    *)
+(*   the GNU Lesser General Public License version 2.1, with the          *)
+(*   special exception on linking described in the file LICENSE.          *)
+(*                                                                        *)
+(**************************************************************************)
+
+ocaml.exists = true;
+ocaml.version = autoconf.package_version;
+
+OCaml.library("ocplib-file",
+  ocaml + {
+      files = '[
+        fileSig.ml
+        fileOS.ml
+        fileChannel.ml
+        fileString.ml
+
+        fileLabels.mli
+        fileLabels.ml { asmcomp = ocaml.asmcomp + [ "-nolabels" ];
+                       bytecomp = ocaml.bytecomp + [ "-nolabels" ];
+                     }
+        fileLines.ml
+        fileGen.ml
+        fileDir.ml
+        filePath.ml
+      ];
+      requires = '[
+        ocplib-lang
+        ocplib-unix
+      ];
+    });
+
+OCaml.library("ocplib-file-compat",
+  ocaml + {
+    files = '[ file.ml ];
+    requires = '[ ocplib-file ];
+  });

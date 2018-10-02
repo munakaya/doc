@@ -1,0 +1,29 @@
+lib: [
+  "_build/install/default/lib/configurator/META" {"META"}
+  "_build/install/default/lib/configurator/opam" {"opam"}
+  "_build/install/default/lib/configurator/configurator.cmi"
+    {"configurator.cmi"}
+  "_build/install/default/lib/configurator/configurator.cmx"
+    {"configurator.cmx"}
+  "_build/install/default/lib/configurator/configurator.cmt"
+    {"configurator.cmt"}
+  "_build/install/default/lib/configurator/configurator.cmti"
+    {"configurator.cmti"}
+  "_build/install/default/lib/configurator/configurator.mli"
+    {"configurator.mli"}
+  "_build/install/default/lib/configurator/configurator.ml"
+    {"configurator.ml"}
+  "_build/install/default/lib/configurator/configurator.cma"
+    {"configurator.cma"}
+  "_build/install/default/lib/configurator/configurator.cmxa"
+    {"configurator.cmxa"}
+  "_build/install/default/lib/configurator/configurator.a" {"configurator.a"}
+  "_build/install/default/lib/configurator/configurator.cmxs"
+    {"configurator.cmxs"}
+  "_build/install/default/lib/configurator/configurator.dune"
+    {"configurator.dune"}
+]
+doc: [
+  "_build/install/default/doc/configurator/README.org"
+  "_build/install/default/doc/configurator/LICENSE.txt"
+]

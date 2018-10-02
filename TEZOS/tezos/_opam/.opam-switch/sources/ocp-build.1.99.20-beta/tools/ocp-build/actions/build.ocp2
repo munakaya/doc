@@ -1,0 +1,34 @@
+(**************************************************************************)
+(*                                                                        *)
+(*   Typerex Tools                                                        *)
+(*                                                                        *)
+(*   Copyright 2011-2017 OCamlPro SAS                                     *)
+(*                                                                        *)
+(*   All rights reserved.  This file is distributed under the terms of    *)
+(*   the GNU General Public License version 3 described in the file       *)
+(*   LICENSE.                                                             *)
+(*                                                                        *)
+(**************************************************************************)
+
+begin
+  ocaml.files = [
+    "buildArgs.ml";
+    "buildActions.ml";          (* Main possible actions *)
+    "buildActionsWarnings.ml";          (* Main possible actions *)
+    "buildActionConfigure.ml";
+    "buildActionInit.ml";
+    "buildActionCheck.ml";
+    "buildActionPrefs.ml";
+    "buildActionMake.ml";
+    "buildActionInstall.ml";
+    "buildActionClean.ml";
+    "buildActionTests.ml";
+    "buildActionUninstall.ml";
+    "buildActionQuery.ml";
+  ];
+
+  ocaml.requires = [ "ocp-build-lib"; "ezcmd";
+                     "ocp-build-ocaml-plugin";
+                     "ocp-build-oasis" ];
+  OCaml.library( "ocp-build-actions", ocaml);
+end

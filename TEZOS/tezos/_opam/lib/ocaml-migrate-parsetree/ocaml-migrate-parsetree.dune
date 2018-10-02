@@ -1,0 +1,8 @@
+(dune
+ 1
+ ((ppx.driver
+   1.0
+   ((flags (--dump-ast))
+    (lint_flags (--null))
+    (main Migrate_parsetree.Driver.run_main)
+    (replaces ())))))

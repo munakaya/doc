@@ -1,0 +1,37 @@
+added: [
+  "doc/ppx_metaquot" {"D"}
+  "doc/ppx_metaquot/LICENSE.txt" {"F:S11358T1537259860.85"}
+  "doc/ppx_metaquot/README.org" {"F:S634T1537259860.84"}
+  "lib/ppx_metaquot" {"D"}
+  "lib/ppx_metaquot/META" {"F:S876T1537259860.61"}
+  "lib/ppx_metaquot/lifters" {"D"}
+  "lib/ppx_metaquot/lifters/ppx_metaquot.lifters.dune"
+    {"F:S12T1537259860.81"}
+  "lib/ppx_metaquot/lifters/ppx_metaquot_lifters.a"
+    {"F:S25988T1537259860.79"}
+  "lib/ppx_metaquot/lifters/ppx_metaquot_lifters.cma"
+    {"F:S40197T1537259860.77"}
+  "lib/ppx_metaquot/lifters/ppx_metaquot_lifters.cmi"
+    {"F:S15327T1537259860.73"}
+  "lib/ppx_metaquot/lifters/ppx_metaquot_lifters.cmt"
+    {"F:S78998T1537259860.75"}
+  "lib/ppx_metaquot/lifters/ppx_metaquot_lifters.cmx"
+    {"F:S6118T1537259860.74"}
+  "lib/ppx_metaquot/lifters/ppx_metaquot_lifters.cmxa"
+    {"F:S6114T1537259860.78"}
+  "lib/ppx_metaquot/lifters/ppx_metaquot_lifters.cmxs"
+    {"F:S40960T1537259860.8"}
+  "lib/ppx_metaquot/lifters/ppx_metaquot_lifters.ml"
+    {"F:S2050T1537259860.76"}
+  "lib/ppx_metaquot/opam" {"F:S872T1537259860.62"}
+  "lib/ppx_metaquot/ppx.exe" {"F:S20029192T1537259860.83"}
+  "lib/ppx_metaquot/ppx_metaquot.a" {"F:S38164T1537259860.7"}
+  "lib/ppx_metaquot/ppx_metaquot.cma" {"F:S60478T1537259860.68"}
+  "lib/ppx_metaquot/ppx_metaquot.cmi" {"F:S11999T1537259860.63"}
+  "lib/ppx_metaquot/ppx_metaquot.cmt" {"F:S136152T1537259860.66"}
+  "lib/ppx_metaquot/ppx_metaquot.cmx" {"F:S6810T1537259860.65"}
+  "lib/ppx_metaquot/ppx_metaquot.cmxa" {"F:S6717T1537259860.69"}
+  "lib/ppx_metaquot/ppx_metaquot.cmxs" {"F:S53376T1537259860.71"}
+  "lib/ppx_metaquot/ppx_metaquot.dune" {"F:S12T1537259860.72"}
+  "lib/ppx_metaquot/ppx_metaquot.ml" {"F:S3056T1537259860.67"}
+]

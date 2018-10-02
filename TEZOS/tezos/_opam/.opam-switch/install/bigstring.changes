@@ -1,0 +1,19 @@
+added: [
+  "doc/bigstring" {"D"}
+  "doc/bigstring/LICENSE" {"F:S1296T1537259747.22"}
+  "doc/bigstring/README.adoc" {"F:S691T1537259747.21"}
+  "lib/bigstring" {"D"}
+  "lib/bigstring/META" {"F:S255T1537259747.08"}
+  "lib/bigstring/bigstring.a" {"F:S59048T1537259747.19"}
+  "lib/bigstring/bigstring.cma" {"F:S58659T1537259747.17"}
+  "lib/bigstring/bigstring.cmi" {"F:S8637T1537259747.11"}
+  "lib/bigstring/bigstring.cmt" {"F:S144021T1537259747.13"}
+  "lib/bigstring/bigstring.cmti" {"F:S47335T1537259747.14"}
+  "lib/bigstring/bigstring.cmx" {"F:S3861T1537259747.12"}
+  "lib/bigstring/bigstring.cmxa" {"F:S664T1537259747.18"}
+  "lib/bigstring/bigstring.cmxs" {"F:S67504T1537259747.19"}
+  "lib/bigstring/bigstring.dune" {"F:S12T1537259747.2"}
+  "lib/bigstring/bigstring.ml" {"F:S9398T1537259747.16"}
+  "lib/bigstring/bigstring.mli" {"F:S6433T1537259747.15"}
+  "lib/bigstring/opam" {"F:S617T1537259747.09"}
+]

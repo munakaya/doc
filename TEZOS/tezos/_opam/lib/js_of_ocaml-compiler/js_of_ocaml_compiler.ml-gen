@@ -1,0 +1,134 @@
+(** @canonical Js_of_ocaml_compiler.Annot_lexer *)
+module Annot_lexer = Js_of_ocaml_compiler__Annot_lexer
+
+(** @canonical Js_of_ocaml_compiler.Annot_parser *)
+module Annot_parser = Js_of_ocaml_compiler__Annot_parser
+
+(** @canonical Js_of_ocaml_compiler.B64 *)
+module B64 = Js_of_ocaml_compiler__B64
+
+(** @canonical Js_of_ocaml_compiler.Code *)
+module Code = Js_of_ocaml_compiler__Code
+
+(** @canonical Js_of_ocaml_compiler.Compiler_version *)
+module Compiler_version = Js_of_ocaml_compiler__Compiler_version
+
+(** @canonical Js_of_ocaml_compiler.Dgraph *)
+module Dgraph = Js_of_ocaml_compiler__Dgraph
+
+(** @canonical Js_of_ocaml_compiler.Driver *)
+module Driver = Js_of_ocaml_compiler__Driver
+
+(** @canonical Js_of_ocaml_compiler.Eval *)
+module Eval = Js_of_ocaml_compiler__Eval
+
+(** @canonical Js_of_ocaml_compiler.Flow *)
+module Flow = Js_of_ocaml_compiler__Flow
+
+(** @canonical Js_of_ocaml_compiler.Freevars *)
+module Freevars = Js_of_ocaml_compiler__Freevars
+
+(** @canonical Js_of_ocaml_compiler.Generate *)
+module Generate = Js_of_ocaml_compiler__Generate
+
+(** @canonical Js_of_ocaml_compiler.Generate_closure *)
+module Generate_closure = Js_of_ocaml_compiler__Generate_closure
+
+(** @canonical Js_of_ocaml_compiler.Inline *)
+module Inline = Js_of_ocaml_compiler__Inline
+
+(** @canonical Js_of_ocaml_compiler.Instr *)
+module Instr = Js_of_ocaml_compiler__Instr
+
+(** @canonical Js_of_ocaml_compiler.Javascript *)
+module Javascript = Js_of_ocaml_compiler__Javascript
+
+(** @canonical Js_of_ocaml_compiler.Js_assign *)
+module Js_assign = Js_of_ocaml_compiler__Js_assign
+
+(** @canonical Js_of_ocaml_compiler.Js_lexer *)
+module Js_lexer = Js_of_ocaml_compiler__Js_lexer
+
+(** @canonical Js_of_ocaml_compiler.Js_output *)
+module Js_output = Js_of_ocaml_compiler__Js_output
+
+(** @canonical Js_of_ocaml_compiler.Js_parser *)
+module Js_parser = Js_of_ocaml_compiler__Js_parser
+
+(** @canonical Js_of_ocaml_compiler.Js_simpl *)
+module Js_simpl = Js_of_ocaml_compiler__Js_simpl
+
+(** @canonical Js_of_ocaml_compiler.Js_token *)
+module Js_token = Js_of_ocaml_compiler__Js_token
+
+(** @canonical Js_of_ocaml_compiler.Js_traverse *)
+module Js_traverse = Js_of_ocaml_compiler__Js_traverse
+
+(** @canonical Js_of_ocaml_compiler.Jsoo_deadcode *)
+module Jsoo_deadcode = Js_of_ocaml_compiler__Jsoo_deadcode
+
+(** @canonical Js_of_ocaml_compiler.Jsoo_primitive *)
+module Jsoo_primitive = Js_of_ocaml_compiler__Jsoo_primitive
+
+(** @canonical Js_of_ocaml_compiler.Jsoo_strongly_connected_components *)
+module Jsoo_strongly_connected_components = Js_of_ocaml_compiler__Jsoo_strongly_connected_components
+
+(** @canonical Js_of_ocaml_compiler.Jsoo_subst *)
+module Jsoo_subst = Js_of_ocaml_compiler__Jsoo_subst
+
+(** @canonical Js_of_ocaml_compiler.Link_js *)
+module Link_js = Js_of_ocaml_compiler__Link_js
+
+(** @canonical Js_of_ocaml_compiler.Linker *)
+module Linker = Js_of_ocaml_compiler__Linker
+
+(** @canonical Js_of_ocaml_compiler.Option *)
+module Option = Js_of_ocaml_compiler__Option
+
+(** @canonical Js_of_ocaml_compiler.Parse_bytecode *)
+module Parse_bytecode = Js_of_ocaml_compiler__Parse_bytecode
+
+(** @canonical Js_of_ocaml_compiler.Parse_info *)
+module Parse_info = Js_of_ocaml_compiler__Parse_info
+
+(** @canonical Js_of_ocaml_compiler.Parse_js *)
+module Parse_js = Js_of_ocaml_compiler__Parse_js
+
+(** @canonical Js_of_ocaml_compiler.Phisimpl *)
+module Phisimpl = Js_of_ocaml_compiler__Phisimpl
+
+(** @canonical Js_of_ocaml_compiler.Pretty_print *)
+module Pretty_print = Js_of_ocaml_compiler__Pretty_print
+
+(** @canonical Js_of_ocaml_compiler.PseudoFs *)
+module PseudoFs = Js_of_ocaml_compiler__PseudoFs
+
+(** @canonical Js_of_ocaml_compiler.Pure_fun *)
+module Pure_fun = Js_of_ocaml_compiler__Pure_fun
+
+(** @canonical Js_of_ocaml_compiler.Reserved *)
+module Reserved = Js_of_ocaml_compiler__Reserved
+
+(** @canonical Js_of_ocaml_compiler.Source_map *)
+module Source_map = Js_of_ocaml_compiler__Source_map
+
+(** @canonical Js_of_ocaml_compiler.Source_map_io *)
+module Source_map_io = Js_of_ocaml_compiler__Source_map_io
+
+(** @canonical Js_of_ocaml_compiler.Specialize *)
+module Specialize = Js_of_ocaml_compiler__Specialize
+
+(** @canonical Js_of_ocaml_compiler.Specialize_js *)
+module Specialize_js = Js_of_ocaml_compiler__Specialize_js
+
+(** @canonical Js_of_ocaml_compiler.Tailcall *)
+module Tailcall = Js_of_ocaml_compiler__Tailcall
+
+(** @canonical Js_of_ocaml_compiler.Util *)
+module Util = Js_of_ocaml_compiler__Util
+
+(** @canonical Js_of_ocaml_compiler.VarPrinter *)
+module VarPrinter = Js_of_ocaml_compiler__VarPrinter
+
+(** @canonical Js_of_ocaml_compiler.Vlq64 *)
+module Vlq64 = Js_of_ocaml_compiler__Vlq64

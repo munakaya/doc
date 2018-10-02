@@ -1,0 +1,19 @@
+lib: [
+  "_build/install/default/lib/hidapi/META" {"META"}
+  "_build/install/default/lib/hidapi/opam" {"opam"}
+  "_build/install/default/lib/hidapi/hidapi.cmi" {"hidapi.cmi"}
+  "_build/install/default/lib/hidapi/hidapi.cmx" {"hidapi.cmx"}
+  "_build/install/default/lib/hidapi/hidapi.cmt" {"hidapi.cmt"}
+  "_build/install/default/lib/hidapi/hidapi.cmti" {"hidapi.cmti"}
+  "_build/install/default/lib/hidapi/hidapi.mli" {"hidapi.mli"}
+  "_build/install/default/lib/hidapi/hidapi.ml" {"hidapi.ml"}
+  "_build/install/default/lib/hidapi/hidapi.cma" {"hidapi.cma"}
+  "_build/install/default/lib/hidapi/libhidapi_stubs.a" {"libhidapi_stubs.a"}
+  "_build/install/default/lib/hidapi/hidapi.cmxa" {"hidapi.cmxa"}
+  "_build/install/default/lib/hidapi/hidapi.a" {"hidapi.a"}
+  "_build/install/default/lib/hidapi/hidapi.cmxs" {"hidapi.cmxs"}
+  "_build/install/default/lib/hidapi/hidapi.dune" {"hidapi.dune"}
+]
+bin: "_build/install/default/bin/ocaml-hid-enumerate" {"ocaml-hid-enumerate"}
+stublibs: "_build/install/default/lib/stublibs/dllhidapi_stubs.so"
+doc: "_build/install/default/doc/hidapi/LICENSE.md"

@@ -1,0 +1,30 @@
+lib: [
+  "_build/install/default/lib/ppx_optcomp/META" {"META"}
+  "_build/install/default/lib/ppx_optcomp/opam" {"opam"}
+  "_build/install/default/lib/ppx_optcomp/ppx_optcomp.cmi"
+    {"ppx_optcomp.cmi"}
+  "_build/install/default/lib/ppx_optcomp/ppx_optcomp.cmx"
+    {"ppx_optcomp.cmx"}
+  "_build/install/default/lib/ppx_optcomp/ppx_optcomp.cmt"
+    {"ppx_optcomp.cmt"}
+  "_build/install/default/lib/ppx_optcomp/ppx_optcomp.cmti"
+    {"ppx_optcomp.cmti"}
+  "_build/install/default/lib/ppx_optcomp/ppx_optcomp.mli"
+    {"ppx_optcomp.mli"}
+  "_build/install/default/lib/ppx_optcomp/ppx_optcomp.ml" {"ppx_optcomp.ml"}
+  "_build/install/default/lib/ppx_optcomp/ppx_optcomp.cma"
+    {"ppx_optcomp.cma"}
+  "_build/install/default/lib/ppx_optcomp/ppx_optcomp.cmxa"
+    {"ppx_optcomp.cmxa"}
+  "_build/install/default/lib/ppx_optcomp/ppx_optcomp.a" {"ppx_optcomp.a"}
+  "_build/install/default/lib/ppx_optcomp/ppx_optcomp.cmxs"
+    {"ppx_optcomp.cmxs"}
+  "_build/install/default/lib/ppx_optcomp/ppx_optcomp.dune"
+    {"ppx_optcomp.dune"}
+]
+bin: "_build/install/default/bin/ppx-optcomp" {"ppx-optcomp"}
+doc: [
+  "_build/install/default/doc/ppx_optcomp/README.md"
+  "_build/install/default/doc/ppx_optcomp/LICENSE.txt"
+  "_build/install/default/doc/ppx_optcomp/CHANGES.md"
+]

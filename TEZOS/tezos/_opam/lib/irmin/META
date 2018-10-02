@@ -1,0 +1,7 @@
+version = "1.4.0"
+description = ""
+requires = "astring cstruct fmt hex jsonm logs lwt ocamlgraph result uri"
+archive(byte) = "irmin.cma"
+archive(native) = "irmin.cmxa"
+plugin(byte) = "irmin.cma"
+plugin(native) = "irmin.cmxs"

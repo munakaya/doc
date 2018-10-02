@@ -1,0 +1,25 @@
+[ { "name": "bob",
+    "value":
+      { "locator":
+          "unencrypted:edpku33D2LyoWBJAdigwi55FG1eSdFCxiUGTJU6dG8jQJJx4RcZnXQ",
+        "key": "edpku33D2LyoWBJAdigwi55FG1eSdFCxiUGTJU6dG8jQJJx4RcZnXQ" } },
+  { "name": "charlie",
+    "value":
+      { "locator":
+          "unencrypted:edpkuoRVWUehPZPZNehSsXvLptMsR2DSqGpVinbQVtye1Je195iGUf",
+        "key": "edpkuoRVWUehPZPZNehSsXvLptMsR2DSqGpVinbQVtye1Je195iGUf" } },
+  { "name": "dictator",
+    "value":
+      { "locator":
+          "unencrypted:edpkvGJSgc19MroWFbcxtAFQUAXopPVd1gbpburdpBEnYmPbVSSua2",
+        "key": "edpkvGJSgc19MroWFbcxtAFQUAXopPVd1gbpburdpBEnYmPbVSSua2" } },
+  { "name": "baker",
+    "value":
+      { "locator":
+          "unencrypted:edpkuVinYYfShoQPhZnomZDGgw89iENBwzQ9fyLCocykS1TYYq2f7h",
+        "key": "edpkuVinYYfShoQPhZnomZDGgw89iENBwzQ9fyLCocykS1TYYq2f7h" } },
+  { "name": "alice",
+    "value":
+      { "locator":
+          "unencrypted:edpkumqh7oLeToSzY7c2JpVCddzYBtE4gzd8uKrETT78umB213PTQq",
+        "key": "edpkumqh7oLeToSzY7c2JpVCddzYBtE4gzd8uKrETT78umB213PTQq" } } ]

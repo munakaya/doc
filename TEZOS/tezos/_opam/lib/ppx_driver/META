@@ -1,0 +1,41 @@
+version = "v0.10.4"
+description = ""
+requires = "compiler-libs.common
+            ocaml-migrate-parsetree
+            ppx_core
+            ppx_driver.print_diff
+            ppx_optcomp"
+archive(byte) = "ppx_driver.cma"
+archive(native) = "ppx_driver.cmxa"
+plugin(byte) = "ppx_driver.cma"
+plugin(native) = "ppx_driver.cmxs"
+package "print_diff" (
+  directory = "print_diff"
+  version = "v0.10.4"
+  description = ""
+  requires = ""
+  archive(byte) = "print_diff.cma"
+  archive(native) = "print_diff.cmxa"
+  plugin(byte) = "print_diff.cma"
+  plugin(native) = "print_diff.cmxs"
+)
+package "runner" (
+  directory = "runner"
+  version = "v0.10.4"
+  description = ""
+  requires = "ppx_driver"
+  archive(byte) = "ppx_driver_runner.cma"
+  archive(native) = "ppx_driver_runner.cmxa"
+  plugin(byte) = "ppx_driver_runner.cma"
+  plugin(native) = "ppx_driver_runner.cmxs"
+)
+package "runner_as_ppx" (
+  directory = "runner_as_ppx"
+  version = "v0.10.4"
+  description = ""
+  requires = "ppx_driver"
+  archive(byte) = "ppx_driver_runner_as_ppx.cma"
+  archive(native) = "ppx_driver_runner_as_ppx.cmxa"
+  plugin(byte) = "ppx_driver_runner_as_ppx.cma"
+  plugin(native) = "ppx_driver_runner_as_ppx.cmxs"
+)

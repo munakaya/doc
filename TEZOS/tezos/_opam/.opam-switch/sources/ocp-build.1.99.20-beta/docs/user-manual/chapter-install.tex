@@ -1,0 +1,65 @@
+
+\section{Install and Uninstalling Packages}
+
+Packages built by \ocpbuild{} can be installed using
+\verb|ocp-build install| (all packages) or
+\verb|ocp-build install package| (only that package).
+
+Packages installed by \ocpbuild{} can be uninstalled using
+\verb|ocp-build uninstall package| (\ocpbuild{} uses an
+uninstaller containing the list of installed files).
+
+\section{The {\tt uninstall} command}
+
+\verb|ocp-build uninstall| works differently from other \ocpbuild{}
+commands, as it can be used outside of a project description. Note
+that, if you want to uninstall packages described in a project, you
+should use \verb|ocp-build install --uninstall-only| instead.
+
+This command will (recursively) scan a list of directories
+for uninstallers. Such directories are provided by the
+argument \verb|--install-lib LIBDIR|.
+
+If the list is empty, \verb|ocp-build| will use one of the
+following:
+\begin{itemize}
+\item if \verb|OPAM_PREFIX| is defined, scan its \verb|lib| sub-directory;
+\item if \verb|OCAMLLIB| is defined, scan it;
+\item if \verb|ocamlc| is in the PATH, scan the \verb|lib| sub-directory
+  of its prefix;
+\end{itemize}
+
+Then, the following actions are available:
+\begin{itemize}
+\item Nothing specified: uninstall the specified packages
+\item List installed packages: use \verb|--list|
+\item Query installed packages: either specify one or more packages,
+  or the query will be on all installed packages:
+\begin{itemize}
+\item \verb|--query|: display all packages
+\item \verb|--query-program|: display only programs
+\item \verb|--query-libraray|: display only libraries
+\end{itemize}
+It is possible to specify how to format the output:
+\begin{itemize}
+\item \verb|--format FORMAT| where \verb|FORMAT| is a string
+  containing the variables \verb|$name|, \verb|$version|,
+  \verb|$dir| and \verb|$type|.
+  \item \verb|--name| prints only the name
+  \item \verb|--version| prints only the version
+  \item \verb|--dir| prints only the directory
+  \item \verb|--type| prints only the directory (library or program)
+\end{itemize}
+\end{itemize}
+
+
+\section{The {\tt install} command}
+
+\verb|ocp-build install| should be called from within a project. It
+will install all specified packages (or all packages, if nothing
+specified), after uninstalling the ones already installed.
+
+
+%%% Local Variables:
+%%% recompile: "pdflatex user-manual"
+%%% End:

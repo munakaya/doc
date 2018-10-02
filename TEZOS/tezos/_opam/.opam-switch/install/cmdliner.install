@@ -1,0 +1,33 @@
+lib: [
+  "_build/opam" {"opam"}
+  "_build/pkg/META" {"META"}
+  "_build/src/cmdliner.a" {"cmdliner.a"}
+  "_build/src/cmdliner.cma" {"cmdliner.cma"}
+  "_build/src/cmdliner.cmi" {"cmdliner.cmi"}
+  "?_build/src/cmdliner.cmti" {"cmdliner.cmti"}
+  "_build/src/cmdliner.cmx" {"cmdliner.cmx"}
+  "_build/src/cmdliner.cmxa" {"cmdliner.cmxa"}
+  "_build/src/cmdliner.cmxs" {"cmdliner.cmxs"}
+  "_build/src/cmdliner.mli" {"cmdliner.mli"}
+  "_build/src/cmdliner_arg.cmx" {"cmdliner_arg.cmx"}
+  "_build/src/cmdliner_base.cmx" {"cmdliner_base.cmx"}
+  "_build/src/cmdliner_cline.cmx" {"cmdliner_cline.cmx"}
+  "_build/src/cmdliner_docgen.cmx" {"cmdliner_docgen.cmx"}
+  "_build/src/cmdliner_info.cmx" {"cmdliner_info.cmx"}
+  "_build/src/cmdliner_manpage.cmx" {"cmdliner_manpage.cmx"}
+  "_build/src/cmdliner_msg.cmx" {"cmdliner_msg.cmx"}
+  "_build/src/cmdliner_suggest.cmx" {"cmdliner_suggest.cmx"}
+  "_build/src/cmdliner_term.cmx" {"cmdliner_term.cmx"}
+  "_build/src/cmdliner_trie.cmx" {"cmdliner_trie.cmx"}
+]
+doc: [
+  "_build/CHANGES.md" {"CHANGES.md"}
+  "_build/LICENSE.md" {"LICENSE.md"}
+  "_build/README.md" {"README.md"}
+  "_build/test/chorus.ml" {"chorus.ml"}
+  "_build/test/cp_ex.ml" {"cp_ex.ml"}
+  "_build/test/darcs_ex.ml" {"darcs_ex.ml"}
+  "_build/test/revolt.ml" {"revolt.ml"}
+  "_build/test/rm_ex.ml" {"rm_ex.ml"}
+  "_build/test/tail_ex.ml" {"tail_ex.ml"}
+]

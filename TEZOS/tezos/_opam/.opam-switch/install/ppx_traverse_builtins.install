@@ -1,0 +1,26 @@
+lib: [
+  "_build/install/default/lib/ppx_traverse_builtins/META" {"META"}
+  "_build/install/default/lib/ppx_traverse_builtins/opam" {"opam"}
+  "_build/install/default/lib/ppx_traverse_builtins/ppx_traverse_builtins.cmi"
+    {"ppx_traverse_builtins.cmi"}
+  "_build/install/default/lib/ppx_traverse_builtins/ppx_traverse_builtins.cmx"
+    {"ppx_traverse_builtins.cmx"}
+  "_build/install/default/lib/ppx_traverse_builtins/ppx_traverse_builtins.cmt"
+    {"ppx_traverse_builtins.cmt"}
+  "_build/install/default/lib/ppx_traverse_builtins/ppx_traverse_builtins.ml"
+    {"ppx_traverse_builtins.ml"}
+  "_build/install/default/lib/ppx_traverse_builtins/ppx_traverse_builtins.cma"
+    {"ppx_traverse_builtins.cma"}
+  "_build/install/default/lib/ppx_traverse_builtins/ppx_traverse_builtins.cmxa"
+    {"ppx_traverse_builtins.cmxa"}
+  "_build/install/default/lib/ppx_traverse_builtins/ppx_traverse_builtins.a"
+    {"ppx_traverse_builtins.a"}
+  "_build/install/default/lib/ppx_traverse_builtins/ppx_traverse_builtins.cmxs"
+    {"ppx_traverse_builtins.cmxs"}
+  "_build/install/default/lib/ppx_traverse_builtins/ppx_traverse_builtins.dune"
+    {"ppx_traverse_builtins.dune"}
+]
+doc: [
+  "_build/install/default/doc/ppx_traverse_builtins/README.org"
+  "_build/install/default/doc/ppx_traverse_builtins/LICENSE.txt"
+]

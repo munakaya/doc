@@ -1,0 +1,86 @@
+description = "Tools for authors of ppx rewriters and other syntactic tools (with ocaml-migrate-parsetree support)"
+requires = "ocaml-migrate-parsetree"
+archive(byte) = "ppx_tools_versioned.cma"
+archive(native) = "ppx_tools_versioned.cmxa"
+plugin(byte) = "ppx_tools_versioned.cma"
+plugin(native) = "ppx_tools_versioned.cmxs"
+package "metaquot_402" (
+  directory = "metaquot_402"
+  description = "Meta-quotation: 4.02 parsetree quotation"
+  requires(ppx_driver) = "ocaml-migrate-parsetree ppx_tools_versioned"
+  archive(ppx_driver,byte) = "ppx_tools_versioned_metaquot_402.cma"
+  archive(ppx_driver,native) = "ppx_tools_versioned_metaquot_402.cmxa"
+  plugin(ppx_driver,byte) = "ppx_tools_versioned_metaquot_402.cma"
+  plugin(ppx_driver,native) = "ppx_tools_versioned_metaquot_402.cmxs"
+  # This is what jbuilder uses to find out the runtime dependencies of
+  # a preprocessor
+  ppx_runtime_deps = "ppx_tools_versioned"
+  # This line makes things transparent for people mixing preprocessors
+  # and normal dependencies
+  requires(-ppx_driver) = "ppx_tools_versioned"
+  ppx(-ppx_driver,-custom_ppx) = "./ppx.exe --as-ppx"
+)
+package "metaquot_403" (
+  directory = "metaquot_403"
+  description = "Meta-quotation: 4.03 parsetree quotation"
+  requires(ppx_driver) = "ocaml-migrate-parsetree ppx_tools_versioned"
+  archive(ppx_driver,byte) = "ppx_tools_versioned_metaquot_403.cma"
+  archive(ppx_driver,native) = "ppx_tools_versioned_metaquot_403.cmxa"
+  plugin(ppx_driver,byte) = "ppx_tools_versioned_metaquot_403.cma"
+  plugin(ppx_driver,native) = "ppx_tools_versioned_metaquot_403.cmxs"
+  # This is what jbuilder uses to find out the runtime dependencies of
+  # a preprocessor
+  ppx_runtime_deps = "ppx_tools_versioned"
+  # This line makes things transparent for people mixing preprocessors
+  # and normal dependencies
+  requires(-ppx_driver) = "ppx_tools_versioned"
+  ppx(-ppx_driver,-custom_ppx) = "./ppx.exe --as-ppx"
+)
+package "metaquot_404" (
+  directory = "metaquot_404"
+  description = "Meta-quotation: 4.04 parsetree quotation"
+  requires(ppx_driver) = "ocaml-migrate-parsetree ppx_tools_versioned"
+  archive(ppx_driver,byte) = "ppx_tools_versioned_metaquot_404.cma"
+  archive(ppx_driver,native) = "ppx_tools_versioned_metaquot_404.cmxa"
+  plugin(ppx_driver,byte) = "ppx_tools_versioned_metaquot_404.cma"
+  plugin(ppx_driver,native) = "ppx_tools_versioned_metaquot_404.cmxs"
+  # This is what jbuilder uses to find out the runtime dependencies of
+  # a preprocessor
+  ppx_runtime_deps = "ppx_tools_versioned"
+  # This line makes things transparent for people mixing preprocessors
+  # and normal dependencies
+  requires(-ppx_driver) = "ppx_tools_versioned"
+  ppx(-ppx_driver,-custom_ppx) = "./ppx.exe --as-ppx"
+)
+package "metaquot_405" (
+  directory = "metaquot_405"
+  description = "Meta-quotation: 4.05 parsetree quotation"
+  requires(ppx_driver) = "ocaml-migrate-parsetree ppx_tools_versioned"
+  archive(ppx_driver,byte) = "ppx_tools_versioned_metaquot_405.cma"
+  archive(ppx_driver,native) = "ppx_tools_versioned_metaquot_405.cmxa"
+  plugin(ppx_driver,byte) = "ppx_tools_versioned_metaquot_405.cma"
+  plugin(ppx_driver,native) = "ppx_tools_versioned_metaquot_405.cmxs"
+  # This is what jbuilder uses to find out the runtime dependencies of
+  # a preprocessor
+  ppx_runtime_deps = "ppx_tools_versioned"
+  # This line makes things transparent for people mixing preprocessors
+  # and normal dependencies
+  requires(-ppx_driver) = "ppx_tools_versioned"
+  ppx(-ppx_driver,-custom_ppx) = "./ppx.exe --as-ppx"
+)
+package "metaquot_406" (
+  directory = "metaquot_406"
+  description = "Meta-quotation: 4.06 parsetree quotation"
+  requires(ppx_driver) = "ocaml-migrate-parsetree ppx_tools_versioned"
+  archive(ppx_driver,byte) = "ppx_tools_versioned_metaquot_406.cma"
+  archive(ppx_driver,native) = "ppx_tools_versioned_metaquot_406.cmxa"
+  plugin(ppx_driver,byte) = "ppx_tools_versioned_metaquot_406.cma"
+  plugin(ppx_driver,native) = "ppx_tools_versioned_metaquot_406.cmxs"
+  # This is what jbuilder uses to find out the runtime dependencies of
+  # a preprocessor
+  ppx_runtime_deps = "ppx_tools_versioned"
+  # This line makes things transparent for people mixing preprocessors
+  # and normal dependencies
+  requires(-ppx_driver) = "ppx_tools_versioned"
+  ppx(-ppx_driver,-custom_ppx) = "./ppx.exe --as-ppx"
+)

@@ -1,0 +1,60 @@
+lib: [
+  "_build/install/default/lib/biniou/META" {"META"}
+  "_build/install/default/lib/biniou/opam" {"opam"}
+  "_build/install/default/lib/biniou/bi_dump.cmi" {"bi_dump.cmi"}
+  "_build/install/default/lib/biniou/bi_dump.cmx" {"bi_dump.cmx"}
+  "_build/install/default/lib/biniou/bi_dump.cmt" {"bi_dump.cmt"}
+  "_build/install/default/lib/biniou/bi_dump.ml" {"bi_dump.ml"}
+  "_build/install/default/lib/biniou/bi_inbuf.cmi" {"bi_inbuf.cmi"}
+  "_build/install/default/lib/biniou/bi_inbuf.cmx" {"bi_inbuf.cmx"}
+  "_build/install/default/lib/biniou/bi_inbuf.cmt" {"bi_inbuf.cmt"}
+  "_build/install/default/lib/biniou/bi_inbuf.cmti" {"bi_inbuf.cmti"}
+  "_build/install/default/lib/biniou/bi_inbuf.mli" {"bi_inbuf.mli"}
+  "_build/install/default/lib/biniou/bi_inbuf.ml" {"bi_inbuf.ml"}
+  "_build/install/default/lib/biniou/bi_io.cmi" {"bi_io.cmi"}
+  "_build/install/default/lib/biniou/bi_io.cmx" {"bi_io.cmx"}
+  "_build/install/default/lib/biniou/bi_io.cmt" {"bi_io.cmt"}
+  "_build/install/default/lib/biniou/bi_io.cmti" {"bi_io.cmti"}
+  "_build/install/default/lib/biniou/bi_io.mli" {"bi_io.mli"}
+  "_build/install/default/lib/biniou/bi_io.ml" {"bi_io.ml"}
+  "_build/install/default/lib/biniou/bi_outbuf.cmi" {"bi_outbuf.cmi"}
+  "_build/install/default/lib/biniou/bi_outbuf.cmx" {"bi_outbuf.cmx"}
+  "_build/install/default/lib/biniou/bi_outbuf.cmt" {"bi_outbuf.cmt"}
+  "_build/install/default/lib/biniou/bi_outbuf.cmti" {"bi_outbuf.cmti"}
+  "_build/install/default/lib/biniou/bi_outbuf.mli" {"bi_outbuf.mli"}
+  "_build/install/default/lib/biniou/bi_outbuf.ml" {"bi_outbuf.ml"}
+  "_build/install/default/lib/biniou/bi_share.cmi" {"bi_share.cmi"}
+  "_build/install/default/lib/biniou/bi_share.cmx" {"bi_share.cmx"}
+  "_build/install/default/lib/biniou/bi_share.cmt" {"bi_share.cmt"}
+  "_build/install/default/lib/biniou/bi_share.cmti" {"bi_share.cmti"}
+  "_build/install/default/lib/biniou/bi_share.mli" {"bi_share.mli"}
+  "_build/install/default/lib/biniou/bi_share.ml" {"bi_share.ml"}
+  "_build/install/default/lib/biniou/bi_stream.cmi" {"bi_stream.cmi"}
+  "_build/install/default/lib/biniou/bi_stream.cmx" {"bi_stream.cmx"}
+  "_build/install/default/lib/biniou/bi_stream.cmt" {"bi_stream.cmt"}
+  "_build/install/default/lib/biniou/bi_stream.cmti" {"bi_stream.cmti"}
+  "_build/install/default/lib/biniou/bi_stream.mli" {"bi_stream.mli"}
+  "_build/install/default/lib/biniou/bi_stream.ml" {"bi_stream.ml"}
+  "_build/install/default/lib/biniou/bi_util.cmi" {"bi_util.cmi"}
+  "_build/install/default/lib/biniou/bi_util.cmx" {"bi_util.cmx"}
+  "_build/install/default/lib/biniou/bi_util.cmt" {"bi_util.cmt"}
+  "_build/install/default/lib/biniou/bi_util.cmti" {"bi_util.cmti"}
+  "_build/install/default/lib/biniou/bi_util.mli" {"bi_util.mli"}
+  "_build/install/default/lib/biniou/bi_util.ml" {"bi_util.ml"}
+  "_build/install/default/lib/biniou/bi_vint.cmi" {"bi_vint.cmi"}
+  "_build/install/default/lib/biniou/bi_vint.cmx" {"bi_vint.cmx"}
+  "_build/install/default/lib/biniou/bi_vint.cmt" {"bi_vint.cmt"}
+  "_build/install/default/lib/biniou/bi_vint.cmti" {"bi_vint.cmti"}
+  "_build/install/default/lib/biniou/bi_vint.mli" {"bi_vint.mli"}
+  "_build/install/default/lib/biniou/bi_vint.ml" {"bi_vint.ml"}
+  "_build/install/default/lib/biniou/biniou.cma" {"biniou.cma"}
+  "_build/install/default/lib/biniou/biniou.cmxa" {"biniou.cmxa"}
+  "_build/install/default/lib/biniou/biniou.a" {"biniou.a"}
+  "_build/install/default/lib/biniou/biniou.cmxs" {"biniou.cmxs"}
+  "_build/install/default/lib/biniou/biniou.dune" {"biniou.dune"}
+]
+bin: "_build/install/default/bin/bdump" {"bdump"}
+doc: [
+  "_build/install/default/doc/biniou/README.md"
+  "_build/install/default/doc/biniou/LICENSE"
+]

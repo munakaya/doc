@@ -1,0 +1,154 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="OCamlResScanners.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Index of module types" rel=Appendix href="index_module_types.html">
+<link title="OCamlResSubFormats" rel="Chapter" href="OCamlResSubFormats.html">
+<link title="OCamlResFormats" rel="Chapter" href="OCamlResFormats.html">
+<link title="OCamlResScanners" rel="Chapter" href="OCamlResScanners.html">
+<link title="OCamlResRegistry" rel="Chapter" href="OCamlResRegistry.html"><link title="Formats registry" rel="Section" href="#2_Formatsregistry">
+<link title="SubFormats registry" rel="Section" href="#2_SubFormatsregistry">
+<link title="Predefined Subformats" rel="Section" href="#2_PredefinedSubformats">
+<link title="Predefined Formats" rel="Section" href="#2_PredefinedFormats">
+<title>OCamlResRegistry</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="OCamlResScanners.html" title="OCamlResScanners">Previous</a>
+&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;</div>
+<h1>Module <a href="type_OCamlResRegistry.html">OCamlResRegistry</a></h1>
+
+<pre><span id="MODULEOCamlResRegistry"><span class="keyword">module</span> OCamlResRegistry</span>: <code class="code">sig</code> <a href="OCamlResRegistry.html">..</a> <code class="code">end</code></pre><div class="info module top">
+<div class="info-desc">
+<p>Registration of (sub)formats for use from the command line</p>
+</div>
+</div>
+<hr width="100%">
+<p>This file implements the interface between OCaml defintions of
+    Format and SubFormat module instances and the command line
+    interface of ocp-ocamlres.</p>
+
+<p>Basically, it consists in pre-instanciating the formats:</p>
+<ul>
+<li>with string valued resource trees as input where the strings
+       are the raw contents as extracted from the files</li>
+<li>with a proxy subformat, performing a dynamic dispatch of the
+       subformat depending on file extensions</li>
+</ul>
+<p>To associate the extensions with the subformats, it maintains an
+    assiciative table to link the command line name of the subformat
+    to the OCaml implementation (as a packed module).</p>
+
+<p>Same is done with the main format names, and both tables can be
+    extended to the tool can be extended from outside this module (by
+    recompiling it with / dynlinking a module performing a (sub)format
+    registration at toplevel)</p>
+<h3 id="2_Formatsregistry">Formats registry</h3>
+<pre><span id="MODULETYPEFormat"><span class="keyword">module type</span> <a href="OCamlResRegistry.Format.html">Format</a></span> = <code class="code">sig</code> <a href="OCamlResRegistry.Format.html">..</a> <code class="code">end</code></pre><div class="info">
+<p>The type of format plug-ins.</p>
+
+</div>
+
+<pre><span id="VALregister_format"><span class="keyword">val</span> register_format</span> : <code class="type">string -> (module OCamlResRegistry.Format) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Register a new named format module or override one.</p>
+</div>
+</div>
+
+<pre><span id="VALfind_format"><span class="keyword">val</span> find_format</span> : <code class="type">string -> (module OCamlResRegistry.Format)</code></pre><div class="info ">
+<div class="info-desc">
+<p>Find a format module from its name.
+    May throw <code class="code">Not_found</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALformats"><span class="keyword">val</span> formats</span> : <code class="type">unit -> (module OCamlResRegistry.Format) Map.Make(String).t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Retrive the currently available formats</p>
+</div>
+</div>
+<h3 id="2_SubFormatsregistry">SubFormats registry</h3>
+<pre><span id="MODULETYPESubFormat"><span class="keyword">module type</span> <a href="OCamlResRegistry.SubFormat.html">SubFormat</a></span> = <code class="code">sig</code> <a href="OCamlResRegistry.SubFormat.html">..</a> <code class="code">end</code></pre><div class="info">
+<p>The type of subformat plug-ins</p>
+
+</div>
+
+<pre><span id="VALregister_subformat"><span class="keyword">val</span> register_subformat</span> : <code class="type">string -> (module OCamlResRegistry.SubFormat) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p>Register a new named subformat module or override one.</p>
+</div>
+</div>
+
+<pre><span id="VALfind_subformat"><span class="keyword">val</span> find_subformat</span> : <code class="type">string -> (module OCamlResRegistry.SubFormat)</code></pre><div class="info ">
+<div class="info-desc">
+<p>Find a subformat module from its name.
+    May throw <code class="code">Not_found</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALsubformats"><span class="keyword">val</span> subformats</span> : <code class="type">unit -> (module OCamlResRegistry.SubFormat) Map.Make(String).t</code></pre><div class="info ">
+<div class="info-desc">
+<p>Retrive the currently available subformats</p>
+</div>
+</div>
+<h3 id="2_PredefinedSubformats">Predefined Subformats</h3>
+<pre><span id="MODULERaw"><span class="keyword">module</span> <a href="OCamlResRegistry.Raw.html">Raw</a></span>: <code class="type"><a href="OCamlResRegistry.SubFormat.html">SubFormat</a></code><code class="type">  with type t = string</code></pre><div class="info">
+<p>Registered under the name <code class="code">"raw"</code>.</p>
+
+</div>
+
+<pre><span id="MODULEInt"><span class="keyword">module</span> <a href="OCamlResRegistry.Int.html">Int</a></span>: <code class="type"><a href="OCamlResRegistry.SubFormat.html">SubFormat</a></code><code class="type">  with type t = int</code></pre><div class="info">
+<p>Registered under the name <code class="code">"int"</code>.</p>
+
+</div>
+
+<pre><span id="MODULELines"><span class="keyword">module</span> <a href="OCamlResRegistry.Lines.html">Lines</a></span>: <code class="type"><a href="OCamlResRegistry.SubFormat.html">SubFormat</a></code><code class="type">  with type t = string list</code></pre><div class="info">
+<p>Registered under the name <code class="code">"lines"</code>.</p>
+
+</div>
+<h3 id="2_PredefinedFormats">Predefined Formats</h3>
+<pre><span id="MODULEPredefOptions"><span class="keyword">module</span> <a href="OCamlResRegistry.PredefOptions.html">PredefOptions</a></span>: <code class="code">sig</code> <a href="OCamlResRegistry.PredefOptions.html">..</a> <code class="code">end</code></pre><div class="info">
+<p>Predefined options that you can use in your own formats</p>
+
+</div>
+
+<pre><span id="MODULEExtensionDispatcherSubFormat"><span class="keyword">module</span> <a href="OCamlResRegistry.ExtensionDispatcherSubFormat.html">ExtensionDispatcherSubFormat</a></span>: <code class="type"><a href="OCamlResSubFormats.SubFormat.html">OCamlResSubFormats.SubFormat</a></code><code class="type">  with type t = string</code></pre><div class="info">
+<p>Output subformat dispatching the output depending on file
+    extensions and the command line options.</p>
+
+</div>
+
+<pre><span id="VALdisclaimer"><span class="keyword">val</span> disclaimer</span> : <code class="type">string</code></pre><div class="info ">
+<div class="info-desc">
+<p>Disclaimer that you can use in your own formats</p>
+</div>
+</div>
+
+<pre><span id="MODULEOCaml"><span class="keyword">module</span> <a href="OCamlResRegistry.OCaml.html">OCaml</a></span>: <code class="type"><a href="OCamlResRegistry.Format.html">Format</a></code><code class="type"> </code></pre><div class="info">
+<p>Registered under the name <code class="code">"ocaml"</code>.</p>
+
+</div>
+
+<pre><span id="MODULERes"><span class="keyword">module</span> <a href="OCamlResRegistry.Res.html">Res</a></span>: <code class="type"><a href="OCamlResRegistry.Format.html">Format</a></code><code class="type"> </code></pre><div class="info">
+<p>Registered under the name <code class="code">"ocamlres"</code>.</p>
+
+</div>
+
+<pre><span id="MODULEVariants"><span class="keyword">module</span> <a href="OCamlResRegistry.Variants.html">Variants</a></span>: <code class="type"><a href="OCamlResRegistry.Format.html">Format</a></code><code class="type"> </code></pre><div class="info">
+<p>Registered under the name <code class="code">"variants"</code>.</p>
+
+</div>
+
+<pre><span id="MODULEFiles"><span class="keyword">module</span> <a href="OCamlResRegistry.Files.html">Files</a></span>: <code class="type"><a href="OCamlResRegistry.Format.html">Format</a></code><code class="type"> </code></pre><div class="info">
+<p>Registered under the name <code class="code">"files"</code>.</p>
+
+</div>
+</body></html>

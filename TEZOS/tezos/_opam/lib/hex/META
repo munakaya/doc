@@ -1,0 +1,7 @@
+version = "1.2.0"
+description = ""
+requires = "cstruct"
+archive(byte) = "hex.cma"
+archive(native) = "hex.cmxa"
+plugin(byte) = "hex.cma"
+plugin(native) = "hex.cmxs"

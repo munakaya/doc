@@ -1,0 +1,21 @@
+added: [
+  "bin/ocaml-hid-enumerate" {"F:S2056064T1537259851.39"}
+  "doc/hidapi" {"D"}
+  "doc/hidapi/LICENSE.md" {"F:S736T1537259851.55"}
+  "lib/hidapi" {"D"}
+  "lib/hidapi/META" {"F:S176T1537259851.4"}
+  "lib/hidapi/hidapi.a" {"F:S15660T1537259851.51"}
+  "lib/hidapi/hidapi.cma" {"F:S15947T1537259851.48"}
+  "lib/hidapi/hidapi.cmi" {"F:S2898T1537259851.42"}
+  "lib/hidapi/hidapi.cmt" {"F:S36378T1537259851.44"}
+  "lib/hidapi/hidapi.cmti" {"F:S16764T1537259851.45"}
+  "lib/hidapi/hidapi.cmx" {"F:S1497T1537259851.43"}
+  "lib/hidapi/hidapi.cmxa" {"F:S580T1537259851.5"}
+  "lib/hidapi/hidapi.cmxs" {"F:S50336T1537259851.52"}
+  "lib/hidapi/hidapi.dune" {"F:S12T1537259851.53"}
+  "lib/hidapi/hidapi.ml" {"F:S4014T1537259851.47"}
+  "lib/hidapi/hidapi.mli" {"F:S3458T1537259851.46"}
+  "lib/hidapi/libhidapi_stubs.a" {"F:S39586T1537259851.49"}
+  "lib/hidapi/opam" {"F:S542T1537259851.41"}
+  "lib/stublibs/dllhidapi_stubs.so" {"F:S30848T1537259851.54"}
+]

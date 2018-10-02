@@ -1,0 +1,20 @@
+lib: [
+  "_build/install/default/lib/stringext/META" {"META"}
+  "_build/install/default/lib/stringext/opam" {"opam"}
+  "_build/install/default/lib/stringext/stringext.cmi" {"stringext.cmi"}
+  "_build/install/default/lib/stringext/stringext.cmx" {"stringext.cmx"}
+  "_build/install/default/lib/stringext/stringext.cmt" {"stringext.cmt"}
+  "_build/install/default/lib/stringext/stringext.cmti" {"stringext.cmti"}
+  "_build/install/default/lib/stringext/stringext.mli" {"stringext.mli"}
+  "_build/install/default/lib/stringext/stringext.ml" {"stringext.ml"}
+  "_build/install/default/lib/stringext/stringext.cma" {"stringext.cma"}
+  "_build/install/default/lib/stringext/stringext.cmxa" {"stringext.cmxa"}
+  "_build/install/default/lib/stringext/stringext.a" {"stringext.a"}
+  "_build/install/default/lib/stringext/stringext.cmxs" {"stringext.cmxs"}
+  "_build/install/default/lib/stringext/stringext.dune" {"stringext.dune"}
+]
+doc: [
+  "_build/install/default/doc/stringext/README.md"
+  "_build/install/default/doc/stringext/LICENSE.md"
+  "_build/install/default/doc/stringext/CHANGES.md"
+]

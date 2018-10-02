@@ -1,0 +1,18 @@
+lib: [
+  "_build/install/default/lib/result/META" {"META"}
+  "_build/install/default/lib/result/opam" {"opam"}
+  "_build/install/default/lib/result/result.cmi" {"result.cmi"}
+  "_build/install/default/lib/result/result.cmx" {"result.cmx"}
+  "_build/install/default/lib/result/result.cmt" {"result.cmt"}
+  "_build/install/default/lib/result/result.ml" {"result.ml"}
+  "_build/install/default/lib/result/result.cma" {"result.cma"}
+  "_build/install/default/lib/result/result.cmxa" {"result.cmxa"}
+  "_build/install/default/lib/result/result.a" {"result.a"}
+  "_build/install/default/lib/result/result.cmxs" {"result.cmxs"}
+  "_build/install/default/lib/result/result.dune" {"result.dune"}
+]
+doc: [
+  "_build/install/default/doc/result/README.md"
+  "_build/install/default/doc/result/LICENSE.md"
+  "_build/install/default/doc/result/CHANGES.md"
+]

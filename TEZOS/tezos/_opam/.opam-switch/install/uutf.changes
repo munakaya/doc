@@ -1,0 +1,18 @@
+added: [
+  "bin/utftrip" {"F:S2577688T1537259905."}
+  "doc/uutf" {"D"}
+  "doc/uutf/CHANGES.md" {"F:S1720T1537259905.13"}
+  "doc/uutf/LICENSE.md" {"F:S735T1537259905.14"}
+  "doc/uutf/README.md" {"F:S1596T1537259905.15"}
+  "lib/uutf" {"D"}
+  "lib/uutf/META" {"F:S218T1537259905.03"}
+  "lib/uutf/opam" {"F:S753T1537259905.01"}
+  "lib/uutf/uutf.a" {"F:S104402T1537259905.04"}
+  "lib/uutf/uutf.cma" {"F:S143752T1537259905.05"}
+  "lib/uutf/uutf.cmi" {"F:S6298T1537259905.06"}
+  "lib/uutf/uutf.cmti" {"F:S66334T1537259905.07"}
+  "lib/uutf/uutf.cmx" {"F:S5795T1537259905.09"}
+  "lib/uutf/uutf.cmxa" {"F:S567T1537259905.1"}
+  "lib/uutf/uutf.cmxs" {"F:S106840T1537259905.11"}
+  "lib/uutf/uutf.mli" {"F:S21406T1537259905.12"}
+]

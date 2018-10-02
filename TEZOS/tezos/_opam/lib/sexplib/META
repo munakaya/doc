@@ -1,0 +1,37 @@
+version = "v0.10.0"
+description = ""
+requires = "bigarray sexplib.0"
+archive(byte) = "sexplib.cma"
+archive(native) = "sexplib.cmxa"
+plugin(byte) = "sexplib.cma"
+plugin(native) = "sexplib.cmxs"
+package "0" (
+  directory = "0"
+  version = "v0.10.0"
+  description = ""
+  requires = ""
+  archive(byte) = "sexplib0.cma"
+  archive(native) = "sexplib0.cmxa"
+  plugin(byte) = "sexplib0.cma"
+  plugin(native) = "sexplib0.cmxs"
+)
+package "num" (
+  directory = "num"
+  version = "v0.10.0"
+  description = ""
+  requires = "num sexplib"
+  archive(byte) = "sexplib_num.cma"
+  archive(native) = "sexplib_num.cmxa"
+  plugin(byte) = "sexplib_num.cma"
+  plugin(native) = "sexplib_num.cmxs"
+)
+package "unix" (
+  directory = "unix"
+  version = "v0.10.0"
+  description = ""
+  requires = "sexplib unix"
+  archive(byte) = "sexplib_unix.cma"
+  archive(native) = "sexplib_unix.cmxa"
+  plugin(byte) = "sexplib_unix.cma"
+  plugin(native) = "sexplib_unix.cmxs"
+)

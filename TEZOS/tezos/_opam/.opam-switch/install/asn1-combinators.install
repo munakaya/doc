@@ -1,0 +1,25 @@
+lib: [
+  "_build/opam" {"opam"}
+  "_build/pkg/META" {"META"}
+  "_build/src/asn.cmi" {"asn.cmi"}
+  "?_build/src/asn.cmti" {"asn.cmti"}
+  "_build/src/asn.cmx" {"asn.cmx"}
+  "_build/src/asn.mli" {"asn.mli"}
+  "_build/src/asn1-combinators.a" {"asn1-combinators.a"}
+  "_build/src/asn1-combinators.cma" {"asn1-combinators.cma"}
+  "_build/src/asn1-combinators.cmxa" {"asn1-combinators.cmxa"}
+  "_build/src/asn1-combinators.cmxs" {"asn1-combinators.cmxs"}
+  "_build/src/asn_ber_der.cmx" {"asn_ber_der.cmx"}
+  "_build/src/asn_cache.cmx" {"asn_cache.cmx"}
+  "_build/src/asn_combinators.cmx" {"asn_combinators.cmx"}
+  "_build/src/asn_core.cmx" {"asn_core.cmx"}
+  "_build/src/asn_oid.cmx" {"asn_oid.cmx"}
+  "_build/src/asn_prim.cmx" {"asn_prim.cmx"}
+  "_build/src/asn_random.cmx" {"asn_random.cmx"}
+  "_build/src/asn_writer.cmx" {"asn_writer.cmx"}
+]
+doc: [
+  "_build/CHANGES.md" {"CHANGES.md"}
+  "_build/LICENSE.md" {"LICENSE.md"}
+  "_build/README.md" {"README.md"}
+]

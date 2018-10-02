@@ -1,0 +1,71 @@
+(** @canonical Ppx_core.Ast_builder *)
+module Ast_builder = Ppx_core__Ast_builder
+
+(** @canonical Ppx_core.Ast_builder_generated *)
+module Ast_builder_generated = Ppx_core__Ast_builder_generated
+
+(** @canonical Ppx_core.Ast_builder_intf *)
+module Ast_builder_intf = Ppx_core__Ast_builder_intf
+
+(** @canonical Ppx_core.Ast_pattern *)
+module Ast_pattern = Ppx_core__Ast_pattern
+
+(** @canonical Ppx_core.Ast_pattern0 *)
+module Ast_pattern0 = Ppx_core__Ast_pattern0
+
+(** @canonical Ppx_core.Ast_pattern_generated *)
+module Ast_pattern_generated = Ppx_core__Ast_pattern_generated
+
+(** @canonical Ppx_core.Ast_traverse *)
+module Ast_traverse = Ppx_core__Ast_traverse
+
+(** @canonical Ppx_core.Attribute *)
+module Attribute = Ppx_core__Attribute
+
+(** @canonical Ppx_core.Caller_id *)
+module Caller_id = Ppx_core__Caller_id
+
+(** @canonical Ppx_core.Code_matcher *)
+module Code_matcher = Ppx_core__Code_matcher
+
+(** @canonical Ppx_core.Common *)
+module Common = Ppx_core__Common
+
+(** @canonical Ppx_core.Compiler_specifics *)
+module Compiler_specifics = Ppx_core__Compiler_specifics
+
+(** @canonical Ppx_core.Context_free *)
+module Context_free = Ppx_core__Context_free
+
+(** @canonical Ppx_core.Extension *)
+module Extension = Ppx_core__Extension
+
+(** @canonical Ppx_core.File_path *)
+module File_path = Ppx_core__File_path
+
+(** @canonical Ppx_core.Glue *)
+module Glue = Ppx_core__Glue
+
+(** @canonical Ppx_core.Import *)
+module Import = Ppx_core__Import
+
+(** @canonical Ppx_core.Loc *)
+module Loc = Ppx_core__Loc
+
+(** @canonical Ppx_core.Location *)
+module Location = Ppx_core__Location
+
+(** @canonical Ppx_core.Longident *)
+module Longident = Ppx_core__Longident
+
+(** @canonical Ppx_core.Merlin_helpers *)
+module Merlin_helpers = Ppx_core__Merlin_helpers
+
+(** @canonical Ppx_core.Name *)
+module Name = Ppx_core__Name
+
+(** @canonical Ppx_core.Ppx_core *)
+module Ppx_core = Ppx_core
+
+(** @canonical Ppx_core.Spellcheck *)
+module Spellcheck = Ppx_core__Spellcheck

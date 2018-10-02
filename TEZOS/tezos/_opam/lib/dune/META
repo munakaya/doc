@@ -1,0 +1,72 @@
+package "caml" (
+  directory = "caml"
+  description = "[Internal] Wrapped version of the OCaml stdlib"
+  requires = ""
+  archive(byte) = "caml.cma"
+  archive(native) = "caml.cmxa"
+  plugin(byte) = "caml.cma"
+  plugin(native) = "caml.cmxs"
+)
+package "configurator" (
+  directory = "configurator"
+  description = ""
+  requires = "dune.ocaml_config dune.stdune"
+  archive(byte) = "configurator.cma"
+  archive(native) = "configurator.cmxa"
+  plugin(byte) = "configurator.cma"
+  plugin(native) = "configurator.cmxs"
+)
+package "ocaml_config" (
+  directory = "ocaml_config"
+  description = "[Internal] Interpret the output of 'ocamlc -config'"
+  requires = "dune.stdune dune.usexp"
+  archive(byte) = "ocaml_config.cma"
+  archive(native) = "ocaml_config.cmxa"
+  plugin(byte) = "ocaml_config.cma"
+  plugin(native) = "ocaml_config.cmxs"
+)
+package "stdune" (
+  directory = "stdune"
+  description = "[Internal] Standard library of Dune"
+  requires = "dune.caml dune.usexp unix"
+  archive(byte) = "stdune.cma"
+  archive(native) = "stdune.cmxa"
+  plugin(byte) = "stdune.cma"
+  plugin(native) = "stdune.cmxs"
+)
+package "usexp" (
+  directory = "usexp"
+  description = "[Internal] S-expression library"
+  requires = ""
+  archive(byte) = "usexp.cma"
+  archive(native) = "usexp.cmxa"
+  plugin(byte) = "usexp.cma"
+  plugin(native) = "usexp.cmxs"
+)
+package "which-program" (
+  directory = "which-program"
+  description = "[Internal] Standard library of Dune"
+  requires = ""
+  archive(byte) = "which_program.cma"
+  archive(native) = "which_program.cmxa"
+  plugin(byte) = "which_program.cma"
+  plugin(native) = "which_program.cmxs"
+  package "dune" (
+    directory = "dune"
+    description = ""
+    requires = ""
+    archive(byte) = "which_program_dune.cma"
+    archive(native) = "which_program_dune.cmxa"
+    plugin(byte) = "which_program_dune.cma"
+    plugin(native) = "which_program_dune.cmxs"
+  )
+  package "jbuilder" (
+    directory = "jbuilder"
+    description = ""
+    requires = ""
+    archive(byte) = "which_program_jbuilder.cma"
+    archive(native) = "which_program_jbuilder.cmxa"
+    plugin(byte) = "which_program_jbuilder.cma"
+    plugin(native) = "which_program_jbuilder.cmxs"
+  )
+)

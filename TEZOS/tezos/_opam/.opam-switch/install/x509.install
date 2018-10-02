@@ -1,0 +1,31 @@
+lib: [
+  "_build/lib/asn_grammars.cmx" {"asn_grammars.cmx"}
+  "_build/lib/registry.cmx" {"registry.cmx"}
+  "_build/lib/x509.a" {"x509.a"}
+  "_build/lib/x509.cma" {"x509.cma"}
+  "_build/lib/x509.cmi" {"x509.cmi"}
+  "?_build/lib/x509.cmti" {"x509.cmti"}
+  "_build/lib/x509.cmx" {"x509.cmx"}
+  "_build/lib/x509.cmxa" {"x509.cmxa"}
+  "_build/lib/x509.cmxs" {"x509.cmxs"}
+  "_build/lib/x509.mli" {"x509.mli"}
+  "_build/lib/x509_authenticator.cmx" {"x509_authenticator.cmx"}
+  "_build/lib/x509_ca.cmx" {"x509_ca.cmx"}
+  "_build/lib/x509_certificate.cmx" {"x509_certificate.cmx"}
+  "_build/lib/x509_common.cmx" {"x509_common.cmx"}
+  "_build/lib/x509_crl.cmx" {"x509_crl.cmx"}
+  "_build/lib/x509_crl_types.cmx" {"x509_crl_types.cmx"}
+  "_build/lib/x509_encoding.cmx" {"x509_encoding.cmx"}
+  "_build/lib/x509_extension.cmx" {"x509_extension.cmx"}
+  "_build/lib/x509_extension_types.cmx" {"x509_extension_types.cmx"}
+  "_build/lib/x509_pem.cmx" {"x509_pem.cmx"}
+  "_build/lib/x509_request_types.cmx" {"x509_request_types.cmx"}
+  "_build/lib/x509_types.cmx" {"x509_types.cmx"}
+  "_build/opam" {"opam"}
+  "_build/pkg/META" {"META"}
+]
+doc: [
+  "_build/CHANGES.md" {"CHANGES.md"}
+  "_build/LICENSE.md" {"LICENSE.md"}
+  "_build/README.md" {"README.md"}
+]

@@ -1,0 +1,13 @@
+OCP 1
+TYP library
+VER 1.99.20-beta
+REG /home/user/tezos_latest/tezos/_opam/lib/META.ocplib-debug
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-debug/ocpDebug.cmi
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-debug/ocpDebug.cmx
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-debug/ocpDebug.cmi
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-debug/ocplib-debug.cmxs
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-debug/ocplib-debug.a
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-debug/ocplib-debug.cmxa
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-debug/ocplib-debug.cma
+REG /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-debug/ocplib-debug.uninstall
+DIR /home/user/tezos_latest/tezos/_opam/lib/ocaml/ocplib-debug

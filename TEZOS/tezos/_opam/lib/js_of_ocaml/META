@@ -1,0 +1,59 @@
+version = "dev"
+description = ""
+requires = "bytes uchar"
+archive(byte) = "js_of_ocaml.cma"
+archive(native) = "js_of_ocaml.cmxa"
+plugin(byte) = "js_of_ocaml.cma"
+plugin(native) = "js_of_ocaml.cmxs"
+package "deriving" (
+  directory = "deriving"
+  version = "dev"
+  description = "Runtime library for the class Json."
+  requires = "bytes"
+  archive(byte) = "js_of_ocaml_deriving.cma"
+  archive(native) = "js_of_ocaml_deriving.cmxa"
+  plugin(byte) = "js_of_ocaml_deriving.cma"
+  plugin(native) = "js_of_ocaml_deriving.cmxs"
+)
+
+linkopts(javascript,-jsoo_noruntime) = "+js_of_ocaml-compiler/runtime.js"
+linkopts(javascript,jsoo_classlist) += "+js_of_ocaml-compiler/classlist.js"
+linkopts(javascript,pkg_graphics) += "+js_of_ocaml-compiler/graphics.js"
+linkopts(javascript,pkg_num) += "+js_of_ocaml-compiler/nat.js"
+
+package "weak" (
+)
+
+package "num" (
+  requires = "js_of_ocaml-compiler.runtime.num"
+)
+
+package "ppx" (
+  requires = "js_of_ocaml-ppx"
+)
+
+package "tyxml" (
+  requires = "js_of_ocaml-tyxml"
+)
+
+package "graphics" (
+  requires = "js_of_ocaml-lwt.graphics"
+)
+
+package "ocamlbuild" (
+  requires = "js_of_ocaml-ocamlbuild"
+)
+
+package "compiler" (
+  requires = "js_of_ocaml-compiler"
+)
+
+package "toplevel" (
+  requires = "js_of_ocaml-toplevel"
+)
+
+package "syntax" (
+  archive(syntax, preprocessor) = "-ignore dummy"
+  archive(syntax, toploop) = "-ignore dummy"
+  requires(syntax) = "js_of_ocaml-camlp4"
+)

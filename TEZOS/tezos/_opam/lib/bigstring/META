@@ -1,0 +1,7 @@
+version = "0.2"
+description = "Bigstring built on top of bigarrays, and convenient functions."
+requires = "bigarray bytes"
+archive(byte) = "bigstring.cma"
+archive(native) = "bigstring.cmxa"
+plugin(byte) = "bigstring.cma"
+plugin(native) = "bigstring.cmxs"

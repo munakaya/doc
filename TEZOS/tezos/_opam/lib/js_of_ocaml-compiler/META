@@ -1,0 +1,35 @@
+version = "dev"
+description = "Js_of_ocaml compiler library"
+requires = "bytes compiler-libs.common yojson"
+archive(byte) = "js_of_ocaml_compiler.cma"
+archive(native) = "js_of_ocaml_compiler.cmxa"
+plugin(byte) = "js_of_ocaml_compiler.cma"
+plugin(native) = "js_of_ocaml_compiler.cmxs"
+package "findlib-support" (
+  directory = "findlib-support"
+  version = "dev"
+  description = ""
+  requires = "findlib js_of_ocaml-compiler"
+  archive(byte) = "jsoo_findlib_support.cma"
+  archive(native) = "jsoo_findlib_support.cmxa"
+  plugin(byte) = "jsoo_findlib_support.cma"
+  plugin(native) = "jsoo_findlib_support.cmxs"
+)
+
+package "runtime" (
+
+package "num" (
+  description = "runtime support for the num library."
+  version = "[distributed with js_of_ocaml-compiler]"
+  jsoo_runtime = "nat.js"
+  linkopts(javascript) = "+js_of_ocaml-compiler/nat.js"
+)
+
+package "graphics" (
+  description = "runtime support for the graphics library."
+  version = "[distributed with js_of_ocaml-compiler]"
+  jsoo_runtime = "graphics.js"
+  linkopts(javascript) = "+js_of_ocaml-compiler/graphics.js"
+)
+
+)
